@@ -14,7 +14,7 @@ export default function Tag({ tags }) {
                 <title>{siteTitle}</title>
             </Head>
             <section className={styles.postArticle + ' ' + layoutStyles.articleList + ' ' + layoutStyles.innerContainer}>
-                <h1>Tags</h1>
+                <h1 className={layoutStyles.heading2Xl}>Tags</h1>
                 <p>
                     {tags.map((tag) => (
                         <>

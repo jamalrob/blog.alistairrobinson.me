@@ -3,7 +3,7 @@ import Link from 'next/link';
 //import ReactMarkdown from 'react-markdown';
 import Head from 'next/head';
 import Layout, { siteTitle } from '@/components/layout';
-import styles from '@/styles/layout.module.css';
+import layoutStyles from '@/styles/layout.module.css';
 import Date from '@/components/date';
 import { getAllTags, getPostsByTag } from '@/lib/posts.js';
 
@@ -13,11 +13,11 @@ export default function Tag({ posts, tag }) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <section className={styles.articleList}>
-                <h1>Posts tagged with “{tag}”</h1>
-                <ul className={styles.list}>
+            <section className={layoutStyles.articleList}>
+                <h1 className={layoutStyles.heading2Xl}>Posts tagged with “{tag}”</h1>
+                <ul className={layoutStyles.list}>
                     {posts.map((post) => (
-                    <li className={styles.listItem} key={post.slug}>
+                    <li className={layoutStyles.listItem} key={post.slug}>
                         <Link href={`/${post.slug}`}>
                         {post.frontmatter.title}
                         </Link>
