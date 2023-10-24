@@ -11,6 +11,7 @@ import styles from '@/styles/layout.module.css';
 import Date from '@/components/date';
 import { ImPriceTag } from "react-icons/im";
 import { IconContext } from "react-icons";
+import React from 'react';
 
 const contentDirectory = path.join(process.cwd(), 'content');
 
@@ -32,13 +33,13 @@ export default function Blog({ posts, tags }) {
                             <Date dateString={post.frontmatter.date} />
                             <span>(
                             {post.frontmatter.tags.split(',').map((tag, i) => (
-                                <>
+                                <React.Fragment key={i}>
                                     {/*<IconContext.Provider value={{ className: "icon" }}>
                                         <ImPriceTag />
                                     </IconContext.Provider> */}
                                     <Link className="lightLink" key={tag} href={'/tags/' + tag}>{tag}</Link>
                                     {(post.frontmatter.tags.split(',')[i + 1] && "/")}
-                                </>
+                                </React.Fragment>
                             ))}
                             )</span>
                         </small>
