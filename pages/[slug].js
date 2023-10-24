@@ -10,7 +10,7 @@ import styles from '@/styles/layout.module.css';
 import Layout from '@/components/layout';
 import md from "markdown-it";
 import Date from '@/components/date';
-import { getPost, getNextPost, getPreviousPost } from '@/lib/posts';
+import { getPost, getAdjacentPost } from '@/lib/posts';
 import { ImPriceTag } from "react-icons/im";
 import { IconContext } from "react-icons";
 
@@ -60,25 +60,37 @@ export default function BlogPost({ post }) {
                         </div>
                     </div>
                     <hr />
-                    <div className={postStyles.footNext + ' ' + postStyles.footSection}>
+                    {post.nextPost && (
+                    <>
+                    <div className={postStyles.footSection}>
                         <div className={postStyles.labelColumn}>
                             Next
                         </div>                
                         <div className={postStyles.contentColumn}>
                             <Link href={'/' + post.nextPost.slug}>{post.nextPost.title}</Link>
+                            <div className={postStyles.footerSnippet} dangerouslySetInnerHTML={{ __html: post.nextPost.snippet }} />                           
+                            <small><Link href={'/' + post.nextPost.slug}>more &rarr;</Link></small>
                         </div>
                     </div>
                     <hr />
-                    <div className={postStyles.footNext + ' ' + postStyles.footSection}>
+                    </>
+                    )}
+                    {post.previousPost && (
+                    <>
+                    <div className={postStyles.footSection}>
                         <div className={postStyles.labelColumn}>
                             Previous
                         </div>                
                         <div className={postStyles.contentColumn}>
-                        <Link href={'/' + post.previousPost.slug}>{post.previousPost.title}</Link>
+                            <Link href={'/' + post.previousPost.slug}>{post.previousPost.title}</Link>
+                            <div className={postStyles.footerSnippet} dangerouslySetInnerHTML={{ __html: post.previousPost.snippet }} />
+                            <small><Link href={'/' + post.previousPost.slug}>more &rarr;</Link></small>
                         </div>
                     </div>
+                    <hr />
+                    </>
+                    )}
                 </div>
-
             </article>
         </Layout>
     );
@@ -104,8 +116,8 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     const post = await getPost(params.slug);
-    const nextPost = await getNextPost(params.slug)
-    const previousPost = await getPreviousPost(params.slug)
+    const nextPost = await getAdjacentPost(params.slug, 'next')
+    const previousPost = await getAdjacentPost(params.slug, 'previous')
     return {
       props: {
         post: {
@@ -113,7 +125,7 @@ export async function getStaticProps({ params }) {
           frontmatter: post.data,
           html: post.html,
           nextPost: nextPost,
-          previousPost: previousPost,
+          previousPost: previousPost
         },
       },
     };
