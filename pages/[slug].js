@@ -11,6 +11,8 @@ import Layout from '@/components/layout';
 import md from "markdown-it";
 import Date from '@/components/date';
 import { getPost } from '@/lib/posts';
+import { ImPriceTag } from "react-icons/im";
+import { IconContext } from "react-icons";
 
 const contentDirectory = path.join(process.cwd(), 'content');
 
@@ -26,14 +28,21 @@ export default function BlogPost({ post }) {
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className={postStyles.postFooter}>
                     <hr />
-                    <div className={postStyles.footTags + ' ' + postStyles.footSection}>
+                    <div className={postStyles.footSection}>
                         <div className={postStyles.labelColumn}>
                             Tags
                         </div>
                         <div className={postStyles.contentColumn}>
                             {
                                 post.frontmatter.tags ? post.frontmatter.tags.split(",").map(tag => {
-                                    return <Link key={tag} href={'/blog/tags/' + tag}>{tag}</Link>;
+                                    return (
+                                        <>
+                                            <IconContext.Provider value={{ className: "icon" }}>
+                                                <ImPriceTag />
+                                            </IconContext.Provider>                                   
+                                            <Link className="lightLink" key={tag} href={'/tags/' + tag}>{tag}</Link>
+                                        </>
+                                    )
                                 }) : ""
                             }
                         </div>

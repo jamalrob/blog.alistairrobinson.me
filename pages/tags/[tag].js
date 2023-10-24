@@ -7,21 +7,22 @@ import styles from '@/styles/layout.module.css';
 import Date from '@/components/date';
 import { getAllTags, getPostsByTag } from '@/lib/posts.js';
 
-export default function Tag({ posts }) {
+export default function Tag({ posts, tag }) {
     return (
         <Layout home>
             <Head>
                 <title>{siteTitle}</title>
             </Head>
             <section className={styles.articleList}>
+                <h1>Posts tagged with “{tag}”</h1>
                 <ul className={styles.list}>
                     {posts.map((post) => (
                     <li className={styles.listItem} key={post.slug}>
-                        <Link href={`/blog/${post.slug}`}>
+                        <Link href={`/${post.slug}`}>
                         {post.frontmatter.title}
                         </Link>
                         <br />
-                        <small className={styles.lightText}>
+                        <small className="lightText">
                             <Date dateString={post.frontmatter.date} />
                         </small>
                     </li>
@@ -38,7 +39,7 @@ export async function getStaticPaths() {
   
     const paths = tags.map((tag) => ({
         params: { 
-            slug: `/blog/${tag}/`,
+            slug: `/${tag}/`,
             tag: tag
         }
     }))
@@ -54,7 +55,8 @@ export async function getStaticProps({ params }) {
     
     return {
         props: {
-            posts
+            posts,
+            tag: params.tag,
         },
     };
 }

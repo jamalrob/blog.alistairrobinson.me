@@ -33,3 +33,24 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.lightText {
+    color: #888;
+}  
+
+.lightText span {
+    margin-left: 2rem;
+    font-size: 16px;
+}
+
+.icon {
+    height: 0.8em;
+    margin-right: 3px;
+    margin-bottom: -2px;
+    color: #999;
+}
+
+.lightLink {
+    color: #888;
+    margin-right: 1rem;
+}
