@@ -35,9 +35,10 @@ export default function Layout({ children, home }) {
       </Head>
       <header className={styles.header}>
         <Link href="/">Home</Link>
-        <Link href="/search" title="Search">Search</Link>
-        <Link href="/feed.rss" title="Feed">Feed</Link>
+        {/*<Link href="/search" title="Search">Search</Link>*/}
+        {/*<Link href="/feed.rss" title="Feed">Feed</Link>*/}
         <Link href="/about" title="About">About</Link>
+        <Link href="/tags" title="About">Tags</Link>
       </header>
       <main>{children}</main>
     </div>

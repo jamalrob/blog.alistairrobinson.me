@@ -10,7 +10,7 @@ import styles from '@/styles/layout.module.css';
 import Layout from '@/components/layout';
 import md from "markdown-it";
 import Date from '@/components/date';
-import { getPost } from '@/lib/posts';
+import { getPost, getNextPost, getPreviousPost } from '@/lib/posts';
 import { ImPriceTag } from "react-icons/im";
 import { IconContext } from "react-icons";
 
@@ -37,10 +37,11 @@ export default function BlogPost({ post }) {
                                 post.frontmatter.tags ? post.frontmatter.tags.split(",").map(tag => {
                                     return (
                                         <>
-                                            <IconContext.Provider value={{ className: "icon" }}>
+                                            {/*<IconContext.Provider value={{ className: "icon" }}>
                                                 <ImPriceTag />
                                             </IconContext.Provider>                                   
-                                            <Link className="lightLink" key={tag} href={'/tags/' + tag}>{tag}</Link>
+                                            */}
+                                            <Link style={{ marginRight: '1.4rem' }} className="lightText" key={tag} href={'/tags/' + tag}>{tag}</Link>
                                         </>
                                     )
                                 }) : ""
@@ -64,6 +65,7 @@ export default function BlogPost({ post }) {
                             Next
                         </div>                
                         <div className={postStyles.contentColumn}>
+                            <Link href={'/' + post.nextPost.slug}>{post.nextPost.title}</Link>
                         </div>
                     </div>
                     <hr />
@@ -72,6 +74,7 @@ export default function BlogPost({ post }) {
                             Previous
                         </div>                
                         <div className={postStyles.contentColumn}>
+                        <Link href={'/' + post.previousPost.slug}>{post.previousPost.title}</Link>
                         </div>
                     </div>
                 </div>
@@ -101,12 +104,16 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     const post = await getPost(params.slug);
+    const nextPost = await getNextPost(params.slug)
+    const previousPost = await getPreviousPost(params.slug)
     return {
       props: {
         post: {
           slug: params.slug,
           frontmatter: post.data,
           html: post.html,
+          nextPost: nextPost,
+          previousPost: previousPost,
         },
       },
     };

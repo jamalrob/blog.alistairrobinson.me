@@ -30,16 +30,17 @@ export default function Blog({ posts, tags }) {
                         <br />
                         <small className="lightText">
                             <Date dateString={post.frontmatter.date} />
-                            <span>
-                            {post.frontmatter.tags.split(',').map((tag) => (
+                            <span>(
+                            {post.frontmatter.tags.split(',').map((tag, i) => (
                                 <>
-                                    <IconContext.Provider value={{ className: "icon" }}>
+                                    {/*<IconContext.Provider value={{ className: "icon" }}>
                                         <ImPriceTag />
-                                    </IconContext.Provider>
+                                    </IconContext.Provider> */}
                                     <Link className="lightLink" key={tag} href={'/tags/' + tag}>{tag}</Link>
+                                    {(post.frontmatter.tags.split(',')[i + 1] && "/")}
                                 </>
                             ))}
-                            </span>
+                            )</span>
                         </small>
                     </li>
                     ))}
