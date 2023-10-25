@@ -1,8 +1,6 @@
 // pages/blog/[slug].js
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
-import ReactMarkdown from 'react-markdown';
 import Head from 'next/head';
 import postStyles from '@/styles/post.module.css';
 import Link from 'next/link';
@@ -13,6 +11,7 @@ import Date from '@/components/date';
 import { getPost, getAdjacentPost } from '@/lib/posts';
 import { ImPriceTag } from "react-icons/im";
 import { IconContext } from "react-icons";
+import React from 'react';
 
 const contentDirectory = path.join(process.cwd(), 'content');
 
@@ -36,13 +35,13 @@ export default function BlogPost({ post }) {
                             {
                                 post.frontmatter.tags ? post.frontmatter.tags.split(",").map(tag => {
                                     return (
-                                        <>
+                                        <React.Fragment key={tag}>
                                             {/*<IconContext.Provider value={{ className: "icon" }}>
                                                 <ImPriceTag />
                                             </IconContext.Provider>                                   
                                             */}
                                             <Link style={{ marginRight: '1.4rem' }} className="lightText" key={tag} href={'/tags/' + tag}>{tag}</Link>
-                                        </>
+                                        </React.Fragment>
                                     )
                                 }) : ""
                             }

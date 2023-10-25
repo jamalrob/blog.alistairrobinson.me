@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- https://www.mysitemapgenerator.com/ext/642124_feed.html -->
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Alistair Robinson's blog</title>
+		<link><![CDATA[https://blog-alistairrobinson-me.vercel.app]]></link>
+		<description>Learn how to build a personal website using Next.js</description>
+		<language>en</language>
+		<pubDate>Tue, 24 Oct 2023 22:41:14 +0000</pubDate>
+		<generator>MySitemapGenerator (www.mysitemapgenerator.com)</generator>
+
+		<item>
+			<guid isPermaLink="false">4173288999</guid>
+			<title>J. G. Ballard’s Crash: is it Science Fiction?</title>
+			<link>https://blog-alistairrobinson-me.vercel.app/jg-ballards-crash-is-it-science-fiction</link>
+			<dc:creator>Administrator</dc:creator>
+			<description>Learn how to build a personal website using Next.js</description>
+			<pubDate>Wed, 25 Oct 2023 01:41:13 +0300</pubDate>
+			<enclosure url="https://blog-alistairrobinson-me.vercel.app/images/_sfcrash.webp" />
+		</item>
+		<item>
+			<guid isPermaLink="false">357847911</guid>
+			<title>Crash by J. G. Ballard (1973)</title>
+			<link>https://blog-alistairrobinson-me.vercel.app/crash-by-jg-ballard</link>
+			<dc:creator>Administrator</dc:creator>
+			<description>Learn how to build a personal website using Next.js</description>
+			<pubDate>Wed, 25 Oct 2023 01:41:12 +0300</pubDate>
+			<enclosure url="https://blog-alistairrobinson-me.vercel.app/images/_crash.webp" />
+		</item>
+		<item>
+			<guid isPermaLink="false">1172814161</guid>
+			<title>Nova by Samuel R. Delany (1968)</title>
+			<link>https://blog-alistairrobinson-me.vercel.app/nova-by-samuel-r-delany-1968</link>
+			<dc:creator>Administrator</dc:creator>
+			<description>Learn how to build a personal website using Next.js</description>
+			<pubDate>Wed, 25 Oct 2023 01:41:11 +0300</pubDate>
+			<enclosure url="https://blog-alistairrobinson-me.vercel.app/images/_nova1.webp" />
+		</item>
+		<item>
+			<guid isPermaLink="false">2882888113</guid>
+			<title>Remembering the Future, Soviet-style</title>
+			<link>https://blog-alistairrobinson-me.vercel.app/post-war-soviet-modernist-architecture</link>
+			<dc:creator>Administrator</dc:creator>
+			<description>Learn how to build a personal website using Next.js</description>
+			<pubDate>Wed, 25 Oct 2023 01:41:10 +0300</pubDate>
+			<enclosure url="https://blog-alistairrobinson-me.vercel.app/images/_architecture-book.webp" />
+		</item>
+		<item>
+			<guid isPermaLink="false">3048186813</guid>
+			<title>A Stand of Yellow Birch Trees</title>
+			<link>https://blog-alistairrobinson-me.vercel.app/a-stand-of-yellow-birch-trees</link>
+			<dc:creator>Administrator</dc:creator>
+			<description>Learn how to build a personal website using Next.js</description>
+			<pubDate>Wed, 25 Oct 2023 01:41:09 +0300</pubDate>
+			<enclosure url="https://og-image.vercel.app/Alistair%20Robinson&#x27;s%20blog.png?theme=light&amp;md=0&amp;fontSize=75px&amp;images=https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg" type="image/svg+xml" length="0" />
+		</item>
+		<item>
+			<guid isPermaLink="false">2669715384</guid>
+			<title>There Are Ghosts in This Room</title>
+			<link>https://blog-alistairrobinson-me.vercel.app/there-are-ghosts-in-this-room</link>
+			<dc:creator>Administrator</dc:creator>
+			<description>Learn how to build a personal website using Next.js</description>
+			<pubDate>Wed, 25 Oct 2023 01:41:08 +0300</pubDate>
+			<enclosure url="https://og-image.vercel.app/Alistair%20Robinson&#x27;s%20blog.png?theme=light&amp;md=0&amp;fontSize=75px&amp;images=https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg" type="image/svg+xml" length="0" />
+		</item>
+		<item>
+			<guid isPermaLink="false">455723414</guid>
+			<title>The Argument for Indirect Realism</title>
+			<link>https://blog-alistairrobinson-me.vercel.app/the-argument-for-indirect-realism</link>
+			<dc:creator>Administrator</dc:creator>
+			<description>Learn how to build a personal website using Next.js</description>
+			<pubDate>Wed, 25 Oct 2023 01:41:07 +0300</pubDate>
+			<enclosure url="https://silvrback.s3.amazonaws.com/uploads/010835b8-f8f1-4d52-9ee5-c01e2ad43dfa/perceptual-constancy_large.jpg" type="image/jpeg" length="0" />
+		</item>
+		<item>
+			<guid isPermaLink="false">2602060000</guid>
+			<title>Logicomix: An Epic Search For an Epic Search For Truth</title>
+			<link>https://blog-alistairrobinson-me.vercel.app/logicomix-an-epic-search</link>
+			<dc:creator>Administrator</dc:creator>
+			<description>Learn how to build a personal website using Next.js</description>
+			<pubDate>Wed, 25 Oct 2023 01:41:06 +0300</pubDate>
+			<enclosure url="https://blog-alistairrobinson-me.vercel.app/images/_logicomix-cover.webp" />
+		</item>
+	</channel>
+</rss>

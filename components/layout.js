@@ -22,13 +22,11 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/mynah.png" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Articles about literature, science fiction, and philosophy"
         />
         <meta
           property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle,
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          content="https://blog.alistairrobinson.me/images/profile.jpg"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
@@ -39,6 +37,7 @@ export default function Layout({ children, home }) {
         {/*<Link href="/feed.rss" title="Feed">Feed</Link>*/}
         <Link href="/about" title="About">About</Link>
         <Link href="/tags" title="About">Tags</Link>
+        {/*<Link href="/feed.rss" title="About">Feed</Link>*/}
       </header>
       <main>{children}</main>
     </div>
