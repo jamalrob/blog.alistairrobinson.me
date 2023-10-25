@@ -21,7 +21,7 @@ export default function Tag({ tags }) {
                             <Link href={`/tags/${tag}`}>
                                 {tag}
                             </Link>
-                            <span>{' '}</span>
+                            <span className="lightText">{' / '}</span>
                         </>
                     ))}
                 </p>
