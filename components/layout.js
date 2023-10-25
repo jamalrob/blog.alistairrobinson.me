@@ -2,11 +2,10 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '@/styles/layout.module.css';
 import Link from 'next/link';
-import { Courier_Prime } from 'next/font/google'
-//import { Source_Serif_4 } from 'next/font/google'
+//import { Courier_Prime } from 'next/font/google'
+import { Source_Serif_4 } from 'next/font/google'
 
-//const gfont = Roboto_Mono({ subsets: ['latin'] }) /* Put on <main>: className={gfont.className} */
-const gfont = Courier_Prime({
+const gfont = Source_Serif_4({
     weight: ['400', '700'],
     style: ['normal', 'italic'],
     subsets: ['latin'],

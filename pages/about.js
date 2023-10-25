@@ -1,9 +1,9 @@
-import styles from '../styles/layout.module.css';
-import postStyles from '../styles/post.module.css';
-import Layout from '../components/layout';
+import styles from '@/styles/layout.module.css';
+import postStyles from '@/styles/post.module.css';
+import Layout from '@/components/layout';
 import Head from 'next/head';
 import Image from 'next/image';
-import me from '../public/images/me-in-kazakhstan.webp';
+import me from '@/public/images/me-in-kazakhstan.webp';
 
 export default function About() {
 

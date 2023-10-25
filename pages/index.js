@@ -31,17 +31,17 @@ export default function Blog({ posts, tags }) {
                         <br />
                         <small className="lightText">
                             <Date dateString={post.frontmatter.date} />
-                            <span>(
+                            <span>
                             {post.frontmatter.tags.split(',').map((tag, i) => (
                                 <React.Fragment key={i}>
                                     {/*<IconContext.Provider value={{ className: "icon" }}>
                                         <ImPriceTag />
                                     </IconContext.Provider> */}
-                                    <Link className="lightLink" key={tag} href={'/tags/' + tag}>{tag}</Link>
+                                    <Link className="redLink" key={tag} href={'/tags/' + tag}>{tag}</Link>
                                     {(post.frontmatter.tags.split(',')[i + 1] && "/")}
                                 </React.Fragment>
                             ))}
-                            )</span>
+                            </span>
                         </small>
                     </li>
                     ))}

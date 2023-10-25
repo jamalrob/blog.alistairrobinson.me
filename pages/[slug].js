@@ -40,7 +40,7 @@ export default function BlogPost({ post }) {
                                                 <ImPriceTag />
                                             </IconContext.Provider>                                   
                                             */}
-                                            <Link style={{ marginRight: '1.4rem' }} className="lightText" key={tag} href={'/tags/' + tag}>{tag}</Link>
+                                            <Link style={{ marginRight: '1.4rem' }} className="redLink" key={tag} href={'/tags/' + tag}>{tag}</Link>
                                         </React.Fragment>
                                     )
                                 }) : ""

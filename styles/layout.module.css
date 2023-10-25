@@ -44,7 +44,8 @@
   }
 
   .header a {
-    color: #666;
+    /*color: #666;*/
+    color: #bb5353;
     margin-right: 1rem;
   }
   
@@ -62,7 +63,8 @@
 }*/
 
 .innerContainer {
-    width: 81%;
+    /*width: 81%;*/
+    width: 76%;
 }
 @media (max-width: 600px) {
     .innerContainer {

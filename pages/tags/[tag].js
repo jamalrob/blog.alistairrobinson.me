@@ -15,7 +15,7 @@ export default function Tag({ posts, tag }) {
             </Head>
             <section className={layoutStyles.articleList}>
                 <h1 className={layoutStyles.heading2Xl}>Posts tagged with “{tag}”</h1>
-                <ul className={layoutStyles.list}>
+                <ul className={layoutStyles.list} style={{marginTop: '2rem'}}>
                     {posts.map((post) => (
                     <li className={layoutStyles.listItem} key={post.slug}>
                         <Link href={`/${post.slug}`}>
