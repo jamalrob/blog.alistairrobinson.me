@@ -9,8 +9,6 @@ import Layout from '@/components/layout';
 import md from "markdown-it";
 import Date from '@/components/date';
 import { getPost, getAdjacentPost } from '@/lib/posts';
-import { ImPriceTag } from "react-icons/im";
-import { IconContext } from "react-icons";
 import React from 'react';
 
 const contentDirectory = path.join(process.cwd(), 'content');
@@ -22,7 +20,7 @@ export default function BlogPost({ post }) {
             <Head>
             <title>{post.frontmatter.title}</title>
             </Head>
-            <article className={postStyles.postArticle + ' ' + styles.innerContainer}>
+            <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className={postStyles.postFooter}>
@@ -33,14 +31,10 @@ export default function BlogPost({ post }) {
                         </div>
                         <div className={postStyles.contentColumn}>
                             {
-                                post.frontmatter.tags ? post.frontmatter.tags.split(",").map(tag => {
+                                post.frontmatter.tags ? post.frontmatter.tags.map(tag => {
                                     return (
                                         <React.Fragment key={tag}>
-                                            {/*<IconContext.Provider value={{ className: "icon" }}>
-                                                <ImPriceTag />
-                                            </IconContext.Provider>                                   
-                                            */}
-                                            <Link style={{ marginRight: '1.4rem' }} className="redLink" key={tag} href={'/tags/' + tag}>{tag}</Link>
+                                            <Link style={{ marginRight: '1.4rem' }} className="redLink" key={tag} href={`/tags/${tag}`}>{tag}</Link>
                                         </React.Fragment>
                                     )
                                 }) : ""
@@ -48,7 +42,7 @@ export default function BlogPost({ post }) {
                         </div>
                     </div>
                     <hr />
-                    <div className={postStyles.footDate + ' ' + postStyles.footSection}>
+                    <div className={[postStyles.footDate, postStyles.footSection].join(' ')}>
                         <div className={postStyles.labelColumn}>
                             Date
                         </div>                
@@ -66,9 +60,9 @@ export default function BlogPost({ post }) {
                             Next
                         </div>                
                         <div className={postStyles.contentColumn}>
-                            <Link href={'/' + post.nextPost.slug}>{post.nextPost.title}</Link>
-                            <div className={postStyles.footerSnippet} dangerouslySetInnerHTML={{ __html: post.nextPost.snippet }} />                           
-                            <small><Link href={'/' + post.nextPost.slug}>more &rarr;</Link></small>
+                            <Link href={`/${post.nextPost.slug}`}>{post.nextPost.title}</Link>
+                            <div className={postStyles.footerSnippet} dangerouslySetInnerHTML={{ __html: post.nextPost.excerpt }} />                           
+                            <small><Link href={`/${post.nextPost.slug}`}>more &rarr;</Link></small>
                         </div>
                     </div>
                     <hr />
@@ -81,9 +75,9 @@ export default function BlogPost({ post }) {
                             Previous
                         </div>                
                         <div className={postStyles.contentColumn}>
-                            <Link href={'/' + post.previousPost.slug}>{post.previousPost.title}</Link>
-                            <div className={postStyles.footerSnippet} dangerouslySetInnerHTML={{ __html: post.previousPost.snippet }} />
-                            <small><Link href={'/' + post.previousPost.slug}>more &rarr;</Link></small>
+                            <Link href={`/${post.previousPost.slug}`}>{post.previousPost.title}</Link>
+                            <div className={postStyles.footerSnippet} dangerouslySetInnerHTML={{ __html: post.previousPost.excerpt }} />
+                            <small><Link href={`/${post.previousPost.slug}`}>more &rarr;</Link></small>
                         </div>
                     </div>
                     <hr />

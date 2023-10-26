@@ -18,7 +18,7 @@ export default function About() {
         <Head>
           <title>About Alistair Robinson</title>
         </Head>
-        <article className={postStyles.postArticle + ' ' + styles.innerContainer}>
+        <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
           <h1 className={styles.heading2Xl}>About</h1>
             <p>
                 This site is for me to write about things, particularly books. I’m into science fiction, speculative fiction in general, literary fiction, and philosophy.

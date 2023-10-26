@@ -2,7 +2,7 @@
 //import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { getAllPosts, getAllTags } from '@/lib/posts';
+import { getAllPosts } from '@/lib/posts';
 import Link from 'next/link';
 //import ReactMarkdown from 'react-markdown';
 import Head from 'next/head';
@@ -15,7 +15,7 @@ import React from 'react';
 
 const contentDirectory = path.join(process.cwd(), 'content');
 
-export default function Blog({ posts, tags }) {
+export default function Blog({ posts }) {
     return (
         <Layout home>
             <Head>
@@ -32,13 +32,10 @@ export default function Blog({ posts, tags }) {
                         <small className="lightText">
                             <Date dateString={post.frontmatter.date} />
                             <span>
-                            {post.frontmatter.tags.split(',').map((tag, i) => (
+                            {post.frontmatter.tags.map((tag, i) => (
                                 <React.Fragment key={i}>
-                                    {/*<IconContext.Provider value={{ className: "icon" }}>
-                                        <ImPriceTag />
-                                    </IconContext.Provider> */}
                                     <Link className="redLink" key={tag} href={'/tags/' + tag}>{tag}</Link>
-                                    {(post.frontmatter.tags.split(',')[i + 1] && "/")}
+                                    {(post.frontmatter.tags[i + 1] && "/")}
                                 </React.Fragment>
                             ))}
                             </span>
@@ -53,12 +50,10 @@ export default function Blog({ posts, tags }) {
 
 export async function getStaticProps() {
     const posts = await getAllPosts();
-    const tags = await getAllTags();
 
     return {
         props: {
-            posts,
-            tags
+            posts
         },
     };
 }

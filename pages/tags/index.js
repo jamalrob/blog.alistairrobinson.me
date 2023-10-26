@@ -13,7 +13,7 @@ export default function Tag({ tags }) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <section className={styles.postArticle + ' ' + layoutStyles.articleList + ' ' + layoutStyles.innerContainer}>
+            <section className={[styles.postArticle, layoutStyles.articleList, layoutStyles.innerContainer].join(' ')}>
                 <h1 className={layoutStyles.heading2Xl}>Tags</h1>
                 <p>
                     {tags.map((tag) => (

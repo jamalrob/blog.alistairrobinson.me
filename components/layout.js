@@ -16,7 +16,7 @@ export const siteTitle = "Alistair Robinson's blog";
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container + ' ' + gfont.className}>
+    <div className={[styles.container, gfont.className].join(' ')}>
       <Head>
         <link rel="icon" href="/mynah.png" />
         <meta
