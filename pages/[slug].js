@@ -1,4 +1,3 @@
-// pages/blog/[slug].js
 import fs from 'fs';
 import path from 'path';
 import Head from 'next/head';
@@ -6,7 +5,6 @@ import postStyles from '@/styles/post.module.css';
 import Link from 'next/link';
 import styles from '@/styles/layout.module.css';
 import Layout from '@/components/layout';
-import md from "markdown-it";
 import Date from '@/components/date';
 import { getPost, getAdjacentPost } from '@/lib/posts';
 import React from 'react';

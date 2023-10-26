@@ -1,6 +1,4 @@
-// pages/blog/index.js
 import Link from 'next/link';
-//import ReactMarkdown from 'react-markdown';
 import Head from 'next/head';
 import Layout, { siteTitle } from '@/components/layout';
 import styles from '@/styles/post.module.css';

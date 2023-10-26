@@ -1,6 +1,4 @@
-// pages/blog/index.js
 import Link from 'next/link';
-//import ReactMarkdown from 'react-markdown';
 import Head from 'next/head';
 import Layout, { siteTitle } from '@/components/layout';
 import layoutStyles from '@/styles/layout.module.css';
@@ -34,7 +32,6 @@ export default function Tag({ posts, tag }) {
 }
 
 export async function getStaticPaths() {
-    //const files = fs.readdirSync(contentDirectory);
     const tags = await getAllTags();
   
     const paths = tags.map((tag) => ({

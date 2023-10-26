@@ -1,16 +1,10 @@
-// pages/blog/index.js
-//import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
 import { getAllPosts } from '@/lib/posts';
 import Link from 'next/link';
-//import ReactMarkdown from 'react-markdown';
 import Head from 'next/head';
 import Layout, { siteTitle } from '@/components/layout';
 import styles from '@/styles/layout.module.css';
 import Date from '@/components/date';
-import { ImPriceTag } from "react-icons/im";
-import { IconContext } from "react-icons";
 import React from 'react';
 
 const contentDirectory = path.join(process.cwd(), 'content');

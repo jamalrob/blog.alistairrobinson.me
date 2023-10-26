@@ -13,9 +13,9 @@ const gfont = Source_Serif_4({
 const name = 'Alistair Robinson';
 export const siteTitle = "Alistair Robinson's blog";
 
-export default function Layout({ children, home }) {
+export default function PhotoLayout({ children, home }) {
   return (
-    <div className={[styles.container, gfont.className].join(' ')}>
+    <div>
       <Head>
         <link rel="icon" href="/mynah.png" />
         <meta
@@ -29,14 +29,6 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
-        <Link href="/">Home</Link>
-        {/*<Link href="/search" title="Search">Search</Link>*/}
-        {/*<Link href="/feed.rss" title="Feed">Feed</Link>*/}
-        <Link href="/about" title="About">About</Link>
-        <Link href="/tags" title="About">Tags</Link>
-        {/*<Link href="/feed.rss" title="About">Feed</Link>*/}
-      </header>
       <main>{children}</main>
     </div>
   );
