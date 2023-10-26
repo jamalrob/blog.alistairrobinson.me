@@ -34,7 +34,7 @@ export default function Photos({ images }) {
         </Head>
         <section className={photoStyles.galleryContainer}>
             {images.map((image, i) =>
-                <div className={photoStyles.photoContainer}>
+                <div className={photoStyles.photoContainer} key={i}>
                     <Image 
                         src={`/photos/2010/07/01/${image}`}
                         alt="image"
