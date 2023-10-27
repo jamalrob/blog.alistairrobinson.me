@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '@/components/layout';
 import layoutStyles from '@/styles/layout.module.css';
 import Date from '@/components/date';
+import ArticleListItem from '@/components/articleListItem';
 import { getAllTags, getPostsByTag } from '@/lib/posts.js';
 
 export default function Tag({ posts, tag }) {
@@ -15,15 +16,7 @@ export default function Tag({ posts, tag }) {
                 <h1 className={layoutStyles.heading2Xl}>Posts tagged with “{tag}”</h1>
                 <ul className={layoutStyles.list} style={{marginTop: '2rem'}}>
                     {posts.map((post) => (
-                    <li className={layoutStyles.listItem} key={post.slug}>
-                        <Link href={`/${post.slug}`}>
-                        {post.frontmatter.title}
-                        </Link>
-                        <br />
-                        <small className="lightText">
-                            <Date dateString={post.frontmatter.date} />
-                        </small>
-                    </li>
+                        <ArticleListItem post={post} showTags={false} />
                     ))}
                 </ul>
             </section>
