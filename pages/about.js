@@ -2,7 +2,7 @@ import styles from '@/styles/layout.module.css';
 import postStyles from '@/styles/post.module.css';
 import Layout from '@/components/layout';
 import Head from 'next/head';
-import { imageLocation } from 'myconfig'
+import { config } from 'myconfig'
 
 //const imageFolder = 'https://ik.imagekit.io/alistairrobinson/blog';
 
@@ -34,7 +34,7 @@ export default function About() {
             </p>
             <p>
                 <img 
-                    src={`${imageLocation}/tr:w-800,q-84/me-in-kazakhstan.jpg`}
+                    src={`${config.imageLocation}/tr:w-800,q-84/me-in-kazakhstan.jpg`}
                     alt="Me in Kazakhstan"
                     style={imageStyle}
                 />

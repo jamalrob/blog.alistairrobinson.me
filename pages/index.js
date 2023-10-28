@@ -6,8 +6,6 @@ import styles from '@/styles/layout.module.css';
 import ArticleListItem from '@/components/articleListItem';
 import React from 'react';
 
-const contentDirectory = path.join(process.cwd(), 'content');
-
 export default function Blog({ posts }) {
     return (
         <Layout home>
