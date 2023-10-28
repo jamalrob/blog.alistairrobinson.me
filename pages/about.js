@@ -2,13 +2,9 @@ import styles from '@/styles/layout.module.css';
 import postStyles from '@/styles/post.module.css';
 import Layout from '@/components/layout';
 import Head from 'next/head';
-import { config } from 'myconfig'
-
-//const imageFolder = 'https://ik.imagekit.io/alistairrobinson/blog';
+import { settings } from 'settings'
 
 export default function About() {
-
-    //console.log(config.)
 
     const imageStyle = {
         width: 'auto',
@@ -19,7 +15,7 @@ export default function About() {
     return (
       <Layout>
         <Head>
-          <title>About Alistair Robinson</title>
+          <title>About {settings.name}</title>
         </Head>
         <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
           <h1 className={styles.heading2Xl}>About</h1>
@@ -34,7 +30,7 @@ export default function About() {
             </p>
             <p>
                 <img 
-                    src={`${config.imageLocation}/tr:w-800,q-84/me-in-kazakhstan.jpg`}
+                    src={`${settings.imageLocation}/tr:w-800,q-84/me-in-kazakhstan.jpg`}
                     alt="Me in Kazakhstan"
                     style={imageStyle}
                 />

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '@/styles/layout.module.css';
 import Link from 'next/link';
 import { Source_Serif_4 } from 'next/font/google'
+import { settings } from '@/settings';
 
 const gfont = Source_Serif_4({
     weight: ['400', '700'],
@@ -9,8 +10,6 @@ const gfont = Source_Serif_4({
     subsets: ['latin'],
     display: 'swap'
   })
-const name = 'Alistair Robinson';
-export const siteTitle = "Alistair Robinson's blog";
 
 export default function Layout({ children, home }) {
   return (
@@ -25,7 +24,7 @@ export default function Layout({ children, home }) {
           property="og:image"
           content="https://blog.alistairrobinson.me/images/profile.jpg"
         />
-        <meta name="og:title" content={siteTitle} />
+        <meta name="og:title" content={settings.siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>

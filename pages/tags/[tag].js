@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '@/components/layout';
+import Layout from '@/components/layout';
 import layoutStyles from '@/styles/layout.module.css';
 import ArticleListItem from '@/components/articleListItem';
 import { getAllTags, getPostsByTag } from '@/lib/posts.js';
@@ -8,7 +8,7 @@ export default function Tag({ posts, tag }) {
     return (
         <Layout home>
             <Head>
-                <title>{siteTitle}</title>
+                <title>Posts tagged with '{tag}'</title>
             </Head>
             <section className={layoutStyles.articleList}>
                 <h1 className={layoutStyles.heading2Xl}>Posts tagged with “{tag}”</h1>

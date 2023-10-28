@@ -8,7 +8,7 @@ import Layout from '@/components/layout';
 import Date from '@/components/date';
 import { getPost, getAdjacentPost } from '@/lib/posts';
 import React from 'react';
-import { config } from 'myconfig'
+import { settings } from '@/settings'
 
 export default function BlogPost({ post }) {
 
@@ -21,7 +21,7 @@ export default function BlogPost({ post }) {
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
                 {post.frontmatter.image && 
                     <img 
-                    src={`${config.imageLocation}/tr:w-${config.headerImage.width},q-${config.headerImage.quality}/${post.slug}.jpg`}
+                    src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg`}
                     className={postStyles[post.frontmatter.imageClass] || postStyles.mainImageSmaller}
                     />                
                 }
@@ -93,7 +93,7 @@ export default function BlogPost({ post }) {
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(config.contentDirectory);
+  const files = fs.readdirSync(settings.contentDirectory);
 
   const paths = files.map((filename) => {
     const slug = filename.replace(/\.mdx?$/, '');

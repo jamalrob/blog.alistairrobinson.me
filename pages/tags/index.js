@@ -1,15 +1,16 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import Layout, { siteTitle } from '@/components/layout';
+import Layout from '@/components/layout';
 import styles from '@/styles/post.module.css';
 import layoutStyles from '@/styles/layout.module.css';
 import { getAllTags } from '@/lib/posts.js';
+import { settings } from '@/settings';
 
 export default function Tag({ tags }) {
     return (
         <Layout>
             <Head>
-                <title>{siteTitle}</title>
+                <title>Tags: {settings.siteTitle}</title>
             </Head>
             <section className={[styles.postArticle, layoutStyles.articleList, layoutStyles.innerContainer].join(' ')}>
                 <h1 className={layoutStyles.heading2Xl}>Tags</h1>
