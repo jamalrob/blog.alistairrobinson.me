@@ -1,8 +1,6 @@
-import Link from 'next/link';
 import Head from 'next/head';
 import Layout, { siteTitle } from '@/components/layout';
 import layoutStyles from '@/styles/layout.module.css';
-import Date from '@/components/date';
 import ArticleListItem from '@/components/articleListItem';
 import { getAllTags, getPostsByTag } from '@/lib/posts.js';
 

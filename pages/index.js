@@ -1,6 +1,5 @@
 import path from 'path';
 import { getAllPosts } from '@/lib/posts';
-import Link from 'next/link';
 import Head from 'next/head';
 import Layout, { siteTitle } from '@/components/layout';
 import styles from '@/styles/layout.module.css';

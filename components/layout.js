@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import styles from '@/styles/layout.module.css';
 import Link from 'next/link';
-//import { Courier_Prime } from 'next/font/google'
 import { Source_Serif_4 } from 'next/font/google'
 
 const gfont = Source_Serif_4({
@@ -31,11 +30,8 @@ export default function Layout({ children, home }) {
       </Head>
       <header className={styles.header}>
         <Link href="/">Home</Link>
-        {/*<Link href="/search" title="Search">Search</Link>*/}
-        {/*<Link href="/feed.rss" title="Feed">Feed</Link>*/}
         <Link href="/about" title="About">About</Link>
         <Link href="/tags" title="About">Tags</Link>
-        {/*<Link href="/feed.rss" title="About">Feed</Link>*/}
       </header>
       <main>{children}</main>
     </div>
