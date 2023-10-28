@@ -2,10 +2,13 @@ import styles from '@/styles/layout.module.css';
 import postStyles from '@/styles/post.module.css';
 import Layout from '@/components/layout';
 import Head from 'next/head';
-import Image from 'next/image';
-import me from '@/public/images/me-in-kazakhstan.webp';
+import { imageLocation } from 'myconfig'
+
+//const imageFolder = 'https://ik.imagekit.io/alistairrobinson/blog';
 
 export default function About() {
+
+    //console.log(config.)
 
     const imageStyle = {
         width: 'auto',
@@ -30,8 +33,8 @@ export default function About() {
                 Feel free to contact me at <b>alistair.robinson@gmail.com</b>.
             </p>
             <p>
-                <Image 
-                    src={me}
+                <img 
+                    src={`${imageLocation}/tr:w-800,q-84/me-in-kazakhstan.jpg`}
                     alt="Me in Kazakhstan"
                     style={imageStyle}
                 />

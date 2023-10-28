@@ -1,8 +1,20 @@
-// next.config.js
-const withMDX = require('@next/mdx')({
-    extension: /\.(md|mdx)$/,
-  });
+const withMDX = require('@next/mdx')()
+ 
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   
-  module.exports = withMDX({
-    pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-  });
+  // Configure `pageExtensions`` to include MDX files
+  pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+  // Optionally, add any other Next.js config below
+  reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "ik.imagekit.io",
+      },
+    ],
+  },  
+}
+ 
+module.exports = withMDX(nextConfig)

@@ -14,23 +14,24 @@
     margin-block-start: 1.7em;
 }
 
-.postArticle img[title="mainImageSmall"],
-.postArticle img[title="mainImageMedium"],
-.postArticle img[title="mainImageSmaller"],
-.postArticle img[title="mainImage"] {
+.mainImageSmall, .mainImageMedium, .mainImageSmaller, .mainImage {
     padding-bottom: 0.86rem;
 }
 
-.postArticle img[title="mainImageSmall"] {
-    width: 60%;
+.mainImageSmall {
+    max-width: 60%;
 }
 
-.postArticle img[title="mainImageSmaller"] {
-    width: 85%;
+.mainImageSmallest {
+    max-width: 40%;
 }
 
-.postArticle img[title="mainImageMedium"] {
-    width: 75%;
+.mainImageSmaller {
+    max-width: 85%;
+}
+
+.mainImageMedium {
+    max-width: 75%;
 }
 
 .postArticle img + em {

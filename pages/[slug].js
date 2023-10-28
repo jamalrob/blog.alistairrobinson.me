@@ -8,6 +8,7 @@ import Layout from '@/components/layout';
 import Date from '@/components/date';
 import { getPost, getAdjacentPost } from '@/lib/posts';
 import React from 'react';
+import { imageLocation, headerImage } from 'myconfig'
 
 const contentDirectory = path.join(process.cwd(), 'content');
 
@@ -20,6 +21,12 @@ export default function BlogPost({ post }) {
             </Head>
             <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
+                {post.frontmatter.image && 
+                    <img 
+                    src={`${imageLocation}/tr:w-${headerImage.width},q-${headerImage.quality}/${post.slug}.jpg`}
+                    className={postStyles[post.frontmatter.imageClass] || postStyles.mainImageSmaller}
+                    />                
+                }
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className={postStyles.postFooter}>
                     <hr />
