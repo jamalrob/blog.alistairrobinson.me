@@ -10,11 +10,11 @@ body {
   line-height: 1.62;
   font-size: 21px;
 }
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
     body {
         font-size: 18px;
     }    
-}
+}*/
 
 * {
   box-sizing: border-box;
