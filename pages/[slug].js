@@ -21,8 +21,8 @@ export default function BlogPost({ post }) {
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
                 {post.frontmatter.image && 
                     <img 
-                    src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg`}
-                    className={postStyles[post.frontmatter.imageClass] || postStyles.mainImageSmaller}
+                        src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg`}
+                        className={postStyles[post.frontmatter.imageClass] || postStyles.mainImageSmaller}
                     />                
                 }
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -64,7 +64,7 @@ export default function BlogPost({ post }) {
                         </div>                
                         <div className={postStyles.contentColumn}>
                             <Link href={`/${post.nextPost.slug}`}>{post.nextPost.title}</Link>
-                            <div className={postStyles.footerSnippet} dangerouslySetInnerHTML={{ __html: post.nextPost.excerpt }} />                           
+                            <div className={postStyles.footerExcerpt} dangerouslySetInnerHTML={{ __html: post.nextPost.excerpt }} />                           
                             <small><Link href={`/${post.nextPost.slug}`}>more &rarr;</Link></small>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ export default function BlogPost({ post }) {
                         </div>                
                         <div className={postStyles.contentColumn}>
                             <Link href={`/${post.previousPost.slug}`}>{post.previousPost.title}</Link>
-                            <div className={postStyles.footerSnippet} dangerouslySetInnerHTML={{ __html: post.previousPost.excerpt }} />
+                            <div className={postStyles.footerExcerpt} dangerouslySetInnerHTML={{ __html: post.previousPost.excerpt }} />
                             <small><Link href={`/${post.previousPost.slug}`}>more &rarr;</Link></small>
                         </div>
                     </div>

@@ -98,11 +98,11 @@
     width: 75%;
 }
 
-.footerSnippet {
+.footerExcerpt {
     font-size: 16px;
 }
 
-.footerSnippet img {
+.footerExcerpt img {
     width: 30% !important;
     padding-bottom: 0.4rem !important;
     margin: 0.3rem 0.8rem 0 0 !important;

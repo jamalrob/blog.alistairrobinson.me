@@ -8,7 +8,7 @@ export default function Tag({ posts, tag }) {
     return (
         <Layout home>
             <Head>
-                <title>{`Posts tagged with ${tag}`}</title>
+                <title>{`Posts tagged with '${tag}'`}</title>
             </Head>
             <section className={layoutStyles.articleList}>
                 <h1 className={layoutStyles.heading2Xl}>Posts tagged with “{tag}”</h1>

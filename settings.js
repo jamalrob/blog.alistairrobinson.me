@@ -11,6 +11,10 @@ export const settings = {
         width: 800,
         quality: 84
     },
+    thumbnailImage: {
+        width: 200,
+        quality: 60
+    },
     name: 'Alistair Robinson',
-    siteTitle:"Alistair Robinson's blog",
+    siteTitle: 'Articles by Alistair Robinson',
 }
