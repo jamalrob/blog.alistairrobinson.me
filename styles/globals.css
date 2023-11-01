@@ -53,3 +53,8 @@ img {
     color: #bb5353;
     margin: 0 0.35rem;
 }
+
+/* Markdown post extras, can't be in a css module */
+img[title="imgSmall"] {
+    max-width: 80%;
+}
