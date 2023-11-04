@@ -15,7 +15,7 @@ export default function Blog({ posts }) {
             <section className={styles.articleList}>
 
                 <ul className={styles.list}>
-                    {posts.map((post, i) => ( 
+                    {posts.map((post, i) => ( post.show &&
                         <ArticleListItem post={post} key={i} />
                     ))}
                 </ul>

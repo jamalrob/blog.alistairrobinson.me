@@ -13,7 +13,7 @@ export default function Tag({ posts, tag }) {
             <section className={layoutStyles.articleList}>
                 <h1 className={layoutStyles.heading2Xl}>Posts tagged with “{tag}”</h1>
                 <ul className={layoutStyles.list} style={{marginTop: '2rem'}}>
-                    {posts.map((post, i) => (
+                    {posts.map((post, i) => ( post.show && 
                         <ArticleListItem post={post} showTags={false} key={i} />
                     ))}
                 </ul>
