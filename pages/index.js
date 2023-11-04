@@ -13,7 +13,6 @@ export default function Blog({ posts }) {
                 <title>{settings.siteTitle}</title>
             </Head>
             <section className={styles.articleList}>
-
                 <ul className={styles.list}>
                     {posts.map((post, i) => ( post.show &&
                         <ArticleListItem post={post} key={i} />
