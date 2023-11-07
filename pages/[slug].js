@@ -9,6 +9,14 @@ import Date from '@/components/date';
 import { getPost, getAdjacentPost } from '@/lib/posts';
 import React from 'react';
 import { settings } from '@/settings'
+import { Source_Serif_4 } from 'next/font/google'
+
+const gfont = Source_Serif_4({
+    weight: ['400', '700'],
+    style: ['normal', 'italic'],
+    subsets: ['latin'],
+    display: 'swap'
+})
 
 export default function BlogPost({ post }) {
 
@@ -19,13 +27,13 @@ export default function BlogPost({ post }) {
             </Head>
             <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
-                {post.frontmatter.image && 
-                    <img 
+                {post.frontmatter.image &&
+                    <img
                         src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg`}
                         className={postStyles[post.frontmatter.imageClass] || postStyles.mainImageSmaller}
-                    />                
+                    />
                 }
-                <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                <div className={gfont.className} dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className={postStyles.postFooter}>
                     <hr />
                     <div className={postStyles.footSection}>
@@ -48,7 +56,7 @@ export default function BlogPost({ post }) {
                     <div className={[postStyles.footDate, postStyles.footSection].join(' ')}>
                         <div className={postStyles.labelColumn}>
                             Date
-                        </div>                
+                        </div>
                         <div className={postStyles.contentColumn}>
                             <div>
                                 <Date dateString={post.frontmatter.date} />
@@ -61,10 +69,10 @@ export default function BlogPost({ post }) {
                     <div className={postStyles.footSection}>
                         <div className={postStyles.labelColumn}>
                             Next
-                        </div>                
+                        </div>
                         <div className={postStyles.contentColumn}>
                             <Link href={`/${post.nextPost.slug}`}>{post.nextPost.title}</Link>
-                            <div className={postStyles.footerExcerpt} dangerouslySetInnerHTML={{ __html: post.nextPost.excerpt }} />                           
+                            <div className={postStyles.footerExcerpt} dangerouslySetInnerHTML={{ __html: post.nextPost.excerpt }} />
                             <small><Link href={`/${post.nextPost.slug}`}>more &rarr;</Link></small>
                         </div>
                     </div>
@@ -76,7 +84,7 @@ export default function BlogPost({ post }) {
                     <div className={postStyles.footSection}>
                         <div className={postStyles.labelColumn}>
                             Previous
-                        </div>                
+                        </div>
                         <div className={postStyles.contentColumn}>
                             <Link href={`/${post.previousPost.slug}`}>{post.previousPost.title}</Link>
                             <div className={postStyles.footerExcerpt} dangerouslySetInnerHTML={{ __html: post.previousPost.excerpt }} />
