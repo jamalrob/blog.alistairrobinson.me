@@ -3,6 +3,14 @@ import postStyles from '@/styles/post.module.css';
 import Layout from '@/components/layout';
 import Head from 'next/head';
 import { settings } from 'settings';
+import { Source_Serif_4 } from 'next/font/google'
+
+const gfont = Source_Serif_4({
+    weight: ['400', '700'],
+    style: ['normal', 'italic'],
+    subsets: ['latin'],
+    display: 'swap'
+})
 
 export default function About() {
 
@@ -19,6 +27,7 @@ export default function About() {
         </Head>
         <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
           <h1 className={styles.heading2Xl}>About</h1>
+            <div className={gfont.className}>
             <p>
                 This site is for me to write about things, particularly books. I’m into science fiction, speculative fiction in general, literary fiction, and philosophy.
             </p>
@@ -29,13 +38,14 @@ export default function About() {
                 Feel free to contact me at <b>alistair.robinson@gmail.com</b>.
             </p>
             <p>
-                <img 
+                <img
                     src={`${settings.imageLocation}/tr:w-800,q-84/me-in-kazakhstan.jpg`}
                     alt="Me in Kazakhstan"
                     style={imageStyle}
                 />
                 <em>Me in the Tian Shan mountains of Kazakhstan</em>
             </p>
+            </div>
         </article>
       </Layout>
     );
