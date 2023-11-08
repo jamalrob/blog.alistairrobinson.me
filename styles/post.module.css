@@ -12,11 +12,11 @@
 
 .postArticle h2 {
     margin-block-start: 1.7em;
-    font-family: Roboto, Helvetica, Arial;
+    font-family: '__Roboto_ba9cb9', '__Roboto_Fallback_ba9cb9';
 }
 
 .postArticle h3 {
-    font-family: Roboto, Helvetica, Arial;
+    font-family: '__Roboto_ba9cb9', '__Roboto_Fallback_ba9cb9';
 }
 
 .mainImageSmall, .mainImageMedium, .mainImageSmaller, .mainImage {
