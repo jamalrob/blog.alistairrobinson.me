@@ -51,14 +51,14 @@
     background: #e6e6e6;
     margin: 0 2rem 0 0;
     padding: 0.3rem 2.5rem 0.3rem 3.2rem;
-    border-left: solid 6px rgb(203, 194, 184);
+    border-left: solid 6px #c6c6c6;
     position: relative;
 }
 
 .postArticle blockquote::before{
     font-family: "Source_Serif_4";
     content: "\201C";
-    color:#b29a9a;
+    color: #c6c6c6;
     font-size: 4em;
     position: absolute;
     left: 14px;
