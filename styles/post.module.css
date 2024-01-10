@@ -58,7 +58,7 @@
 .postArticle blockquote::before{
     font-family: "Source_Serif_4";
     content: "\201C";
-    color: #c6c6c6;
+    color: #bbb;
     font-size: 4em;
     position: absolute;
     left: 14px;
