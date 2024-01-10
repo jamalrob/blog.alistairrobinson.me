@@ -2,7 +2,7 @@ import styles from '@/styles/layout.module.css';
 import postStyles from '@/styles/post.module.css';
 import Layout from '@/components/layout';
 import Head from 'next/head';
-import { settings } from 'settings';
+import { settings } from '@/settings';
 import { Source_Serif_4 } from 'next/font/google'
 
 const gfont = Source_Serif_4({

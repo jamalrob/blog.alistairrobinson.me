@@ -1,6 +1,6 @@
 html,
 body {
-    background: #fffdf8;
+    background: #efefef;
     color: #323232;
   padding: 0;
   margin: 0;
@@ -13,7 +13,7 @@ body {
 /*@media (max-width: 600px) {
     body {
         font-size: 18px;
-    }    
+    }
 }*/
 
 * {
@@ -36,7 +36,7 @@ img {
 
 .lightText {
     color: #888;
-}  
+}
 
 .lightText span {
     margin-left: 0.76rem;

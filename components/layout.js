@@ -1,16 +1,9 @@
 import Head from 'next/head';
 import styles from '@/styles/layout.module.css';
 import Link from 'next/link';
-import { Source_Serif_4 } from 'next/font/google'
 import { Roboto } from 'next/font/google'
 import { settings } from '@/settings';
-
-const gfont = Source_Serif_4({
-    weight: ['400', '700'],
-    style: ['normal', 'italic'],
-    subsets: ['latin'],
-    display: 'swap'
-})
+import Image from 'next/image';
 
 const gfont_h = Roboto({
     weight: ['400', '700'],
@@ -23,7 +16,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={[styles.container, gfont_h.className].join(' ')}>
       <Head>
-        <link rel="icon" href="/mynahtrans-small.png" />
+        <link rel="icon" href="/favicon.png" />
         <meta
           name="description"
           content="Articles about literature, science fiction, and philosophy"
@@ -36,7 +29,9 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        <Link href="/" className={styles.namelink}>Alistair Robinson</Link>
+        <Link href="/" className={styles.namelink}>
+          Home
+        </Link>
         <Link href="/">Home</Link>
         <Link href="/about" title="About">About</Link>
         <Link href="/tags" title="About">Tags</Link>
