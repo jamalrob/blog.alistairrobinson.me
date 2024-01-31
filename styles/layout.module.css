@@ -119,11 +119,11 @@
     width: 72%;
     max-width: 800px;
 }
-@media (max-width: 800px) {
-    .innerContainer {
-        width: 100%;
-        flex-direction: column;
-    }
+@media (max-width: 900px) {
+  .innerContainer {
+      width: 90%;
+      flex-direction: column;
+  }
 }
 
 .heading2Xl {
