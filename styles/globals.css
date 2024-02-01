@@ -27,6 +27,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 img {
@@ -35,7 +36,7 @@ img {
 }
 
 .lightText {
-    color: #888;
+    color: #777;
 }
 
 .lightText span {
@@ -44,14 +45,21 @@ img {
 }
 
 .lightLink {
-    color: #888;
+    color: #777;
     /*margin-right: 1rem;*/
     margin: 0 0.35rem;
 }
 
 .redLink {
-    color: #bb5353;
+    text-underline-offset: 3px;
+    text-decoration: underline;
+    text-decoration-color: #bbb;
+    color: #777;
     margin: 0 0.35rem;
+}
+.redLink:hover {
+  color: #666;
+  text-decoration-color: #777;
 }
 
 /* Markdown post extras, can't be in a css module */
