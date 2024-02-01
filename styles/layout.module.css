@@ -172,6 +172,10 @@
     line-height: 1.2;
   }
 
+  .articleTitle {
+    font-weight: bold;
+  }
+
 .photoContainer {
     width: 20%;
 }

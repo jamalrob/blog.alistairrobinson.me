@@ -6,7 +6,7 @@ import React from 'react';
 export default function ArticleListItem({ post, showTags=true }) {
     return (
         <li className={styles.listItem} key={post.slug}>
-        <Link href={`/${post.slug}`}>
+        <Link className={styles.articleTitle} href={`/${post.slug}`}>
         {post.frontmatter.title}
         </Link>
         <br />
