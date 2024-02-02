@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import styles from '@/styles/layout.module.css';
 import Link from 'next/link';
-import { Roboto } from 'next/font/google'
+import { Roboto_Condensed } from 'next/font/google'
 import { settings } from '@/settings';
 import Image from 'next/image';
 
-const gfont_h = Roboto({
+const gfont_h = Roboto_Condensed({
     weight: ['400', '700'],
     style: ['normal', 'italic'],
     subsets: ['latin'],
