@@ -177,6 +177,10 @@
     font-size: 1.3rem;
   }
 
+  a.articleTitle {
+    text-decoration-thickness: 2px;
+  }
+
 .photoContainer {
     width: 20%;
 }
