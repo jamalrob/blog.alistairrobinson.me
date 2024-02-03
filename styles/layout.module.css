@@ -53,6 +53,12 @@
     font-size: 0.78rem;
 }
 
+@media (min-width: 800px) {
+  .header {
+    font-size: 0.83rem;
+  }
+}
+
 .namelink {
     position: absolute;
     left: 20px;
@@ -64,6 +70,12 @@
 
 .homeDate {
     font-size: 0.82rem;
+}
+
+@media (min-width: 800px) {
+  .homeDate {
+    font-size: 1rem;
+  }
 }
 
 /*
@@ -174,7 +186,12 @@
 
   .articleTitle {
     font-weight: bold;
-    font-size: 1.3rem;
+  }
+  @media (min-width: 800px) {
+    .articleTitle {
+      font-weight: bold;
+      font-size: 1.6rem;
+    }  
   }
 
   a.articleTitle {

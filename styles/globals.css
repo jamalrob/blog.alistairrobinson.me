@@ -41,7 +41,14 @@ img {
 
 .lightText span {
     margin-left: 0.76rem;
-    font-size: 15px;
+    font-size: 0.7rem;
+}
+
+@media (min-width: 800px) {
+  .lightText span {
+    margin-left: 0.76rem;
+    font-size: 0.8rem;
+  }
 }
 
 .lightLink {
