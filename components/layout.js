@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const gfont_h = Roboto_Condensed({
     weight: ['400', '700'],
-    style: ['normal', 'italic'],
+    style: ['normal'],
     subsets: ['latin'],
     display: 'swap'
 })

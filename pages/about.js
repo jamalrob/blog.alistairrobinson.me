@@ -6,7 +6,7 @@ import { settings } from '@/settings';
 import { Source_Serif_4 } from 'next/font/google'
 
 const gfont = Source_Serif_4({
-    weight: ['400', '700'],
+    weight: ['400', '600'],
     style: ['normal', 'italic'],
     subsets: ['latin'],
     display: 'swap'
