@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import styles from '@/styles/layout.module.css';
 import Link from 'next/link';
-import { Roboto_Condensed } from 'next/font/google'
+import { Barlow_Semi_Condensed as myfont } from 'next/font/google'
 import { settings } from '@/settings';
 import Image from 'next/image';
 
-const gfont_h = Roboto_Condensed({
-    weight: ['400', '700'],
+const gfont_h = myfont({
+    weight: ['400', '600'],
     style: ['normal'],
     subsets: ['latin'],
     display: 'swap'
