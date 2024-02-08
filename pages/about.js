@@ -43,7 +43,7 @@ export default function About() {
                     alt="Me in Kazakhstan"
                     style={imageStyle}
                 />
-                <em>Me in the Tian Shan mountains of Kazakhstan</em>
+                <em>Me in the Tian Shan mountains of Kazakhstan in 2023</em>
             </p>
             </div>
         </article>
