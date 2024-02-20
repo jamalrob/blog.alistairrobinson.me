@@ -23,7 +23,7 @@ export default function Blog({ posts }) {
             </Head>
             <div className={gfont.className} style={{marginBottom: 65}}>  
               <p style={{width: '80%'}}>
-                A selection of blog posts and notes from the early to mid 2010s, when I was teaching myself philosophy. My notes on Kant's <em>Critique of Pure Reason</em> are archived separately: <Link href="/notes-on-kant">Notes on Kant</Link>
+                A selection of blog posts and notes from the early to mid 2010s, when I was teaching myself philosophy. My notes on Kant&#39;s <em>Critique of Pure Reason</em> are archived separately: <Link href="/notes-on-kant">Notes on Kant</Link>
               </p>
             </div>
             <section className={styles.articleList}>
