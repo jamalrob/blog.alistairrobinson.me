@@ -1,0 +1,139 @@
+=hr
+  border-bottom: solid 1px $dark + #888
+
+=grid()
+  width: 95%
+  max-width: 1080px
+  margin: 0 auto
+  +clearfix
+
+=half()
+  position: relative
+  width: 50%
+  float: left
+  +clearfix
+
+=third()
+  position: relative
+  width: 33.33%
+  float: left
+  +clearfix
+
+=two-thirds()
+  position: relative
+  width: 66.66%
+  float: left
+  +clearfix
+
+=quarter()
+  position: relative
+  width: 25%
+  float: left
+  +clearfix
+
+=three-quarters()
+  position: relative
+  width: 75%
+  float: left
+  +clearfix
+
+=fifth()
+  position: relative
+  width: 20%
+  float: left
+  +clearfix
+
+=four-fifths()
+  position: relative
+  width: 80%
+  float: left
+  +clearfix
+
+
+=grid-golden-a()
+  width: 62%
+  float: left
+  min-width: 320px
+  +clearfix
+
+=grid-golden-b()
+  width: 35%
+  float: right
+  +clearfix
+
+=my-link($clr: $link_color)
+  text-decoration: none
+  color: $clr
+  &:hover
+    text-decoration: underline
+  &:focus
+    outline: solid 1px red
+
+=my-nav-link()
+  text-decoration: none
+  font-weight: bold
+  border-bottom: none
+  &:hover, &:focus
+    text-decoration: none
+    border-bottom-style: solid
+    border-bottom-width: 1px
+
+=my-link-button($bgclr: $light, $txtclr: $dark)
+  border: none
+  padding: 5px 10px
+  background-color: $bgclr
+  font-style: italic
+  font-weight: normal
+  +border-radius(1px)
+  color: $txtclr
+  &:hover
+    background-color: $bgclr + #111
+
+=focus_style()
+  border-bottom: dotted 1px $red
+
+=green-shadow-box()
+  padding: 5px 10px
+  background: $green
+  border: solid 1px white
+  +box-shadow(0px 0px 5px $main_bgcolor - #1b1b1b)
+
+=box-edge()
+  border: solid 1px white
+  +box-shadow(0px 0px 5px $main_bgcolor - #1b1b1b)
+
+=plain-inset-box()
+  background: $main_bgcolor + #080808
+  padding: 5px 10px
+  border: solid 1px $main_bgcolor - #222
+  +box-shadow(1px 1px 0px $main_bgcolor + #222)
+
+=my-button
+  -moz-box-shadow: inset 0px 1px 0px 0px #a4e271
+  -webkit-box-shadow: inset 0px 1px 0px 0px #a4e271
+  box-shadow: inset 0px 1px 0px 0px #a4e271
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809) )
+  background: -moz-linear-gradient( center top, #89c403 5%, #77a809 100% )
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809')
+  background-color: #89c403
+  -moz-border-radius: 3px
+  -webkit-border-radius: 3px
+  border-radius: 3px
+  border: 1px solid #74b807
+  display: inline-block
+  color: #ffffff
+  font-family: $body_font
+  font-size: 15px
+  font-weight: bold
+  padding: 4px 20px
+  text-decoration: none
+  text-shadow: 1px 1px 0px #528009
+
+  &:hover
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403) )
+    background: -moz-linear-gradient( center top, #77a809 5%, #89c403 100% )
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403')
+    background-color: #77a809
+  &:active
+    position: relative
+    top: 1px

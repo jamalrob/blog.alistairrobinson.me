@@ -2,6 +2,7 @@ import path from 'path';
 
 export const settings = {
     contentDirectory: path.join(process.cwd(), 'content'),
+    contentDirectoryPhilArchive: path.join(process.cwd(), 'content-philosophy-archive'),
     imageLocation: "https://ik.imagekit.io/alistairrobinson/blog",
     bodyImage: {
         width: 800,

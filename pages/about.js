@@ -40,7 +40,7 @@ export default function About() {
             <p>
                 <img
                     src={`${settings.imageLocation}/tr:w-800,q-84/me-in-kazakhstan.jpg`}
-                    alt="Me in Kazakhstan"
+                    alt="Alistair Robinson in Kazakhstan"
                     style={imageStyle}
                 />
                 <em>Me in the Tian Shan mountains of Kazakhstan in 2023</em>

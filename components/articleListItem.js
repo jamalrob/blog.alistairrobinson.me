@@ -3,10 +3,14 @@ import Link from 'next/link';
 import Date from '@/components/date';
 import React from 'react';
 
-export default function ArticleListItem({ post, showTags=true }) {
+export default function ArticleListItem({ post, philarchive=false, showTags=true }) {
+
+    let subdir = '';
+    if (philarchive) subdir = 'philosophy-archive/';
+
     return (
         <li className={styles.listItem} key={post.slug}>
-        <Link className={styles.articleTitle} href={`/${post.slug}`}>
+        <Link className={styles.articleTitle} href={`/${subdir}${post.slug}`}>
         {post.frontmatter.title}
         </Link>
         <br />

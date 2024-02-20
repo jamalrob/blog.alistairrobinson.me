@@ -14,6 +14,14 @@ const nextConfig = {
         hostname: "ik.imagekit.io",
       },
     ],
+  },
+  rewrites: async () => {
+    return [
+      {
+        source: '/notes-on-kant/:path*',
+        destination: '/notes-on-kant/:path*/index.html',
+      },
+    ]
   },  
 }
  

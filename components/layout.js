@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
         <Link href="/" className={styles.namelink}>
           Home
         </Link>
-        <Link href="/">Home</Link>
+        <Link href="/philosophy-archive">Philosophy archive</Link>
         <Link href="/about" title="About">About</Link>
         <Link href="/tags" title="About">Tags</Link>
       </header>
