@@ -62,7 +62,6 @@ img {
     text-decoration: underline;
     text-decoration-color: #bbb;
     color: #777;
-    margin: 0 0.35rem;
 }
 .redLink:hover {
   color: #666;

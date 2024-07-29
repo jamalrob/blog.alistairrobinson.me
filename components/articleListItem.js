@@ -21,7 +21,7 @@ export default function ArticleListItem({ post, philarchive=false, showTags=true
                     showTags &&
                         post.frontmatter.tags.map((tag, i) => (
                             <React.Fragment key={i}>
-                                <Link className="redLink" key={tag} href={'/tags/' + tag}>{tag}</Link>
+                                &nbsp;<Link className="redLink" key={tag} href={'/tags/' + tag}>{tag}</Link>&nbsp;
                                 {(post.frontmatter.tags[i + 1] && "/")}
                             </React.Fragment>
                         ))
