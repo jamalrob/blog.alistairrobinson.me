@@ -29,7 +29,7 @@ export default function About() {
           <h1 className={styles.heading2Xl}>About</h1>
             <div className={gfont.className}>
             <p>
-                This site is for me to write about things, particularly books. I&#8217;m into science fiction, speculative fiction in general, literary fiction, and philosophy.
+                Here I write about things, particularly books. I&#8217;m into science fiction, speculative fiction in general, literary fiction, and philosophy.
             </p>
             <p>
                 Otherwise, I manage one of the biggest and best philosophy discussion forums on the internet at <a href="https://thephilosophyforum.com" target="_blank">thephilosophyforum.com</a>; I&#8217;m a well-seasoned software developer; I’ve had moments of brilliance on saxophone; I’m a lazy photographer with a decent eye for composition; and—last and probably least—I’m more fond of em dashes than is normal.
