@@ -29,10 +29,10 @@ export default function About() {
           <h1 className={styles.heading2Xl}>About</h1>
             <div className={gfont.className}>
             <p>
-                Here I write about things, particularly books. I&#8217;m into science fiction, speculative fiction in general, literary fiction, and philosophy.
+                On this website I write about things, particularly books. I&#8217;m into science fiction, speculative fiction in general, literary fiction, and philosophy.
             </p>
             <p>
-                Otherwise, I manage one of the biggest and best philosophy discussion forums on the internet at <a href="https://thephilosophyforum.com" target="_blank">thephilosophyforum.com</a>, I&#8217;ve been a software developer, and I dabble with saxophone and camera.
+                Otherwise, I manage one of the biggest and best philosophy discussion forums on the internet at <a href="https://thephilosophyforum.com" target="_blank">thephilosophyforum.com</a>, I&#8217;m sometimes a software developer, and I&#8217;ve been known to dabble with saxophone and camera.
             </p>
             <p>
                 Feel free to contact me at <b>alistair.robinson@gmail.com</b>.
