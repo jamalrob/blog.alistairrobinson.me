@@ -34,7 +34,7 @@ export default function BlogPost({ post }) {
             />
             <meta
               property="og:url"
-              content={`https://blog.alistairrobinson.me/${post.nextPost.slug}`}
+              content={`https://blog.alistairrobinson.me/${post.slug}`}
             />
             <meta
               property="og:type"
