@@ -29,7 +29,7 @@ export default function BlogPost({ post }) {
               content={`${post.frontmatter.description} :: Book reviews, science fiction, literary fiction, and philosophy`}
             />
             <meta
-              name="og:title"
+              property="og:title"
               content={post.frontmatter.title}
             />            
             <meta
