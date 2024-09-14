@@ -29,6 +29,10 @@ export default function BlogPost({ post }) {
               content={`${post.frontmatter.description} :: Book reviews, science fiction, literary fiction, and philosophy`}
             />
             <meta
+              name="og:title"
+              content={post.frontmatter.title}
+            />            
+            <meta
               property="og:image"
               content={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg`}
             />
