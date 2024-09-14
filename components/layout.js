@@ -21,10 +21,6 @@ export default function Layout({ children, home }) {
           name="description"
           content="Articles about literature, science fiction, and philosophy"
         />
-        <meta
-          property="og:image"
-          content="https://blog.alistairrobinson.me/images/profile.jpg"
-        />
         <meta name="og:title" content={settings.siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
