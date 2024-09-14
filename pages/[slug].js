@@ -32,6 +32,18 @@ export default function BlogPost({ post }) {
               property="og:image"
               content={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg`}
             />
+            <meta
+              property="og:url"
+              content={`https://blog.alistairrobinson.me/${post.nextPost.slug}`}
+            />
+            <meta
+              property="og:type"
+              content="article"
+            />
+            <meta
+              property="og:description"
+              content={post.frontmatter.title}
+            />
             </Head>
             <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
