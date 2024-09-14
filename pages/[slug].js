@@ -26,7 +26,7 @@ export default function BlogPost({ post }) {
             <title>{post.frontmatter.title}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.title} :: Book reviews, science fiction, literary fiction, and philosophy`}
+              content={`${post.frontmatter.description} :: Book reviews, science fiction, literary fiction, and philosophy`}
             />
             <meta
               property="og:image"
@@ -42,7 +42,7 @@ export default function BlogPost({ post }) {
             />
             <meta
               property="og:description"
-              content={post.frontmatter.title}
+              content={post.frontmatter.description}
             />
             </Head>
             <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
