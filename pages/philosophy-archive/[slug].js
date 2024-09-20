@@ -45,7 +45,7 @@ export default function BlogPost({ post }) {
                                 post.frontmatter.tags ? post.frontmatter.tags.map(tag => {
                                     return (
                                         <React.Fragment key={tag}>
-                                            <Link style={{ marginRight: '1.4rem' }} className="redLink" key={tag} href={`/tags/${tag}`}>{tag}</Link>
+                                            <Link style={{ marginRight: '1.2rem' }} className="redLink" key={tag} href={`/tags/${tag}`}>{tag}</Link>
                                         </React.Fragment>
                                     )
                                 }) : ""

@@ -136,6 +136,7 @@
 
 .contentColumn {
     width: 75%;
+    overflow-wrap: anywhere;
 }
 
 .footerExcerpt {
