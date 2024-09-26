@@ -149,3 +149,17 @@
     margin: 0.3rem 0.8rem 0 0 !important;
     float: left;
 }
+
+.postArticle table {
+  width: 96%;
+  padding: 5%;
+}
+
+.postArticle table thead {
+  text-align: left;
+}
+
+.postArticle table td {
+  width: 50%;
+  vertical-align: top;
+}
