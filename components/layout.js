@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
         </Link>
         <Link href="/philosophy-archive">Philosophy archive</Link>
         <Link href="/about" title="About">About</Link>
-        <Link href="/tags" title="About">Tags</Link>
+        <Link href="/tags" title="Tags">Tags</Link>
       </header>
       <main className={styles.main}>{children}</main>
     {/* <footer className={styles.footer}>

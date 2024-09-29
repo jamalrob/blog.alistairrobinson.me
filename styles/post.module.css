@@ -153,13 +153,33 @@
 .postArticle table {
   width: 96%;
   padding: 5%;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #999;
 }
 
 .postArticle table thead {
   text-align: left;
+  border:1px dotted #999;
+  padding: 10px;
+}
+
+.postArticle table thead th {
+  border: 1px solid #999;
+  padding: 5px 10px;
+}
+
+.postArticle table td:first-child{
+  border-left:0px solid #999;
+}
+
+.postArticle table th:first-child{
+  border-right: 1px solid #999;
 }
 
 .postArticle table td {
   width: 50%;
   vertical-align: top;
+  border: 1px solid #999;
+  padding: 5px 10px;
 }
