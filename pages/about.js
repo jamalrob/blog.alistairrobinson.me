@@ -32,7 +32,7 @@ export default function About() {
                 On this website I write about things, particularly books. I&#8217;m into science fiction, speculative fiction in general, literary fiction, and philosophy. Sometimes I put my own short fiction here too.
             </p>
             <p>
-                Otherwise, I manage one of the biggest and best philosophy discussion forums on the internet at <a href="https://thephilosophyforum.com" target="_blank">thephilosophyforum.com</a>, I&#8217;m sometimes a software developer, and I&#8217;ve been known to dabble with saxophone and camera.
+                Otherwise, I manage one of the biggest and best dedicated philosophy discussion forums on the internet at <a href="https://thephilosophyforum.com" target="_blank">The Philosophy Forum</a>, I&#8217;m sometimes a software developer, and I&#8217;ve been known to dabble with saxophone and camera.
             </p>
             <p>
                 Feel free to contact me at <b>alistair.robinson@gmail.com</b>.
