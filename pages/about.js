@@ -35,15 +35,14 @@ export default function About() {
                 Otherwise, I manage one of the biggest and best dedicated philosophy discussion forums on the internet at <a href="https://thephilosophyforum.com" target="_blank">The Philosophy Forum</a>, I&#8217;m sometimes a software developer, and I&#8217;ve been known to play saxophone and take photographs.
             </p>
             <p>
-                Feel free to contact me at <b>alistair.robinson@gmail.com</b>.
+                Contact me at <b>alistair.robinson@gmail.com</b>.
             </p>
             <p>
                 <img
-                    src={`${settings.imageLocation}/tr:w-800,q-84/me-in-kazakhstan.jpg`}
+                    src={`${settings.imageLocation}/tr:w-800,q-84/IMG-20240623-WA0000~2.jpg`}
                     alt="Alistair Robinson in Kazakhstan"
                     style={imageStyle}
                 />
-                <em>Me in the Tian Shan mountains of Kazakhstan in 2023</em>
             </p>
             </div>
         </article>
