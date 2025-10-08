@@ -72,3 +72,7 @@ img {
 img[title="imgSmall"] {
     max-width: 80%;
 }
+
+sup {
+    font-size: small;
+}

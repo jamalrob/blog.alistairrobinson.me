@@ -1,11 +1,17 @@
-const withMDX = require('@next/mdx')()
- 
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: [
+      // Use it as an array with the plugin function
+      [require('rehype-raw'), { passThrough: ['element'] }]
+    ],
+  },
+})
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  
-  // Configure `pageExtensions`` to include MDX files
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-  // Optionally, add any other Next.js config below
   reactStrictMode: true,
   images: {
     remotePatterns: [
@@ -24,5 +30,5 @@ const nextConfig = {
     ]
   },  
 }
- 
+
 module.exports = withMDX(nextConfig)
