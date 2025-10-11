@@ -29,7 +29,7 @@ export default function About() {
           <h1 className={styles.heading2Xl}>About</h1>
             <div className={gfont.className}>
             <p>
-                On this website I write about things, particularly books. I&#8217;m into speculative fiction, literary fiction, and philosophy. Sometimes I put my own short stories here too.
+                On this website I write about books and ideas. I&#8217;m into speculative fiction, literary fiction, and philosophy. Sometimes I put my own short stories here too.
             </p>
             <p>
                 Otherwise, I manage one of the biggest and best dedicated philosophy discussion forums on the internet at <a href="https://thephilosophyforum.com" target="_blank">The Philosophy Forum</a>, I&#8217;m sometimes a software developer, and I&#8217;ve been known to play saxophone and take photographs.
@@ -40,7 +40,7 @@ export default function About() {
             <p>
                 <img
                     src={`${settings.imageLocation}/tr:w-800,q-84/IMG-20240623-WA0000~2.jpg`}
-                    alt="Alistair Robinson in Kazakhstan"
+                    alt="Alistair Robinson wearing a green cap"
                     style={imageStyle}
                 />
             </p>
