@@ -1,18 +1,53 @@
 # Personal Blog (Next.js / Vercel)
 
-This repository contains the code for my personal blog, built with Next.js and deployed automatically via Vercel. The site hosts my long-form analyses of philosophical texts and literary reviews.
+This repository contains the source code for my personal blog, built with **Next.js** and deployed via **Vercel**. The site hosts long-form philosophical writing, literary reviews, and other analytical essays.
 
-[blog.alistairrobinson.me](https://blog.alistairrobinson.me)
+Although based on a simple file-system structure, the codebase includes several custom components and content features to support extended essays, archival material, and topic-based navigation.
 
-## Tech Stack
-- Next.js (React-based static site generation)
-- MDX for long-form content
-- Custom components for notes, references, and multi-part series
-- Tailwind CSS
-- Vercel CI/CD for automated deployment
+---
 
-## Customizations
-- Modified layout system to support extended essay formats
-- Custom components for footnotes and block quotations
-- Metadata-driven navigation for multi-part reading series
-- Performance optimisations (image loading, static routes, etc.)
+## 🚀 Features
+
+- Static site generation using Next.js
+- Markdown/MDX-style content with frontmatter metadata
+- Automatic deployment to Vercel on each push
+- Custom layouts designed for long-form reading
+
+---
+
+## 🧩 Customisations
+
+- **Custom layout system** (`components/layout.js`) for consistent structure across articles  
+- **Custom article list component** (`components/articleListItem.js`)  
+- **Custom date utilities** (`components/date.js`)  
+- **Dynamic routing** for posts via `pages/[slug].js`  
+- **Tag-based navigation** (`pages/tags/`)  
+- **Dedicated philosophy archive** (`pages/philosophy-archive/`)  
+- **Custom 404 page** (`pages/404.js`)  
+- **Metadata and post-loading logic** (`lib/posts.js`)  
+- **Non-default Next.js configuration** (`next.config.js`)
+
+These elements provide a flexible foundation for long-form and structured content.
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js** (React-based SSG)
+- **JavaScript / JSX**
+- **Vercel** (CI/CD and hosting)
+
+---
+
+## 📦 Deployment
+
+Pushing to the `main` branch triggers an automatic production deployment via Vercel.
+
+---
+
+## 📚 Content Focus
+
+The blog features long-form analyses, reading-group materials, and commentary on philosophical works. It is designed to support deeper reading, cross-linked content, and structured navigation.
+
+---
+
