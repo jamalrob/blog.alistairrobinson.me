@@ -16,6 +16,3 @@ This repository contains the code for my personal blog, built with Next.js and d
 - Custom components for footnotes and block quotations
 - Metadata-driven navigation for multi-part reading series
 - Performance optimisations (image loading, static routes, etc.)
-
-## Deployment
-Pushes to `main` automatically deploy to production via Vercel.
