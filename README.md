@@ -1,6 +1,6 @@
 # Personal Blog (Next.js / Vercel)
 
-This repository contains the source code for my personal blog, built with **Next.js** and deployed via **Vercel**. The site hosts long-form philosophical writing, literary reviews, and other analytical essays.
+This repository contains the source code for [my personal blog](https://blog.alistairrobinson.me), built with **Next.js** and deployed via **Vercel**. The site hosts long-form philosophical writing, literary reviews, and other analytical essays.
 
 Although based on a simple file-system structure, the codebase includes several custom components and content features to support extended essays, archival material, and topic-based navigation.
 
