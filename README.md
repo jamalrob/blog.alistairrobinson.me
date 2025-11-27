@@ -15,7 +15,7 @@ Although based on a simple file-system structure, the codebase includes several 
 
 ---
 
-## 🧩 Customisations
+## 🧩 Customizations
 
 - **Custom layout system** (`components/layout.js`) for consistent structure across articles  
 - **Custom article list component** (`components/articleListItem.js`)  
