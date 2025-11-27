@@ -43,11 +43,3 @@ These elements provide a flexible foundation for long-form and structured conten
 
 Pushing to the `main` branch triggers an automatic production deployment via Vercel.
 
----
-
-## 📚 Content Focus
-
-The blog features long-form analyses, reading-group materials, and commentary on philosophical works. It is designed to support deeper reading, cross-linked content, and structured navigation.
-
----
-
