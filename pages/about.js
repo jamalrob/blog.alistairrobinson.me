@@ -28,15 +28,13 @@ export default function About() {
         <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
           <h1 className={styles.heading2Xl}>About</h1>
             <div className={gfont.className}>
-            <p>
-                On this website I write about books and ideas. I&#8217;m into speculative fiction, literary fiction, and philosophy. Sometimes I put my own short stories here too.
-            </p>
-            <p>
-                Otherwise, I manage one of the biggest and best dedicated philosophy discussion forums on the internet at <a href="https://thephilosophyforum.com" target="_blank">The Philosophy Forum</a>, I&#8217;m sometimes a software developer, and I&#8217;ve been known to play saxophone and take photographs.
-            </p>
-            <p>
-                Contact me at <b>alistair.robinson@gmail.com</b>.
-            </p>
+              <p>On this website I publish articles about books and ideas, usually involving philosophy, speculative fiction, or literary fiction.</p>
+
+              <p>When I’m not doing that I run <a href="https://thephilosophyforum.com" target="_blank">The Philosophy Forum</a>, a thriving online community, which I started in 2015. Since then it has grown into one of the biggest websites for long-form philosophical discussion on the web, with more than 15,000 members. My tasks there are editorial: moderating discussions, organizing reading groups, and keeping things running behind the scenes. </p>
+
+              <p>Before that, I spent many years working in software, building web applications, then co-founding and building <a href="https://www.commissioncrowd.com/" target="_blank">CommissionCrowd</a>.</p>
+
+              <p>You can reach me at <b>alistair.robinson@gmail.com</b>. </p>
             <p>
                 <img
                     src={`${settings.imageLocation}/tr:w-800,q-84/IMG-20240623-WA0000~2.jpg`}

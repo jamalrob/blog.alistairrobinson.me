@@ -29,7 +29,7 @@ export default function BlogPost({ post }) {
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
                 {post.frontmatter.image &&
                     <img
-                        src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg`}
+                        src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg?v=${post.frontmatter.imageVersion || 1}`}
                         className={postStyles[post.frontmatter.imageClass] || postStyles.mainImageSmaller}
                     />
                 }
