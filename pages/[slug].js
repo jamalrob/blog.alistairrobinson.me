@@ -35,7 +35,7 @@ export default function BlogPost({ post }) {
             />            
             <meta
               property="og:image"
-              content={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg`}
+              content={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}`}
             />
             <meta
               property="og:url"
@@ -54,7 +54,7 @@ export default function BlogPost({ post }) {
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
                 {post.frontmatter.image &&
                     <img
-                        src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg`}
+                        src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg?v=${process.env.NEXT_PUBLIC_BUILD_TS}`}
                         className={postStyles[post.frontmatter.imageClass] || postStyles.mainImageSmaller}
                     />
                 }

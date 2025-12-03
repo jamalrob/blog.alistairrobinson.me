@@ -28,6 +28,9 @@ const nextConfig = {
         destination: '/notes-on-kant/:path*/index.html',
       },
     ]
+  },
+  env: {
+    NEXT_PUBLIC_BUILD_TS: Date.now().toString(),
   },  
 }
 
