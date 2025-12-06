@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { Barlow_Semi_Condensed as myfont } from 'next/font/google'
 import { settings } from '@/settings';
 import Image from 'next/image';
+import ThemeToggle from "./themeToggle";   // adjust path if needed
+
 
 const gfont_h = myfont({
     weight: ['400', '600'],
@@ -25,6 +27,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
+        <ThemeToggle />
         <Link href="/" className={styles.namelink}>
           Home
         </Link>

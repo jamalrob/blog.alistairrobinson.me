@@ -58,8 +58,8 @@
 }
 
 .postArticle blockquote {
-    color: #333;
-    background: #e6e6e6;
+    color: var(--blockquote-fg);
+    background: var(--blockquote-bg);
     margin: 0 2rem 1rem 0;
     padding: 0.3rem 2.5rem 0.3rem 3.2rem;
     border-left: solid 6px #c6c6c6;

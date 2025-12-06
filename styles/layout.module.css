@@ -38,7 +38,7 @@
 }*/
 
 .header {
-    background: #efefef;
+    background: var(--bg);
     display: flex;
     text-align: left;
     margin-top: 0;

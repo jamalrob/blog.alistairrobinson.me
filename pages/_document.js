@@ -7,6 +7,16 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            (function() {
+              const saved = localStorage.getItem('theme');
+              if (saved) {
+                document.documentElement.setAttribute('data-theme', saved);
+              }
+            })();
+          `
+        }} />
       </body>
     </Html>
   )

@@ -1,7 +1,25 @@
+:root {
+  --bg: #efefef;
+  --fg: #222222;
+  --blockquote-bg: #e6e6e6;  
+  --blockquote-fg: #222222;
+  --link-color: #0070f3;
+  --fg-toggle: #444444;
+}
+
+[data-theme="dark"] {
+  --bg: #222222;
+  --fg: #efefef;
+  --fg-toggle: #cccccc;
+  --blockquote-bg: #333333;  
+  --blockquote-fg: #efefef;
+  --link-color: #d1d8e1ff;
+}
+
 html,
 body {
-    background: #efefef;
-    color: #222;
+  background-color: var(--bg);
+  color: var(--fg);
   padding: 0;
   margin: 0;
   /*font-family: 'Times New Roman', Times, serif, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
@@ -25,7 +43,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: var(--link-color);
   text-decoration: none;
 }
 
