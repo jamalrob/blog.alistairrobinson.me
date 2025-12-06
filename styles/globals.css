@@ -9,6 +9,10 @@ body {
   /*font-family: -apple-system,BlinkMacSystemFont,'avenir next',avenir,'helvetica neue',helvetica,ubuntu,roboto,noto,'segoe ui',arial,sans-serif;*/
   line-height: 1.62;
   font-size: 21px;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
 }
 @media (max-width: 600px) {
     body {

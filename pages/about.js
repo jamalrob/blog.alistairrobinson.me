@@ -3,9 +3,9 @@ import postStyles from '@/styles/post.module.css';
 import Layout from '@/components/layout';
 import Head from 'next/head';
 import { settings } from '@/settings';
-import { Source_Serif_4 } from 'next/font/google'
+import { Literata } from 'next/font/google'
 
-const gfont = Source_Serif_4({
+const gfont = Literata({
     weight: ['400', '600'],
     style: ['normal', 'italic'],
     subsets: ['latin'],

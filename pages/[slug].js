@@ -9,10 +9,10 @@ import Date from '@/components/date';
 import { getPost, getAdjacentPost } from '@/lib/posts';
 import React from 'react';
 import { settings } from '@/settings';
-import { Source_Serif_4 } from 'next/font/google';
+import { Literata } from 'next/font/google';
 
 
-const gfont = Source_Serif_4({
+const gfont = Literata({
     weight: ['400', '600'],
     style: ['normal', 'italic'],
     subsets: ['latin'],

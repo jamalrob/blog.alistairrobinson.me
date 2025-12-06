@@ -67,13 +67,13 @@
 }
 
 .postArticle blockquote::before{
-    font-family: "Source_Serif_4";
+    font-family: "Literata";
     content: "\201C";
     color: #bbb;
     font-size: 4em;
     position: absolute;
-    left: 14px;
-    top:-10px;
+    left: 10px;
+    top: 0px;
   }
 
   @media (max-width: 600px) {
