@@ -10,6 +10,7 @@ import { getPost, getAdjacentPost } from '@/lib/posts';
 import React from 'react';
 import { settings } from '@/settings';
 import { Literata } from 'next/font/google';
+import { Barlow_Semi_Condensed } from 'next/font/google'
 
 
 const gfont = Literata({
@@ -18,6 +19,14 @@ const gfont = Literata({
     subsets: ['latin'],
     display: 'swap'
 })
+
+const barlow = Barlow_Semi_Condensed({
+  weight: ['400', '600'],
+  subsets: ['latin'],
+  variable: '--font-barlow',
+});
+
+
 
 export default function BlogPost({ post }) {
 
@@ -50,7 +59,7 @@ export default function BlogPost({ post }) {
               content={post.frontmatter.description}
             />
             </Head>
-            <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
+            <article className={`${postStyles.postArticle} ${styles.innerContainer} ${barlow.variable}`}>
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
                 {post.frontmatter.image &&
                     <img
@@ -98,7 +107,7 @@ export default function BlogPost({ post }) {
                         <div className={postStyles.contentColumn}>
                             <Link href={`/${post.nextPost.slug}`}>{post.nextPost.title}</Link>
                             <div className={postStyles.footerExcerpt} dangerouslySetInnerHTML={{ __html: post.nextPost.excerpt }} />
-                            <small><Link href={`/${post.nextPost.slug}`}>more &rarr;</Link></small>
+                            <span className={postStyles.moreLink}><Link href={`/${post.nextPost.slug}`}>more &rarr;</Link></span>
                         </div>
                     </div>
                     <hr />
@@ -113,7 +122,7 @@ export default function BlogPost({ post }) {
                         <div className={postStyles.contentColumn}>
                             <Link href={`/${post.previousPost.slug}`}>{post.previousPost.title}</Link>
                             <div className={postStyles.footerExcerpt} dangerouslySetInnerHTML={{ __html: post.previousPost.excerpt }} />
-                            <small><Link href={`/${post.previousPost.slug}`}>more &rarr;</Link></small>
+                            <span className="more-link"><Link href={`/${post.previousPost.slug}`}>more &rarr;</Link></span>
                         </div>
                     </div>
                     <hr />

@@ -10,6 +10,7 @@ import { getPhilArchivePost, getAdjacentPost } from '@/lib/posts';
 import React from 'react';
 import { settings } from '@/settings';
 import { Literata } from 'next/font/google';
+import { Barlow_Semi_Condensed } from 'next/font/google'
 
 const gfont = Literata({
     weight: ['400', '600'],
@@ -18,6 +19,12 @@ const gfont = Literata({
     display: 'swap'
 })
 
+const barlow = Barlow_Semi_Condensed({
+  weight: ['400', '600'],
+  subsets: ['latin'],
+  variable: '--font-barlow',
+});
+
 export default function BlogPost({ post }) {
 
     return (
@@ -25,7 +32,7 @@ export default function BlogPost({ post }) {
             <Head>
             <title>{post.frontmatter.title}</title>
             </Head>
-            <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
+            <article className={`${postStyles.postArticle} ${styles.innerContainer} ${barlow.variable}`}>
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
                 {post.frontmatter.image &&
                     <img
@@ -64,36 +71,6 @@ export default function BlogPost({ post }) {
                         </div>
                     </div>
                     <hr />
-                    {post.nextPost && (
-                    <>
-                    <div className={postStyles.footSection}>
-                        <div className={postStyles.labelColumn}>
-                            Next
-                        </div>
-                        <div className={postStyles.contentColumn}>
-                            <Link href={`/${post.nextPost.slug}`}>{post.nextPost.title}</Link>
-                            <div className={postStyles.footerExcerpt} dangerouslySetInnerHTML={{ __html: post.nextPost.excerpt }} />
-                            <small><Link href={`/${post.nextPost.slug}`}>more &rarr;</Link></small>
-                        </div>
-                    </div>
-                    <hr />
-                    </>
-                    )}
-                    {post.previousPost && (
-                    <>
-                    <div className={postStyles.footSection}>
-                        <div className={postStyles.labelColumn}>
-                            Previous
-                        </div>
-                        <div className={postStyles.contentColumn}>
-                            <Link href={`/${post.previousPost.slug}`}>{post.previousPost.title}</Link>
-                            <div className={postStyles.footerExcerpt} dangerouslySetInnerHTML={{ __html: post.previousPost.excerpt }} />
-                            <small><Link href={`/${post.previousPost.slug}`}>more &rarr;</Link></small>
-                        </div>
-                    </div>
-                    <hr />
-                    </>
-                    )}
                 </div>
             </article>
         </Layout>

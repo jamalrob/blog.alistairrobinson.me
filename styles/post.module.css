@@ -11,19 +11,19 @@
 }
 
 
+.postArticle h2,
+.postArticle h3 {
+  font-family: var(--font-barlow);
+  margin-block-start: 1.7em;
+}
+
 .postArticle h2 {
     margin-block-start: 1.7em;
-    /*font-family: '__Roboto_ba9cb9', '__Roboto_Fallback_ba9cb9';*/
-    /*font-family: '__Barlow_Semi_Condensed_3db6f7', '__Barlow_Semi_Condensed_Fallback_3db6f7';*/
-    font-family: '__Barlow_Semi_Condensed_0ad06a', '__Barlow_Semi_Condensed_Fallback_0ad06a';
     font-size: 1.7rem;
     line-height: 1.92rem;    
 }
 
 .postArticle h3 {
-    /* font-family: '__Roboto_ba9cb9', '__Roboto_Fallback_ba9cb9'; */
-    /*font-family: '__Roboto_Condensed_449a7d', '__Roboto_Condensed_Fallback_449a7d';*/
-    font-family: '__Barlow_Semi_Condensed_0ad06a', '__Barlow_Semi_Condensed_Fallback_0ad06a';
     font-size: 1.5rem;
     line-height: 1.7rem;    
     margin-block-start: 1.7em;
@@ -150,6 +150,10 @@
     padding-bottom: 0.4rem !important;
     margin: 0.3rem 0.8rem 0 0 !important;
     float: left;
+}
+
+.footSection .moreLink {
+    font-size: 0.8rem;
 }
 
 .postArticle table {

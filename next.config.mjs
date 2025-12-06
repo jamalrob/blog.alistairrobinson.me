@@ -1,12 +1,12 @@
-const withMDX = require('@next/mdx')({
-  extension: /\.mdx?$/,
+import createMDX from '@next/mdx'
+
+const withMDX = createMDX({
   options: {
-    remarkPlugins: [],
     rehypePlugins: [
-      // Use it as an array with the plugin function
-      [require('rehype-raw'), { passThrough: ['element'] }]
+      ['rehype-raw', { passThrough: ['element'] }]
     ],
-  },
+    remarkPlugins: []
+  }
 })
 
 /** @type {import('next').NextConfig} */
@@ -21,14 +21,14 @@ const nextConfig = {
       },
     ],
   },
-  rewrites: async () => {
+  async rewrites() {
     return [
       {
         source: '/notes-on-kant/:path*',
         destination: '/notes-on-kant/:path*/index.html',
       },
     ]
-  },  
+  }
 }
 
-module.exports = withMDX(nextConfig)
+export default withMDX(nextConfig)
