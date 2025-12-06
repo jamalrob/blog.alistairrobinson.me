@@ -122,7 +122,7 @@ export default function BlogPost({ post }) {
                         <div className={postStyles.contentColumn}>
                             <Link href={`/${post.previousPost.slug}`}>{post.previousPost.title}</Link>
                             <div className={postStyles.footerExcerpt} dangerouslySetInnerHTML={{ __html: post.previousPost.excerpt }} />
-                            <span className="more-link"><Link href={`/${post.previousPost.slug}`}>more &rarr;</Link></span>
+                            <span className={postStyles.moreLink}><Link href={`/${post.previousPost.slug}`}>more &rarr;</Link></span>
                         </div>
                     </div>
                     <hr />
