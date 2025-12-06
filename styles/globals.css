@@ -5,6 +5,8 @@
   --blockquote-fg: #222222;
   --link-color: #0070f3;
   --fg-toggle: #666666;
+  --code-bg: #dbdbdbff;
+  --code-fg: #222222;
 }
 
 [data-theme="dark"] {
@@ -14,6 +16,8 @@
   --blockquote-bg: #333333;  
   --blockquote-fg: #efefef;
   --link-color: #a3f5dcff;
+  --code-bg: #171717;
+  --code-fg: #48cb51ff;  
 }
 
 html,

@@ -6,6 +6,15 @@
     margin: 1.7rem 0;
 }
 
+.postArticle code {
+    background-color: var(--code-bg);
+    color: var(--code-fg);
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
 .postArticle img {
     margin: 1.7rem 0 0.46rem;
 }

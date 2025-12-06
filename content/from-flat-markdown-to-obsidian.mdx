@@ -1,0 +1,179 @@
+---
+title: 'From a Flat Folder of Markdown Files to a Knowledge Vault: Why I Moved to Obsidian'
+description: 'A practical and conceptual account of migrating to Obsidian and replacing a static notes archive with a dynamic knowledge architecture'
+date: '2025-12-07'
+tags: tools, knowledge-management, obsidian, vscode, markdown
+image: true
+imageClass: mainImage
+draft: true
+---
+
+For years I kept my notes in a single directory of Markdown files, edited entirely in VS Code. It was a functional system: simple, resilient, and editable in the same application I used for coding and writing. But it had one defect: it couldn’t keep pace with my thinking. My ideas evolved, branched, and recombined, while the directory itself remained static---a system with an immutable structure, despite the increasing complexity of what it was supposed to represent. Even though I made the filenames descriptive (`tpf-migration-master-note.md`, `tpf-archive-deployment-process.md`), the flat directory provided no organization. Notes related to each other only in my head, and nothing in my system supported the connective work of actual thinking: relating ideas, returning to undeveloped ones, and bringing out latent patterns.
+
+What I had was effectively a **collection**, in the systems-theory sense: a container for items that sit alongside each other without interacting. Collections aggregate, but do not organize. They gather items together, but they do not impose---and cannot evolve---any internal ordering principles, because nothing in the structure tells you how one item relates to another. So while my notes could potentially have informed one another, just like my thoughts did, the system provided no mechanism for this.
+
+I tried using tags, hoping that a layer of classification would compensate for the lack of structure. But tags only name categories, and categories are just more collections. What I needed was to express _relations_. So even with classification, what I had was still just a collection, even though it had a kind of taxonomy.
+
+I realized that I needed a *knowledge architecture*: a network in which relationships become as important as the nodes themselves.
+
+
+## 1. Limitations in my Notes Collection
+
+The old way had three advantages over things like Evernote, Google Keep, Notion, and other cloud or database-driven note apps:
+
+- **Simple:** all notes were just plain text files written in Markdown, edited in the same tool I used for writing and coding, and contained in a single directory.  
+- **Backed up:** changes were pushed to GitHub regularly.
+- **Resilient:** plain text is future-proof; it outlives editors, platforms, and storage environments.
+- **Fast:** opening or editing files was quick.
+- **Local:** all notes were on my machine, not in the cloud.
+
+However, deep limitations accumulated over time:
+
+### No Linking
+
+The lack of any determinate connection between notes meant that I had to remember the relationships myself. You might say this is good for the brain, that we shouldn't be relying on technology for everything, but this is unrealistic. Modern life demands more than a humble brain can deal with on its own. It can do its best work when complemented by external tools, and a flat directory is not much of a tool, because it encourages a linear, _archival_ mode of thinking, rather than a relational one. Or else, it's just a searchable dump. It's a truism that ideas disappear unless they're actively recalled, and in my old system---if you can call it a system---there was never an occasion for recalling an old idea, since they were all effectively abandoned orphans.
+
+### No Structure Beyond Filenames
+
+Hyphens in filenames were my substitute for architecture, a way of imposing structure on an otherwise unstructured logical space. But filenames can only encode so much. Crucially, they can't convey context. Systems theorists would say the structure was _external_ to the notes, not _emergent_ from them. 
+
+But why is an emergent structure better than an imposed one? Because it expresses the internal dynamics of the system. A useful order arises from relationships, not from enforcement, and it means the structure can adapt as the content changes, rather than freezing the system at an earlier stage of thought.
+
+### No System for Evolving Notes
+
+One note would get buried under new ones, and then entropy would set in, resulting in a growing pile of knowledge-units that were still there but were largely inaccessible, stripped of context, or no longer able to do any cognitive work. While my thinking evolved, the notes themselves, and what structure they had, were left behind to decay. There was no mechanism for self-updating, no feedback loop, and no recursivity.
+
+What I needed was a system that could _take part_ in the cognitive work.
+
+That's when I found Obsidian. Obsidian has all the advantages of my old setup---plain text, speed, resilience, local-first storage---while adding the one thing the flat model couldn't provide, namely a dynamic space in which ideas could together form patterns, clusters, and trajectories over time.
+
+
+## 2. Why Obsidian?
+
+Obsidian solves these problems while keeping notes local and format-agnostic. For someone coming from a minimal workflow, this is vital. Notes remain as plain Markdown files.
+
+Three features changed everything for me:
+
+### Bidirectional Linking
+
+Linking (`[[like this]]`) creates explicit relationships. The power of these links is the closure of the loop: backlinks mean that notes become aware of each other. A conceptual system emerges where previously there was only a list.
+
+### Relations Over Containers
+
+Obsidian allows folders, but its real structure comes from links. In systems-theory terms, folders are **containers** (static), while links create **relations** (dynamic). Because Obsidian doesn’t impose a hierarchy, structure can emerge naturally from these relations.
+
+### Emergent Structure: MOCs
+
+As links accumulate, some notes naturally grow into what Obsidian users call **MOCs**: Maps of Content. These aren’t predefined tables of contents but emergent hubs that gather related ideas as the network develops. An MOC reflects how the system currently understands a theme, not how I planned it in advance. This kind of bottom-up organisation is precisely what a flat directory cannot express: structure that arises from relations rather than from imposed hierarchy.
+
+### Templates and Reusable Structures
+
+Templates introduce a consistent rhythm to notes, which reduces cognitive load without constraining thought. They function like protocols: a shared shape that still leaves room for divergence.
+
+
+
+## 3. The Migration: From Flat Folder to Vault
+
+Moving to Obsidian didn’t require a grand refactor. The beauty of Obsidian is that it tolerates gradualism.
+
+Here’s how I approached it:
+
+### Step 1: Import the Directory as a Vault
+
+Obsidian treats any folder of Markdown files as a vault.  
+No conversions, no database, nothing proprietary.
+
+A system begins with a boundary. My flat directory became that boundary.
+
+### Step 2: Start Linking, Not Renaming
+
+This was the conceptual break. I resisted the urge to impose a top-down structure. Instead, I began by linking ideas. Structure emerged from relations rather than taxonomy.
+
+Within a week, a web of relationships appeared that my old system had kept invisible.
+
+Before the switch, I also relied on Google Keep for quick notes and fragments of thought. But this only multiplied the fragmentation: I was scattering ideas across two incompatible systems---one based on pinned cards, the other on Markdown files---neither of which spoke to the other. Obsidian allowed me to collapse these parallel tracks into a single, coherent environment. With Obsidian Sync handling multi-device reliability while keeping everything local-first, I could finally consolidate both my “quick capture” habits and my longer-form notes into one system that preserved continuity of thought rather than disrupting it.
+
+
+### Step 3: Introduce a Home Note
+
+My “Home” note functions like a **central node** rather than a hierarchy:
+
+- Projects  
+- Writing  
+- Reading  
+- Workflows  
+- Admin  
+- Archive gateways  
+
+It’s not a table of contents; it’s more like a *phase space* for ongoing work.
+
+### Step 4: Natural Language Filenames
+
+With Obsidian’s resolver, filenames became readable English again.  
+Where before I had `tpf-migration-master-note`, I now had:
+
+- *TPF migration: master outline*  
+- *Deploying the Discourse archive*  
+- *Job applications – tracking*  
+
+The filenames no longer *were* the system; they merely identified nodes *within* it.
+
+### Step 5: Introduce Templates
+
+Templates softened the distinction between ephemeral notes and more serious documents. They make it easier to maintain coherence while avoiding rigidity.
+
+
+
+## 4. How Obsidian Changed My Workflow
+
+Three shifts became clear almost immediately:
+
+### Notes Became Interconnected
+
+Instead of writing standalone documents, I now build **clusters of meaning**.  
+A concept gains depth as links accumulate, forming constellations rather than silos.
+
+### The System Encourages Revisiting
+
+Backlinks reveal forgotten relationships. They produce a mild form of **self-recursion**: notes call attention to themselves when they become relevant again.
+
+### Writing Projects Became “Live” Objects
+
+Where I once had a single master note and a scattering of files, now each project becomes:
+
+- a node  
+- a context  
+- a collection of dependencies  
+- a workflow space  
+
+This approach mirrors the idea of **systems evolving through internal differentiation**, rather than central planning.
+
+
+
+## 5. Lessons Learned
+
+If someone were migrating from flat Markdown to Obsidian, this is what I’d tell them.
+
+- **Start with Links**, Not Structure: Structure that grows from relations is more resilient than structure imposed by fiat.
+- **Don’t Overuse Tags**: Tags classify; links contextualize. Only one of those produces insight.
+- **Allow the System to Evolve**: Your vault is a living environment. Systems evolve by continual adjustment, not schema design.
+- **Templates Provide Rhythm**: They reduce friction and preserve coherence without becoming dogmatic.
+- **Keep Everything Local-First**: Obsidian’s philosophy aligns with a broader principle: the more you understand and directly control the substrate of your knowledge system, the more that system becomes *yours*.
+
+
+## Conclusion
+
+In cognitive science, the “extended mind” thesis holds that tools can become part of your thinking apparatus—otherwise known as your mind—when your interactions with them are reliable, habitual, and integrated. What I found in moving to Obsidian was something like that: the system stopped being a repository and became part of my cognitive apparatus. The structure of the vault began to shape the structure of my thought, and my thought in turn reshaped the vault. In that sense, the move was not merely technical but cognitive.
+
+What I wanted was not just a note editor but a thinking environment—something flexible enough to evolve with my projects, writing, and research, and simple enough not to introduce friction.
+
+Obsidian gave me exactly that: a way to combine the simplicity of plain text with the dynamics of a network.
+
+It transformed my notes from a collection into a **system**.
+
+> A note is only as meaningful as the network it participates in.
+
+The move wasn’t just about software—it was about *method*: from collecting notes to cultivating a network of connections.
+
+
+[Obsidian](https://obsidian.md/)
