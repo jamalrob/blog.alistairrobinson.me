@@ -15,13 +15,35 @@
     font-size: 0.9rem;
 }
 
+
+.postArticle pre code {
+  padding: 0 0 0 0;
+}
+
+.postArticle pre {
+  background-color: var(--code-bg);
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  text-wrap-mode: inherit;
+}
+
+@media (max-width: 600px) {
+  .postArticle code {
+    font-size: 0.7rem;
+  }
+  .postArticle pre {
+    padding: 0.25rem 0.5rem;
+  }
+}
+
 .postArticle img {
     margin: 1.7rem 0 0.46rem;
 }
 
 
 .postArticle h2,
-.postArticle h3 {
+.postArticle h3,
+.postArticle h4 {
   font-family: var(--font-barlow);
   margin-block-start: 1.7em;
 }
@@ -36,6 +58,13 @@
     font-size: 1.5rem;
     line-height: 1.7rem;    
     margin-block-start: 1.7em;
+}
+
+.postArticle h4 {
+    font-size: 1.2rem;
+    line-height: 1.3rem;    
+    margin-block-start: 1.9em;
+    margin-block-end: -0.3rem;
 }
 
 .mainImageSmall, .mainImageMedium, .mainImageSmaller, .mainImage {
