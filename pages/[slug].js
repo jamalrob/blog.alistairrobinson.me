@@ -64,7 +64,7 @@ export default function BlogPost({ post }) {
                 <div className={postStyles.byline}><a href="/about">J. Alistair Robinson</a>, <Date dateString={post.frontmatter.date} /></div>
                 {post.frontmatter.image &&
                     <img
-                        src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg?v=${post.frontmatter.imageVersion || 1}`}
+                        src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.${post.frontmatter.imageExtension || 'jpg'}?v=${post.frontmatter.imageVersion || 1}`}
                         className={postStyles[post.frontmatter.imageClass] || postStyles.mainImageSmaller}
                     />
                 }
