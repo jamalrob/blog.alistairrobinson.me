@@ -61,7 +61,7 @@ export default function BlogPost({ post }) {
             </Head>
             <article className={`${postStyles.postArticle} ${styles.innerContainer} ${barlow.variable}`}>
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
-                <span className={postStyles.byline}>J. Alistair Robinson, {post.frontmatter.date}</span>
+                <div className={postStyles.byline}><a href="/about">J. Alistair Robinson</a>, <Date dateString={post.frontmatter.date} /></div>
                 {post.frontmatter.image &&
                     <img
                         src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.jpg?v=${post.frontmatter.imageVersion || 1}`}
