@@ -27,6 +27,7 @@
   text-wrap-mode: inherit;
 }
 
+
 @media (max-width: 600px) {
   .postArticle code {
     font-size: 0.7rem;
