@@ -44,7 +44,8 @@ body {
 
 article h1,
 article h2,
-article h3 {
+article h3,
+article h4 {
   font-family: "Barlow Semi Condensed", sans-serif;
   margin-block-start: 1.7em;
 }
