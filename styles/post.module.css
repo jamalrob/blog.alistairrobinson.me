@@ -45,13 +45,6 @@
     display: block;
 }
 
-.postArticle h2,
-.postArticle h3,
-.postArticle h4 {
-  font-family: var(--font-barlow);
-  margin-block-start: 1.7em;
-}
-
 .postArticle h2 {
     margin-block-start: 1.7em;
     font-size: 1.7rem;

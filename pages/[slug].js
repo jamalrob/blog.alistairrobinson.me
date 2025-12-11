@@ -9,23 +9,6 @@ import Date from '@/components/date';
 import { getPost, getAdjacentPost } from '@/lib/posts';
 import React from 'react';
 import { settings } from '@/settings';
-import { Literata } from 'next/font/google';
-import { Barlow_Semi_Condensed } from 'next/font/google'
-
-
-const gfont = Literata({
-    weight: ['400', '600'],
-    style: ['normal', 'italic'],
-    subsets: ['latin'],
-    display: 'swap'
-})
-
-const barlow = Barlow_Semi_Condensed({
-  weight: ['400', '600'],
-  subsets: ['latin'],
-  variable: '--font-barlow',
-});
-
 
 
 export default function BlogPost({ post }) {
@@ -59,17 +42,17 @@ export default function BlogPost({ post }) {
               content={post.frontmatter.description}
             />
             </Head>
-            <article className={`${postStyles.postArticle} ${styles.innerContainer} ${barlow.variable}`}>
+            <article className={`${postStyles.postArticle} ${styles.innerContainer}`}>
                 <h1 className={styles.heading2Xl}>{post.frontmatter.title}</h1>
-                <div className={postStyles.byline}><a href="/about">J. Alistair Robinson</a>, <Date dateString={post.frontmatter.date} /></div>
+                <div className="byline"><a href="/about">J. Alistair Robinson</a>, <Date dateString={post.frontmatter.date} /></div>
                 {post.frontmatter.image &&
                     <img
                         src={`${settings.imageLocation}/tr:w-${settings.headerImage.width},q-${settings.headerImage.quality}/${post.slug}.${post.frontmatter.imageExtension || 'jpg'}?v=${post.frontmatter.imageVersion || 1}`}
                         className={postStyles[post.frontmatter.imageClass] || postStyles.mainImageSmaller}
                     />
                 }
-                <div className={gfont.className} dangerouslySetInnerHTML={{ __html: post.html }} />
-                <div className={postStyles.postFooter}>
+                <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                <footer className={postStyles.postFooter}>
                     <hr />
                     <div className={postStyles.footSection}>
                         <div className={postStyles.labelColumn}>
@@ -129,7 +112,7 @@ export default function BlogPost({ post }) {
                     <hr />
                     </>
                     )}
-                </div>
+                </footer>
             </article>
         </Layout>
     );
