@@ -2,11 +2,10 @@
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 1.2rem;
+  margin-top: 2px;
   line-height: 1;
   color: var(--fg-toggle);
   transition: opacity 0.2s ease, transform 0.2s ease;
-  margin-top: -3px;
   margin-right: 10px;
 }
 
