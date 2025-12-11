@@ -7,11 +7,11 @@
 }
 
 .postArticle code {
+    font-family: 'Google Sans Code', monospace;
     background-color: var(--code-bg);
     color: var(--code-fg);
     padding: 0.1rem 0.3rem;
     border-radius: 4px;
-    font-family: monospace;
     font-size: 0.9rem;
 }
 
@@ -24,7 +24,7 @@
   background-color: var(--code-bg);
   padding: 0.5rem 0.8rem;
   border-radius: 4px;
-  text-wrap-mode: inherit;
+  overflow-x: scroll;
 }
 
 
