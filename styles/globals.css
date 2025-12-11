@@ -7,9 +7,11 @@
   --fg-toggle: #666666;
   --code-bg: #dbdbdbff;
   --code-fg: #222222;
+  /*
   --font-body: var(--font-sans-serif);
   --font-article-body: var(--font-serif);
   --font-article-heading: var(--font-sans-serif);
+  */
 }
 
 [data-theme="dark"] {
@@ -25,7 +27,6 @@
 
 html,
 body {
-  font-family: var(--font-body), sans-serif;
   background-color: var(--bg);
   color: var(--fg);
   padding: 0;
@@ -44,20 +45,20 @@ body {
 article h1,
 article h2,
 article h3 {
-  font-family: var(--font-article-heading), sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   margin-block-start: 1.7em;
 }
 
 article .byline {
-  font-family: var(--font-body), serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 article {
-  font-family: var(--font-article-body), serif;
+  font-family: "Literata", serif;
 }
 
 footer {
-  font-family: var(--font-body), serif;
+  font-family: "Barlow Semi Condensed", serif;
 }
 
 @media (max-width: 600px) {

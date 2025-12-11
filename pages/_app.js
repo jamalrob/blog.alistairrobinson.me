@@ -1,40 +1,25 @@
 import '@/styles/globals.css'
-import { Barlow_Semi_Condensed as my_sans_serif_font } from 'next/font/google'
-import { Literata as my_serif_font } from 'next/font/google'
-import { useEffect } from 'react'
+import { Barlow_Semi_Condensed as MySansSerifFont } from 'next/font/google'
+import { Literata as MySerifFont } from 'next/font/google'
 
-const gfontSansSerif = my_sans_serif_font({
-    weight: ['400', '600'],
-    style: ['normal'],
-    subsets: ['latin'],
-    display: 'swap',
-    variable: '--font-sans-serif',
+const sans = MySansSerifFont({
+  weight: ['400', '600'],
+  style: ['normal'],
+  subsets: ['latin'],
+  display: 'swap',
 })
 
-const gfontSerif = my_serif_font({
-    weight: ['400', '600'],
-    style: ['normal', 'italic'],
-    subsets: ['latin'],
-    display: 'swap',
-    variable: '--font-serif',
+const serif = MySerifFont({
+  weight: ['400', '600'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
 })
-
-//export default function MyApp({ Component, pageProps }) {
-//  return (
-//    <div className={`${gfontSansSerif.variable} ${gfontSerif.variable}`}>
-//      <Component {...pageProps} />
-//    </div>
-//  );
-//}
 
 export default function MyApp({ Component, pageProps }) {
-
-  useEffect(() => {
-    document.documentElement.classList.add(
-      gfontSansSerif.variable,
-      gfontSerif.variable
-    )
-  }, [])
-
-  return <Component {...pageProps} />
+  return (
+    <div className={sans.className}>
+      <Component {...pageProps} />
+    </div>
+  )
 }
