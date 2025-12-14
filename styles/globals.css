@@ -3,6 +3,7 @@
   --fg: #222222;
   --blockquote-bg: #e6e6e6;  
   --blockquote-fg: #222222;
+  --blockquote-border: #c6c6c6;
   --link-color: #0070f3;
   --fg-toggle: #666666;
   --code-bg: #dbdbdbff;
@@ -20,6 +21,7 @@
   --fg-toggle: #aaaaaa;
   --blockquote-bg: #333333;  
   --blockquote-fg: #efefef;
+  --blockquote-border: #686868;
   --link-color: #a3f5dcff;
   --code-bg: #171717;
   --code-fg: #e3e3e3ff;  

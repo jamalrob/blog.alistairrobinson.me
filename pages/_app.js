@@ -21,8 +21,9 @@ const serif = MySerifFont({
 const mono = MyMonoFont({
   weight: ['400', '700'],
   style: ['normal'],
-  subsets: ['latin'],
+  subsets: ['latin', 'italic'],
   display: 'swap',
+  adjustFontFallback: false
 })
 
 export default function MyApp({ Component, pageProps }) {
