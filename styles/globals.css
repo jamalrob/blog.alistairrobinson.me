@@ -44,6 +44,23 @@ body {
 
 }
 
+aside.callout {
+    color: var(--blockquote-fg);
+    background: var(--blockquote-bg);
+    margin: 0 2rem 1rem 0;
+    padding: 1.2rem 2.5rem 1.3rem 2.2rem;
+    border-left: solid 6px var(--blockquote-border);
+    position: relative;
+}
+
+aside.callout > :first-child {
+  margin-top: 0;
+}
+
+aside.callout > :last-child {
+  margin-bottom: 0;
+}
+
 article h1,
 article h2,
 article h3,

@@ -109,18 +109,17 @@
     position: absolute;
     left: 10px;
     top: 0px;
-  }
+}
 
-  @media (max-width: 600px) {
-    .postArticle blockquote {
-      margin: 0 0.1rem 1rem 0;
-      padding: 0.1rem 1.5rem 0.3rem 1.2rem;
-    }
-    .postArticle blockquote::before{
-      content: "";
-    }
+@media (max-width: 600px) {
+  .postArticle blockquote {
+    margin: 0 0.1rem 1rem 0;
+    padding: 0.1rem 1.5rem 0.3rem 1.2rem;
   }
-
+  .postArticle blockquote::before{
+    content: "";
+  }
+}
 
 .postArticle ul {
     list-style: circle;
