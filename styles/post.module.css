@@ -129,6 +129,28 @@
     margin-bottom: 0.6rem;
 }
 
+.postArticle .seriesBox {
+    border-bottom: 1px solid var(--blockquote-border);
+}
+
+.postArticle .seriesBoxBottom {
+    border-bottom: none;
+}
+
+.postArticle .seriesBox ul {
+  padding-left: 0;
+  margin-top: 6px;
+}
+
+.postArticle .seriesBox li {
+    display: inline;
+    margin: 0 5px 0 0; 
+}
+
+.postArticle .seriesBox li:last-child {
+    display: none;
+}
+
 .postFooter {
     font-size: 19px;
     width: 95%;
