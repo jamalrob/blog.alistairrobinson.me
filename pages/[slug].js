@@ -9,16 +9,21 @@ import Date from '@/components/date';
 import { getPost, getAdjacentPost } from '@/lib/posts';
 import React from 'react';
 import { settings } from '@/settings';
-import platoSeries, { PLATO_SERIES_KEY } from "@/lib/platoSeries";
+import { platoSeries, PLATO_SERIES_KEY } from "@/lib/platoSeries";
+import { seriesByKey } from "@/lib/series";
 
 
 export default function BlogPost({ post }) {
 
+    const series = seriesByKey[post.frontmatter.series];
+    const showSeries = series && series.parts.length > 1;
+
+
     const seriesBox = (extraClass = "") => (
       <div className={`${postStyles.seriesBox} ${extraClass}`}>
-        <span>Part of my series on {platoSeries.title}:</span>
+        <span>Part of my series on {series.title}:</span>
         <ul>
-          {platoSeries.parts.map(part => (
+          {series.parts.map(part => (
             <React.Fragment key={part.part}>
               <li>
                 {part.slug === `/${post.slug}` ? (
@@ -74,19 +79,11 @@ export default function BlogPost({ post }) {
                     />
                 }
 
-                {post.frontmatter.series === PLATO_SERIES_KEY && platoSeries.parts.length > 1 &&
-                  seriesBox()
-                }
-
+                {showSeries && seriesBox()}
 
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
-                <div style={{ marginTop: 30 }}>
-                  {post.frontmatter.series === PLATO_SERIES_KEY && platoSeries.parts.length > 1 &&
-                    seriesBox(postStyles.seriesBoxBottom)
-                  }
-                </div>
-
+                {showSeries && seriesBox(postStyles.seriesBoxBottom)}
 
                 <footer className={postStyles.postFooter}>
                     <hr />

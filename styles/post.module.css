@@ -135,6 +135,7 @@
 
 .postArticle .seriesBoxBottom {
     border-bottom: none;
+    margin-top: 30px;
 }
 
 .postArticle .seriesBox ul {
