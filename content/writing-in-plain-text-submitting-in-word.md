@@ -1,0 +1,61 @@
+---
+title: 'Writing in Plain Text, Submitting in Word'
+description: 'A practical and conceptual account of migrating to Obsidian and replacing a static notes archive with a dynamic knowledge management system'
+date: '2025-12-07'
+tags: writing, pandoc, markdown
+image: false
+---
+For a long time I treated word processors as if they were the enemy: bloated, proprietary, and hostile to thought. I still think some of that criticism is justified. What I no longer think is that refusing Word was the right place to make a stand.
+
+I stopped treating tools as ideological positions and started treating them as phase-specific authorities.
+
+OR 
+
+I used to be an anti–word processor zealot. I avoided Word on principle, not just out of preference, and I had reasons for doing so. What changed was not my view of word processors as such, but my understanding of what problem I was actually trying to solve.
+
+I had been treating a social and institutional problem as if it were a purely technical one.
+
+
+
+
+## 1. The tension
+
+Writers want clarity, control, and minimal friction while writing.
+Editors want Word documents with comments, tracked changes, and familiar tooling.
+Both sides usually pretend this mismatch does not exist.
+
+
+
+## 2. Why Markdown is not enough
+
+Plain text and Markdown are excellent for drafting and thinking.
+They are poor tools for collaborative editorial negotiation.
+The idea of a single, permanent “source of truth” breaks down in practice.
+
+## 3. Accepting asymmetry
+
+Writing, editing, and typesetting are different activities.
+Authority moves between artefacts depending on the phase.
+This movement is not a failure of tools but a feature of real workflows.
+
+## 4. A workable compromise
+
+Write upstream in Markdown.
+Submit downstream in DOCX.
+Keep formatting rules out of the text itself.
+Treat reference documents as explicit formatting contracts.
+
+## 5. A concrete method
+
+A brief introduction to the manuscript-maker workflow:
+- Markdown manuscripts as inputs
+- Reference DOCX files encoding submission standards
+- Disposable generated outputs
+
+(Details live on GitHub; the method is the point, not the mechanics.)
+
+## 6. What this buys you
+
+Calm and reversibility.
+Less self-alienation in writing.
+Acceptance of institutional reality without surrendering clarity.

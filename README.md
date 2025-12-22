@@ -1,45 +1,48 @@
-# Personal Blog (Next.js / Vercel)
+# blog.alistairrobinson.me
 
-This repository contains the source code for [my personal blog](https://blog.alistairrobinson.me), built with **Next.js** and deployed via **Vercel**. The site hosts long-form philosophical writing, literary reviews, and other analytical essays.
+The source code for my personal blog at https://blog.alistairrobinson.me.
 
-Although based on a simple file-system structure, the codebase includes several custom components and content features to support extended essays, archival material, and topic-based navigation.
+The site hosts long-form philosophical writing, literary criticism, and analytical essays, with an emphasis on clarity, structure, and durability over short-form publishing.
 
----
+## Goals
 
-## 🚀 Features
+- Publish long-form writing in a stable, readable format
+- Keep content authoring separate from presentation concerns
+- Support archival material and thematic collections
+- Generate a fully static site suitable for long-term hosting
 
-- Static site generation using Next.js
-- Markdown/MDX-style content with frontmatter metadata
-- Automatic deployment to Vercel on each push
-- Custom layouts designed for long-form reading
+## Context
 
----
+The blog serves as a home for work that does not fit easily into social media or publication platforms: extended arguments, reading projects, and reflective essays. It is designed to privilege continuity and navigability over frequency or engagement metrics.
 
-## 🧩 Customizations
+## Structure
 
-- **Custom layout system** (`components/layout.js`) for consistent structure across articles  
-- **Custom article list component** (`components/articleListItem.js`)  
-- **Custom date utilities** (`components/date.js`)  
-- **Dynamic routing** for posts via `pages/[slug].js`  
-- **Tag-based navigation** (`pages/tags/`)  
-- **Dedicated philosophy archive** (`pages/philosophy-archive/`)  
-- **Custom 404 page** (`pages/404.js`)  
-- **Metadata and post-loading logic** (`lib/posts.js`)  
-- **Non-default Next.js configuration** (`next.config.js`)
+At a high level, the system is organised as follows:
 
-These elements provide a flexible foundation for long-form and structured content.
+Markdown / MDX content
+→ Next.js static site generation
+→ deployable static site
 
----
 
-## 🛠 Tech Stack
+All pages are generated at build time and served as static assets.
 
-- **Next.js** (React-based SSG)
-- **JavaScript / JSX**
-- **Vercel** (CI/CD and hosting)
+## Implementation notes
 
----
+The site is built using Next.js in static generation mode. Content is authored in Markdown/MDX with frontmatter metadata and rendered through a small set of custom components designed to support long-form reading. 
 
-## 📦 Deployment
+Custom logic exists primarily to support:
 
-Pushing to the `main` branch triggers an automatic production deployment via Vercel.
+- article listing and navigation
+- date and metadata handling
+- tag-based organisation
+- archival views for larger bodies of work
 
+The emphasis is on minimal, explicit code rather than theme-driven abstraction.
+
+## Deployment
+
+The site is deployed automatically via Vercel. Pushing to the `main` branch triggers a full rebuild and static deployment.
+
+## Status
+
+This repository is actively used and incrementally evolved. Changes are driven by writing needs rather than framework experimentation.
