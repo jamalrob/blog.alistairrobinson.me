@@ -8,6 +8,8 @@
   --fg-toggle: #666666;
   --code-bg: #dbdbdbff;
   --code-fg: #222222;
+  --hr-colour: #232323;
+  --header-border-colour: rgba(186, 186, 186, 0.3)
   /*
   --font-body: var(--font-sans-serif);
   --font-article-body: var(--font-serif);
@@ -24,7 +26,9 @@
   --blockquote-border: #686868;
   --link-color: #a3f5dcff;
   --code-bg: #171717;
-  --code-fg: #e3e3e3ff;  
+  --code-fg: #e3e3e3ff;
+  --hr-colour: #787878ff;  
+  --header-border-colour: rgba(62, 62, 62, 0.3)
 }
 
 html,
@@ -126,17 +130,6 @@ img {
     color: #777;
     /*margin-right: 1rem;*/
     margin: 0 0.35rem;
-}
-
-.redLink {
-    text-underline-offset: 3px;
-    text-decoration: underline;
-    text-decoration-color: #bbb;
-    color: #777;
-}
-.redLink:hover {
-  color: #666;
-  text-decoration-color: #777;
 }
 
 /* Markdown post extras, can't be in a css module */

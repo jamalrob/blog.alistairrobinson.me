@@ -42,7 +42,7 @@ export default function BlogPost({ post }) {
                     />
                 }
                 <div className={gfont.className} dangerouslySetInnerHTML={{ __html: post.html }} />
-                <div className={postStyles.postFooter}>
+                <footer className={postStyles.postFooter}>
                     <hr />
                     <div className={postStyles.footSection}>
                         <div className={postStyles.labelColumn}>
@@ -72,7 +72,7 @@ export default function BlogPost({ post }) {
                         </div>
                     </div>
                     <hr />
-                </div>
+                </footer>
             </article>
         </Layout>
     );
