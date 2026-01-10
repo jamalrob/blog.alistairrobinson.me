@@ -28,9 +28,9 @@ export default function About() {
         <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
           <h1 className={styles.heading2Xl}>About</h1>
             <div className={gfont.className}>
-              <p>On this website I publish articles about books, ideas, and knowledge, ranging from philosophy and literature to the tools and methods that support thinking and writing.</p>
+              <p>On this website I publish articles about books and ideas, ranging from philosophy and literature to the tools and methods that support thinking and writing.</p>
 
-              <p>When I’m not doing that I run <a href="https://thephilosophyforum.com" target="_blank">The Philosophy Forum</a> (TPF), a busy online community that I started in 2015. Since then, TPF has grown into one of the biggest websites for long-form philosophical discussion on the web, with more than 15,000 members. My tasks there are editorial: moderating discussions, organizing reading groups, and keeping things running behind the scenes. </p>
+              <p>When I’m not doing that I run <a href="https://thephilosophyforum.com" target="_blank">The Philosophy Forum</a> (TPF), an online community that I started in 2015. Since then, TPF has grown into one of the biggest websites for long-form philosophical discussion on the web, with more than 15,000 members. My tasks there are editorial: moderating discussions, organizing reading groups, and keeping things running behind the scenes. </p>
 
               <p>Before that, I spent many years working in software, building web applications, and co-founding and building <a href="https://www.commissioncrowd.com/" target="_blank">CommissionCrowd</a>.</p>
 
