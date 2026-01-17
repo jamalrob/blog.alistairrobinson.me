@@ -9,7 +9,6 @@ import Date from '@/components/date';
 import { getPost, getAdjacentPost } from '@/lib/posts';
 import React from 'react';
 import { settings } from '@/settings';
-import { platoSeries, PLATO_SERIES_KEY } from "@/lib/platoSeries";
 import { seriesByKey } from "@/lib/series";
 
 

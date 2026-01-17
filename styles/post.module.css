@@ -130,7 +130,10 @@
 }
 
 .postArticle .seriesBox {
-    border-bottom: 1px solid var(--blockquote-border);
+    /*border-bottom: 1px solid var(--blockquote-border);*/
+    padding: 15px 20px 5px;
+    background: var(--blockquote-bg)
+
 }
 
 .postArticle .seriesBoxBottom {
