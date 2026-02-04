@@ -74,6 +74,14 @@ aside.callout > :last-child {
   margin-bottom: 0;
 }
 
+@media (max-width: 600px) {
+  aside.callout, aside.callout-basic {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 0;
+  }
+}
+
 article h1,
 article h2,
 article h3,
