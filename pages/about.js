@@ -28,11 +28,11 @@ export default function About() {
         <article className={[postStyles.postArticle, styles.innerContainer].join(' ')}>
           <h1 className={styles.heading2Xl}>About</h1>
             <div className={gfont.className}>
-              <p>This website is for my articles about books and ideas, ranging from philosophy and literature to the tools and methods that support thinking and writing.</p>
+              <p>This is a website for various articles of mine, mostly about books and ideas.</p>
 
-              <p>When I’m not doing that I run <a href="https://thephilosophyforum.com" target="_blank">The Philosophy Forum</a> (TPF), an online community that I started in 2015. Since then, TPF has grown into one of the biggest websites for long-form philosophical discussion on the web, with more than 15,000 members. My tasks there are editorial: moderating discussions, organizing reading groups, and keeping things running behind the scenes. </p>
+              <p>When I’m not writing those articles I run <a href="https://thephilosophyforum.com" target="_blank">The Philosophy Forum</a> (TPF), an online community that I started in 2015. Since then, TPF has grown into one of the biggest websites for long-form philosophical discussion on the web, with more than 15,000 members. My tasks there are editorial: moderating discussions, organizing reading groups, and keeping things running behind the scenes. </p>
 
-              <p>Before that, I spent many years working in software, building web applications, and co-founding and building <a href="https://www.commissioncrowd.com/" target="_blank">CommissionCrowd</a>.</p>
+              <p>I am also a software developer and have spent many years building web applications. I co-founding and built <a href="https://www.commissioncrowd.com/" target="_blank">CommissionCrowd</a>.</p>
 
               <p>You can reach me at <b>alistair.robinson@gmail.com</b>. </p>
             <p>
