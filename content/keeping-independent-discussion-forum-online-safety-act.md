@@ -3,10 +3,8 @@ title: 'Keeping an Independent Discussion Forum Alive Under the UK Online Safety
 description: 'How I Migrated a 10-Year-Old Philosophy Forum to Stay Compliant'
 date: '2026-03-07'
 tags: tools
-image: true
-imageClass: mainImageSmaller
+image: false
 draft: true
-imageVersion: 2
 ---
 
 ## 1. Introduction
