@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block head %}<title>Tags &mdash; {{ site_title }}</title>{% endblock %}
+
+{% block content %}
+<section class="postArticle articleList innerContainer">
+  <h1 class="heading2Xl">Tags</h1>
+  <p>
+    {% for tag in tags %}<a href="/tags/{{ tag }}">{{ tag }}</a><span class="lightText"> / </span>{% endfor %}
+  </p>
+</section>
+{% endblock %}

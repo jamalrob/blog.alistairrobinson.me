@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>{{ frontmatter.title }}</title>
+<meta name="description" content="{{ frontmatter.description }} :: Book reviews, science fiction, literary fiction, and philosophy">
+<meta property="og:title"       content="{{ frontmatter.title }}">
+<meta property="og:image"       content="{{ image_cdn }}/tr:w-{{ header_image.width }},q-{{ header_image.quality }}/{{ slug }}">
+<meta property="og:url"         content="https://blog.alistairrobinson.me/{{ slug }}">
+<meta property="og:type"        content="article">
+<meta property="og:description" content="{{ frontmatter.description }}">
+{% endblock %}
+
+{% macro series_box(extra_class='') %}
+{% if series and series.parts | length > 1 %}
+<div class="seriesBox {{ extra_class }}">
+  <span>Part of my series on {{ series.title }}:</span>
+  <ul>
+    {% for part in series.parts %}
+    <li>{% if part.slug == '/' + slug %}<span>{{ part.label }}</span>{% else %}<a href="{{ part.slug }}">{{ part.label }}</a>{% endif %}</li>
+    <li>/</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+{% endmacro %}
+
+{% block content %}
+<article class="postArticle innerContainer">
+  <h1 class="heading2Xl">{{ frontmatter.title }}</h1>
+  <div class="byline"><a href="/about">{{ author }}</a>, <time datetime="{{ frontmatter.date }}">{{ frontmatter.date | date }}</time></div>
+
+  {% if frontmatter.image %}
+  <img src="{{ image_cdn }}/tr:w-{{ header_image.width }},q-{{ header_image.quality }}/{{ slug }}.{{ frontmatter.imageExtension or 'jpg' }}?v={{ frontmatter.imageVersion or 1 }}"
+       class="{{ frontmatter.imageClass or 'mainImageSmaller' }}">
+  {% endif %}
+
+  {{ series_box() }}
+
+  {{ post_html }}
+
+  {{ series_box('seriesBoxBottom') }}
+
+  <footer class="postFooter">
+    <hr>
+    <div class="footSection">
+      <div class="labelColumn">Tags</div>
+      <div class="contentColumn">
+        {% for tag in frontmatter.tags %}<a style="margin-right: 1.2rem" href="/tags/{{ tag }}">{{ tag }}</a>{% endfor %}
+      </div>
+    </div>
+    <hr>
+    <div class="footSection">
+      <div class="labelColumn">Date</div>
+      <div class="contentColumn">
+        <time datetime="{{ frontmatter.date }}">{{ frontmatter.date | date }}</time>
+      </div>
+    </div>
+    <hr>
+    {% if next_post %}
+    <div class="footSection">
+      <div class="labelColumn">Next</div>
+      <div class="contentColumn">
+        <a href="/{{ next_post.slug }}">{{ next_post.title }}</a>
+        <div class="footerExcerpt">{{ next_post.excerpt }}</div>
+        <span class="moreLink"><a href="/{{ next_post.slug }}">more &rarr;</a></span>
+      </div>
+    </div>
+    <hr>
+    {% endif %}
+    {% if prev_post %}
+    <div class="footSection">
+      <div class="labelColumn">Previous</div>
+      <div class="contentColumn">
+        <a href="/{{ prev_post.slug }}">{{ prev_post.title }}</a>
+        <div class="footerExcerpt">{{ prev_post.excerpt }}</div>
+        <span class="moreLink"><a href="/{{ prev_post.slug }}">more &rarr;</a></span>
+      </div>
+    </div>
+    <hr>
+    {% endif %}
+  </footer>
+</article>
+{% endblock %}

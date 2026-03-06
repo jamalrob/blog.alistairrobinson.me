@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block head %}<title>Posts tagged &#8220;{{ tag }}&#8221; &mdash; {{ site_title }}</title>{% endblock %}
+
+{% block content %}
+<section class="articleList">
+  <h1 class="heading2Xl">Posts tagged &#8220;{{ tag }}&#8221;</h1>
+  <ul class="list" style="margin-top: 2rem">
+    {% for post in posts %}{% if post.show %}
+    <li class="listItem">
+      <a class="articleTitle" href="/{{ post.slug }}">{{ post.frontmatter.title }}</a><br>
+      <small class="homeDate lightText">
+        <time datetime="{{ post.frontmatter.date }}">{{ post.frontmatter.date | date }}</time>
+      </small>
+    </li>
+    {% endif %}{% endfor %}
+  </ul>
+</section>
+{% endblock %}
