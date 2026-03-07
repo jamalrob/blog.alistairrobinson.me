@@ -105,7 +105,7 @@ def load_post(filepath):
 
 def get_all_posts(directory):
     posts = []
-    for filepath in directory.glob('*.mdx'):
+    for filepath in directory.glob('*.md'):
         slug = filepath.stem
         data, _ = load_post(filepath)
         show = not (is_draft(data) and not SHOW_DRAFTS)
@@ -123,7 +123,7 @@ def get_adjacent(posts, current_slug, direction):
     if adj_idx < 0 or adj_idx >= len(shown):
         return None
     adj          = shown[adj_idx]
-    data, content = load_post(CONTENT_DIR / f"{adj['slug']}.mdx")
+    data, content = load_post(CONTENT_DIR / f"{adj['slug']}.md")
     rendered     = render_markdown(content)
     return {
         'slug':    adj['slug'],
@@ -169,7 +169,7 @@ def build():
     print('posts')
     for p in [p for p in all_posts if p['show']]:
         slug          = p['slug']
-        data, content = load_post(CONTENT_DIR / f'{slug}.mdx')
+        data, content = load_post(CONTENT_DIR / f'{slug}.md')
         rendered      = render_markdown(content)
         series_key    = data.get('series')
         write_page(f'{slug}/index.html', env.get_template('post.html').render(
@@ -191,7 +191,7 @@ def build():
     # Philosophy archive posts
     for p in [p for p in phil_posts if p['show']]:
         slug          = p['slug']
-        data, content = load_post(PHIL_ARCHIVE_DIR / f'{slug}.mdx')
+        data, content = load_post(PHIL_ARCHIVE_DIR / f'{slug}.md')
         rendered      = render_markdown(content)
         write_page(f'philosophy-archive/{slug}/index.html',
                    env.get_template('phil_archive_post.html').render(
