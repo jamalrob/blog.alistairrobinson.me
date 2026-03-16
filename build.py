@@ -82,6 +82,10 @@ def render_markdown(content):
         '/bucket/',
         f"{IMAGE_CDN}/tr:w-{BODY_IMAGE['width']},q-{BODY_IMAGE['quality']}/",
     )
+    content = content.replace(
+        '/bucket-orig/',
+        f"{IMAGE_CDN}/tr:q-{BODY_IMAGE['quality']}/",
+    )
     return _md.render(content)
 
 
@@ -219,6 +223,7 @@ def build():
     # Static pages
     print('static pages')
     write_page('about/index.html', env.get_template('about.html').render(**ctx))
+    write_page('tpf-childrens-risk-assessment/index.html', env.get_template('tpf-childrens-risk-assessment.html').render(**ctx))
     write_page('404.html',         env.get_template('404.html').render(**ctx))
 
     print(f'\nDone: {len(all_posts)} posts, {len(phil_posts)} archive posts, {len(all_tags)} tags.')

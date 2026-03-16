@@ -55,7 +55,7 @@ There is a remarkable passage about touch:
 
 Aside from the sheer inventiveness of this speculative anthropology, it's significant that she says "It was part of their language." One key to the whole story is that language for the Athsheans is embodied and experiential, whereas for the Terrans it is managerial and instrumental, an arm of the administered society.
 
-She makes this clear in the most effective way, later on...
+She makes this clear in the most effective way, later on.
 
 ### 2. Language
 

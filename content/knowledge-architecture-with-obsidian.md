@@ -138,7 +138,7 @@ The first note links to `TPF infrastructure – 2026`, and within the latter not
 
 My initial reaction to this was a mental shrug: “Is that it?” But the simplicity is precisely the point. Two notes, linked in both directions and easily navigable in Obsidian, form a relationship which is no longer just abstract, but is actually usable. And when a third is added, a pattern begins to form, an emergent bottom-up architecture.
 
-![A fully connected cluster in Obsidian](/bucket/obsidian-connected-triad.jpg)
+![A fully connected cluster in Obsidian](/bucket/obsidian-node-cluster-2.jpg)
 *A fully connected cluster in Obsidian*
 
 What makes this so powerful is the reciprocity. With links and backlinks combined, notes can see each other, and they stop being mere items in some higher-level list.
