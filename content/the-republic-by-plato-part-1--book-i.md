@@ -40,7 +40,7 @@ Most of the time I'll take it for granted that Socrates is Plato's mouthpiece. H
 
 **Elenchus:** The Socratic method of philosophical investigation, Plato's favoured form of dialectic, in which Socrates questions someone until inconsistencies emerge between their different beliefs. It is really only used in Book I; thereafter, Socrates's interlocutors don't do much interlocuting and mostly just agree with everything he says. (This makes the Republic a much more dogmatic work than the earlier "What is X?" dialogues, in which the _elenchus_ was the central method).
 
-**City**: The _polis_, meaning a city state, which I'll usually just translate as the _city_ even though it implies more than that term usually does for us: a _polis_ is basically a small sovereign country comprised of an urban settlement, the surrounding farmlands, and often a port.
+**City**: The _polis_, meaning a city state, which I'll usually just translate as the _city_ even though it implies more than that term usually does for us: a _polis_ is basically a small sovereign country comprised of an urban settlement; the surrounding farmlands, towns, and villages; and often a port.
 
 **Republic:** The original title is _Politeia_, which refers to the constitution, the community, and the way of life of a _polis_.
 

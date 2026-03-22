@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Static site builder for blog.alistairrobinson.me"""
 
+import hashlib
 import html
 import os
 import re
@@ -26,6 +27,7 @@ BODY_IMAGE   = {'width': 800, 'quality': 82}
 HEADER_IMAGE = {'width': 800, 'quality': 84}
 THUMB_IMAGE  = {'width': 200, 'quality': 60}
 
+SITE_URL   = 'https://blog.alistairrobinson.me'
 SITE_TITLE = 'Articles by Alistair Robinson'
 AUTHOR     = 'J. Alistair Robinson'
 
@@ -136,6 +138,25 @@ def get_adjacent(posts, current_slug, direction):
     }
 
 
+def build_sitemap(all_posts, phil_posts):
+    static_pages = ['', 'about', 'philosophy-archive', 'tags']
+    urls = []
+    for path in static_pages:
+        urls.append(f'{SITE_URL}/{path}' if path else SITE_URL)
+    for p in all_posts:
+        if p['show']:
+            urls.append(f"{SITE_URL}/{p['slug']}")
+    for p in phil_posts:
+        if p['show']:
+            urls.append(f"{SITE_URL}/philosophy-archive/{p['slug']}")
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for url in urls:
+        lines.append(f'  <url><loc>{url}</loc></url>')
+    lines.append('</urlset>')
+    return '\n'.join(lines)
+
+
 def write_page(rel_path, content):
     p = OUT_DIR / rel_path
     p.parent.mkdir(parents=True, exist_ok=True)
@@ -163,7 +184,8 @@ def build():
 
     all_posts  = get_all_posts(CONTENT_DIR)
     phil_posts = get_all_posts(PHIL_ARCHIVE_DIR)
-    ctx        = {'site_title': SITE_TITLE, 'image_cdn': IMAGE_CDN, 'author': AUTHOR}
+    css_hash   = hashlib.md5((STATIC_DIR / 'style.css').read_bytes()).hexdigest()[:8]
+    ctx        = {'site_title': SITE_TITLE, 'image_cdn': IMAGE_CDN, 'author': AUTHOR, 'css_version': css_hash}
 
     # Index
     print('index')
@@ -219,6 +241,10 @@ def build():
         tag_posts = [p for p in all_posts if tag in p['frontmatter'].get('tags', [])]
         write_page(f'tags/{tag}/index.html',
                    env.get_template('tag.html').render(**ctx, tag=tag, posts=tag_posts))
+
+    # Sitemap + robots.txt
+    write_page('sitemap.xml', build_sitemap(all_posts, phil_posts))
+    write_page('robots.txt', f'User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n')
 
     # Static pages
     print('static pages')

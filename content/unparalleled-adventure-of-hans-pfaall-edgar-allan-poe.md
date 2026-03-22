@@ -13,7 +13,9 @@ I read a few stories by Poe in my twenties, but only a few of them, so I'm filli
 
 It purports to be about Hans Pfaall, a "mender of bellows" in Rotterdam who suffers poverty when demand for his services dries up (which he somehow blames on political radicalism). Hounded by his creditors, he decides to kill himself, but then, on discovering some books on mechanics and "Speculative Astronomy," he decides instead to escape his debts by building a balloon and travelling to the Moon. After five years he sends a letter to Earth by balloon --- delivered by a homuncular creature claimed in the letter to be a resident of the Moon --- to tell everyone what he's been doing. But later we find out that Pfaall has in all likelihood been hanging out on Earth with his cronies the whole time, sailing around the world and getting drunk back in Holland. The story of the Moon voyage contained in the letter was an elaborate scheme to fake Pfaall's disappearance.
 
-On top of that, Poe apparently meant the story as a hoax. This is hard to understand now, not only because he undermines the hoax at the close of the frame narrative but also because the story of the Moon voyage itself is incredible, and is introduced in an obviously comedic manner. My resulting confusion is part of what I'm trying to work out here.
+On top of that, some say that Poe meant the story as a hoax. This doesn't really make sense to me, not only because he undermines the hoax at the close of the frame narrative but also because the story of the Moon voyage itself is incredible, and is introduced in an obviously comedic manner.
+
+So, there is a mystery to be solved here: just what *is* this story?
 
 I saw a Goodreads review that included this comment:
 
@@ -29,13 +31,13 @@ What makes it more than comedy is Poe's serious enthusiasm. We see this in the s
 
 > The view of the earth, at this period of my ascension, was beautiful indeed. To the westward, the northward, and the southward, as far as I could see, lay a boundless sheet of apparently unruffled ocean, which every moment gained a deeper and a deeper tint of blue and began already to assume a slight appearance of convexity. At a vast distance to the eastward, although perfectly discernible, extended the islands of Great Britain, the entire Atlantic coasts of France and Spain, with a small portion of the northern part of the continent of Africa. Of individual edifices not a trace could be discovered, and the proudest cities of mankind had utterly faded away from the face of the earth. From the rock of Gibraltar, now dwindled into a dim speck, the dark Mediterranean sea, dotted with shining islands as the heaven is dotted with stars, spread itself out to the eastward as far as my vision extended, until its entire mass of waters seemed at length to tumble headlong over the abyss of the horizon, and I found myself listening on tiptoe for the echoes of the mighty cataract. Overhead, the sky was of a jetty black, and the stars were brilliantly visible.
 
-Incidentally, you can see from this quotation that here Poe is writing in his relatively restrained, prosaic style, which to me is far more gripping than his Gothic mode, which gets too declamatory for my taste.
+Incidentally, you can see from this quotation that here Poe is writing in his relatively restrained, prosaic style, which to me is far more gripping than his Gothic mode, which is too declamatory for my taste.
 
 ## Literary liminality
 
-The story is interesting also because of what it lets us see: the attitudes and the state of knowledge of Poe's contemporary society; the state of _literature_ at the time; and the origin of modern science fiction. But most of all, I think, what I like is that it lets us see these things only dimly, giving it an unintentionally mysterious and alien quality for readers today (at least this reader).
+The story gives us a glimpse of the attitudes and the state of knowledge of Poe's contemporary society; the state of _literature_ at the time; and the origin of modern science fiction. But most of all, I think, what I like is that it lets us see these things only dimly, giving it an unintentionally mysterious and alien quality for readers today (at least this reader).
 
-But that's too vague. I still haven't got to the bottom of my fascination. What is it, _exactly_, that makes it weird and haunting? I'm going to make a move now which is liable to make some people groan, since it risks being a cliché: one way of looking at the story is through the lens of _liminality_, specifically that of [liminal spaces](https://en.wikipedia.org/wiki/Liminal_space_(aesthetic)), which can be applied metaphorically to the aesthetic of the story. As I alluded to above, it occupies an uncertain area somewhere between, on the one hand, sincerely executed adventure, scientific romance, and scientific speculation; and on the other hand, cynical comedy and satire.
+But that's too vague. What is it, _exactly_, that makes it weird and haunting? I'm going to make a move now that risks being a cliché: one way of looking at the story is through the lens of _liminality_, specifically that of [liminal spaces](https://en.wikipedia.org/wiki/Liminal_space_(aesthetic)), which can be applied metaphorically to the aesthetic of the story. As I alluded to above, it occupies an uncertain area somewhere between, on the one hand, sincerely executed adventure, scientific romance, and scientific speculation; and on the other hand, cynical comedy and satire.
 
 Furthermore, I suspect that the weird quality I've detected is a result of the story's position at the beginning of a line of literary descent, and at the beginning of the process of technical innovation and industrialization that ushered in what we now call the modern world: we are familiar with the elements --- scientific speculation, space travel, little aliens, satire --- but they seem off-balance to us where we are now, at the other end of that line. There is an eerie liminality in the story's uncertain place between the pre-modern and the modern. It lies in a literary uncanny valley.
 
@@ -49,7 +51,7 @@ Obviously he's applying it to a later period, but it's the same idea.
 
 ## Hollow Earth
 
-![Hollow Earth](https://upload.wikimedia.org/wikipedia/commons/b/bc/Map_of_the_Interior_World.png)
+![Hollow Earth](https://upload.wikimedia.org/wikipedia/commons/d/db/Map_of_the_Interior_World_%281892%2C_B%26W_version%29.png)
 *[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Map_of_the_Interior_World.png)*
 
 Before I conclude, it's worth noting Poe's flirtation with the [Hollow Earth](https://en.wikipedia.org/wiki/Hollow_Earth) theory. A few days after he sets off, Hans Pfaall passes high above the North Pole:

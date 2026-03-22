@@ -6,7 +6,7 @@ tags: stories, flashfiction
 image: true
 imageClass: mainImageSmall
 imageVersion: 2
-draft: false
+draft: true
 ---
 
 Above the town, deep in the mountain’s shadow, wild boar force their way through a fence into the garden of a vacant villa. In the garden of another villa a wood pigeon, losing its footing on the branch of a pine tree, flaps its wings and dislodges a cone, which falls and bounces off an agave leaf and then lands with a clack on the crazy paving, distracting some ants from their work. On a balcony, Janine opens a Smirnoff Ice and gazes at the distant ferry, and a wasp catches the scent of Tony’s grilled sausages and goes to investigate. Higher up, two ravens croak to each other as they take off from their nest on the crags and fly towards the coast, passing into sunlight.

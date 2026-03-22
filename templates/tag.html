@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 
-{% block head %}<title>Posts tagged &#8220;{{ tag }}&#8221; &mdash; {{ site_title }}</title>{% endblock %}
+{% block head %}
+<title>Posts tagged &#8220;{{ tag }}&#8221; &mdash; {{ site_title }}</title>
+<meta name="description" content="Articles tagged &#8220;{{ tag }}&#8221; on this site.">
+{% endblock %}
 
 {% block content %}
 <section class="articleList">

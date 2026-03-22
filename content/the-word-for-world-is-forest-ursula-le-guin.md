@@ -37,7 +37,7 @@ As someone said the other day on TPF:
 
 > I'm not sure how she gets away with it, but I think part of it is that she's so smart, you trust her and want to listen. We're used to preaching from people who shouldn't — so there's a sort of double offense — but I just don't seem to mind being preached to by her, which is an odd experience. 
 >
-> --- [Srap Tasmaner](https://thephilosophyforum.com/discussion/comment/1038151)
+> --- [Srap Tasmaner](https://archive.thephilosophyforum.com/discussions/22-currently-reading-page-4.html#comment-1038151)
 
 ## Inventing a people
 

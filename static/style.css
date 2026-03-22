@@ -6,42 +6,42 @@
   font-family: 'Barlow Semi Condensed';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
+  font-display: optional;
   src: url('/static/fonts/barlow-400.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Barlow Semi Condensed';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
+  font-display: optional;
   src: url('/static/fonts/barlow-600.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Literata';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
+  font-display: optional;
   src: url('/static/fonts/literata-normal.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Literata';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
+  font-display: optional;
   src: url('/static/fonts/literata-normal.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Literata';
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
+  font-display: optional;
   src: url('/static/fonts/literata-italic.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Literata';
   font-style: italic;
   font-weight: 600;
-  font-display: swap;
+  font-display: optional;
   src: url('/static/fonts/literata-italic.woff2') format('woff2');
 }
 
@@ -58,7 +58,7 @@
   --link-color: #0070f3;
   --fg-toggle: #666666;
   --code-bg: #dbdbdbff;
-  --code-fg: #222222;
+  --code-fg: rgb(157, 68, 68);
   --hr-colour: #232323;
   --header-border-colour: rgba(186, 186, 186, 0.3);
 }
@@ -72,7 +72,7 @@
   --blockquote-border: #686868;
   --link-color: #a3f5dcff;
   --code-bg: #171717;
-  --code-fg: #e3e3e3ff;
+  --code-fg: #FFCBA5;
   --hr-colour: #787878ff;
   --header-border-colour: rgba(62, 62, 62, 0.3);
 }

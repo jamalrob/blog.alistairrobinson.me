@@ -4,6 +4,7 @@ description: 'Tedious, unpleasant, and somehow brilliant: my review of the novel
 date: '2023-10-06'
 tags: sf, reviews, ballard, literary-fiction
 image: true
+imageVersion: 2
 imageClass: mainImageSmaller
 draft: false
 ---

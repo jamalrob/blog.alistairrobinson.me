@@ -3,7 +3,7 @@ title: 'Nova by Samuel R. Delany (1968)'
 description: 'My review of the novel Nova by Samuel R. Delany'
 date: '2023-10-04'
 tags: sf, reviews
-image: true
+image: false
 imageClass: mainImageSmaller
 draft: false
 ---

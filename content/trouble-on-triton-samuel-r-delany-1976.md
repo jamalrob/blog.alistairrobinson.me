@@ -3,12 +3,10 @@ title: 'Trouble on Triton by Samuel R. Delany (1976)'
 description: 'My review of the novel Trouble on Triton by Samuel R. Delany'
 date: '2024-01-10'
 tags: sf, reviews
-image: true
+image: false
 imageClass: mainImageSmaller
 draft: false
 ---
-
-_As always: if you're thinking about reading this book, do so before reading this article. TLDR; It's great._
 
 This book is usually published these days with the title _Triton_, but I'm going with the longer one, _Trouble on Triton_, which I believe was Delany's preferred title, and is my preference too.
 
