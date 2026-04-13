@@ -1,6 +1,6 @@
-# blog.alistairrobinson.me
+# writing.alistairrobinson.me
 
-Source for my personal blog. Long-form philosophical essays, literary criticism, and analytical writing.
+Source for my personal writing. Long-form philosophical essays, literary criticism, and analytical writing.
 
 ## How it works
 

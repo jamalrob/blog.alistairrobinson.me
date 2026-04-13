@@ -58,7 +58,7 @@
   --link-color: #0070f3;
   --fg-toggle: #666666;
   --code-bg: #dbdbdbff;
-  --code-fg: rgb(157, 68, 68);
+  --code-fg: crimson;
   --hr-colour: #232323;
   --header-border-colour: rgba(186, 186, 186, 0.3);
 }
@@ -72,7 +72,7 @@
   --blockquote-border: #686868;
   --link-color: #a3f5dcff;
   --code-bg: #171717;
-  --code-fg: #FFCBA5;
+  --code-fg: springgreen;
   --hr-colour: #787878ff;
   --header-border-colour: rgba(62, 62, 62, 0.3);
 }
@@ -88,7 +88,7 @@ html, body {
   margin: 0;
   font-family: "Barlow Semi Condensed", sans-serif;
   line-height: 1.62;
-  font-size: 21px;
+  font-size: 20px;
   font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Static site builder for blog.alistairrobinson.me"""
+"""Static site builder for writing.alistairrobinson.me"""
 
 import hashlib
 import html
@@ -27,7 +27,7 @@ BODY_IMAGE   = {'width': 800, 'quality': 82}
 HEADER_IMAGE = {'width': 800, 'quality': 84}
 THUMB_IMAGE  = {'width': 200, 'quality': 60}
 
-SITE_URL   = 'https://blog.alistairrobinson.me'
+SITE_URL   = 'https://writing.alistairrobinson.me'
 SITE_TITLE = 'Articles by Alistair Robinson'
 AUTHOR     = 'J. Alistair Robinson'
 
