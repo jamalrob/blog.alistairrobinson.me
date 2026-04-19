@@ -15,9 +15,8 @@ from markdown_it import MarkdownIt
 
 # --- Settings ---
 
-CONTENT_DIR      = Path('content')
-PHIL_ARCHIVE_DIR = Path('content-philosophy-archive')
-OUT_DIR          = Path('out')
+CONTENT_DIR = Path('content')
+OUT_DIR     = Path('out')
 STATIC_DIR       = Path('static')
 TEMPLATES_DIR    = Path('templates')
 PUBLIC_DIR       = Path('public')
@@ -138,17 +137,14 @@ def get_adjacent(posts, current_slug, direction):
     }
 
 
-def build_sitemap(all_posts, phil_posts):
-    static_pages = ['', 'about', 'philosophy-archive', 'tags']
+def build_sitemap(all_posts):
+    static_pages = ['', 'about', 'tags']
     urls = []
     for path in static_pages:
         urls.append(f'{SITE_URL}/{path}' if path else SITE_URL)
     for p in all_posts:
         if p['show']:
             urls.append(f"{SITE_URL}/{p['slug']}")
-    for p in phil_posts:
-        if p['show']:
-            urls.append(f"{SITE_URL}/philosophy-archive/{p['slug']}")
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for url in urls:
@@ -182,9 +178,8 @@ def build():
             dst = OUT_DIR / item.name
             (shutil.copytree if item.is_dir() else shutil.copy2)(item, dst)
 
-    all_posts  = get_all_posts(CONTENT_DIR)
-    phil_posts = get_all_posts(PHIL_ARCHIVE_DIR)
-    css_hash   = hashlib.md5((STATIC_DIR / 'style.css').read_bytes()).hexdigest()[:8]
+    all_posts = get_all_posts(CONTENT_DIR)
+    css_hash  = hashlib.md5((STATIC_DIR / 'style.css').read_bytes()).hexdigest()[:8]
     ctx        = {'site_title': SITE_TITLE, 'image_cdn': IMAGE_CDN, 'author': AUTHOR, 'css_version': css_hash}
 
     # Index
@@ -209,25 +204,6 @@ def build():
             header_image = HEADER_IMAGE,
         ))
 
-    # Philosophy archive index
-    print('philosophy archive')
-    write_page('philosophy-archive/index.html',
-               env.get_template('phil_archive_index.html').render(**ctx, posts=phil_posts))
-
-    # Philosophy archive posts
-    for p in [p for p in phil_posts if p['show']]:
-        slug          = p['slug']
-        data, content = load_post(PHIL_ARCHIVE_DIR / f'{slug}.md')
-        rendered      = render_markdown(content)
-        write_page(f'philosophy-archive/{slug}/index.html',
-                   env.get_template('phil_archive_post.html').render(
-                       **ctx,
-                       slug         = slug,
-                       frontmatter  = data,
-                       post_html    = rendered,
-                       header_image = HEADER_IMAGE,
-                   ))
-
     # Tags
     print('tags')
     all_tags = sorted({
@@ -243,7 +219,7 @@ def build():
                    env.get_template('tag.html').render(**ctx, tag=tag, posts=tag_posts))
 
     # Sitemap + robots.txt
-    write_page('sitemap.xml', build_sitemap(all_posts, phil_posts))
+    write_page('sitemap.xml', build_sitemap(all_posts))
     write_page('robots.txt', f'User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n')
 
     # Static pages
@@ -252,7 +228,7 @@ def build():
     write_page('tpf-childrens-risk-assessment/index.html', env.get_template('tpf-childrens-risk-assessment.html').render(**ctx))
     write_page('404.html',         env.get_template('404.html').render(**ctx))
 
-    print(f'\nDone: {len(all_posts)} posts, {len(phil_posts)} archive posts, {len(all_tags)} tags.')
+    print(f'\nDone: {len(all_posts)} posts, {len(all_tags)} tags.')
 
 
 if __name__ == '__main__':

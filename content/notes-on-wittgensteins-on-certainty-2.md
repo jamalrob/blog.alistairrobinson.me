@@ -2,7 +2,7 @@
 title: "Notes on Wittgenstein on Certainty, Part Two"
 date: '2011-01-02'
 tags: philosophy, wittgenstein, on-certainty
-draft: false
+draft: true
 ---
 Wittgenstein has so far shown that Moore’s response to scepticism is inadequate, or simply mistaken. He now proceeds to diagnose scepticism from his own point of view.
 
