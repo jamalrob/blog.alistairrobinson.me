@@ -277,6 +277,8 @@ It transpires that Thrasymachus believes that injustice, rather than justice, is
 
 Thrasymachus does not take the conventional route, in the same way that he did not accept Clitophon's solution: he avoids saying anything that might suggest the claim that _justice is whatever the ruler says it is._ If he agreed that injustice was a shameful vice, that would fit with the ruler's attempt to cloak their actions in the appearance of justice, and the ruler would at best (at worst?) be a successful scoundrel. But Thrasymachus wants to uphold the tyrant as the most excellent of men, and therefore the most virtuous (remembering that _arete_ denotes excellence with regard to function, not moral rectitude). He is very deliberately upturning the concept of virtue, such that injustice is not something to be ashamed of in the first place.
 
+On the other hand, since his original formulation was that *Justice is what[ever] is advantageous for the stronger*, it looks a lot like Thrasymachus did indeed think that justice is whatever the ruler says it is, but was gradually pushed towards the more radical position as the debate progressed. When he realized what was at stake---whether the dignity of the ruler or his own reputation as professional debater---he went all in.
+
 Socrates then argues to the conclusion (at [350c]) that "A just person has turned out to be good and wise, then, and an unjust one ignorant and bad."
 
 His argument can be set out as follows:
