@@ -69,7 +69,7 @@ After many pages spent with Selver and the other Athsheans, whose simple yet pro
 
 The bureaucratic language is almost physically painful, an abrupt re-entry into the conceptual world of administration, hierarchy, and control. In evoking the tranquil life of the Athsheans in the pages leading up to this exchange, Le Guin had not wandered off into a fairy-world---she was very deliberately setting up a stark contrast.
 
-Le Guin's deeper point is that language itself is part of the apparatus of domination, as much as the logging machines, fire jelly, and hoppers. Dongh's language is positivist, striving for specifications and definitive plans; reality must be rendered in administrative terms before it can be understood. Le Guin is using a stylistic juxtaposition to make a phenomenological and epistemological---and ultimately political---point, emphasizing the contrast between two ways of experiencing and knowing the world. 
+Le Guin's deeper point is that language itself is part of the apparatus of domination, as much as the logging machines, fire jelly, and hoppers. Dongh's language is positivist, striving for specifications and definitive plans; reality must be rendered in administrative terms before it can be understood. Le Guin is using a stylistic juxtaposition to make a phenomenological and epistemological point, emphasizing the contrast between two ways of experiencing and knowing the world. 
 
 ### 3. Dream-time
 
