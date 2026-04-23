@@ -27,7 +27,7 @@ But that's not quite right. Complexity builds as we progress through the story. 
 
 ## Captain Davidson
 
-Davidson is the repressed truth of the pulp sci-fi hero. The swashbuckling spacefarer who spreads American civilization throughout the galaxy reappears here as a sadistic agent of colonial violence. As such, he is a cartoon villain. Le Guin knew this when writing the book:
+Davidson is the repressed truth of the pulp sci-fi hero. The swashbuckling spacefarer who spreads American civilization throughout the galaxy appears here unmasked, as a sadistic agent of colonial violence. As such, he is a cartoon villain. Le Guin knew this when writing the book:
 
 > But Davidson is, though not uncomplex, pure; he is purely evil — and I don’t, consciously, believe purely evil people exist. But my unconscious has other opinions.
 
@@ -69,7 +69,7 @@ After many pages spent with Selver and the other Athsheans, whose simple yet pro
 
 The bureaucratic language is almost physically painful, an abrupt re-entry into the conceptual world of administration, hierarchy, and control. In evoking the tranquil life of the Athsheans in the pages leading up to this exchange, Le Guin had not wandered off into a fairy-world---she was very deliberately setting up a stark contrast.
 
-Le Guin's deeper point is that language itself is part of the apparatus of domination, as much as the logging machines, fire jelly, and hoppers. Dongh's language is positivist, striving for specifications and definitive plans; reality must be rendered in administrative terms before it can be understood. Le Guin is using a stylistic juxtaposition to make an epistemological point, emphasizing the contrast between two ways of experiencing and knowing the world. 
+Le Guin's deeper point is that language itself is part of the apparatus of domination, as much as the logging machines, fire jelly, and hoppers. Dongh's language is positivist, striving for specifications and definitive plans; reality must be rendered in administrative terms before it can be understood. Le Guin is using a stylistic juxtaposition to make a phenomenological and epistemological---and ultimately political---point, emphasizing the contrast between two ways of experiencing and knowing the world. 
 
 ### 3. Dream-time
 
