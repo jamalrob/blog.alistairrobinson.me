@@ -123,7 +123,7 @@ For those who believe that imperialism and colonialism are _intrinsically_ explo
 
 And there's an alternative interpretation. Davidson can be seen not so much as a bad apple but as an avatar, the embodiment of colonialism and all its evils. He _is_ the system, and the book is a radical, though symbolic, critique of that system---not a liberal retreat after all.
 
-I'm not sure which of these interpretations is right. The latter would seem to completely undermine the former, revealing it to be crude and over-excited dogmatism. But to be fair to myself, I think my condemnation does, at very least, reveal a dangerous message that Le Guin might not have intended but which is easy to draw from the story, the kind of representation of the status quo that many Left-leaning works of science-fiction probably slide towards, with their propensity to favour technocracy over democracy.
+I'm not sure which of these interpretations is right. The latter would seem to completely undermine the former. But to be fair to myself, I think my condemnation does, at very least, reveal a dangerous message that Le Guin might not have intended but which is easy to draw from the story, the kind of representation of the status quo that many Left-leaning works of science-fiction probably slide towards, with their propensity to favour technocracy over democracy.
 
 ## Conclusion
 
