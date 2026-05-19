@@ -335,7 +335,7 @@ The thing that sticks out is the premise that justice is the virtue of the soul 
 >
 > [353e]
 
-My reaction was "Wait---when did they agree to that?" What Socrates concluded at [350c] was that "the just person is wise and good, and the unjust person ignorant and bad" (where "good" can be understood as _excellent_). This association between justice and wisdom/excellence doesn't establish that justice is the excellence that allows the soul to function well.  
+My reaction was "Wait---when did they agree to that?" What Socrates concluded at [350c] was that "the just person is wise and good, and the unjust person ignorant and bad" (where "good" can be understood as _excellent_). Taken in isolation, the later statement is not too far from the earlier, but the present argument can conclude as it does only if "justice is a soul’s virtue" is taken to function as if it were saying that *justice is the soul's virtue that enables living well*. The mere association between justice and wisdom/excellence doesn't establish that justice is the excellence that allows the soul to function well.  
 
 So Thrasymachus in fact never did agree to this. At this point he is in a sulk, agreeing to everything Socrates says in a somewhat sarcastic or reluctant manner. 
 

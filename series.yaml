@@ -7,3 +7,6 @@ platoSeries:
     - part: 2
       slug: /the-republic-by-plato-part-2--book-i
       label: Part 2
+    - part: 3
+      slug: /the-republic-by-plato-part-3--book-ii
+      label: Part 3
