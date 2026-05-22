@@ -18,8 +18,7 @@ Thrasymachus has been defeated, but the others are not satisfied. Book II begins
 [1.1. Glaucon is unconvinced](#unconvinced)  
 [1.2. Glaucon's three kinds of goods](#three-kinds-of-goods)  
 [1.3. Glaucon presents Thrasymachus's position](#strong-thrasymachus)  
-[1.4. Socrates accepts the burden of proof](#burden-of-proof)  
-[1.5. Adeimantus reinforces the challenge](#adeimantus)  
+[1.4. Adeimantus reinforces the challenge](#adeimantus)  
 
 ### 2. The City's Formation
 
@@ -39,6 +38,7 @@ Thrasymachus has been defeated, but the others are not satisfied. Book II begins
 [3.5. God is only the cause of good things](#first-theological-principle)  
 [3.6. God does not change form or deceive](#second-theological-principle)  
 <a name="unconvinced"><br/></a>
+## 1. The Challenge
 ### 1.1. Glaucon is unconvinced (357a-357b)
 
 Socrates thinks the discussion is over (at least, that's what he says), but Glaucon, speaking for the others, objects:
@@ -93,29 +93,23 @@ It may be true that justice is valued both as an instrumental and an intrinsic g
 <a name="strong-thrasymachus"><br/></a>
 ### 1.3. Glaucon presents Thrasymachus's position (358e-362c)
 
-Glaucon's strategy to elicit the kind of response from Socrates that he really wants is to present Thrasymachus's argument more persuasively than Thrasymachus himself was able to do.
+Glaucon's strategy to elicit the kind of response from Socrates that he really wants is to present Thrasymachus's argument more persuasively than Thrasymachus himself was able to do. He is careful to underscore that the position he will be arguing for is not his own---in fact, he believes the opposite of Thrasymachus. Thus Plato demonstrates through Glaucon, who is "who is always very courageous in everything," [357a] how true courage manifests itself to positive effect in philosophical discussion, through participation aimed at reaching the truth with rigour, rather than prevailing over others with bluster and speechifying.
 
 > You see, I think Thrasymachus gave up before he had to, as if he were a snake you had charmed. Yet, to my way of thinking, there was still no demonstration on either side. [...] So, if you agree, I will renew the argument of Thrasymachus.
 >
 > --- *358b*
 
-He lays out his strategy nicely:
-
-> First, I will state what sort of thing people consider justice to be, and what its origins are. Second, I will argue that all who practice it do so unwillingly, as something necessary, not as something good. Third, I will argue that they have good reason to act as they do. For the life of the unjust person is, they say, much better than that of the just one. 
->
-> --- *358b*
-
-In the ensuing argument, the answer to what sort of thing people consider justice to be is *a matter of convention*, so Glaucon's the three theses are as follows:
+Then, still at 358b, he lays out his strategy, which is to argue for three theses in turn:
 
 - Justice is a matter of convention  
-- People who act justly do so unwillingly (the ring of Gyges)
+- People who act justly do so unwillingly
 - The unjust person is happier than the just person  
 
 #### Justice is a matter of convention
 
-Glaucon passes over this quickly but it's worth pausing over it because it reflects a Hobbesian picture of social life that continues to resonate today. Glaucon---channeling Thrasymachus, remember---argues that the origin of justice lies in the fact that "the badness of suffering it [injustice] far exceeds the goodness of doing it" [358e], such that the weak majority must make "laws and covenants" against injustice, and this they call justice. Injustice then is more basic and primary than justice; injustice is natural, while justice is a matter of conventions formed in response to human nature. 
+Glaucon passes over this quickly but it's worth taking note of it, as it reflects a Hobbesian picture of social life that continues to resonate today. Glaucon---channeling Thrasymachus, remember---argues that the origin of justice lies in the fact that "the badness of suffering it [injustice] far exceeds the goodness of doing it" [358e], such that the weak majority must make "laws and covenants" against injustice, and this they call justice. Injustice then is more basic and primary than justice, i.e., it is natural, while justice is a matter of conventions formed *in response* to human nature. 
 
-So it turns out that one of the crucial underpinnings of Thrasymachus's position is a conception of human nature as fundamentally characterized by coercion, violence, and fear.
+So it turns out that one of the crucial underpinnings of Thrasymachus's position is a conception of human nature as fundamentally coercive, violent, and fearful.
 
 #### People who act justly do so unwillingly (the ring of Gyges)
 
@@ -125,7 +119,7 @@ It follows from all this that justice, in its originary form, is valuable largel
 >
 > --- *359a*
 
-Notice the phrase, "a real man". This colloquial phrase seems to work quite well as a translation of ὡς ἀληθῶς ἄνδρα (*hōs alēthōs andra*), which denotes a strong, capable man of good standing. Another translation is "a man in the truest sense".
+Notice the phrase, "a real man". This colloquialism works quite well as a translation of ὡς ἀληθῶς ἄνδρα (*hōs alēthōs andra*), which denotes a strong, capable man of good standing. Another translation is "a man in the truest sense".
 
 And this reveals something about the conception of masculinity that Glaucon is drawing on here, the one that he says holds sway in his Athenian society and which Thrasymachus has already spoken in favour of, with his laudatory comments about tyrants: to be a real a man is to exert power and get away with it.
 
@@ -137,17 +131,35 @@ Glaucon claims that a simple thought-experiment demonstrates this:
 >
 > --- *359c*
 
-Ring of Gyges
+This follows from the first thesis, that injustice is natural. Given the freedom to do so, people will do whatever they can to outdo others, find pleasure wherever they feel like it, kill as they please, and become as rich as possible. 
+
+To make the thought-experiment concrete, Glaucon tells the story of the ring of Gyges. Gyges (or an ancestor of his) finds a ring with the power of invisibility, and uses it to seduce the queen, kill the king, and take possession of the kingdom. Now, Glaucon says, imagine two such rings, one worn by an unjust person, the other worn by a just person. Surely, the just person would act equally unjustly as the unjust person, knowing they could get away with it.
+
+> This, some would say, is strong evidence that no one is just willingly, but only when compelled. No one believes justice to be a good thing when it is kept private, since whenever either person thinks he can do injustice with impunity, he does it.
+>
+> --- *360c*
+
+People act justly so that they can be *seen* to act justly, and for no other reason. This need for a good reputation is the compulsion that forces them to either act justly, or hide their acts of injustice.
+
+Furthermore, if there *were* a person who willingly acted justly when they did not have to, he would be thought by everyone to be a fool, while they praised him in public. 
 
 #### The unjust person is happier than the just person
 
-<a name="burden-of-proof"><br/></a>
-### 1.4. Socrates accepts the burden of proof (362d-367e)
+To show that the life of the unjust person is better than that of the just person, Glaucon says we need to "contrast the extremes of justice and injustice". And by "extreme" he clarifies that he means the utmost *perfection* of each. Each person is the *ideal* representative, and it's important that the comparison is done like this to isolate justice itself from its consequences, i.e., good reputation, etc.
 
+The comparison goes as follows.
+
+The perfectly unjust person is one who is able to act unjustly while remaining undetected and maintaining a reputation for justice. The perfectly just person is one who acts justly but is thought to be an unjust person for his whole life.
+
+It seems to obviously follow that the life of the unjust person will be much better than that of the just person, i.e., he will be happy and celebrated, while the just person will suffer the greatest indignities.
 <a name="adeimantus"><br/></a>
-### 1.5. Adeimantus reinforces the challenge (362d-367e)
+### 1.4. Adeimantus reinforces the challenge (362d-367e)
 
-Whereas Glaucon's argument was about what people *do*, Adeimantus looks at what people *say*. He shows that even when *praising* justice, people do so for extrinsic consequences. It is not as if the merely extrinsic benefits of justice---a good reputation, primarily---constitute a dirty secret; everyone is quite open about it, including the best poets. It's as if nobody can even imagine justice as intrinsically good.
+Socrates is about to reply to Glaucon when Adeimantus, Glaucon's brother, intervenes to support Glaucon's Thrasymachean argument.
+
+Whereas Glaucon's argument was about what people *do*, Adeimantus looks at what people *say*. He shows that even when praising justice, people do so for its extrinsic consequences. It is not as if the merely extrinsic benefits of justice---a good reputation, primarily---constitute a dirty secret; everyone is quite open about it, including the best poets. It's as if nobody can even imagine justice as intrinsically good.
+
+
 
 <a name="city-method"><br/></a>
 ### 2.1. Socrates's proposal: building a city in speech (368c-369a)
@@ -188,5 +200,7 @@ Socrates explains the formation of a community as occurring because of mutual ne
 
 <a name="second-theological-principle"><br/></a>
 ### 3.6. God does not change form or deceive (380d-383c)
+
+asdasd
 
 
