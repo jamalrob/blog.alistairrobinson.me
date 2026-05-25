@@ -157,15 +157,49 @@ It seems to obviously follow that the life of the unjust person will be much bet
 
 Socrates is about to reply to Glaucon when Adeimantus, Glaucon's brother, intervenes to support Glaucon's Thrasymachean argument.
 
-Whereas Glaucon's argument was about what people *do*, Adeimantus looks at what people *say*. He shows that even when praising justice, people do so for its extrinsic consequences. It is not as if the merely extrinsic benefits of justice---a good reputation, primarily---constitute a dirty secret; everyone is quite open about it, including the best poets. It's as if nobody can even imagine justice as intrinsically good.
+Whereas Glaucon's argument was about what people *do*, Adeimantus looks at what people *say*, particularly when they praise justice. He shows that even then, people do so for its extrinsic consequences. It is not that the merely extrinsic benefits of justice---a good reputation, primarily---constitute a dirty secret; everyone is quite open about it, including the best poets. It's as if nobody can even imagine justice as intrinsically good.
 
+On top of that, in the popular accounts of the gods it is made clear that if one has committed an injustice, this can be fixed with rituals and sacrifices---"that there are in fact absolutions and purifications for unjust deeds" [364e].
 
+Adeimantus's speech is significant for the way it prefigures the topic of censorship:
 
+> With so many things of this sort, my dear Socrates, being said about virtue and vice, and about how human beings and gods honor them, what effect do we suppose they have on the souls of young people?
+>
+> --- *365a*
+
+The speech also relates to Plato's important dichotomies, between knowledge and opinion and reality and illusion:  
+
+> As for what people say, they say that there is no advantage in my being just if I am not also thought just, whereas the troubles and penalties of being just are apparent; but the unjust person, who has secured for himself a reputation for justice, lives the life of a god. Since, then, ‘opinion forcibly overcomes truth,’ and ‘controls happiness,’ as the wise men say, I must surely turn entirely to it. I should create an illusionist painting of virtue around me to deceive those who come near, but keep behind it the wise Archilochus’ greedy and cunning fox.” 
+>
+> --- *365b*
 <a name="city-method"><br/></a>
-### 2.1. Socrates's proposal: building a city in speech (368c-369a)
+### 2.1. Socrates's proposal: building a city in speech (368a-369a)
 
-The Method. Socrates suggests the hypothetical construction of a city, under the assumption that finding the nature of justice in a city will enable them to understand the nature of justice in a person
+Socrates begins by complimenting the brothers: 
 
+> For something altogether god-like must have affected you if you are not convinced that injustice is better than justice and yet can speak like that on its behalf.
+>
+> --- *368a*
+
+Though it's said just in passing, this is quite important. Plato is praising what he sees as an exemplary mode of moral and intellectual being: an instinctive dedication to the good combined with a willingness to entertain the opposite view so as to raise one's mere opinion to the level of knowledge.
+
+Now, Socrates has been tasked by Glaucon and Adeimantus with showing that justice is not only one of the greatest goods but is *intrinsically* such. The method he suggests to show this is to construct a hypothetical city in their imaginations, under the assumption that finding the nature of justice in a city will enable them to understand the nature of justice in a single person.
+
+It's worth asking why Socrates thinks this is a good method. He says that just as we can read large letters better than small ones, we can understand justice better in a city than in an individual, since a city is larger: 
+
+> let’s first find out what sort of thing justice is in cities, and afterward look for it in the individual, to see if the larger entity is similar in form to the smaller one.
+>
+> --- *368e*
+
+At one level, this can be taken as an analogy between city and individual, but there might be more to it than that. Justice in the city might be a higher-level recapitulation of precisely the same Form that is seen in individuals. Justice would then be a fundamental reality underlying both individual and collective, meaning that Socrates's method is based on something stronger than mere analogy, namely a comprehensive metaphysical system. 
+
+I will return to that in a later article. For now, the comparison is clear enough, and Socrates further clarifies that he means to examine the development of the city from a state of nature, in a kind of genealogy:
+
+> If, in our discussion, we could look at a city coming to be, wouldn’t we also see its justice coming to be, and its injustice as well?
+>
+> --- *369a*
+
+He is not doing empirical history here, but examining human nature, asking what leads people to come together to form communities.
 <a name="division-of-labour"><br/></a>
 ### 2.2. Socrates's division of labour principle (369b-370c)
 
