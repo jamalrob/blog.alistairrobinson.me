@@ -24,10 +24,8 @@ Thrasymachus has been defeated, but the others are not satisfied. Book II begins
 
 [2.1. Socrates's proposal: building a city in speech](#city-method)  
 [2.2. Socrates's division of labour principle](#division-of-labour)  
-[2.3. Socrates explains the origins of community](#mutual-needs)  
-[2.4. Socrates describes the rustic or healthy city](#healthy-city)  
-[2.5. Glaucon objects that the rustic city is a city of pigs](#city-of-pigs)  
-[2.6. Socrates agrees to construct the luxurious or feverish city](#feverish-city)  
+[2.3. Socrates describes the rustic or healthy city](#rustic-city)  
+[2.4. From the rustic city to the luxurious city](#from-rustic)  
 
 ### 3. The Guardians & Their Education
 
@@ -173,6 +171,7 @@ The speech also relates to Plato's important dichotomies, between knowledge and 
 >
 > --- *365b*
 <a name="city-method"><br/></a>
+## 2. The City’s Formation
 ### 2.1. Socrates's proposal: building a city in speech (368a-369a)
 
 Socrates begins by complimenting the brothers: 
@@ -222,8 +221,8 @@ On this basis of need, Socrates then argues for the division of labour. We need 
 > -- *370c* 
 
 The division of labour follows as a fundamental economic principle of any community.
-<a name="healthy-city"><br/></a>
-### 2.3. Socrates describes the rustic or healthy city (370c-372d)
+<a name="rustic-city"><br/></a>
+### 2.3. Socrates describes the rustic or healthy city (370c-372c)
 
 The number of professions required in the city soon multiplies when Socrates points out that the farmer will need farm implements, the weaver will need spindles and looms, etc., so we now have carpenters and metalworkers too. And farmers use animals, so that means shepherds, cowherds, and so on. The point is that the community must reach a certain size to be viable.
 
@@ -234,8 +233,8 @@ Socrates goes on to add markets, currencies, retailers, and wage-labour, and the
 > They will make food, wine, clothes, and shoes, won’t they? And they will build themselves houses. In the summer, they will mostly work naked and barefoot, but in the winter they will wear adequate clothing and shoes. For nourishment, they will provide themselves with barley meal and wheat flour, which they will knead and bake into noble cakes and loaves and serve up on a reed or on clean leaves. They will recline on couches strewn with yew and myrtles and feast with their children, drink their wine, and, crowned with wreaths, hymn the gods. They will enjoy having sex with one another, but they will produce no more children than their resources allow, lest they fall into either poverty or war.
 > 
 > --- *372a*
-<a name="city-of-pigs"><br/></a>
-### 2.4. Glaucon objects that the rustic city is a city of pigs (372d-372e)
+<a name="from-rustic"><br/></a>
+### 2.4. From the rustic city to the luxurious city (372c-374e)
 
 At this point Glaucon says:
 
@@ -243,12 +242,37 @@ At this point Glaucon says:
 >
 > --- *372c*
 
+Socrates takes this literally. Since he has mentioned only barley cakes and bread, he agrees to grant the citizens various condiments and side-dishes too. But Glaucon is not satisfied. In my view, this is because he meant "relish" metaphorically---but in any case, he describes Socrates's completed city, even with the addition of relishes, as a "city of pigs", that is, a *pre-civilized* city.
 
+Socrates asks what Glaucon is getting at and he answers:
 
-<a name="feverish-city"><br/></a>
-### 2.5. Socrates agrees to construct the luxurious or feverish city (372e-374e)
+> GLAUCON: Just what is conventional. If they are not to suffer hardship, they should recline on proper couches, I suppose, dine at tables, and have the relishes and desserts that people have nowadays.
+>
+> --- *372d*
+
+Glaucon seems to think that the proper model for the hypothetical city under construction should be the kind of city he and his companions are used to, one that people like him would be happy with. He does not say why, but we can surmise. Charitably, he might reasonably think that using a city like contemporary Athens as the model is more likely to be illuminating and applicable---a simple community, close to a state of nature, might not tell us anything useful about justice. On the other hand, and perhaps uncharitably, he might wish to ensure that justice turns out to be compatible with the lifestyle he already enjoys.
+
+But perhaps this ambiguity isn't really about Glaucon's actual motivations at all. Perhaps it reveals a real tension in the point of view of any truth-seeker: they always have their own class interests as someone embedded in a society in a certain way, in this case as a member of the Athenian aristocracy.
+
+Adorno emphasized the importance, for any intellectual, of a kind of humility: an awareness---or rather, an attempt to reach *some* level of awareness---of one's own class interests and how they affect one's ideas:
+
+> Elitist arrogance has not the least place in philosophical experience. It must give an account of how much, according to its own possibility in the existent, it is contaminated with the existent, with the class relationship.
+>
+> --- Adorno, *Negative Dialectics*, [Introduction: Privilege of Experience](https://negativedialectics.org/#privilege-of-experience)
+
+From this point of view, Glaucon's insistence on nice couches could be seen as owing to the contamination of his view by aristocratic interests and tastes---and if he is a good intellectual, he is alert to this possibility. To take this even further: Plato, as a member of the Athenian aristocracy himself, may have made a feature of Glaucon's ambiguous motivation precisely to demonstrate both the possible contamination *and* the ideal of intellectual self-awareness with respect to his own work, including the *Republic*.
+
+Socrates accepts this, what he calls the *luxurious* city, as the right model, but not without some pushback:
+
+> Yet the true city, in my view, is the one we have described: the healthy one, as it were. But if you also want to look at a feverish city, so be it.
+>
+> --- *372e*
+
+Socrates's disapproval is obvious: Glaucon's favoured model is of a "feverish" city, as opposed to his own healthy one. 
+
 
 <a name="guardians-intro"><br/></a>
+## 3. The Guardians & Their Education
 ### 3.1. The origin of war & introduction of the guardians (373e-374e)
 
 <a name="guardian-nature"><br/></a>
