@@ -199,23 +199,54 @@ I will return to that in a later article. For now, the comparison is clear enoug
 >
 > --- *369a*
 
-He is not doing empirical history here, but examining human nature, asking what leads people to come together to form communities.
+Note that although he talks here in terms of a particular city, he is not doing empirical history, but examining human nature, asking what leads people to come together to form communities.
 <a name="division-of-labour"><br/></a>
 ### 2.2. Socrates's division of labour principle (369b-370c)
 
-<a name="mutual-needs"><br/></a>
-### 2.3. Socrates explains the origins of community (369b-371e)
+Socrates conceives of the origin of the city as a matter of cooperative satisfaction of individual needs in a community of shared resources and effort. Individuals are not self-sufficient; they have many needs, and therefore require various other people "as partners and helpers". The result is a "shared settlement". [369c]
 
-Socrates explains the formation of a community as occurring because of mutual needs
+That said, people do not cooperate from altruism or mere fellow-feeling:
 
+> And if they share things with one another—if they give something to one another, or take something from one another—don’t they do so because each believes that this is better for himself?
+>
+> --- *369c*
+
+Socrates isolates individual need as the primary cause of the formation of a settlement, while also emphasizing that membership of a specifically cooperative community is the best solution to this. I am tempted to interpret this as a reciprocal or dialectical relation between individual and collective. However, this faces the problem that Socrates clearly says that self-interest is prior to community; if the relation were dialectical, neither would be prior. Maybe what I can say is that in the *genealogical* account---of the city's origin---self-interest is prior, but in the *structural* account---of the city once formed---neither is prior, and we have a genuine reciprocity. It remains to be seen whether Plato will in fact represent the mature city in that way.
+
+On this basis of need, Socrates then argues for the division of labour. We need food, shelter, shoes, and clothing, so the city will need specialist farmers, builders, shoemakers, and weavers. The alternative is that each person splits their time between these different tasks, to satisfy their own needs. But since people have diverse aptitudes, one person is better suited to one job, another person to another job. On top of that, a person performs a job best when that is the only job they have to do.
+
+> SOCRATES: The result, then, is that more plentiful and better-quality goods are more easily produced, if each person does one thing for which he is naturally suited and does it at the opportune moment, because his time is freed from all the others.
+>
+> ADEIMANTUS: Absolutely.
+>
+> -- *370c* 
+
+The division of labour follows as a fundamental economic principle of any community.
 <a name="healthy-city"><br/></a>
-### 2.4. Socrates describes the rustic or healthy city (369b-372d)
+### 2.3. Socrates describes the rustic or healthy city (370c-372d)
 
+The number of professions required in the city soon multiplies when Socrates points out that the farmer will need farm implements, the weaver will need spindles and looms, etc., so we now have carpenters and metalworkers too. And farmers use animals, so that means shepherds, cowherds, and so on. The point is that the community must reach a certain size to be viable.
+
+Then he traces an increasing economic complexity. Since no city has the benefit of being able to supply all necessities itself, it will need to engage in trade with other cities, exchanging surplus products and thus requiring even more craftsmen of the various kinds, while the trade itself is also carried out by professional merchants. And because some trade is carried out by sea, the city will need sailors.
+
+Socrates goes on to add markets, currencies, retailers, and wage-labour, and then considers the hypothetical construction complete, and briefly describes the kind of life the people of this city will lead:
+
+> They will make food, wine, clothes, and shoes, won’t they? And they will build themselves houses. In the summer, they will mostly work naked and barefoot, but in the winter they will wear adequate clothing and shoes. For nourishment, they will provide themselves with barley meal and wheat flour, which they will knead and bake into noble cakes and loaves and serve up on a reed or on clean leaves. They will recline on couches strewn with yew and myrtles and feast with their children, drink their wine, and, crowned with wreaths, hymn the gods. They will enjoy having sex with one another, but they will produce no more children than their resources allow, lest they fall into either poverty or war.
+> 
+> --- *372a*
 <a name="city-of-pigs"><br/></a>
-### 2.5. Glaucon objects that the rustic city is a city of pigs (372d-372e)
+### 2.4. Glaucon objects that the rustic city is a city of pigs (372d-372e)
+
+At this point Glaucon says:
+
+> It seems that you make your people feast without any relishes.
+>
+> --- *372c*
+
+
 
 <a name="feverish-city"><br/></a>
-### 2.6. Socrates agrees to construct the luxurious or feverish city (372e-374e)
+### 2.5. Socrates agrees to construct the luxurious or feverish city (372e-374e)
 
 <a name="guardians-intro"><br/></a>
 ### 3.1. The origin of war & introduction of the guardians (373e-374e)
