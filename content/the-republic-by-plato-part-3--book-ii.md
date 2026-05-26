@@ -24,7 +24,7 @@ Thrasymachus has been defeated, but the others are not satisfied. Book II begins
 
 [2.1. Socrates's proposal: building a city in speech](#city-method)  
 [2.2. Socrates's division of labour principle](#division-of-labour)  
-[2.3. Socrates describes the rustic or healthy city](#rustic-city)  
+[2.3. Socrates describes the rustic city](#rustic-city)  
 [2.4. From the rustic city to the luxurious city](#from-rustic)  
 
 ### 3. The Guardians & Their Education
@@ -222,7 +222,7 @@ On this basis of need, Socrates then argues for the division of labour. We need 
 
 The division of labour follows as a fundamental economic principle of any community.
 <a name="rustic-city"><br/></a>
-### 2.3. Socrates describes the rustic or healthy city (370c-372c)
+### 2.3. Socrates describes the rustic city (370c-372c)
 
 The number of professions required in the city soon multiplies when Socrates points out that the farmer will need farm implements, the weaver will need spindles and looms, etc., so we now have carpenters and metalworkers too. And farmers use animals, so that means shepherds, cowherds, and so on. The point is that the community must reach a certain size to be viable.
 
@@ -234,7 +234,7 @@ Socrates goes on to add markets, currencies, retailers, and wage-labour, and the
 > 
 > --- *372a*
 <a name="from-rustic"><br/></a>
-### 2.4. From the rustic city to the luxurious city (372c-374e)
+### 2.4. From the rustic city to the luxurious city (372c-373d)
 
 At this point Glaucon says:
 
@@ -262,18 +262,32 @@ Adorno emphasized the importance, for any intellectual, of a kind of humility: a
 
 From this point of view, Glaucon's insistence on nice couches could be seen as owing to the contamination of his view by aristocratic interests and tastes---and if he is a good intellectual, he is alert to this possibility. To take this even further: Plato, as a member of the Athenian aristocracy himself, may have made a feature of Glaucon's ambiguous motivation precisely to demonstrate both the possible contamination *and* the ideal of intellectual self-awareness with respect to his own work, including the *Republic*.
 
-Socrates accepts this, what he calls the *luxurious* city, as the right model, but not without some pushback:
+Socrates accepts that this model, what he calls the *luxurious* city, is the right model---but not without some pushback:
 
 > Yet the true city, in my view, is the one we have described: the healthy one, as it were. But if you also want to look at a feverish city, so be it.
 >
 > --- *372e*
 
-Socrates's disapproval is obvious: Glaucon's favoured model is of a "feverish" city, as opposed to his own healthy one. 
+Socrates's disapproval is obvious: he characterizes Glaucon's favoured model not only as a luxurious city but as a *feverish* one, as opposed to his own *healthy* one. Something has gone wrong, he thinks, but he doesn't let that stop them forging ahead. It is as if he believes that human community, when it goes beyond his rustic model, is inevitabily corrupt, or that it has a tragic flaw, namely ***pleonexia***, the human desire to have more than one needs. 
 
+So the *real* problem, Socrates seems to think, is that there will always be those for whom the rustic city is not enough:
 
+> You see, the things I mentioned earlier, and the way of life I described, won’t satisfy some people, it seems ... 
+>
+> --- *372e*
+
+We might suspect that, for Socrates and Plato, this is what lies at the root of injustice---and this will become clearer later on.
+
+Socrates then details the necessary expansion required by the luxurious city: perfumes and prostitutes, painting and embroidery, gold and ivory, poets and musicians, actors, dancers, theatrical producers, beauticians and barbers, etc. In summary: more things, and more *multifariousness* for each thing. 
+
+Thus Plato shows that human desires will always in a sense *curse* any kind of society you want to build, making the question of justice so important, since if we could all be happy as "pigs" then everything would be harmonious without much effort.
 <a name="guardians-intro"><br/></a>
 ## 3. The Guardians & Their Education
 ### 3.1. The origin of war & introduction of the guardians (373e-374e)
+
+A major consequence of the feverish expansion of the city is the need for more territory, since more livestock will be required to feed and clothe the growing population, most of whom now demand meat and fancy clothing. Gaining territory necessitates taking possession of land controlled by neighbouring states, thus our city must go to war.
+
+
 
 <a name="guardian-nature"><br/></a>
 ### 3.2. The nature of the guardians (374e-376c)
