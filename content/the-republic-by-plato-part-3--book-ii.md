@@ -32,9 +32,8 @@ Thrasymachus has been defeated, but the others are not satisfied. Book II begins
 [3.1. The origin of war & introduction of the guardians](#guardians-intro)  
 [3.2. The nature of the guardians](#guardian-nature)  
 [3.3. The education of the guardians](#guardian-education)  
-[3.4. Censorship of poetry](#poetry-censorship)  
-[3.5. God is only the cause of good things](#first-theological-principle)  
-[3.6. God does not change form or deceive](#second-theological-principle)  
+[3.4. God is only the cause of good things](#first-theological-principle)  
+[3.5. God does not change form or deceive](#second-theological-principle)  
 <a name="unconvinced"><br/></a>
 ## 1. The Challenge
 ### 1.1. Glaucon is unconvinced (357a-357b)
@@ -91,7 +90,7 @@ It may be true that justice is valued both as an instrumental and an intrinsic g
 <a name="strong-thrasymachus"><br/></a>
 ### 1.3. Glaucon presents Thrasymachus's position (358e-362c)
 
-Glaucon's strategy to elicit the kind of response from Socrates that he really wants is to present Thrasymachus's argument more persuasively than Thrasymachus himself was able to do. He is careful to underscore that the position he will be arguing for is not his own---in fact, he believes the opposite of Thrasymachus. Thus Plato demonstrates through Glaucon, who is "who is always very courageous in everything," [357a] how true courage manifests itself to positive effect in philosophical discussion, through participation aimed at reaching the truth with rigour, rather than prevailing over others with bluster and speechifying.
+Glaucon's strategy to elicit the kind of response from Socrates that he really wants is to present Thrasymachus's argument more persuasively than Thrasymachus himself was able to do. He is careful to underscore that the position he will be arguing for is not his own---in fact, he believes the opposite of Thrasymachus. Thus Plato demonstrates through Glaucon, who is "who is always very courageous in everything," (357a) how true courage manifests itself to positive effect in philosophical discussion, through participation aimed at reaching the truth with rigour, rather than prevailing over others with bluster and speechifying.
 
 > You see, I think Thrasymachus gave up before he had to, as if he were a snake you had charmed. Yet, to my way of thinking, there was still no demonstration on either side. [...] So, if you agree, I will renew the argument of Thrasymachus.
 >
@@ -105,7 +104,7 @@ Then, still at 358b, he lays out his strategy, which is to argue for three these
 
 #### Justice is a matter of convention
 
-Glaucon passes over this quickly but it's worth taking note of it, as it reflects a Hobbesian picture of social life that continues to resonate today. Glaucon---channeling Thrasymachus, remember---argues that the origin of justice lies in the fact that "the badness of suffering it [injustice] far exceeds the goodness of doing it" [358e], such that the weak majority must make "laws and covenants" against injustice, and this they call justice. Injustice then is more basic and primary than justice, i.e., it is natural, while justice is a matter of conventions formed *in response* to human nature. 
+Glaucon passes over this quickly but it's worth taking note of it, as it reflects a Hobbesian picture of social life that continues to resonate today. Glaucon---channeling Thrasymachus, remember---argues that the origin of justice lies in the fact that "the badness of suffering it [injustice] far exceeds the goodness of doing it" (358e), such that the weak majority must make "laws and covenants" against injustice, and this they call justice. Injustice then is more basic and primary than justice, i.e., it is natural, while justice is a matter of conventions formed *in response* to human nature. 
 
 So it turns out that one of the crucial underpinnings of Thrasymachus's position is a conception of human nature as fundamentally coercive, violent, and fearful.
 
@@ -157,7 +156,7 @@ Socrates is about to reply to Glaucon when Adeimantus, Glaucon's brother, interv
 
 Whereas Glaucon's argument was about what people *do*, Adeimantus looks at what people *say*, particularly when they praise justice. He shows that even then, people do so for its extrinsic consequences. It is not that the merely extrinsic benefits of justice---a good reputation, primarily---constitute a dirty secret; everyone is quite open about it, including the best poets. It's as if nobody can even imagine justice as intrinsically good.
 
-On top of that, in the popular accounts of the gods it is made clear that if one has committed an injustice, this can be fixed with rituals and sacrifices---"that there are in fact absolutions and purifications for unjust deeds" [364e].
+On top of that, in the popular accounts of the gods it is made clear that if one has committed an injustice, this can be fixed with rituals and sacrifices---"that there are in fact absolutions and purifications for unjust deeds" (364e).
 
 Adeimantus's speech is significant for the way it prefigures the topic of censorship:
 
@@ -202,7 +201,7 @@ Note that although he talks here in terms of a particular city, he is not doing 
 <a name="division-of-labour"><br/></a>
 ### 2.2. Socrates's division of labour principle (369b-370c)
 
-Socrates conceives of the origin of the city as a matter of cooperative satisfaction of individual needs in a community of shared resources and effort. Individuals are not self-sufficient; they have many needs, and therefore require various other people "as partners and helpers". The result is a "shared settlement". [369c]
+Socrates conceives of the origin of the city as a matter of cooperative satisfaction of individual needs in a community of shared resources and effort. Individuals are not self-sufficient; they have many needs, and therefore require various other people "as partners and helpers". The result is a "shared settlement". (369c)
 
 That said, people do not cooperate from altruism or mere fellow-feeling:
 
@@ -250,7 +249,7 @@ Socrates asks what Glaucon is getting at and he answers:
 >
 > --- *372d*
 
-Glaucon seems to think that the proper model for the hypothetical city under construction should be the kind of city he and his companions are used to, one that people like him would be happy with. He does not say why, but we can surmise. Charitably, he might reasonably think that using a city like contemporary Athens as the model is more likely to be illuminating and applicable---a simple community, close to a state of nature, might not tell us anything useful about justice. On the other hand, and perhaps uncharitably, he might wish to ensure that justice turns out to be compatible with the lifestyle he already enjoys.
+Glaucon seems to think that the proper model for the hypothetical city under construction should be the kind of city he and his companions are used to, one that can support the lifestyle of the Athenian upper class. He does not say why he thinks so, but we can surmise. Charitably, he might reasonably think that using a city like contemporary Athens as the model is more likely to be illuminating and applicable---a simple community, close to a state of nature, might not tell us anything useful about justice. On the other hand, and perhaps uncharitably, he might wish to ensure that justice turns out to be compatible with the upper-class lifestyle he already enjoys.
 
 But perhaps this ambiguity isn't really about Glaucon's actual motivations at all. Perhaps it reveals a real tension in the point of view of any truth-seeker: they always have their own class interests as someone embedded in a society in a certain way, in this case as a member of the Athenian aristocracy.
 
@@ -280,29 +279,123 @@ We might suspect that, for Socrates and Plato, this is what lies at the root of 
 
 Socrates then details the necessary expansion required by the luxurious city: perfumes and prostitutes, painting and embroidery, gold and ivory, poets and musicians, actors, dancers, theatrical producers, beauticians and barbers, etc. In summary: more things, and more *multifariousness* for each thing. 
 
-Thus Plato shows that human desires will always in a sense *curse* any kind of society you want to build, making the question of justice so important, since if we could all be happy as "pigs" then everything would be harmonious without much effort.
+Thus Plato shows that human desires will always in a sense *curse* any kind of society we want to build, making the question of justice so important, since if we could all be happy as "pigs" then everything would be harmonious without much effort. This then is justification for Glaucon's insistence on using the luxurious city as their model: the curse of human desire turns out to be the cause of injustice and thereby a precondition for justice as a meaningful concept, and thus Glaucon's insistence is vindicated.
 <a name="guardians-intro"><br/></a>
 ## 3. The Guardians & Their Education
-### 3.1. The origin of war & introduction of the guardians (373e-374e)
+### 3.1. The origin of war & introduction of the guardians (373d-374e)
 
-A major consequence of the feverish expansion of the city is the need for more territory, since more livestock will be required to feed and clothe the growing population, most of whom now demand meat and fancy clothing. Gaining territory necessitates taking possession of land controlled by neighbouring states, thus our city must go to war.
+A major consequence of the feverish expansion of the city is the need for more territory, since more pasture will be required for the additional livestock needed to satisfy a growing population that now demands meat and fancy clothing. And since gaining territory necessitates taking possession of land controlled by neighbouring states, our city must go to war.
 
+Incidentally, Socrates at this point has another dig at contemporary society:
 
+> And won’t our neighbors want to seize part of ours in turn, if they too have abandoned themselves to the endless acquisition of money and overstepped the limit of their necessary desires?
+>
+> --- *373d*
 
+One question to bear in mind about this attitude of Socrates is whether Plato believed that a society of people who did *not* overstep the limit of their natural desires was possible. It seems more likely that he had a basically pessimistic view of both society and the soul: in regard to the soul, its appetitive part will always have to be controlled by reason and spirit---as we'll see later, Plato's doctrine includes a tripartite division of the soul.
+
+Socrates makes a comment that I interpret to be heavy with irony:
+
+> Now, let’s not say yet whether the effects of war are good or bad, but only that we have now found the origin of war: it comes from those same factors, the occurrence of which is the source of the greatest evils for cities and the individuals in them.
+>
+> --- *373e*
+
+There seems little question that he thinks war is bad and has its origin in bad desires, so it seems likely he also thinks the *effects* of war are bad. In the very same sentence he says that it stems from "the greatest evils for cities and the individuals in them," i.e., instatiable desire. And in pretending to entertain the notion that the effects of war might be good, but believing they are not, the irony functions as criticism of those who celebrate war, namely tyrants and those who admire them, such as Thrasymachus. 
+
+That said, we should probably not reduce the comment to *mere* irony. Socrates may seriously want to hold open the possibility that the effects of war are good, even though he suspects they are not.
+
+Once again the city has to be enlarged, this time with a professional army. Glaucon objects, suggesting that a citizen army would suffice, but Socrates appeals to the already established principle of the division of labour to argue convincingly that dedicated professional soldiers are required.
+
+Since part of the argument for the division of labour is that people have different natures that suit them for different jobs, Socrates moves onto discussing the nature of the soldiers, now called the *guardians*.
 <a name="guardian-nature"><br/></a>
 ### 3.2. The nature of the guardians (374e-376c)
 
+> SOCRATES: Then our task, it seems, is to select, if we can, which natures, which sorts of natures, suit people to guard the city.
+>
+> GLAUCON: Yes, that is our task.
+>
+> --- *374e*
+
+Socrates then argues that a guardian must be similar to a "noble hound": physically capable, spirited---and here we see one of the divisions of the soul---and loyal.
+
+He has a curious argument that the basis of loyalty lies in a philosophical nature. A good dog is loyal to those it doesn't know and suspicious of or aggressive towards those it doesn't know ...
+
+> SOCRATES: Well, that seems to be a naturally refined quality, and one that is truly philosophical.
+>
+> GLAUCON: In what way?
+>
+> SOCRATES: In that it judges anything it sees to be either a friend or an enemy on no other basis than that it knows the one and does not know the other. And how could it be anything besides a lover of learning if it defines what is its own and what is alien to it in terms of knowledge and ignorance?
+>
+> GLAUCON: It surely could not be anything but.
+>
+> --- *376a*
+
+The immediate question is why Glaucon agrees to this remarkably unconvincing argument. What seems to be happening is that he is just going along with it, knowing it is meant as a joke. But even if Socrates is being humorous, he may also mean it as an enlightening analogy, or as a way of prefiguring the discussion of the philosophical nature. And Socrates will of course go on to argue that guardians, or at least their top stratum, must be philosophers. The argument that loyal dogs are philosophical is a joke that aims towards a sincerely held belief and a central pillar of the argument of the Republic.
+
+To me, the most conspicuously unconvincing thing about the argument, which makes it tempting just to dismiss it as a literary device, is that a hatred of the unknown is precisely *anti*-philosophical---to my mind, a lack of curiosity and a hostility towards what is different equate to *stupidity*. But this is ignored in the argument, which focuses narrowly on the ability to associate the dimension of familiarity and unfamiliarity with that of knowledge and ignorance.
+
+Jessica Moss argues that Plato is both making a joke *and* making a serious and profound argument:
+
+> Thus in the end the dogs passage is indeed a joke, but one that illuminates the real nature of knowledge, and of our desire for it. Doggish familiarity with known people is an image of deep acquaintance with the Forms; doggish fondness for familiar people is an image of philosophical deep love for the Forms; doggish desire to avoid the unknown is an image of true philosophical desire for knowledge, which is at bottom a desire to take possession of what we love and what can become truly ours – to be friends with the world.
+> 
+> --- [Philosophical Dogs: Plato on Knowledge and Friendship](https://as.nyu.edu/content/dam/nyu-as/philosophy/documents/faculty-documents/moss/Moss%20Plato%20Dogs%20final.pdf) [PDF]
+
+In any case, Socrates concludes:
+
+> Philosophy, then, and spirit, speed, and strength as well, must all be combined in the nature of anyone who is going to be a really fine and good guardian of our city.
+>
+> --- *376c*
+
+It's notable that even though philosophy is included here, reason has not been mentioned. We have looked at appetite and spirit, but not reason. This suggests that, for Plato, there is more to philosophy than reason, that it is also---or more fundamentally---a disposition.
+
+From here, he moves on to the question of how the guardians are to be brought up and educated.
 <a name="guardian-education"><br/></a>
 ### 3.3. The education of the guardians (376c onwards)
 
-<a name="poetry-censorship"><br/></a>
-### 3.4. Censorship of poetry (376c-383c)
+For the sake of argument and because there is no better alternative, Socrates starts with the assumption that the education of the guardians will proceed according to convention, i.e., "physical training for bodies and musical training for the soul". (376e)
 
+It's important to note that musical training includes poetry and storytelling; the Greek word μουσική or *mousikê*, from which our word *music* is derived, had a wider application, referring collectively to the various arts of the Muses.
+
+Turning to musical training (which will come before physical training in the education of guardian children), Socrates makes some crucial distinctions: between true and false stories, and between stories that children should be allowed to hear, and those they should not. So far we don't know if these will line up, but what we do know is that a decision will be made as to which stories are appropriate for children, and which are to be censored.
+
+So there is another distinction, between good and bad stories. False stories are bad when they...
+
+> create a bad image of what the gods and heroes are like, just as a painter might paint a picture that is not at all like the things he is trying to paint.
+>
+> --- *377e
+
+Note that false stories may be bad for other reasons, and that Socrates has not ruled out the possibility that true stories may be bad as well. In anticipating the trajectory of the argument it's tempting to jump to the conclusion that good and bad in stories is independent of true and false. But this comparison between stories and paintings complicates matters, because it suggests that the falsity and the badness of stories are not entirely independent, because it seems to imply that creating a bad image of gods and heroes is bad *because* it is false.
+
+Clarity on this issue comes a few lines later:
+
+> But even if these stories were true, they should be passed over in silence, I would think, and not told so casually to the foolish and the young. And if, for some reason, they must be told, only a very few people should hear them—people who are pledged to secrecy and have had to sacrifice not just a pig, but something so large and scarce that the number of people who hear them is kept as small as possible.
+>
+> --- *378a*
+
+So it does indeed seem to be the case that for Socrates, good-bad is independent of true-false (for stories). This scheme lays the groundwork for the noble lie that comes later, namely the Myth of the Metals.
+
+Many of us are inclined now to be hostile to censorship, so to help appreciate how persuasive Socrates's argument might have been, it's worth recounting the story that Socrates actually refers to, from Hesiod's Theogeny. As Reeve puts it in a footnote:
+
+> Uranus prevented his wife, Gaia, from giving birth to his children by blocking them up inside her. Gaia gave a sickle to one of these children, Cronus, which he used to castrate his father when the latter next had intercourse with her. Cronus ate the children he had by his wife, Rhea, until, by deceiving him with a stone, she was able to save Zeus from suffering this fate. Zeus then overthrew his father. See Hesiod,Theogony 154–210, 453–506.
+
+It's not a huge stretch to imagine stories like this causing some concern, especially regarding their influence on children. Indeed, this is not a story many parents would be happy telling their children today. 
+
+So Socrates concludes, and Adeimantus agrees, that such stories should be banned, as should "any stories about gods warring, fighting, or plotting against one another" (378b)
+
+> For the young cannot distinguish what is allegorical from what is not. And the beliefs they absorb at that age are difficult to erase and tend to become unalterable. For these reasons, then, we should probably take the utmost care to ensure that the first stories they hear about virtue are the best ones for them to hear.
+>
+> --- *378d*
 <a name="first-theological-principle"><br/></a>
-### 3.5. God is only the cause of good things (379a-380c)
+### 3.4. God is only the cause of good things (379a-380c)
+
+Despite stating that the criterion for censorship is the effect the story has on the young, and despite explicitly saying that "even if these stories were true, they should be passed over in silence," Socrates also wants to show that the the stories depicting the gods as evil and capricious are bad because they are false.
+
+Is there a tension here? Is Plato confused about which is most important, and what the criterion should actually be? More likely, he thinks that the untruth of these stories supports his advocacy of censorship, that on its own the effect they have on the young is not enough.
+
+So he argues that the gods are good, and must be described as such, and that since that which is good can only cause good things, gods are not the cause of bad things, as they are portrayed by Homer, Hesiod, Aeschylus, etc.
 
 <a name="second-theological-principle"><br/></a>
-### 3.6. God does not change form or deceive (380d-383c)
+### 3.5. God does not change form or deceive (380d-383c)
 
 asdasd
 
