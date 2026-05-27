@@ -3,7 +3,7 @@ title: 'The Republic by Plato, Part 3: Book II'
 description: "Reading notes and analysis of Plato's Republic: Book II"
 series: platoSeries
 part: 3
-date: '2026-05-23'
+date: '2026-05-27'
 tags: philosophy, reviews, plato
 image: false
 imageClass: mainImageSmaller
@@ -32,8 +32,7 @@ Thrasymachus has been defeated, but the others are not satisfied. Book II begins
 [3.1. The origin of war & introduction of the guardians](#guardians-intro)  
 [3.2. The nature of the guardians](#guardian-nature)  
 [3.3. The education of the guardians](#guardian-education)  
-[3.4. God is only the cause of good things](#first-theological-principle)  
-[3.5. God does not change form or deceive](#second-theological-principle)  
+[3.4. The gods cause only good things, do not change form, and do not deceive](#first-theological-principle)  
 <a name="unconvinced"><br/></a>
 ## 1. The Challenge
 ### 1.1. Glaucon is unconvinced (357a-357b)
@@ -78,7 +77,7 @@ Glaucon says there are three kinds of goods, here presented in a different order
 
 Some of Glaucon's examples might not work for everyone. He says physical training is merely a burdensome instrumental good of type (2), but for some people it's (3), both good in its results *and* in itself. But the point is clear enough.
 
-Socrates is asked where he places justice, and he says it's type (3), that justice is good both instrinsically and instrumentally. Glaucon replies that most people regard it as a good of type (2), burdensome and instrumental. So according to them, there might be other ways of achieving the same ends, i.e., the rewards and popularity that come with a good reputation. And indeed, as Glaucon goes on to show, people value the *appearance* of being just, rather than being just. And this would be perfectly rational: insofar as a good reputation is achievable by less burdensome means than justice, it is rational not to be just.
+Socrates is asked where he places justice, and he says it's type (3), that justice is good both intrinsically and instrumentally. Glaucon replies that most people regard it as a good of type (2), burdensome and instrumental. So according to them, there might be other ways of achieving the same ends, i.e., the rewards and popularity that come with a good reputation. And indeed, as Glaucon goes on to show, people value the *appearance* of being just, rather than being just. And this would be perfectly rational: insofar as a good reputation is achievable by less burdensome means than justice, it is rational not to be just.
 
 This is why Glaucon demands that Socrates give a persuasive argument in favour of the intrinsic good of justice: 
 
@@ -90,7 +89,7 @@ It may be true that justice is valued both as an instrumental and an intrinsic g
 <a name="strong-thrasymachus"><br/></a>
 ### 1.3. Glaucon presents Thrasymachus's position (358e-362c)
 
-Glaucon's strategy to elicit the kind of response from Socrates that he really wants is to present Thrasymachus's argument more persuasively than Thrasymachus himself was able to do. He is careful to underscore that the position he will be arguing for is not his own---in fact, he believes the opposite of Thrasymachus. Thus Plato demonstrates through Glaucon, who is "who is always very courageous in everything," (357a) how true courage manifests itself to positive effect in philosophical discussion, through participation aimed at reaching the truth with rigour, rather than prevailing over others with bluster and speechifying.
+Glaucon's strategy to elicit the kind of response from Socrates that he really wants is to present Thrasymachus's argument more persuasively than Thrasymachus himself was able to do. He is careful to underscore that the position he will be arguing for is not his own---in fact, he believes the opposite of Thrasymachus. Thus Plato demonstrates through Glaucon, "who is always very courageous in everything," (357a) how true courage manifests itself to positive effect in philosophical discussion, through participation aimed at reaching the truth with rigour, rather than prevailing over others with bluster and speechifying.
 
 > You see, I think Thrasymachus gave up before he had to, as if he were a snake you had charmed. Yet, to my way of thinking, there was still no demonstration on either side. [...] So, if you agree, I will renew the argument of Thrasymachus.
 >
@@ -267,7 +266,7 @@ Socrates accepts that this model, what he calls the *luxurious* city, is the rig
 >
 > --- *372e*
 
-Socrates's disapproval is obvious: he characterizes Glaucon's favoured model not only as a luxurious city but as a *feverish* one, as opposed to his own *healthy* one. Something has gone wrong, he thinks, but he doesn't let that stop them forging ahead. It is as if he believes that human community, when it goes beyond his rustic model, is inevitabily corrupt, or that it has a tragic flaw, namely ***pleonexia***, the human desire to have more than one needs. 
+Socrates's disapproval is obvious: he characterizes Glaucon's favoured model not only as a luxurious city but as a *feverish* one, as opposed to his own *healthy* one. Something has gone wrong, he thinks, but he doesn't let that stop them forging ahead. It is as if he believes that human community, when it goes beyond his rustic model, is inevitably corrupt, or that it has a tragic flaw, namely ***pleonexia***, the human desire to have more than one needs. 
 
 So the *real* problem, Socrates seems to think, is that there will always be those for whom the rustic city is not enough:
 
@@ -300,7 +299,7 @@ Socrates makes a comment that I interpret to be heavy with irony:
 >
 > --- *373e*
 
-There seems little question that he thinks war is bad and has its origin in bad desires, so it seems likely he also thinks the *effects* of war are bad. In the very same sentence he says that it stems from "the greatest evils for cities and the individuals in them," i.e., instatiable desire. And in pretending to entertain the notion that the effects of war might be good, but believing they are not, the irony functions as criticism of those who celebrate war, namely tyrants and those who admire them, such as Thrasymachus. 
+There seems little question that he thinks war is bad and has its origin in bad desires, so it seems likely he also thinks the *effects* of war are bad. In the very same sentence he says that it stems from "the greatest evils for cities and the individuals in them," i.e., insatiable desire. And in pretending to entertain the notion that the effects of war might be good, but believing they are not, the irony functions as criticism of those who celebrate war, namely tyrants and those who admire them, such as Thrasymachus. 
 
 That said, we should probably not reduce the comment to *mere* irony. Socrates may seriously want to hold open the possibility that the effects of war are good, even though he suspects they are not.
 
@@ -318,7 +317,7 @@ Since part of the argument for the division of labour is that people have differ
 
 Socrates then argues that a guardian must be similar to a "noble hound": physically capable, spirited---and here we see one of the divisions of the soul---and loyal.
 
-He has a curious argument that the basis of loyalty lies in a philosophical nature. A good dog is loyal to those it doesn't know and suspicious of or aggressive towards those it doesn't know ...
+He has a curious argument that the basis of loyalty lies in a philosophical nature. A good dog is loyal to those it knows and suspicious of or aggressive towards those it doesn't know ...
 
 > SOCRATES: Well, that seems to be a naturally refined quality, and one that is truly philosophical.
 >
@@ -362,7 +361,7 @@ So there is another distinction, between good and bad stories. False stories are
 
 > create a bad image of what the gods and heroes are like, just as a painter might paint a picture that is not at all like the things he is trying to paint.
 >
-> --- *377e
+> --- *377e*
 
 Note that false stories may be bad for other reasons, and that Socrates has not ruled out the possibility that true stories may be bad as well. In anticipating the trajectory of the argument it's tempting to jump to the conclusion that good and bad in stories is independent of true and false. But this comparison between stories and paintings complicates matters, because it suggests that the falsity and the badness of stories are not entirely independent, because it seems to imply that creating a bad image of gods and heroes is bad *because* it is false.
 
@@ -386,17 +385,24 @@ So Socrates concludes, and Adeimantus agrees, that such stories should be banned
 >
 > --- *378d*
 <a name="first-theological-principle"><br/></a>
-### 3.4. God is only the cause of good things (379a-380c)
+### 3.4. The gods cause only good things, do not change form, and do not deceive (379a-383c)
 
-Despite stating that the criterion for censorship is the effect the story has on the young, and despite explicitly saying that "even if these stories were true, they should be passed over in silence," Socrates also wants to show that the the stories depicting the gods as evil and capricious are bad because they are false.
+Despite stating that the criterion for censorship is the effect the story has on the young, and despite explicitly saying that "even if these stories were true, they should be passed over in silence," Socrates also wants to show that the stories depicting the gods as evil and capricious are bad because they are false.
 
 Is there a tension here? Is Plato confused about which is most important, and what the criterion should actually be? More likely, he thinks that the untruth of these stories supports his advocacy of censorship, that on its own the effect they have on the young is not enough.
 
-So he argues that the gods are good, and must be described as such, and that since that which is good can only cause good things, gods are not the cause of bad things, as they are portrayed by Homer, Hesiod, Aeschylus, etc.
+So he argues that the gods are good, and must be described as such, and that since that which is good can only cause good things, gods are not the cause of bad things---as they are portrayed by Homer, Hesiod, Aeschylus, etc.---but only of good things.
 
-<a name="second-theological-principle"><br/></a>
-### 3.5. God does not change form or deceive (380d-383c)
+Incidentally, in case we thought the idea was just to protect the young, Socrates makes it clear at 380b that his censorship is to be more wide-ranging:
 
-asdasd
+> We won’t allow anyone to say it in his own city, if it is to be well governed, or anyone to hear it either—whether young or old, whether with meter or without meter. For these stories are impious, disadvantageous to us, and not in concord with one another.
 
+Socrates goes on to reinforce the idea that the bad stories are misrepresentative by arguing that since gods are the best in every way, and that which is good is least liable to alteration, then gods do not change form and the stories that say they do are false. So now we have to rule out lines like this from the Odyssey:
 
+> The gods, like strangers from foreign lands, assume many disguises when they visit our cities.
+
+Next he argues along similar lines that the gods do not lie or deceive.
+
+It's interesting to consider in all of this whether Socrates is conservative or radical. Censorship tends to be associated with conservatism, at least the *contextual* conservatism of the various authoritarian governments, past and present, which attempt to control the thoughts of the people and prevent change. But Socrates is also radical, in that he is willing to throw away the mythology according to the requirements of reason. Thus the character of individuals and their communities is amenable to guidance according to reason.
+
+So he is certainly not conservative in the sense that whatever is traditional ought to be preserved and defended; he is ready to get rid of all that. If we want a political category into which Socrates fits at this stage (even though it might be anachronistic) it would have to be something like *technocratic* or *rationalist authoritarian*.  
