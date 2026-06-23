@@ -45,6 +45,8 @@ What was so unconvincing about Socrates's arguments in Book I? There are two mai
 
 Firstly, Socrates has argued that a ruler _qua_ ruler acts for the benefit of the ruled, and therefore that Thrasymachus's definition of justice is wrong. But his argument rests on an assumed concept of craft, namely the functional concept. Thrasymachus holds an equally plausible concept of craft, namely the instrumental concept, and he is defeated only because Socrates outperforms him in the back and forth of dialectic---to be precise, leading Thrasymachus to assent to premises he did not need to. So if the others are left dissatisfied, it's for a good reason: the position that Thrasymachus represents was not defeated.
 
+**NOTE:** See [this section of the previous entry in this series](/the-republic-by-plato-part-2--book-i/#two-concepts) for my analysis of the two concepts of craft.
+
 Secondly, Socrates also argued that justice is more personally beneficial than injustice. But he was able to carry this through only because Thrasymachus agreed too quickly to one of Socrates's crucial moves:
 
 > SOCRATES: Now, didn’t we agree that justice is a soul’s virtue and injustice its vice?  

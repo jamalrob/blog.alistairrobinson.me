@@ -216,7 +216,7 @@ At [345b] Socrates resumes the craft argument, now introducing the crucial disti
 With these clarifications Socrates is showing that in his grand speech Thrasymachus has failed to properly defend his definition against Socrates's criticisms. What he has really done is just repeat himself.
 
 It will help to see how their positions differ.
-
+<a name="two-concepts"></a>
 ### Two concepts of craft
 
 Was I being unfair when I accused Socrates of sleight of hand? Probably. But at the very least, he has been assuming a controversial concept of craft, one that makes his conclusions inevitable. Note that _craft_ is a translation of the Greek term _techne_, which refers to skillful practice and specialized knowledge.
