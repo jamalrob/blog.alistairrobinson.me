@@ -2,7 +2,7 @@
 title: 'Constellations as Graph Structures'
 description: ''
 date: '2026-09-12'
-tags: pkm, obsidian, adorno, philosophy, zettelkasten
+tags: knowledge-management, obsidian, adorno, philosophy
 image: false
 draft: true
 ---
@@ -124,8 +124,6 @@ In the world of PKM it's common to associate graphs with Deleuze and Guattari ra
 Graph structures and apps like Obsidian do a great job of modelling rhizomes, in some ways better than they model constellations. But not in every way.
 
 Rhizomes are not object-oriented. They are about the connections more than what is being connected, whereas a constellation is always assembled around something determinate, aiming for the history sedimented in it. Obsidian's local graph view supplies exactly what a constellation needs to model the cognizing subject: the ability to select a node, whereupon the figure re-forms around it and the note opens.
-
-It's worth adding that Deleuze seems to be simply against the tree as such, where Adorno is against the tree's overreaching claims. The rhizome concept is often expressed as hierarchy-bad, network-good, and that is not my argument. My own vault is classificatory in its own way: objects in red, concepts in yellow.
 
 ## Limits of the Analogy
 
