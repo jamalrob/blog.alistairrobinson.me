@@ -25,9 +25,10 @@ IMAGE_CDN    = 'https://ik.imagekit.io/alistairrobinson/blog'
 BODY_IMAGE   = {'width': 800, 'quality': 82}
 HEADER_IMAGE = {'width': 800, 'quality': 84}
 THUMB_IMAGE  = {'width': 200, 'quality': 60}
+LIGHTBOX_IMAGE = {'quality': 90}
 
 SITE_URL   = 'https://writing.alistairrobinson.me'
-SITE_TITLE = 'Articles by Alistair Robinson'
+SITE_TITLE = 'Articles by Alistair Robinson · Under an Aspect'
 AUTHOR     = 'J. Alistair Robinson'
 
 SHOW_DRAFTS = os.environ.get('SHOW_DRAFTS', 'false').lower() != 'false'
@@ -88,6 +89,17 @@ def render_markdown(content):
         f"{IMAGE_CDN}/tr:q-{BODY_IMAGE['quality']}/",
     )
     return _md.render(content)
+
+
+_IMG_TAG_RE = re.compile(r'<img\s+[^>]*?src="([^"]+)"[^>]*?/?>')
+
+
+def add_lightbox(rendered_html):
+    """Wrap body images in a link to a larger version, for click-to-open."""
+    def repl(m):
+        big_src = re.sub(r'/tr:w-\d+,q-\d+/', f"/tr:q-{LIGHTBOX_IMAGE['quality']}/", m.group(1))
+        return f'<a class="lightbox-trigger" href="{big_src}">{m.group(0)}</a>'
+    return _IMG_TAG_RE.sub(repl, rendered_html)
 
 
 def make_excerpt(rendered_html, slug, data):
@@ -191,7 +203,7 @@ def build():
     for p in [p for p in all_posts if p['show']]:
         slug          = p['slug']
         data, content = load_post(CONTENT_DIR / f'{slug}.md')
-        rendered      = render_markdown(content)
+        rendered      = add_lightbox(render_markdown(content))
         series_key    = data.get('series')
         write_page(f'{slug}/index.html', env.get_template('post.html').render(
             **ctx,

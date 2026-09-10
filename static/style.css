@@ -58,7 +58,7 @@
   --link-color: #0070f3;
   --fg-toggle: #666666;
   --code-bg: #dbdbdbff;
-  --code-fg: crimson;
+  --code-fg: rgb(193, 66, 92);
   --hr-colour: #232323;
   --header-border-colour: rgba(186, 186, 186, 0.3);
 }
@@ -72,7 +72,7 @@
   --blockquote-border: #686868;
   --link-color: #a3f5dcff;
   --code-bg: #171717;
-  --code-fg: springgreen;
+  --code-fg: rgb(124, 185, 243);
   --hr-colour: #787878ff;
   --header-border-colour: rgba(62, 62, 62, 0.3);
 }
@@ -341,6 +341,16 @@ a.articleTitle { text-decoration-thickness: 2px; }
   font-size: 0.9rem;
 }
 
+.postArticle code.maths {
+  /*font-family: 'Google Sans Code', monospace;*/
+  font-family: "Literata", serif;
+  background-color: var(--code-bg);
+  color: var(--code-fg);
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+  font-size: 0.96rem;
+}
+
 .postArticle pre code { padding: 0; }
 
 .postArticle pre {
@@ -445,6 +455,74 @@ a.articleTitle { text-decoration-thickness: 2px; }
 }
 
 .postArticle .seriesBox li:last-child { display: none; }
+
+.subscribeBox {
+  background: var(--blockquote-bg);
+  padding: 25px 20px;
+  margin: 50px 0 30px;
+  text-align: center;
+}
+
+.subscribeBox h3 {
+  margin: 0 0 0.4rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.subscribeBox p {
+  margin: 0 0 1rem;
+}
+
+.subscribeRow {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subscribeBox input[type="email"] {
+  font: inherit;
+  font-size: 16px;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--hr-colour);
+  background: var(--bg);
+  color: var(--fg);
+  border-radius: 3px;
+  min-width: 220px;
+}
+
+.subscribeBox input[type="submit"] {
+  font: inherit;
+  font-size: 16px;
+  padding: 0.5rem 1.2rem;
+  border: 1px solid var(--fg);
+  background: var(--fg);
+  color: var(--bg);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.subscribeBox input[type="submit"]:hover {
+  opacity: 0.85;
+}
+
+.subscribeCredit {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin-top: 0.8rem !important;
+}
+
+.subscribeCredit a {
+  color: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
 
 .postFooter {
   font-size: 19px;
@@ -565,5 +643,44 @@ a.articleTitle { text-decoration-thickness: 2px; }
   vertical-align: middle;
   box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.8);
 }
+
+.lightbox-trigger { cursor: zoom-in; }
+
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  cursor: zoom-out;
+  z-index: 1000;
+}
+
+.lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  margin: 0;
+  cursor: default;
+}
+
+.lightbox-nav {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.lightbox-nav:hover { background: rgba(255, 255, 255, 0.3); }
+.lightbox-prev { left: 16px; }
+.lightbox-next { right: 16px; }
 
 .copy-email:hover { opacity: 0.9; }

@@ -3,25 +3,45 @@ title: 'Constellations as Graph Structures'
 description: ''
 date: '2026-09-12'
 tags: pkm, obsidian, adorno, philosophy, zettelkasten
-image: true
-imageClass: mainImageSmaller
+image: false
 draft: true
 ---
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="321 85 554 610" width="554" height="610" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpmYWIzYjJhMi0wODE1LTRhM2YtODRhMS1lZDliOTMzYjI3ZjAAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaP8j7AdaMvKgtd8aTDfNvQYAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0YTJjODViNy1kZGY5LTQwYzAtODg1Yi0wNTgxNmM0ZmU0YTdscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoTnh4stnz8FvN73d5Z/ii8gAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg2+naK1FvfGLo7l2Vitdr8/bCoP7VQZLvEw6cWVNzVeOkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaKrSZYstJD84KQIJ2Xs09xIAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIPcb66RxVA5mbhuSvONqz49nCpGv0q4oqqGOSBbtoQM7ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQEDZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmZhYjNiMmEyLTA4MTUtNGEzZi04NGExLWVkOWI5MzNiMjdmMC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjgyNTI1YWQ3LWNmMDgtNGVkMC1hNzJkLWNiNTQwYjNhMTQxZnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDb6dorUW98YujuXZWK12vz9sKg/tVBku8TDpxZU3NV46JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggYFwKramh9lDqCgZkn0evzGQFTZErGHlYQE+9exFaXqGiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggtKRaRKoQKgV4TIPg33W7UFnwwrXGUBWTLKKy1XXzdq50Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQPpofYbDGxCSh7oshCslhsCz3pHNEMJwxNXBWSd6kBgqIDs2wHT4++9GRjAP+50DZJejhsKoz87fH70bD83Uukc=</c2pa:manifest></metadata>
+<line x1="492" y1="388" x2="391" y2="132" stroke="#565f8a" stroke-width="1.6"/>
+<line x1="492" y1="388" x2="560" y2="111" stroke="#565f8a" stroke-width="1.6"/>
+<line x1="492" y1="388" x2="684" y2="168" stroke="#565f8a" stroke-width="1.6"/>
+<line x1="492" y1="388" x2="763" y2="278" stroke="#565f8a" stroke-width="1.6"/>
+<line x1="492" y1="388" x2="780" y2="413" stroke="#565f8a" stroke-width="1.6"/>
+<line x1="492" y1="388" x2="730" y2="541" stroke="#565f8a" stroke-width="1.6"/>
+<line x1="492" y1="388" x2="593" y2="642" stroke="#565f8a" stroke-width="1.6"/>
+<circle cx="391" cy="132" r="12" fill="#d6a852"/>
+<text x="391" y="165" text-anchor="middle" font-size="16" fill="#c4cdf8">Non-Identity</text>
+<circle cx="560" cy="111" r="12" fill="#d6a852"/>
+<text x="560" y="144" text-anchor="middle" font-size="16" fill="#c4cdf8">Mimesis</text>
+<circle cx="684" cy="168" r="12" fill="#d6a852"/>
+<text x="684" y="201" text-anchor="middle" font-size="16" fill="#c4cdf8">Identity Thinking</text>
+<circle cx="763" cy="278" r="12" fill="#b7caf5"/>
+<text x="763" y="311" text-anchor="middle" font-size="16" fill="#c4cdf8">Limits of the Analogy</text>
+<circle cx="780" cy="413" r="12" fill="#d6a852"/>
+<text x="780" y="446" text-anchor="middle" font-size="16" fill="#c4cdf8">Administered World</text>
+<circle cx="730" cy="541" r="12" fill="#d6a852"/>
+<text x="730" y="574" text-anchor="middle" font-size="16" fill="#c4cdf8">Exchange Principle</text>
+<circle cx="593" cy="642" r="12" fill="#d6a852"/>
+<text x="593" y="675" text-anchor="middle" font-size="16" fill="#c4cdf8">Reification</text>
+<circle cx="492" cy="388" r="28" fill="#b39af6"/>
+<text x="492" y="440" text-anchor="middle" font-size="19" fill="#c4cdf8">Constellation</text>
+</svg>
 Constellations are Theodor W. Adorno's alternative to identity-thinking, which is the imposition of conceptual categories on to individual things, on the assumption that concepts can fully specify what they classify. That assumption asserts an identity between concept and thing. What the object might be over and above the imposed classification just drops away unnoticed---or is suppressed.
 
-In his day, Adorno's big quarrel was with positivist social science and its mania for measurement, for reducing the qualitative to the quantitative, something we often call *scientism* today. It's not that he thought measurement as such was bad, just that it was radically over-applied. He had several reasons for thinking so: that facts are not just given but are shaped by the presuppositions of the methodology; that society's parts are what they are through the whole, while measurement takes them one at a time; and that a discipline which describes only what happens to currently exist ends up supporting it.
+In his day, Adorno had a big quarrel with positivist social science and its mania for measurement, for reducing the qualitative to the quantitative, something we often call *scientism* today. It's not that he thought measurement as such was bad, just that it was radically over-applied. He had several reasons for thinking so: that facts are not just given but are shaped by the presuppositions of the methodology; that society's parts are what they are through the whole, while measurement takes them one at a time; and that a discipline which describes only what happens to currently exist ends up supporting it.
 
-But the economy is the primary model, even the underlying form, of identity-thinking. In exchange, unique objects are reduced to equivalency in the form of money. The particular is subsumed under the general category of the commodity, erasing qualitative differences for the sake of fungibility.
+But the economy is the primary model, even the underlying form, of identity-thinking. In exchange, unique objects are reduced to equivalency in the form of money. The particular is subsumed in exchange under the general category of the commodity, erasing qualitative differences for the sake of fungibility.
 
 The same happens elsewhere. Bureaucracy reduces individuals to numbered case files, treating people according to general rules regardless of their unique characteristics and situations. In the culture industry, entertainment is more often formulaic than genuinely novel---sameness under the guise of variety and freedom of choice. And prejudice, which leads to the treatment of individuals as mere representatives of group identities, their selves collapsed into presumed essences.
 
-That said, there is no thinking without classification and generalization, which is to say no thinking without concepts. And every concept applied to a thing makes a claim of identity: X is C. But concepts are general and things are particular, so the fit is never exact. Something about X always escapes from C, and we often fail to notice this.
+That said, there is no thinking without classification and generalization, which is to say no thinking without concepts. And a concept applied to an object tends to make an identity claim: ***O*** ≡ ***C***. But concepts are general and things are particular, so the fit is never exact. Something about ***O*** always escapes from ***C***, and we often fail to notice this.
 
 Identity-thinking, though damaging, expresses a utopian ideal of unity, in which contradictions and antagonisms are reconciled and understanding is reached without domination. That is what makes the concept worth having, but when conceptual schemes presume to have already achieved this, they freeze and isolate the object---this is the process of reification---and coerce it into a framework that doesn't quite fit. Thus an ideal of unity turns into domination, both figurative and literal.
-
-> Adorno’s critique of identity thinking, then, is not of ‘rational identity’, but of the coercive attitude which, in the ways we have seen above, force an identity onto the object.
-> 
-> --- Brian O'Connor, Adorno, p78
 
 ## Enter Constellations
 
@@ -31,23 +51,21 @@ Adorno took the idea from Walter Benjamin. The concepts do not add up to a defin
 
 What the constellation aims for in practice is the history stored in the object, what Adorno calls its "sedimented history". To cognize the factory through abstract labour time and the exchange principle isn't to file it under those categories but to say what made it what it is. This also implies that a constellation is constructed---assembled by a thinker, but could have been assembled otherwise. Crucially however, this does not mean constellations are not objectively real. What is constructed is the arrangement, not what the arrangement is about. A constellation can be wrong, and it is wrong when the concepts gathered are not the ones that actually made the object what it is.
 
-> Such immanent universality of the individual however is objective as sedimented history. This is in it and outside it, something all-encompassing, in which it has its place.
->
-> --- Adorno, Negative Dialectics
-
 ## Constellations as Graphs
 
-I see a parallel between Adorno's approach and certain methodologies in personal knowledge management (PKM), so I decided to play around with the [Obsidian](https://obsidian.md/) application to represent constellations.
+A parallel can be drawn between Adorno's approach and certain methodologies in personal knowledge management (PKM), some of which produce graph structures rather than hierarchies.
 
-In graph theory, a **graph** is a non-hierarchical and interconnected system of nodes, whereas a **tree** (or taxonomy) is a hierarchical parent-child structure.
+In graph theory, a **graph** is a non-hierarchical and interconnected system of nodes, whereas a **tree** (or taxonomy) is a hierarchical parent-child structure.*
+
+*Strictly speaking, [a tree is a particular kind of graph whose structure is hierarchical: nodes are organised through parent-child relations. A general graph places fewer restrictions on the kinds of relations that can exist between nodes.]
 
 ![tree-vs-graph-dark](https://ik.imagekit.io/alistairrobinson/blog/tree-vs-graph-dark.svg)
 
-Trees are a natural fit for some kinds of knowledge, such as lineage:
+Trees are the classic paradigm of classificatory knowledge, ubiquitous in science. They're an especially natural fit for certain kinds of knowledge, such as lineage:
 
 ![theropod-cladogram-dark](https://ik.imagekit.io/alistairrobinson/blog/theropod-cladogram-dark.svg)
 
-In contrast, constellations are a lot like graphs. So I created a vault in Obsidian.
+In contrast, constellations are a lot like graphs. So I decided to use the [Obsidian](https://obsidian.md/) application, which I was already using for my own notes, to represent constellations.
 
 Obsidian is a note-taking app that takes a folder on your computer and treats it as a *vault*: a collection of text files that link to each other. These notes are the nodes, connected by links, and Obsidian generates the resulting graph structure. In mine the nodes represent objects (in red) and concepts (in yellow).
 
@@ -101,20 +119,20 @@ All of this is the subsumption characteristic of identity-thinking, treating a t
 
 ## Constellations vs Rhizomes
 
-In the world of PKM it's common to associate graphs with Deleuze and Guattari rather than Adorno. The rhizome---knowledge conceived as a network in which any point connects to any other, with no trunk or fixed order---is normally opposed to *arborescent* thinking, the branching model of folders and taxonomies, with Obsidian's graph view as the standard illustration.
+In the world of PKM it's common to associate graphs with Deleuze and Guattari rather than Adorno. The rhizome---knowledge conceived as a network in which any point connects to any other, with no trunk or fixed order---is normally opposed to *arborescent* thinking, the branching model of trees.
 
 Graph structures and apps like Obsidian do a great job of modelling rhizomes, in some ways better than they model constellations. But not in every way.
 
-A rhizome has no object. It's about the connections more than what is being connected, whereas a constellation is always assembled around something determinate, aiming for the history sedimented in it. Obsidian's local graph view supplies exactly what a constellation needs to model the cognizing subject: the ability to select a node, whereupon the figure re-forms around it and the note opens.
+Rhizomes are not object-oriented. They are about the connections more than what is being connected, whereas a constellation is always assembled around something determinate, aiming for the history sedimented in it. Obsidian's local graph view supplies exactly what a constellation needs to model the cognizing subject: the ability to select a node, whereupon the figure re-forms around it and the note opens.
 
 It's worth adding that Deleuze seems to be simply against the tree as such, where Adorno is against the tree's overreaching claims. The rhizome concept is often expressed as hierarchy-bad, network-good, and that is not my argument. My own vault is classificatory in its own way: objects in red, concepts in yellow.
 
-## Shortcomings: The Recapitulation of Identity-thinking
+## Limits of the Analogy
 
 The graph structure has limitations as a representation of constellations. Some things a graph structure cannot show:
 
-- **The non-identical:** It can't be represented. You can't represent it by adding more links---this just makes the graph structure bigger. The object is supposed to exceed what you say about it.
-- **Antagonism:** Every link is of the same kind. A graph shows that two things are connected, but not that they are in conflict (or contradict).
+- **The non-identical:** The object is supposed to exceed any individual attempt to say something anbout it. This can't be represented according to the conventions of the structure, as another node, link, or with more information added to a note.
+- **Antagonism:** [The graph's links do not, in themselves, distinguish the logical or historical character of the relation.] A graph shows that two things are connected, but not that they are in conflict (or contradict).
 - **History:** Links are all present tense. They record that a connection holds, not that it came about, or how, or when, or through what.
 - **Construction:** The links are already there when you open the vault, so it looks found rather than made. A constellation is both: assembled by someone, for this object. It could have been assembled differently.
 
@@ -126,6 +144,24 @@ And where is the critique, the ruthless criticism of all that exists, aiming to 
 
 And the insight into free time and boredom, for example, might be derived more from Marx than from any constellation, while the contribution of the constellation is the refusal to let the exchange principle become the master concept that explains everything lying within its domain (and explaining them in the same way). 
 
+*End up with a recapitulation of identity-thinking*
+
+[Perhaps the attempt to represent constellation as a graph is itself an example of the tendency constellation is meant to resist.]
+
 #################
 
 > philosophy has to bring its elements, which it receives from the sciences, into changing constellations, or, to say it with less astrological and scientifically more current expression, into changing trial combinations, until they fall into a figure which can be read as ananswer, while at the same time the question disappears.
+
+[Graph structures provide a useful visual approximation of some features of Adorno's constellations, precisely because they avoid hierarchical subsumption; but the attempt breaks down because a constellation is not fundamentally a structure of relations between concepts. It is a historically mediated way of cognizing an object.]
+
+[**A constellation isn't a graph of relations. A graph can model the relational appearance of a constellation, but it cannot model the constellation's relation to the non-identical object. Its failure to do so is itself philosophically instructive.**]
+
+[**What happens when we try to implement an Adornian philosophical method as an information structure?**]
+
+
+- https://philosophersmag.com/is-there-truth-in-mathematical-fictionalism/
+- https://www.thephilosopher1923.org/submissions
+- https://technophany.philosophyandtechnology.network/submission-guidelines
+- https://thepointmag.com/submissions/
+- https://strangematters.coop/submissions/
+- https://www.thegadflymagazine.org/about
