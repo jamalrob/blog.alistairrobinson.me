@@ -4,7 +4,7 @@ description: 'How I Migrated a 10-Year-Old Philosophy Forum to Stay Compliant'
 date: '2026-03-16'
 tags: administration
 image: false
-draft: true
+draft: false
 ---
 I'm the administrator of The Philosophy Forum (TPF), online since 2015 and dedicated to long-form philosophical discussions. Compared to a site like Reddit, it's a small community, but the members are active and it has its own distinct culture, built up over years. 
 
