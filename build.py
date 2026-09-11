@@ -227,14 +227,22 @@ def build():
 
     all_posts = get_all_posts(CONTENT_DIR)
     all_pages = get_all_pages(PAGES_DIR)
-    css_hash  = hashlib.md5((STATIC_DIR / 'style.css').read_bytes()).hexdigest()[:8]
-    og_hash   = hashlib.md5((PUBLIC_DIR / 'social-card.png').read_bytes()).hexdigest()[:8]
+
+    def asset_hash(path):
+        return hashlib.md5(path.read_bytes()).hexdigest()[:8]
+
+    css_hash      = asset_hash(STATIC_DIR / 'style.css')
+    theme_js_hash = asset_hash(STATIC_DIR / 'theme.js')
+    lightbox_hash = asset_hash(STATIC_DIR / 'lightbox.js')
+    og_hash       = asset_hash(PUBLIC_DIR / 'social-card.png')
     logo_svg  = (SVGS_DIR / 'logo.svg').read_text(encoding='utf-8')
     ctx        = {
         'site_title':       SITE_TITLE,
         'site_description': SITE_DESCRIPTION,
         'site_url':         SITE_URL,
         'og_image':         f'{OG_IMAGE}?v={og_hash}',
+        'theme_js_version':     theme_js_hash,
+        'lightbox_js_version':  lightbox_hash,
         'image_cdn':        IMAGE_CDN,
         'author':           AUTHOR,
         'css_version':      css_hash,
