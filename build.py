@@ -31,6 +31,8 @@ LIGHTBOX_IMAGE = {'quality': 90}
 
 SITE_URL   = 'https://writing.alistairrobinson.me'
 SITE_TITLE = 'Articles by Alistair Robinson · Under an Aspect'
+SITE_DESCRIPTION = 'Literary criticism, philosophical essays, and commentary by Alistair Robinson.'
+OG_IMAGE   = f'{SITE_URL}/social-card.png'
 AUTHOR     = 'J. Alistair Robinson'
 
 SHOW_DRAFTS = os.environ.get('SHOW_DRAFTS', 'false').lower() != 'false'
@@ -82,6 +84,19 @@ def parse_frontmatter(text):
 
 
 _SVG_INCLUDE_RE = re.compile(r'\{\{svg:([\w-]+)\}\}')
+_ANCHOR_TAG_RE  = re.compile(r'<a\s+[^>]*href="([^"]+)"[^>]*>')
+
+
+def open_external_links_in_new_tab(rendered_html):
+    """Add target="_blank" rel="noopener" to links leaving the site."""
+    def repl(m):
+        tag, href = m.group(0), m.group(1)
+        if 'target=' in tag:
+            return tag
+        if href.startswith(('/', '#', 'mailto:')) or 'alistairrobinson.me' in href:
+            return tag
+        return tag[:-1] + ' target="_blank" rel="noopener">'
+    return _ANCHOR_TAG_RE.sub(repl, rendered_html)
 
 
 def render_markdown(content):
@@ -97,7 +112,7 @@ def render_markdown(content):
         '/bucket-orig/',
         f"{IMAGE_CDN}/tr:q-{BODY_IMAGE['quality']}/",
     )
-    return _md.render(content)
+    return open_external_links_in_new_tab(_md.render(content))
 
 
 _IMG_TAG_RE = re.compile(r'<img\s+[^>]*?src="([^"]+)"[^>]*?/?>')
@@ -213,8 +228,18 @@ def build():
     all_posts = get_all_posts(CONTENT_DIR)
     all_pages = get_all_pages(PAGES_DIR)
     css_hash  = hashlib.md5((STATIC_DIR / 'style.css').read_bytes()).hexdigest()[:8]
+    og_hash   = hashlib.md5((PUBLIC_DIR / 'social-card.png').read_bytes()).hexdigest()[:8]
     logo_svg  = (SVGS_DIR / 'logo.svg').read_text(encoding='utf-8')
-    ctx        = {'site_title': SITE_TITLE, 'image_cdn': IMAGE_CDN, 'author': AUTHOR, 'css_version': css_hash, 'logo_svg': logo_svg}
+    ctx        = {
+        'site_title':       SITE_TITLE,
+        'site_description': SITE_DESCRIPTION,
+        'site_url':         SITE_URL,
+        'og_image':         f'{OG_IMAGE}?v={og_hash}',
+        'image_cdn':        IMAGE_CDN,
+        'author':           AUTHOR,
+        'css_version':      css_hash,
+        'logo_svg':         logo_svg,
+    }
 
     # Index
     print('index')
@@ -261,6 +286,7 @@ def build():
     for pg in all_pages:
         write_page(f"{pg['slug']}/index.html", env.get_template('page.html').render(
             **ctx,
+            slug        = pg['slug'],
             frontmatter = pg['frontmatter'],
             page_html   = render_markdown(pg['content']),
         ))

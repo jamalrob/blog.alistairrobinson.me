@@ -3,6 +3,12 @@
 {% block head %}
 <title>Tags &mdash; {{ site_title }}</title>
 <meta name="description" content="Browse all article tags on this site.">
+<meta property="og:title"       content="Tags &mdash; Under an Aspect">
+<meta property="og:image"       content="{{ og_image }}">
+<meta property="og:url"         content="{{ site_url }}/tags">
+<meta property="og:type"        content="website">
+<meta property="og:description" content="Browse all article tags on this site.">
+<meta name="twitter:image"      content="{{ og_image }}">
 {% endblock %}
 
 {% block content %}

@@ -4,10 +4,11 @@
 <title>{{ frontmatter.title }} · Under an Aspect</title>
 <meta name="description" content="{{ frontmatter.description }} :: Book reviews, science fiction, literary fiction, and philosophy">
 <meta property="og:title"       content="{{ frontmatter.title }}">
-{% if frontmatter.image %}<meta property="og:image" content="{{ image_cdn }}/tr:w-{{ header_image.width }},q-{{ header_image.quality }}/{{ slug }}.{{ frontmatter.imageExtension or 'jpg' }}?v={{ frontmatter.imageVersion or 1 }}">{% endif %}
-<meta property="og:url"         content="https://writing.alistairrobinson.me/{{ slug }}">
+<meta property="og:image"       content="{% if frontmatter.image %}{{ image_cdn }}/tr:w-{{ header_image.width }},q-{{ header_image.quality }}/{{ slug }}.{{ frontmatter.imageExtension or 'jpg' }}?v={{ frontmatter.imageVersion or 1 }}{% else %}{{ og_image }}{% endif %}">
+<meta property="og:url"         content="{{ site_url }}/{{ slug }}">
 <meta property="og:type"        content="article">
 <meta property="og:description" content="{{ frontmatter.description }}">
+<meta name="twitter:image"      content="{% if frontmatter.image %}{{ image_cdn }}/tr:w-{{ header_image.width }},q-{{ header_image.quality }}/{{ slug }}.{{ frontmatter.imageExtension or 'jpg' }}?v={{ frontmatter.imageVersion or 1 }}{% else %}{{ og_image }}{% endif %}">
 {% endblock %}
 
 {% macro series_box(extra_class='') %}
