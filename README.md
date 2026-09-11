@@ -22,6 +22,7 @@ content/         →  build.py  →  out/  →  make deploy  →  server
 
 - `content/` — main articles
 - `content-philosophy-archive/` — older philosophy posts
+- `content-pages/` — static, undated pages (e.g. About), served at `/<slug>` with no date/tags/series
 
 Articles are Markdown files with YAML frontmatter. Supported frontmatter fields:
 
@@ -37,6 +38,8 @@ Articles are Markdown files with YAML frontmatter. Supported frontmatter fields:
 | `imageVersion` | Integer, increment to bust CDN cache |
 | `series` | Series key from `series.yaml` |
 | `draft` | `true` to hide from production builds |
+
+Pages (`content-pages/`) are Markdown files with just `title` and `description` frontmatter — no date, tags, or series. Add a `.md` file there and it's built to `/<slug>` automatically.
 
 ## Series
 
@@ -68,3 +71,7 @@ make deploy
 ## Images
 
 Images are served from ImageKit CDN. In article content, use `/bucket/filename.jpg` as the image path — the build script rewrites this to the full CDN URL automatically.
+
+## Inline SVG diagrams
+
+Diagrams that need to stay inline in the page HTML (e.g. to pick up theme-aware CSS, like the `.graph` class) live as standalone files in `content/diagrams/`. Reference one from any article or page with `{{svg:filename}}` (no `.svg` extension) — the build script substitutes the file's raw contents in place before Markdown is rendered. The `<svg ...>` opening tag must be alone on its own line in the source file, or it won't be recognised as raw HTML and will get mangled by the Markdown parser.

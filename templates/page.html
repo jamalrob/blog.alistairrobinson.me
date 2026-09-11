@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>{{ frontmatter.title }}</title>
+<meta name="description" content="{{ frontmatter.description }}">
+{% endblock %}
+
+{% block content %}
+<article class="postArticle innerContainer">
+  {{ page_html }}
+
+  {% include "subscribe.html" %}
+</article>
+{% endblock %}

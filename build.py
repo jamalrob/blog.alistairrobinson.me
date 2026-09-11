@@ -15,8 +15,10 @@ from markdown_it import MarkdownIt
 
 # --- Settings ---
 
-CONTENT_DIR = Path('content')
-OUT_DIR     = Path('out')
+CONTENT_DIR  = Path('content')
+PAGES_DIR    = Path('content-pages')
+DIAGRAMS_DIR = Path('content/diagrams')
+OUT_DIR      = Path('out')
 STATIC_DIR       = Path('static')
 TEMPLATES_DIR    = Path('templates')
 PUBLIC_DIR       = Path('public')
@@ -79,7 +81,14 @@ def parse_frontmatter(text):
     return data, content
 
 
+_SVG_INCLUDE_RE = re.compile(r'\{\{svg:([\w-]+)\}\}')
+
+
 def render_markdown(content):
+    content = _SVG_INCLUDE_RE.sub(
+        lambda m: (DIAGRAMS_DIR / f'{m.group(1)}.svg').read_text(encoding='utf-8'),
+        content,
+    )
     content = content.replace(
         '/bucket/',
         f"{IMAGE_CDN}/tr:w-{BODY_IMAGE['width']},q-{BODY_IMAGE['quality']}/",
@@ -131,6 +140,17 @@ def get_all_posts(directory):
     return posts
 
 
+def get_all_pages(directory):
+    """Static, undated pages (e.g. About) — no date, tags, or series."""
+    pages = []
+    if not directory.exists():
+        return pages
+    for filepath in sorted(directory.glob('*.md')):
+        data, content = load_post(filepath)
+        pages.append({'slug': filepath.stem, 'frontmatter': data, 'content': content})
+    return pages
+
+
 def get_adjacent(posts, current_slug, direction):
     shown   = [p for p in posts if p['show']]
     idx     = next((i for i, p in enumerate(shown) if p['slug'] == current_slug), None)
@@ -149,8 +169,8 @@ def get_adjacent(posts, current_slug, direction):
     }
 
 
-def build_sitemap(all_posts):
-    static_pages = ['', 'about', 'tags']
+def build_sitemap(all_posts, all_pages):
+    static_pages = [''] + [pg['slug'] for pg in all_pages] + ['tags']
     urls = []
     for path in static_pages:
         urls.append(f'{SITE_URL}/{path}' if path else SITE_URL)
@@ -191,6 +211,7 @@ def build():
             (shutil.copytree if item.is_dir() else shutil.copy2)(item, dst)
 
     all_posts = get_all_posts(CONTENT_DIR)
+    all_pages = get_all_pages(PAGES_DIR)
     css_hash  = hashlib.md5((STATIC_DIR / 'style.css').read_bytes()).hexdigest()[:8]
     ctx        = {'site_title': SITE_TITLE, 'image_cdn': IMAGE_CDN, 'author': AUTHOR, 'css_version': css_hash}
 
@@ -231,16 +252,24 @@ def build():
                    env.get_template('tag.html').render(**ctx, tag=tag, posts=tag_posts))
 
     # Sitemap + robots.txt
-    write_page('sitemap.xml', build_sitemap(all_posts))
+    write_page('sitemap.xml', build_sitemap(all_posts, all_pages))
     write_page('robots.txt', f'User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n')
+
+    # Pages (undated, static — e.g. About)
+    print('pages')
+    for pg in all_pages:
+        write_page(f"{pg['slug']}/index.html", env.get_template('page.html').render(
+            **ctx,
+            frontmatter = pg['frontmatter'],
+            page_html   = render_markdown(pg['content']),
+        ))
 
     # Static pages
     print('static pages')
-    write_page('about/index.html', env.get_template('about.html').render(**ctx))
     write_page('tpf-childrens-risk-assessment/index.html', env.get_template('tpf-childrens-risk-assessment.html').render(**ctx))
     write_page('404.html',         env.get_template('404.html').render(**ctx))
 
-    print(f'\nDone: {len(all_posts)} posts, {len(all_tags)} tags.')
+    print(f'\nDone: {len(all_posts)} posts, {len(all_pages)} pages, {len(all_tags)} tags.')
 
 
 if __name__ == '__main__':

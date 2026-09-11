@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="graph" viewBox="321 85 554 610" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<line x1="492" y1="388" x2="391" y2="132" stroke="#565f8a" stroke-width="0.8"/>
+<line x1="492" y1="388" x2="560" y2="111" stroke="#565f8a" stroke-width="0.8"/>
+<line x1="492" y1="388" x2="684" y2="168" stroke="#565f8a" stroke-width="0.8"/>
+<line x1="492" y1="388" x2="763" y2="278" stroke="#565f8a" stroke-width="0.8"/>
+<line x1="492" y1="388" x2="780" y2="413" stroke="#565f8a" stroke-width="0.8"/>
+<line x1="492" y1="388" x2="730" y2="541" stroke="#565f8a" stroke-width="0.8"/>
+<line x1="492" y1="388" x2="593" y2="642" stroke="#565f8a" stroke-width="0.8"/>
+<circle cx="391" cy="132" r="12" fill="#d6a852"/>
+<text x="391" y="165" text-anchor="middle" font-size="16" fill="#c4cdf8">Non-Identity</text>
+<circle cx="560" cy="111" r="12" fill="#d6a852"/>
+<text x="560" y="144" text-anchor="middle" font-size="16" fill="#c4cdf8">Mimesis</text>
+<circle cx="684" cy="168" r="12" fill="#d6a852"/>
+<text x="684" y="201" text-anchor="middle" font-size="16" fill="#c4cdf8">Identity Thinking</text>
+<circle cx="763" cy="278" r="12" fill="#b7caf5"/>
+<text x="763" y="311" text-anchor="middle" font-size="16" fill="#c4cdf8">Limits of the Analogy</text>
+<circle cx="780" cy="413" r="12" fill="#d6a852"/>
+<text x="780" y="446" text-anchor="middle" font-size="16" fill="#c4cdf8">Administered World</text>
+<circle cx="730" cy="541" r="12" fill="#d6a852"/>
+<text x="730" y="574" text-anchor="middle" font-size="16" fill="#c4cdf8">Exchange Principle</text>
+<circle cx="593" cy="642" r="12" fill="#d6a852"/>
+<text x="593" y="675" text-anchor="middle" font-size="16" fill="#c4cdf8">Reification</text>
+<circle cx="492" cy="388" r="28" fill="#b39af6"/>
+<text x="492" y="440" text-anchor="middle" font-size="19" fill="#c4cdf8">Constellation</text>
+</svg>

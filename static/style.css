@@ -61,6 +61,7 @@
   --code-fg: rgb(193, 66, 92);
   --hr-colour: #232323;
   --header-border-colour: rgba(186, 186, 186, 0.3);
+  --graph-text: #3f4459;
 }
 
 [data-theme="dark"] {
@@ -75,6 +76,7 @@
   --code-fg: rgb(124, 185, 243);
   --hr-colour: #787878ff;
   --header-border-colour: rgba(62, 62, 62, 0.3);
+  --graph-text: #c4cdf8;
 }
 
 /* ============================================================
@@ -167,7 +169,7 @@ footer { font-family: "Barlow Semi Condensed", serif; }
 aside.callout-basic {
   color: var(--blockquote-fg);
   background: var(--blockquote-bg);
-  margin: 0 2rem 1rem 0;
+  margin: 0 0 1rem 0;
   padding: 1.2rem 2.5rem 1.3rem 2.2rem;
   border-left: solid 6px var(--blockquote-border);
   position: relative;
@@ -176,7 +178,7 @@ aside.callout-basic {
 aside.callout {
   color: var(--blockquote-fg);
   background: var(--blockquote-bg);
-  margin: 0 2rem 1rem 0;
+  margin: 0 0 1rem 0;
   padding: 1.2rem 2.5rem 1.3rem 2.2rem;
   border-left: solid 6px var(--blockquote-border);
   position: relative;
@@ -330,7 +332,11 @@ a.articleTitle { text-decoration-thickness: 2px; }
 
 .postArticle { margin-bottom: 220px; }
 
-.postArticle p { margin: 1.7rem 0; }
+.postArticle p { margin: 1.6rem 0; }
+
+@media (max-width: 700px) {
+  .postArticle p { margin: 1rem 0; }
+}
 
 .postArticle code {
   font-family: 'Google Sans Code', monospace;
@@ -404,10 +410,19 @@ a.articleTitle { text-decoration-thickness: 2px; }
   padding-left: 0;
 }
 
+.postArticle .graph {
+  display: block;
+  max-width: 85%;
+  height: auto;
+  margin: 1.7rem 0 0.46rem;
+}
+
+.graph text { fill: var(--graph-text); }
+
 .postArticle blockquote {
   color: var(--blockquote-fg);
   background: var(--blockquote-bg);
-  margin: 0 2rem 1rem 0;
+  margin: 0 0 1rem 0;
   padding: 0.3rem 2.5rem 0.3rem 3.2rem;
   border-left: solid 6px var(--blockquote-border);
   position: relative;
