@@ -326,6 +326,9 @@ a.articleTitle { text-decoration-thickness: 2px; }
   .homeDate { font-size: 1rem; }
 }
 
+.svgSize { display: inline-block; vertical-align: -0.14em; }
+.svgSize svg { width: 100%; height: 100%; display: block; }
+
 /* ============================================================
    Post
    ============================================================ */

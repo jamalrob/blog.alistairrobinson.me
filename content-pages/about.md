@@ -3,12 +3,7 @@ title: 'About Under an Aspect'
 description: 'About Alistair Robinson: writer, developer, and administrator of The Philosophy Forum.'
 ---
 <h1 class="heading2Xl">About <em>Under an Aspect</em></h1>
-
-<p>
-  <img src="https://ik.imagekit.io/alistairrobinson/blog/tr:w-300,q-84/IMG-20240623-WA0000~2.jpg"
-       alt="Alistair Robinson wearing a green cap"
-       style="width: auto; height: auto; max-width: 70%">
-</p>
+<span class="svgSize" style="width:40%;">{{svg:logo}}</span>
 
 This is a site where I write about books and ideas: literary criticism, long-form philosophical essays, and other kinds of analytical writing.
 
@@ -27,6 +22,12 @@ I'm also a software developer. I've built several web applications, including <a
 If you would like to get the articles by email as they appear, you can subscribe at the bottom of any post.
 
 You can reach me at **alistair.robinson@gmail.com** <button class="copy-email" data-email="alistair.robinson@gmail.com">copy</button>
+
+<p>
+  <img src="https://ik.imagekit.io/alistairrobinson/blog/tr:w-300,q-84/IMG-20240623-WA0000~2.jpg"
+       alt="Alistair Robinson wearing a green cap"
+       style="width: auto; height: auto; max-width: 50%">
+</p>
 
 <script>
   document.querySelector('.copy-email').addEventListener('click', function() {

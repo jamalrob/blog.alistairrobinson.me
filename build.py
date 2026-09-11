@@ -17,7 +17,7 @@ from markdown_it import MarkdownIt
 
 CONTENT_DIR  = Path('content')
 PAGES_DIR    = Path('content-pages')
-DIAGRAMS_DIR = Path('content/diagrams')
+SVGS_DIR     = Path('content/svgs')
 OUT_DIR      = Path('out')
 STATIC_DIR       = Path('static')
 TEMPLATES_DIR    = Path('templates')
@@ -86,7 +86,7 @@ _SVG_INCLUDE_RE = re.compile(r'\{\{svg:([\w-]+)\}\}')
 
 def render_markdown(content):
     content = _SVG_INCLUDE_RE.sub(
-        lambda m: (DIAGRAMS_DIR / f'{m.group(1)}.svg').read_text(encoding='utf-8'),
+        lambda m: (SVGS_DIR / f'{m.group(1)}.svg').read_text(encoding='utf-8'),
         content,
     )
     content = content.replace(
@@ -213,7 +213,8 @@ def build():
     all_posts = get_all_posts(CONTENT_DIR)
     all_pages = get_all_pages(PAGES_DIR)
     css_hash  = hashlib.md5((STATIC_DIR / 'style.css').read_bytes()).hexdigest()[:8]
-    ctx        = {'site_title': SITE_TITLE, 'image_cdn': IMAGE_CDN, 'author': AUTHOR, 'css_version': css_hash}
+    logo_svg  = (SVGS_DIR / 'logo.svg').read_text(encoding='utf-8')
+    ctx        = {'site_title': SITE_TITLE, 'image_cdn': IMAGE_CDN, 'author': AUTHOR, 'css_version': css_hash, 'logo_svg': logo_svg}
 
     # Index
     print('index')

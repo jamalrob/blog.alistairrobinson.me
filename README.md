@@ -72,6 +72,6 @@ make deploy
 
 Images are served from ImageKit CDN. In article content, use `/bucket/filename.jpg` as the image path — the build script rewrites this to the full CDN URL automatically.
 
-## Inline SVG diagrams
+## Inline SVGs
 
-Diagrams that need to stay inline in the page HTML (e.g. to pick up theme-aware CSS, like the `.graph` class) live as standalone files in `content/diagrams/`. Reference one from any article or page with `{{svg:filename}}` (no `.svg` extension) — the build script substitutes the file's raw contents in place before Markdown is rendered. The `<svg ...>` opening tag must be alone on its own line in the source file, or it won't be recognised as raw HTML and will get mangled by the Markdown parser.
+Any SVG that needs to stay inline in the page HTML (e.g. to pick up theme-aware CSS, like the `.graph` or `.pageLogo` classes) lives as a standalone file in `content/svgs/` — diagrams, logos, whatever. Reference one from any article or page with `{{svg:filename}}` (no `.svg` extension) — the build script substitutes the file's raw contents in place before Markdown is rendered. The `<svg ...>` opening tag must be alone on its own line in the source file, or it won't be recognised as raw HTML and will get mangled by the Markdown parser.
