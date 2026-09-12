@@ -10,15 +10,13 @@ draft: false
 
 To function in life, I need notes. For writing, research, coding, to-do lists, travel, and everyday life: if I don’t write it down, it's gone.
 
-For years I kept my notes in a single directory of Markdown files, edited entirely in VS Code. It was functional, but there was a problem: it couldn’t keep pace with my thinking. My ideas evolved, ramified, and recombined, while the notes remained static. Even though I made the filenames descriptive (`tpf-migration-master-note.md`, `tpf-archive-deployment-process.md`), there was no organization. Notes related to each other only in my head, if at all, and nothing external to my mind supported the connective work of actual thinking, i.e., relating ideas, returning to undeveloped ones, and bringing out latent patterns.
+For years I kept my notes in a single directory of Markdown files, edited entirely in VS Code. It was functional, but there was a problem: it couldn’t keep pace with my thinking. Ideas evolve, ramify, and recombine, while files remain static. Even though I made the filenames descriptive (`tpf-migration-master-note.md`, `tpf-archive-deployment-process.md`), they were not organized. Notes related to each other only in my head, if at all, and nothing external to my mind supported the connective work of actual thinking, i.e., relating ideas, returning to undeveloped ones, and bringing out latent patterns.
 
-What I had was a ***collection***, in the systems-theory sense: a container for items that sit alongside each other without interacting. Collections just aggregate. They gather items together, but they're not governed by any ordering principles---nothing in the structure tells you how one item relates to another. So while my notes could potentially have informed one another, in the way that thoughts or ideas themselves do, my setup provided no mechanism for this.
-
-What I needed was not a collection but a ***system***.
+I didn't have a *system*, but just a ***collection***, in the systems-theory sense: a container for items that sit alongside each other without interacting. Collections just aggregate: while my notes had potential to inform one another, in the way that thoughts or ideas themselves do, my setup provided no mechanism for this.
 
 ## 1. A setup without structure
 
-My old way had some advantages over cloud-hosted, database-driven applications like Evernote, Google Keep, and Notion:
+It had some advantages over cloud-hosted, database-driven applications like Evernote, Google Keep, and Notion:
 
 - _Simple:_ all the notes were plain text files written in Markdown, edited in the same tool I use for writing and coding (VS Code), and contained in a single directory with no internal hierarchy.
 - _Backed up:_ changes were pushed to GitHub regularly.
@@ -46,7 +44,7 @@ One note would get buried under new ones, and then entropy would take hold, resu
 
 All of the above is hindsight. I didn't know there was a problem. Everything was _fine_. Then, one day, I noticed Obsidian mentioned online somewhere, as a tool for writers, so I decided to try it. 
 
-I quickly found that Obsidian had all the advantages of my old setup---plain text Markdown, speed, resilience, local-first storage---while adding the one thing the flat model couldn't give me, namely a flexible structure for ideas to form patterns, clusters, and trajectories over time.
+I quickly found that Obsidian had all the advantages of my old setup---plain text Markdown, speed, resilience, local-first storage---while adding what I never knew was missing, namely a flexible structure for ideas to form patterns, clusters, and trajectories over time.
 
 The game-changing feature is links.
 
@@ -284,9 +282,9 @@ This is what I’d tell anyone starting out with Obsidian:
 
 ## Conclusion
 
-In cognitive science and the philosophy of mind, the “extended mind” thesis holds that the tools we use can become part of our thinking apparatus (otherwise known as the mind) when our interactions with them are reliable, habitual, and integrated. What I found in moving to Obsidian was something like that: when my folder became a vault, it stopped being a repository and became part of my cognitive toolkit. The structure of the vault began to shape the structure of my thought, and my thought in turn reshaped the vault.
+In cognitive science and the philosophy of mind, the extended mind thesis holds that the tools we use can become part of our thinking apparatus, i.e., the mind, when our interactions with them are reliable, habitual, and integrated. What I found in moving to Obsidian was something like that: when my folder became a vault, it stopped being a repository and became part of my cognitive toolkit. The structure of the vault began to shape the structure of my thought, and my thought in turn reshaped the vault.
 
-I don't think it's a grandiose exaggeration to say that in Obsidian, my notes became an extension of my mind, in an unashamedly literal sense.
+So I'm quite comfortable saying that in Obsidian, my notes became an extension of my mind, in an unashamedly literal sense.
 
 ## Links
 

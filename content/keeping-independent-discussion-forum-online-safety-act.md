@@ -6,13 +6,13 @@ tags: administration
 image: false
 draft: false
 ---
-I'm the administrator of The Philosophy Forum (TPF), online since 2015 and dedicated to long-form philosophical discussions. Compared to a site like Reddit, it's a small community, but the members are active and it has its own distinct culture, built up over years. 
+I'm the administrator of The Philosophy Forum (TPF), online since 2015. Compared to a site like Reddit, it's a small community, but the members are active and it has its own distinct culture, built up over years. 
 
 In 2023, the UK Parliament passed the Online Safety Act (OSA), which applies to most online services with user-generated content accessible to and used by people in the UK. What's important to note is that it doesn't just apply to operators *based in* the the UK: the Act applies to any service, no matter where it's based, if it has a significant number of UK users. Non-compliance carries large financial penalties, and in some circumstances personal liability for the individuals who run the service.
 
 In the world of independent forums, reactions varied widely. A few sites completely shut down when their administrators decided that the regulatory burden was too onerous and the personal financial risk too great to bear. 
 
-The most prominent casualty was **London Fixed Gear and Single-Speed (LFGSS)**, a cycling community that [shut down the day before the Act came into force](https://www.techdirt.com/2024/12/20/death-of-a-forum-how-the-uks-online-safety-act-is-killing-communities/). The admin of the site decided that compliance was not practicable for a site run by a single individual without staff or resources.
+The most prominent casualty was *London Fixed Gear and Single-Speed (LFGSS)*, a cycling community that [shut down the day before the Act came into force](https://www.techdirt.com/2024/12/20/death-of-a-forum-how-the-uks-online-safety-act-is-killing-communities/). The admin of the site decided that compliance was not practicable for a site run by a single individual without staff or resources.
 
 The decision attracted a great deal of attention and sympathy, but it's worth noting now, in 2026, that [Ofcom has so far not actually pursued small community forums](https://www.lawgazette.co.uk/practice-points/ofcom-raises-the-stakes/5126101.article). So far its targets have been file-sharing services distributing illegal material, pornography sites failing to implement age checks, a suicide forum linked to deaths in the UK, and 4chan, which was fined not for harmful content as such, but for refusing to respond to Ofcom's information requests.
 
@@ -30,11 +30,11 @@ Enforcement is carried out by Ofcom, the UK communications regulator. It establi
 
 Small community admins should concentrate on the following three areas:
 
-1. **Liability for illegal content:** the Act requires services to have systems for detecting and removing certain kinds of illegal material, including content related to child sexual abuse and terrorism.
+1. *Liability for illegal content:* the Act requires services to have systems for detecting and removing certain kinds of illegal material, including content related to child sexual abuse and terrorism.
 
-2. **Child protection:** a large part of the thinking behind the Act is that services have a duty to reduce risks to children, if children use or are likely to use those services.
+2. *Child protection:* a large part of the thinking behind the Act is that services have a duty to reduce risks to children, if children use or are likely to use those services.
 
-3. **Moderation:** services are required to have functioning processes for handling user reports and acting on harmful content.
+3. *Moderation:* services are required to have functioning processes for handling user reports and acting on harmful content.
 
 This might seem overwhelming, particularly for small forums that don’t have the benefit of legal teams or dedicated employees. The Act is genuinely complex, and Ofcom’s guidance is not always clear or easy to interpret. It’s understandable that some operators decided the safest course was to just stop.
 
@@ -48,7 +48,7 @@ It had minimally functional moderation tools, but it wasn't transparent, and the
 
 On top of that, it wasn't being actively developed. Although it was functioning smoothly, it was essentially in maintenance mode, its future uncertain. The community had outgrown it.
 
-We chose to move to Discourse, an actively maintained open-source discussion platform used by many organizations and companies, both large and small, and maintained and updated by hundreds of developers worldwide. It has a mature set of moderation features, and is **auditable**: not a concept I had ever thought about in connection with forum software, but one that turns out to be vital when trying to demonstrate that you're operating responsibly.
+We chose to move to Discourse, an actively maintained open-source discussion platform used by many organizations and companies, both large and small, and maintained and updated by hundreds of developers worldwide. It has a mature set of moderation features, and it's *auditable*---vital when trying to demonstrate that you're operating responsibly.
 
 Although the migration itself was quite technically involved, even without a full migration of the old site's content, the compliance and governance work was in some ways the most important element.
 
@@ -58,17 +58,17 @@ The OSA is built around the concept of what a service *reasonably* needs to have
 
 For a forum like TPF, compliance basically means:
 
-- **Terms of Service & Acceptable Use Policy:**  
+- *Terms of Service & Acceptable Use Policy:*  
 This should set out what content is and is not permitted, including explicit prohibitions on illegal content and other content harmful to children.
-- **A minimum age policy:**  
+- *A minimum age policy:*  
 We went with a 13+ minimum, which fits with GDPR's age of digital consent in the UK and with the Act's framework for services likely to be accessed by children.
-- **A flagging mechanism:**  
+- *A flagging mechanism:*  
 Users should be able to report content that is illegal, harmful, or breaks the rules, and staff members should respond to these reports.
-- **Moderation procedures:**  
+- *Moderation procedures:*  
 The procedures for moderation should be documented, including what action is taken and why, including actions taken on flags, posts and topics, and user accounts.
-- **A commitment to remove illegal content:**  
+- *A commitment to remove illegal content:*  
 Not a guarantee that no illegal content will ever appear, but a meaningful commitment to remove it promptly if it does appear.
-- **Transparency with users:**  
+- *Transparency with users:*  
 The way moderation decisions are made, including a record or explanation when action is taken, should be open and visible to the forum's users.
 
 This is not nothing, but it's achievable. A forum like TPF had a head-start, since it already had staff and members who were active and who valued the community. The task was one of formalizing and standardizing what we had been trying to do anyway.

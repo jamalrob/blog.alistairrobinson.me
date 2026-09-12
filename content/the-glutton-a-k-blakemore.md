@@ -20,7 +20,7 @@ I've never referred to a group of starlings as a murmuration, of crows as a murd
 
 This is obviously not any kind of obedience to correct terminology --- even according to the recorded "terms of venery" from the middle ages, Blakemore's usages are non-standard. Instead what she is doing is sensory and conceptual evocation, nodding to the terms' current popularity but using them how she likes.
 
-These are just a few examples of bouncy creativity that runs right through Blakemore's second novel, _The Glutton_. At its heart it's a beautifully written and powerful work of historical fiction, and while it's arguably not experimental in any essential way, her strange metaphors and images, her often obscure vocabulary, and the flashes of magic and horror turn it into something special. It can be unsettling, uncanny, and horrific, which makes it sound like a work of "weird fiction". But unlike a lot of writing in that genre, Blakemore's language is poetically exact, almost never clichéd or fey. It never merely _gestures_ towards the thing, whatever it is; it pins it down, opens it up for inspection. Its observational precision reminded me of Nabokov even before I found out that she was a fan, such as here:
+These are just a few examples of the bouncy creativity that runs right through Blakemore's second novel, _The Glutton_. At its heart it's a beautifully written and powerful work of historical fiction, and while it's arguably not experimental in any essential way, her strange metaphors and images, her often obscure vocabulary, and the flashes of magic and horror turn it into something special. It can be unsettling, uncanny, and horrific, which makes it sound like a work of "weird fiction". But unlike a lot of writing in that genre, Blakemore's language is poetically exact, almost never clichéd or fey. It never merely _gestures_ towards the thing, whatever it is; it pins it down, opens it up for inspection. Its observational precision reminded me of Nabokov even before I found out that she was a fan, such as here:
 
 > So you have come here — the aide-de-camp widens his arms to indicate the conceptual dimensions of his “here” — from a village near to Lyon because you believe in liberty, and in honour, and will proudly shed blood for the patrie?
 
@@ -32,7 +32,7 @@ The tale he tells begins with his birth and takes us up to his arrival at Versai
 
 But our sympathy doesn't remain complete. Over the course of the story Tarare is beaten, abused, manipulated and exploited, and he begins to seem fated to it, ultimately always an aberration without a place in the world, always a step beyond the pale. The kinder characters are only kind up to a point. Lozeau brings Tarare into his group of vagabond misfits mainly just to use as a sideshow freak; and Doctor Dupuis, the first person in the unfortunate young man's life to show him genuine care, gradually grows to hate Tarare for the outrage of his very existence --- not despite but because of his suffering.
 
-It is left to Blakemore to redress the wrongs that were done to him, but even she can only take it so far. We are often on Tarare's side, seeing the world from his point of view, but we cannot overcome his monstrousness entirely. This is quite unmcomfortable while we inhabit his consciousness, and relief is provided by switching to the points of view of Sister Perpetué and Doctor Dupuis, bringing us back to the normally human, allowing us to see Tarare from a safe distance as the wretched and monstrous Other. 
+It is left to Blakemore to redress the wrongs that were done to him, but even she can only take it so far. We are often on Tarare's side, seeing the world from his point of view, but we cannot overcome his monstrousness entirely. This is quite uncomfortable while we inhabit his consciousness, and relief is provided by switching to the points of view of Sister Perpetué and Doctor Dupuis, bringing us back to the normally human, allowing us to see Tarare from a safe distance as the wretched and monstrous Other. 
 
 
 ## Revolution
@@ -47,7 +47,7 @@ But since he's almost always intensely hungry, he cannot properly engage either 
 
 > No revolution will reform Tarare. Topple kings and queens right into his open mouth, even, and watch him ask for more.
 
-It's an insult to a good book to fish for allegories and symbols, but there are, at the very least, parallels and resonances that are worth looking at. Tarare could be seen to personify the contradictions and divisions of society, such that the attempted murder which seems to cause his hyperphagia is the revolutionary event that ignites the conflagration of conflict between his virtuous higher self and his now supercharged appetite. And France in the period is _hungry_, after a series of disastrous harvests, damaging winters, and rises in the price of basic foods. That such a time should produce a creature of infinite hunger is a delicious perversity.
+It's an insult to a good book to fish for allegories and symbols, but there are, at the very least, parallels and resonances that are worth looking at. Tarare could be seen to personify the contradictions and divisions of society, such that the attempted murder which seems to cause his hyperphagia is the revolutionary event that ignites the conflagration of conflict between his virtuous higher self and his now supercharged appetite. And France in the period is _hungry_, after a series of disastrous harvests, damaging winters, and rises in the price of basic foods. That such a time should produce a creature of infinite hunger is perverse.
 
 
 ## Tragically queasy
@@ -56,7 +56,7 @@ I had a unique experience in reading this novel. I felt a kind of emotional quea
 
 That might be why, initially, I couldn't quite relax and enjoy it. I couldn't settle into the flow of the story as I usually would with a adventure story in the _Bildungsroman_ mode. Looking back, I think this is part of the novel's prickly fascination.
 
-## Is it experimental?
+## Narratological matters
 
 I said before that the novel is not essentially experimental, but maybe I'm wrong. The thoughts of Tarare, which _are_ essential to the book, are rendered with an artistry and sophistication that doesn't fit with what we know about him, an illiterate peasant who has grown up in poverty surrounded by cruelty. Blakemore signals this to the reader in a kind of aside:
 
@@ -66,7 +66,7 @@ Here the omniscient storyteller finally admits, a long way into the novel, that 
 
 But what are we to make of this? In the normal run of things, omniscient third person narration tells the events and characters of the story while maintaining the pretence of Olympian knowledge. But occasionally it breaks self-consciously into a direct address to the reader, or, even more rarely, drops the pretence entirely and admits that the story is made up, thus revealing the author behind the narrator.
 
-So there is (1) narrating the events and characters within the story; (2) saying something about the story itself, while maintaining the pretence; and (3) saying something about the story itself, _without_ maintaining the pretence. The quoted line above seems to be doing both (2) and (3): owning up to one pretence only to maintain another, namely that the narrator has literally read the mind of a man who existed over two hundred years ago. 
+At its most basic, a work of fiction narrates events, pretending the story is real. It can additionally say something about the story itself, while maintaining the pretence that it is real. Or it can say something about the story itself, _without_ maintaining the pretence that it is real. The quoted line above sits somewhere between these: owning up to one pretence only to maintain another, namely that the narrator has literally read the mind of a man who existed over two hundred years ago, and rendered the thoughts therein in her beautiful prose. 
 
 And the artifice is not only in the imagining of Tarare's thoughts, but also in the telling of his story: I referred above to "the tale he tells," but we do not get to read his words, to hear his tale directly. Blakemore instead fashions it in her own way and from an Olympian viewpoint, dispensing with his own first-person account.
 

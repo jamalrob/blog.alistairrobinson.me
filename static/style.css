@@ -17,32 +17,18 @@
   src: url('/static/fonts/barlow-600.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'Literata';
+  font-family: 'Crimson Pro';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200 900;
   font-display: swap;
-  src: url('/static/fonts/literata-normal.woff2') format('woff2');
+  src: url('/static/fonts/crimsonpro-normal.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'Literata';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('/static/fonts/literata-normal.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Literata';
+  font-family: 'Crimson Pro';
   font-style: italic;
-  font-weight: 400;
+  font-weight: 200 900;
   font-display: swap;
-  src: url('/static/fonts/literata-italic.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Literata';
-  font-style: italic;
-  font-weight: 600;
-  font-display: swap;
-  src: url('/static/fonts/literata-italic.woff2') format('woff2');
+  src: url('/static/fonts/crimsonpro-italic.woff2') format('woff2');
 }
 
 /* ============================================================
@@ -52,13 +38,19 @@
 :root {
   --bg: #efefef;
   --fg: #222222;
-  --blockquote-bg: #e6e6e6;
+  /*--blockquote-bg: #e6e6e6;
   --blockquote-fg: #222222;
-  --blockquote-border: #c6c6c6;
+  --blockquote-border: #c6c6c6;*/
+  --blockquote-bg: none;
+  --blockquote-fg: none;
+  --blockquote-border: none;  
+  --box-bg: #e6e6e6;
+  --box-fg: #222222;
+  --box-border: #c6c6c6;
   --link-color: #0070f3;
   --fg-toggle: #666666;
   --code-bg: #dbdbdbff;
-  --code-fg: rgb(193, 66, 92);
+  --code-fg: rgb(16, 130, 18);
   --hr-colour: #232323;
   --header-border-colour: rgba(186, 186, 186, 0.3);
   --graph-text: #3f4459;
@@ -68,9 +60,15 @@
   --bg: #222222;
   --fg: #efefef;
   --fg-toggle: #aaaaaa;
-  --blockquote-bg: #333333;
+  /*--blockquote-bg: #333333;
   --blockquote-fg: #efefef;
-  --blockquote-border: #686868;
+  --blockquote-border: #686868;*/
+  --box-bg: #333333;
+  --box-fg: #efefef;
+  --box-border: #686868;
+  --blockquote-bg: none;
+  --blockquote-fg: none;
+  --blockquote-border: none;    
   --link-color: #a3f5dcff;
   --code-bg: #171717;
   --code-fg: rgb(124, 185, 243);
@@ -97,7 +95,7 @@ html, body {
 }
 
 @media (max-width: 600px) {
-  body { font-size: 16px; }
+  body { font-size: 17px; }
 }
 
 * { box-sizing: border-box; }
@@ -155,10 +153,13 @@ article h4 {
 
 article .byline {
   font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 0.93em;
   margin-bottom: 35px;
 }
 
-article { font-family: "Literata", serif; }
+article { font-family: "Crimson Pro", serif; font-size: 1.08em; }
+
+
 
 footer { font-family: "Barlow Semi Condensed", serif; }
 
@@ -167,20 +168,20 @@ footer { font-family: "Barlow Semi Condensed", serif; }
    ============================================================ */
 
 aside.callout-basic {
-  color: var(--blockquote-fg);
-  background: var(--blockquote-bg);
+  color: var(--box-fg);
+  background: var(--box-bg);
   margin: 0 0 1rem 0;
   padding: 1.2rem 2.5rem 1.3rem 2.2rem;
-  border-left: solid 6px var(--blockquote-border);
+  border-left: solid 6px var(--box-border);
   position: relative;
 }
 
 aside.callout {
-  color: var(--blockquote-fg);
-  background: var(--blockquote-bg);
+  color: var(--box-fg);
+  background: var(--box-bg);
   margin: 0 0 1rem 0;
   padding: 1.2rem 2.5rem 1.3rem 2.2rem;
-  border-left: solid 6px var(--blockquote-border);
+  border-left: solid 6px var(--box-border);
   position: relative;
 }
 
@@ -309,22 +310,24 @@ aside.callout > :last-child  { margin-bottom: 0; }
   line-height: 1.2;
 }
 
-.articleTitle { font-weight: bold; }
+.articleTitle { font-weight: normal; }
 
 @media (min-width: 800px) {
   .articleTitle {
-    font-weight: bold;
-    font-size: 1.6rem;
+    font-weight: normal;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .articleTitle {
+    font-size: 1rem;
   }
 }
 
 a.articleTitle { text-decoration-thickness: 2px; }
 
-.homeDate { font-size: 0.82rem; }
-
-@media (min-width: 800px) {
-  .homeDate { font-size: 1rem; }
-}
+.homeDate { font-size: 0.7rem; }
 
 .svgSize { display: inline-block; vertical-align: -0.14em; }
 .svgSize svg { width: 100%; height: 100%; display: block; }
@@ -347,12 +350,12 @@ a.articleTitle { text-decoration-thickness: 2px; }
   color: var(--code-fg);
   padding: 0.1rem 0.3rem;
   border-radius: 4px;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
 }
 
 .postArticle code.maths {
   /*font-family: 'Google Sans Code', monospace;*/
-  font-family: "Literata", serif;
+  font-family: "Crimson Pro", serif;
   background-color: var(--code-bg);
   color: var(--code-fg);
   padding: 0.1rem 0.3rem;
@@ -432,7 +435,7 @@ a.articleTitle { text-decoration-thickness: 2px; }
 }
 
 .postArticle blockquote::before {
-  font-family: "Literata";
+  font-family: "Crimson Pro";
   content: "\201C";
   color: #bbb;
   font-size: 4em;
@@ -454,7 +457,7 @@ a.articleTitle { text-decoration-thickness: 2px; }
 
 .postArticle .seriesBox {
   padding: 15px 20px 5px;
-  background: var(--blockquote-bg);
+  background: var(--box-bg);
 }
 
 .postArticle .seriesBoxBottom {
@@ -475,7 +478,7 @@ a.articleTitle { text-decoration-thickness: 2px; }
 .postArticle .seriesBox li:last-child { display: none; }
 
 .subscribeBox {
-  background: var(--blockquote-bg);
+  background: var(--box-bg);
   padding: 25px 20px;
   margin: 50px 0 30px;
   text-align: center;

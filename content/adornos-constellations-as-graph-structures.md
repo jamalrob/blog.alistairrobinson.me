@@ -86,7 +86,7 @@ Representing these objects and concepts in a tree would look like something like
 
 Notice the directory structure on the left, and that the note now contains a full definition. The object is specified from within, and its hierarchy, i.e., what's above it, supplies this specification. This is contrary to constellations in that it's a closed specification: the taxonomic path and the definition agree, and once they do, the object has been fully accounted for. In contrast, a constellation never closes: each concept gets part of the object and misses the rest, which is why you need several.
 
-Here is the same vault, visually abstracted:
+Here is part of the same vault, visually abstracted:
 
 ![vault-as-folder-hierarchy](https://ik.imagekit.io/alistairrobinson/blog/hierarchy-tree-dark-trimmed.svg)
 

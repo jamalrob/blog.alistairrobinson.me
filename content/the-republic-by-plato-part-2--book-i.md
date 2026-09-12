@@ -4,7 +4,7 @@ description: "Reading notes and analysis of Plato's Republic"
 series: platoSeries
 part: 2
 date: '2026-02-04'
-tags: philosophy, reviews, plato
+tags: philosophy, plato
 image: true
 imageClass: mainImageSmaller
 draft: false
