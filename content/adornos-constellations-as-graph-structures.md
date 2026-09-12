@@ -56,7 +56,7 @@ The screenshots are in order. This doesn't represent a progression up or down le
 
 NOTE: The object/concept colour-coding doesn't apply to the active node
 
-#### 1. The Factory (object)
+*1. The Factory (object)*
 
 ![constellation-the-factory](https://ik.imagekit.io/alistairrobinson/blog/constellation-the-factory.png)
 
