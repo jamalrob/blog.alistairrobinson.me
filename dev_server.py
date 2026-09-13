@@ -13,6 +13,7 @@ build()  # build once up front so `out/` exists before serving
 
 server = Server()
 server.watch('content/**/*.md', build)
+server.watch('content/svgs/**/*.svg', build)
 server.watch('content-pages/**/*.md', build)
 server.watch('templates/**/*.html', build)
 server.watch('static/**/*', build)
