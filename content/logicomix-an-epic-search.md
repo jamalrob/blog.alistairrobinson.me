@@ -6,7 +6,7 @@ image: true
 imageClass: mainImageSmallest
 draft: false
 ---
-_**Logicomix: An Epic Search For Truth** by Apostolos Doxiadis, Christos Papadimitriou, Alecos Papadatos and Annie Di Donna._
+*Logicomix: An Epic Search For Truth* by Apostolos Doxiadis, Christos Papadimitriou, Alecos Papadatos and Annie Di Donna.
 
 This is a comic-book about Bertrand Russell’s quest to establish the foundations of mathematics. The idea of such a book is incredible, yet here it is, a story told passionately and illustrated beautifully, which does justice to the people and their ideas. And they’re all in here: Frege, Hilbert, Cantor, Gödel and Wittgenstein.
 

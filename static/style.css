@@ -157,7 +157,7 @@ article .byline {
   margin-bottom: 35px;
 }
 
-article { font-family: "Crimson Pro", serif; font-size: 1.08em; }
+article { font-family: "Crimson Pro", serif; font-size: 1.08em; font-weight: 300; }
 
 
 
@@ -260,6 +260,7 @@ aside.callout > :last-child  { margin-bottom: 0; }
 .innerContainer {
   width: 72%;
   max-width: 800px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1000px) {

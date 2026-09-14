@@ -1,40 +1,38 @@
 ---
 title: "Turning Adorno's Constellations into Graph Structures"
-description: ''
-date: '2026-09-12'
+description: 'Adorno in Obsidian: using the tools of PKM to model '
+date: '2026-09-16'
 tags: knowledge-management, obsidian, adorno, philosophy
 image: false
 draft: true
 ---
 {{svg:constellation-graph}}
 
-Identity-thinking is the imposition of conceptual categories on to individual things, in the belief that concepts can fully specify what they classify. That assumption asserts an identity between concept and thing. What the object might be over and above the imposed classification drops away unnoticed---or is suppressed. Constellations are Theodor W. Adorno's alternative.
+Identity-thinking is the imposition of conceptual categories on to individual things, in the belief that concepts can fully specify what they classify. That assumption asserts an identity between concept and thing. Whatever does not fit the imposed classification drops away unnoticed---or is suppressed. Constellations are Theodor W. Adorno's alternative.
 
-In his day, Adorno had a big quarrel with positivist social science and its mania for measurement, for reducing the qualitative to the quantitative, something we often call *scientism* today. It's not that he thought measurement as such was bad, just that it was radically over-applied. He had several reasons for thinking so: that facts are not just given but are shaped by the presuppositions of the methodology; that society's parts are what they are through the whole, while measurement takes them one at a time; and that a discipline which describes only what happens to currently exist ends up supporting it.
+In his day, Adorno had a big quarrel with positivist social science and its mania for measurement, for reducing the qualitative to the quantitative, something we might be inclined to label as *scientism* today. It's not that he thought measurement as such was bad, just that it was radically over-applied. He had several reasons for thinking so: that facts are not just given but are shaped by the presuppositions of the methodology; that society's parts are what they are through the whole, while measurement takes them one at a time; and that a discipline which describes only what happens to currently exist ends up supporting it.
 
 But the economy is the primary model, even the underlying form, of identity-thinking. In exchange, unique objects are reduced to equivalency in the form of money. The particular is subsumed in exchange under the general category of the commodity, erasing qualitative differences for the sake of fungibility.
 
 The same happens elsewhere. Bureaucracy reduces individuals to numbered case files, treating people according to general rules regardless of their unique characteristics and situations. In the culture industry, entertainment is more often formulaic than genuinely novel---sameness under the guise of variety and freedom of choice. And prejudice leads to the treatment of individuals as mere representatives of group identities, their selves collapsed into presumed essences.
 
-That said, there is no thinking without classification and generalization, which is to say no thinking without concepts. And a concept applied to an object tends to make an identity claim: ***O*** ≡ ***C***. But concepts are general and things are particular, so the fit is never exact. Something about ***O*** always escapes from ***C***.
+That said, there is no thinking without classification and generalization, which is to say no thinking without concepts. And a concept applied to an object tends to make an identity claim: ***O*** ≡ ***C***. But concepts are general and things are particular, so the fit is never exact. There is always something about ***O*** that isn't captured by ***C***. Adorno calls this nonidentity: the object is never exhausted by the concept; there is always something that doesn't fit the classification.
 
-Identity-thinking, though damaging, expresses a utopian ideal of unity, in which contradictions and antagonisms are reconciled and understanding is reached without domination. That is what makes the concept worth having, but when conceptual schemes presume to have already achieved this, they freeze and isolate the object---this is the process of reification---and coerce it into a framework that doesn't quite fit. Thus an ideal of unity turns into domination, both figurative and literal.
+Identity-thinking, though damaging, expresses a utopian ideal of unity, in which contradictions and antagonisms are reconciled and understanding is reached without domination. That is what makes the concept worth having, but when conceptual schemes presume to have already achieved this, they freeze and isolate the object, reifying it and coercing it into a framework that doesn't quite fit. Thus an ideal of unity turns into domination, both figurative and literal.
 
 ## Enter Constellations
 
 The alternative is not to stop using concepts but to use them differently. A constellation is a configuration of concepts around an object, without any of them counting as its main category. The concepts gather around the object of interest, rather than directly and exclusively subsuming it with a readymade scheme. What shows up is what the concepts fail to capture on their own.
 
-Adorno took the idea from Walter Benjamin. The concepts do not add up to a definition, and they are not supposed to. No one of them opens the object, which is why you need several, and why the arrangement is never closed.
+Adorno took the idea from Walter Benjamin. Since no single concept suffices to fully determine the object, the point is not to find the right one, but to use several. Their configuration thus discloses the object without reducing it to any one of them. But this shouldn't be taken to imply we're looking for a *complete set* of concepts. The constellation remains open, because there is always another way of approaching the object, another aspect to bring into view.
 
-What the constellation aims for in practice is the history stored in the object, what Adorno calls its "sedimented history". To cognize the factory through abstract labour time and the exchange principle isn't to file it under those categories but to say what made it what it is. This also implies that a constellation is constructed---assembled by a thinker, but could have been assembled otherwise. Crucially however, this does not mean constellations are not objectively real. What is constructed is the arrangement, not what the arrangement is about. A constellation can be wrong, and it is wrong when the concepts gathered are not the ones that actually made the object what it is.
+What the constellation aims for in practice is the history embedded in the object, what Adorno calls its "sedimented history". To cognize the factory through abstract labour time and the exchange principle isn't to file it under those categories but to say what made it what it is. This also implies that a constellation is constructed---assembled by a thinker, but could have been assembled otherwise. Crucially however, this does not mean constellations are not objectively real. What is constructed is the arrangement, not what the arrangement is about. A constellation can be wrong, if the concepts gathered do not reveal the relations and history that actually constitute the object.
 
 ## Constellations as Graphs
 
 A parallel can be drawn between Adorno's approach and certain methodologies in personal knowledge management (PKM), some of which produce graph structures rather than hierarchies.
 
-In graph theory, a **graph** is a non-hierarchical and interconnected system of nodes, whereas a **tree** (or taxonomy) is a hierarchical parent-child structure.*
-
-*Strictly speaking, [a tree is a particular kind of graph whose structure is hierarchical: nodes are organised through parent-child relations. A general graph places fewer restrictions on the kinds of relations that can exist between nodes.]
+In graph theory, a **graph** is a non-hierarchical and interconnected system of nodes, whereas a **tree** (or taxonomy) is a hierarchical parent-child structure. (Strictly speaking, this is an oversimplification. Trees are graphs too, but with a hierarchical, parent-child structure. For my present purposes I'll use "graph" to mean a graph without such a hierarchical structure.)
 
 ![tree-vs-graph-dark](https://ik.imagekit.io/alistairrobinson/blog/tree-vs-graph-dark.svg)
 
@@ -42,11 +40,11 @@ Trees are the classic paradigm of classificatory knowledge, ubiquitous in scienc
 
 ![theropod-cladogram-dark](https://ik.imagekit.io/alistairrobinson/blog/theropod-cladogram-dark.svg)
 
-In contrast, constellations are a lot like graphs. So I decided to use the [Obsidian](https://obsidian.md/) application, which I was already using for my own notes, to represent constellations.
+In contrast, constellations have more in common with graphs than with trees. So I decided to use the [Obsidian](https://obsidian.md/) application, which I was already using for my own notes, to represent constellations.
 
 Obsidian is a note-taking app that takes a folder on your computer and treats it as a *vault*: a collection of text files that link to each other. These notes are the nodes, connected by links, and Obsidian generates the resulting graph structure. In mine the nodes represent objects (in red) and concepts (in yellow).
 
-Each note begins with a brief characterization but doesn't supply a proper definition. The rest of the note doesn't contain more specification, but lists the things and concepts it stands in relation to. This means the note is unusable on its own: *it is what it is only through its links*.
+Each note begins with a brief characterization but doesn't supply a proper definition. The rest of the note doesn't contain more specification, but lists the things and concepts it stands in relation to. This means the note is unintelligible on its own: *it is what it is only through its links*.
 
 [To put it like Adorno, what is inside the note is what is outside, i.e., its relations. The note is not defining the thing's essence "from within".]
 

@@ -121,7 +121,7 @@ It occurs to me that there are great books which do not satisfy these requiremen
 
 > They draw into themselves all the creatures of the air. Metaphors flitting hastily through them become their nourishing prey. Subject matter comes winging towards them. The soundness of a conception can be judged by whether it causes one quotation to summon another. Where thought has opened up one cell of reality, it should, without violence by the subject, penetrate the next. It proves its relation to the object as soon as other objects crystallize around it. In the light it casts on its chosen substance, others begin to glow.
 
-The autobiographical element — never really absent in _Minima Moralia_ — returns in the last paragraph:
+The autobiographical element, never really absent in _Minima Moralia_, returns in the last paragraph:
 
 > In his text, the writer sets up house. Just as he trundles papers, books, pencils, documents untidily from room to room, he creates the same disorder in his thoughts. They become pieces of furniture that he sinks into, content or irritable. He strokes them affectionately, wears them out, mixes them up, re-arranges, ruins them. For a man who no longer has a homeland, writing becomes a place to live. In it he inevitably produces, as his family once did, refuse and lumber. But now he lacks a store-room, and it is hard in any case to part from left-overs. So he pushes them along in front of him, in danger finally of filling his pages with them. 
 

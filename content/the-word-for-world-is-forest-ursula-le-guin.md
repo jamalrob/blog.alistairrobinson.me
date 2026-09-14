@@ -4,16 +4,16 @@ description: 'A reflective review of Le Guin’s The Word for World Is Forest—
 date: '2026-02-06'
 tags: sf, reviews
 image: true
-imageClass: mainImageSmall
+imageClass: mainImageSmallest
 draft: false
 ---
-The setting is an Earth-like planet of ocean and forest, in the early years of its colonization by people from Earth, the Terrans, who have named it New Tahiti. It is a pristine wilderness, the land covered in a forest of oak, ash, pine, and chestnut---it turns out that the planet was seeded a long time ago by the super-advanced Hainish civilization, with the same plant and animal progenitors as on Earth. 
+The setting is an Earth-like planet of ocean and forest, in the early years of its colonization by people from Earth, the Terrans, who have named it New Tahiti. We first see it as a pristine wilderness, while Earth, we learn, is now virtually a toxic dump. New Tahiti represents a new start.
 
-Earth, we learn, is now virtually a toxic dump, and New Tahiti represents something of a new start for the Terrans. But the first order of business is logging; back on treeless Earth, timber is now worth more than gold. After that's done, the plan is to intensively farm the cleared land, in preparation for the influx of colonists. Whether stripping away the forests is likely to support a sustainable agriculture, and whether the native inhabitants are happy with all this, are questions the Terrans are mostly unconcerned with. 
+But the first order of business is logging; back on treeless Earth, timber is now worth more than gold. After that's done, the plan is to intensively farm the cleared land, in preparation for the influx of colonists. Whether stripping away the forests is likely to support a sustainable agriculture, and whether the native inhabitants are happy with all this, are questions the Terrans are mostly unconcerned with. 
 
 Among those native inhabitants are the Athsheans (the planet's local name is Athshe), an intelligent but apparently passive species with green fur, known by the colonizers as "creechies." Most of the Terrans, led by Captain Davidson, see the Athsheans as subhuman and feel fully entitled to use them as slave labour in their logging operations---and to abuse, rape, and murder them at will. When Raj Lyubov, the colony's anthropologist, points out that the "creechies" are actually a human species, close cousins of ours descended from the same original Hainish seed species, the other Terrans don't want to know.
 
-I said it was a pristine wilderness, but when the story moves away from the logging stations and into the forest to join the Athsheans, it comes to feel more like a _garden_. This is a peaceable people with complex traditions that enable them to live harmoniously with each other and with their environment. We are gradually introduced to their peaceful culture and spirituality through Lyubov, whose anthropological work has brought him to a fascinated appreciation of this simultaneously familiar and strange species.
+I said it was a pristine wilderness, but when the story moves away from the logging stations and into the forest to join the Athsheans, it comes to feel more like a garden. This is a people with complex traditions attuned to their environment, living harmoniously with each other and with the forest and its animals. We are gradually introduced to their culture and spirituality through Lyubov, whose anthropological work has brought him to a fascinated appreciation of this simultaneously familiar and strange species.
 
 Later, the focus moves to Selver, an Athshean who decides to break with his people's traditional taboos and lead them into violent resistance.
 

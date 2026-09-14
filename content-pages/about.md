@@ -7,7 +7,7 @@ description: 'About Alistair Robinson: writer, developer, and administrator of T
 
 <p style="margin-top:0;">This is a site where I write about books and ideas: literary criticism, long-form philosophical essays, and other kinds of analytical writing.</p>
 
-The term "under an aspect" is used in philosophy to describe a kind of seeing, when an unchanging thing can be seen in different ways. I had a memorable experience of this phenomenon one evening in the Maritime Alps. I was looking down on a pine forest from the top of a hill, and I saw a group of luminous yellow birch trees standing out among the dark conifers. Then a perceptual switch was flipped and I saw them for what they really were: pine trees like all the rest, standing out against the others in a patch of evening sunlight beaming through a gap in the hills. Nothing about the trees had changed. I had simply come to see them under a different aspect, and I couldn't get the first one back.
+The term "under an aspect" is used in philosophy to describe a kind of seeing, when an unchanging thing can be seen in different ways. I had a memorable experience of this phenomenon one evening in the Maritime Alps. I was looking down on a pine forest from the top of a hill, and I saw a group of luminous yellow birch trees standing out among the dark conifers. Suddenly my perception switched and I saw them for what they really were: pine trees like all the rest, caught in a patch of evening sunlight beaming through a gap in the hills. They were not yellow, but green, like the others surrounding them. They were the same trees, but different; the same colour, but different. I had come to see them under a different aspect, and I couldn't get the first one back. 
 
 > I observe a face, and then suddenly notice its likeness to another. I see that it has not changed; and yet I see it differently.
 > 
@@ -21,7 +21,7 @@ I'm also a software developer. I've built several web applications, including <a
 
 If you would like to get the articles by email as they appear, you can subscribe at the bottom of any post.
 
-You can reach at
+You can reach me at
 [alistairrobinson.bsky.social](https://bsky.app/profile/alistairrobinson.bsky.social), or feel free to send me an email at <code class="email-code">alistair.robinson@gmail.com<button class="copy-email" data-email="alistair.robinson@gmail.com" title="Copy email address" aria-label="Copy email address">
   <svg class="icon-copy" width="18" height="18" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" aria-hidden="true">
     <rect x="9" y="9" width="11" height="11" rx="1.5"></rect>

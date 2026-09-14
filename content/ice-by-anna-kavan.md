@@ -45,7 +45,7 @@ I should give an overview. But before describing the plot (such as there is), so
 
 > When I started writing, I saw the story as one of those recurring dreams (hence the repetitive voyages etc.) which at times become nightmare. This dreamlike atmosphere is the essence of the whole concept. […] It is meant to be a fantasy or a dream, and dreams are not logical; that’s what makes them strange and fascinating (frightening too).
 > 
-> _Anna Kavan to Philip Inman, quoted in Piercy, Laurence (2014)_
+> --- _Anna Kavan to Philip Inman, quoted in Piercy, Laurence (2014)_
 
 The plot may not be logical, but something can be said about it:
 
@@ -144,9 +144,9 @@ Second, "the matter" that the reader is implicated in can also refer to the end 
 
 I'm on board with this. It does seem that there's a moral to the story, that the book has an ethical beating heart and that Kavan really wants you to get it. It becomes pretty clear in the book towards the end, where humanity comes in for some heartfelt (and beautifully written) condemnation:
 
-> Instead of my world, there would soon be only ice, snow, stillness, death; no more violence, no war, no victims; nothing but frozen silence, absence of life. _**The ultimate achievement of mankind would be, not just self-destruction, but the destruction of all life; the transformation of the living world into a dead planet.**_
+> Instead of my world, there would soon be only ice, snow, stillness, death; no more violence, no war, no victims; nothing but frozen silence, absence of life. The ultimate achievement of mankind would be, not just self-destruction, but the destruction of all life; the transformation of the living world into a dead planet.
 >
-> In a sky which should have been cloudless and burning blue the sombre, enormous structures of storm cloud looked inexpressibly sinister, threatening, like monstrous ruins on the point of collapse, hanging impossibly overhead. Icy crystalline shapes began to flower on the windscreen. I was oppressed by the sense of universal strangeness, by the chill of approaching catastrophe, the menace of ruins suspended above; and also by the enormity of what had been done, the weight of collective guilt. _**A frightful crime had been committed, against nature, against the universe, against life. By rejecting life, man had destroyed the immemorial order, destroyed the world, now everything was about to crash down in ruins.**_
+> A frightful crime had been committed, against nature, against the universe, against life. By rejecting life, man had destroyed the immemorial order, destroyed the world, now everything was about to crash down in ruins.
 
 It's interesting that Kavan used the narrator to say all this, since he is, to put it mildly, an ambiguous character. It occurs to me that a more conventional thing to do here would be to put these words in the mouth of the girl, finally giving her a voice and making her some kind of righteous hero. But that would be too easy. That would wrap things up more than they ought to be.
 
