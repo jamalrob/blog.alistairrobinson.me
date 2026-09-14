@@ -1,6 +1,8 @@
 out/
+out-deploy/
 .env
 .DS_Store
 .next/
 __pycache__/
 .venv-dev/
+content/jamal_posts_death_of_the_author.md

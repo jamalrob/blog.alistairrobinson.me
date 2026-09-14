@@ -12,5 +12,6 @@ serve: dev
 watch:
 	.venv-dev/bin/python dev_server.py
 
-deploy: build
-	rsync -rlDzv --no-owner --no-group --no-times --chmod=D775,F664 out/ $(DEPLOY_USER)@$(DEPLOY_HOST):$(DEPLOY_PATH)
+deploy:
+	OUT_DIR=out-deploy python3 build.py
+	rsync -rlDzv --no-owner --no-group --no-times --chmod=D775,F664 out-deploy/ $(DEPLOY_USER)@$(DEPLOY_HOST):$(DEPLOY_PATH)

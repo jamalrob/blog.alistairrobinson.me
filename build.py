@@ -18,7 +18,7 @@ from markdown_it import MarkdownIt
 CONTENT_DIR  = Path('content')
 PAGES_DIR    = Path('content-pages')
 SVGS_DIR     = Path('content/svgs')
-OUT_DIR      = Path('out')
+OUT_DIR      = Path(os.environ.get('OUT_DIR', 'out'))
 STATIC_DIR       = Path('static')
 TEMPLATES_DIR    = Path('templates')
 PUBLIC_DIR       = Path('public')
