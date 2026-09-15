@@ -4,7 +4,9 @@ description: 'Adventures in the Russian Riviera'
 date: '2020-09-24'
 tags: nonfiction, travel, russia
 image: true
-imageClass: mainImageSmaller 
+imageVersion: 3
+imageClass: mainImage
+imageCredit: 'Photo: Anatoly Lipatov, CC BY-SA 4.0 (modified)'
 ---
 I’ve just been on holiday in and around Sochi with my Russian wife. Sochi is a holiday resort in the South of Russia on the Black Sea, at one end of the Caucasus mountains and very close to the border with Abkhazia (or Georgia if you choose not to recognize Abkhazia’s independence). The coastline here is sometimes called the Caucasian Riviera, and together with nearby Crimea it’s the only warm water coastline in Russia. The climate is humid subtropical, and high forested mountains rise up just inland. It’s a beautiful part of the world, and quite strange. Imagine a Soviet Monaco.
 

@@ -437,11 +437,25 @@ a.articleTitle { text-decoration-thickness: 2px; }
 .mainImageSmaller  { max-width: 85%; }
 .mainImageMedium   { max-width: 75%; }
 
-.postArticle img + em {
+.mainImageSmall + em,
+.mainImageMedium + em,
+.mainImageSmaller + em,
+.mainImage + em {
+  display: block;
+  margin-top: -0.86rem;
+}
+
+.postArticle img + em,
+.postArticle a.lightbox-trigger + em {
   font-style: normal;
   font-size: 16px;
   color: #666;
   padding-left: 0;
+}
+
+.postArticle a.lightbox-trigger + em {
+  display: block;
+  margin-top: -0.2rem;
 }
 
 .postArticle .graph {
@@ -721,7 +735,7 @@ code.email-code {
 .copy-email.copied .icon-copy { display: none; }
 .copy-email.copied .icon-copied { display: block; }
 
-.lightbox-trigger { cursor: zoom-in; }
+.lightbox-trigger { cursor: zoom-in; display: block; }
 
 .lightbox-overlay {
   position: fixed;
