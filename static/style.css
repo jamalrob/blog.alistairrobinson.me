@@ -462,6 +462,8 @@ a.articleTitle { text-decoration-thickness: 2px; }
   position: relative;
 }
 
+.postArticle blockquote p { margin: 1.6rem 0 1rem; }
+
 .postArticle blockquote::before {
   font-family: "Crimson Pro";
   content: "\201C";
