@@ -15,7 +15,7 @@
   if (!menuBtn || !menu) return;
 
   function positionMenu() {
-    if (header) menu.style.top = header.getBoundingClientRect().bottom + 'px';
+    if (header) menu.style.top = (header.getBoundingClientRect().bottom - 1) + 'px';
   }
 
   function closeMenu() {

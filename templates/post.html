@@ -26,7 +26,7 @@
 {% endmacro %}
 
 {% block content %}
-<article class="postArticle innerContainer">
+<article class="postArticle innerContainer{% if frontmatter.bodyFont == 'serif' %} serif-body{% endif %}">
   <h1 class="heading2Xl">{{ frontmatter.title }}</h1>
   <div class="byline"><a href="/about">{{ author }}</a>, <time datetime="{{ frontmatter.date }}">{{ frontmatter.date | date }}</time></div>
 
