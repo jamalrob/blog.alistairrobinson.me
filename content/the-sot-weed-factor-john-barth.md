@@ -6,6 +6,7 @@ tags: literary-fiction, reviews, barth, pynchon
 image: true
 imageClass: mainImageSmaller
 draft: false
+bodyFont: serif
 ---
 
 This being a landmark of American postmodernism, I had it in my head that it was going to be difficult, more difficult perhaps than the still-popular postmodern monster _Gravity's Rainbow_ by Thomas Pynchon. As it turns out, _The Sot-Weed Factor_ is hugely entertaining.

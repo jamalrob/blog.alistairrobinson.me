@@ -1,14 +1,32 @@
 {% extends "base.html" %}
 
 {% block head %}
+{% set post_image = image_cdn ~ '/tr:w-' ~ header_image.width ~ ',q-' ~ header_image.quality ~ '/' ~ slug ~ '.' ~ (frontmatter.imageExtension or 'jpg') ~ '?v=' ~ (frontmatter.imageVersion or 1) if frontmatter.image else og_image %}
 <title>{{ frontmatter.title }} · Under an Aspect</title>
+<link rel="canonical" href="{{ site_url }}/{{ slug }}">
 <meta name="description" content="{{ frontmatter.description }} :: Book reviews, science fiction, literary fiction, and philosophy">
 <meta property="og:title"       content="{{ frontmatter.title }}">
-<meta property="og:image"       content="{% if frontmatter.image %}{{ image_cdn }}/tr:w-{{ header_image.width }},q-{{ header_image.quality }}/{{ slug }}.{{ frontmatter.imageExtension or 'jpg' }}?v={{ frontmatter.imageVersion or 1 }}{% else %}{{ og_image }}{% endif %}">
+<meta property="og:image"       content="{{ post_image }}">
 <meta property="og:url"         content="{{ site_url }}/{{ slug }}">
 <meta property="og:type"        content="article">
 <meta property="og:description" content="{{ frontmatter.description }}">
-<meta name="twitter:image"      content="{% if frontmatter.image %}{{ image_cdn }}/tr:w-{{ header_image.width }},q-{{ header_image.quality }}/{{ slug }}.{{ frontmatter.imageExtension or 'jpg' }}?v={{ frontmatter.imageVersion or 1 }}{% else %}{{ og_image }}{% endif %}">
+<meta name="twitter:image"      content="{{ post_image }}">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ frontmatter.title | tojson }},
+  "description": {{ (frontmatter.description or frontmatter.title) | tojson }},
+  "datePublished": {{ frontmatter.date | tojson }},
+  "dateModified": {{ frontmatter.date | tojson }},
+  "url": {{ (site_url ~ '/' ~ slug) | tojson }},
+  "image": {{ post_image | tojson }},
+  "author": {
+    "@type": "Person",
+    "name": {{ author | tojson }}
+  }
+}
+</script>
 {% endblock %}
 
 {% macro series_box(extra_class='') %}

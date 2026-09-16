@@ -2,6 +2,7 @@
 
 {% block head %}
 <title>{{ frontmatter.title }}</title>
+<link rel="canonical" href="{{ site_url }}/{{ slug }}">
 <meta name="description" content="{{ frontmatter.description }}">
 <meta property="og:title"       content="{{ frontmatter.title }}">
 <meta property="og:image"       content="{{ og_image }}">
