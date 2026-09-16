@@ -187,6 +187,9 @@ article { font-family: "Atkinson Hyperlegible Next", serif; font-size: 1em; font
 
 .postArticle.serif-body { font-family: "Crimson Pro", serif; font-size: 1.1em; font-weight: 300; }
 
+.postArticle strong,
+.postArticle b { font-weight: 650; }
+
 
 
 footer { font-family: "Barlow Semi Condensed", serif; }
