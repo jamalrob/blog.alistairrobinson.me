@@ -184,7 +184,7 @@ def get_adjacent(posts, current_slug, direction):
     }
 
 
-def build_sitemap(all_posts, all_pages):
+def build_sitemap(all_posts, all_pages, all_tags):
     static_pages = [''] + [pg['slug'] for pg in all_pages] + ['tags']
     urls = []
     for path in static_pages:
@@ -192,6 +192,8 @@ def build_sitemap(all_posts, all_pages):
     for p in all_posts:
         if p['show']:
             urls.append(f"{SITE_URL}/{p['slug']}/")
+    for tag in all_tags:
+        urls.append(f'{SITE_URL}/tags/{tag}/')
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for url in urls:
@@ -227,6 +229,12 @@ def build():
 
     all_posts = get_all_posts(CONTENT_DIR)
     all_pages = get_all_pages(PAGES_DIR)
+
+    missing_description = [p['slug'] for p in all_posts if p['show'] and not p['frontmatter'].get('description')]
+    if missing_description:
+        print(f'WARNING: {len(missing_description)} published post(s) missing a description:')
+        for slug in missing_description:
+            print(f'  - {slug}')
 
     def asset_hash(path):
         return hashlib.md5(path.read_bytes()).hexdigest()[:8]
@@ -286,7 +294,7 @@ def build():
                    env.get_template('tag.html').render(**ctx, tag=tag, posts=tag_posts))
 
     # Sitemap + robots.txt
-    write_page('sitemap.xml', build_sitemap(all_posts, all_pages))
+    write_page('sitemap.xml', build_sitemap(all_posts, all_pages, all_tags))
     write_page('robots.txt', f'User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n')
 
     # Pages (undated, static — e.g. About)
