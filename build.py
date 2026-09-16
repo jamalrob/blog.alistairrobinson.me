@@ -188,10 +188,10 @@ def build_sitemap(all_posts, all_pages):
     static_pages = [''] + [pg['slug'] for pg in all_pages] + ['tags']
     urls = []
     for path in static_pages:
-        urls.append(f'{SITE_URL}/{path}' if path else SITE_URL)
+        urls.append(f'{SITE_URL}/{path}/' if path else SITE_URL)
     for p in all_posts:
         if p['show']:
-            urls.append(f"{SITE_URL}/{p['slug']}")
+            urls.append(f"{SITE_URL}/{p['slug']}/")
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for url in urls:
