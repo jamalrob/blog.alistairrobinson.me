@@ -6,6 +6,7 @@ tags: philosophy, writing, adorno
 image: true
 imageClass: mainImageSmall
 draft: false
+bodyFont: serif
 ---
 The brilliant and beautiful Reflection 51 of Theodor Adorno's _Minima Moralia: Reflections from Damaged Life_, carrying the heading "Memento", is all about writing. Uncharacteristically for this famously difficult philosopher, it begins with reasonable observations and practical advice. Even more unexpectedly, they are quite familiar: [kill your darlings](https://nybookeditors.com/2015/12/kill-your-darlings-how-to-approach-your-writing-without-sentimentality/), avoid cliché, revise revise revise, and so on. 
 

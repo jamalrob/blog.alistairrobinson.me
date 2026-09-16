@@ -8,6 +8,7 @@ tags: philosophy, plato
 image: true
 imageClass: mainImageSmaller
 draft: false
+bodyFont: serif
 ---
 In this article I'll look at the second half of Book I. This is where the Republic's main antagonist enters the stage: Thrasymachus, unable to contain himself any longer, bursts into the conversation with his impatient, contemptuous rhetoric. When Socrates recovers from the shock, he cross-examines Thrasymachus in his customary style.
 

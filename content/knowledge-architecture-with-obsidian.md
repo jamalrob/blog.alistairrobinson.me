@@ -10,7 +10,7 @@ draft: false
 
 To function in life, I need notes. For writing, research, coding, to-do lists, travel, and everyday life: if I don’t write it down, it's gone.
 
-For years I kept my notes in a single directory of Markdown files, edited entirely in VS Code. It was functional, but there was a problem: it couldn’t keep pace with my thinking. Ideas evolve, ramify, and recombine, while files remain static. Even though I made the filenames descriptive (`tpf-migration-master-note.md`, `tpf-archive-deployment-process.md`), they were not organized. Notes related to each other only in my head, if at all, and nothing external to my mind supported the connective work of actual thinking, i.e., relating ideas, returning to undeveloped ones, and bringing out latent patterns.
+For years I kept my notes in a single directory of Markdown files, edited entirely in VS Code. It was functional, but there was a problem: it couldn’t keep pace with my mind. Ideas evolve, ramify, and recombine, while files remain static. Even though I made the filenames descriptive (`tpf-migration-master-note.md`, `tpf-archive-deployment-process.md`), they were not organized. Notes related to each other only in my head, if at all, and nothing external to my mind supported the connective work of actual thinking, i.e., relating ideas, returning to undeveloped ones, and bringing out latent patterns.
 
 I didn't have a *system*, but just a ***collection***, in the systems-theory sense: a container for items that sit alongside each other without interacting. Collections just aggregate: while my notes had potential to inform one another, in the way that thoughts or ideas themselves do, my setup provided no mechanism for this.
 

@@ -5,15 +5,15 @@ description: 'About Alistair Robinson: writer, developer, and administrator of T
 <h1 class="heading2Xl">About <em>Under an Aspect</em></h1>
 <span class="svgSize" style="width:40%;">{{svg:logo}}</span>
 
-<p style="margin-top:0;">This is a site where I write about books and ideas: literary criticism, long-form philosophical essays, and other kinds of analytical writing.</p>
+<p style="margin-top:0;">This is where I write about books, ideas, and neighbouring topics.</p>
 
-The term "under an aspect" is used in philosophy to describe a kind of seeing, when an unchanging thing can be seen in different ways. I had a memorable experience of this phenomenon one evening in the Maritime Alps. I was looking down on a pine forest from the top of a hill, and I saw a group of luminous yellow birch trees standing out among the dark conifers. Suddenly my perception switched and I saw them for what they really were: pine trees like all the rest, caught in a patch of evening sunlight beaming through a gap in the hills. They were not yellow, but green, like the others surrounding them. They were the same trees, but different; the same colour, but different. I had come to see them under a different aspect, and I couldn't get the first one back. 
+The term "under an aspect" is used in philosophy to describe a kind of seeing, when an unchanging thing can be seen in different ways. I had a memorable experience of this phenomenon one evening in the Maritime Alps. I was looking down on a pine forest from the top of a hill, and I saw a group of luminous yellow birch trees standing out among the dark conifers. Suddenly my perception switched and I saw them for what they really were: pine trees like all the rest, caught in a patch of evening sunlight beaming through a gap in the hills. They were not yellow, but green, like the others surrounding them. They were the same trees, but different; the same colour, but different. I had come to see them under a different aspect, and the first one was gone.
 
 > I observe a face, and then suddenly notice its likeness to another. I see that it has not changed; and yet I see it differently.
 > 
 > --- Wittgenstein, *Philosophical Investigations*
 
-I think we see everything like this. We don't see a pure object, detached from our conscious and unconscious expectations, but always see it *as* this or that---and not only with our eyes. Most of what I write here is an attempt to work out which aspect of a book I'm seeing, or which is most relevant and interesting.
+I think we see everything like this. We don't see a pure object, detached from our conscious and unconscious expectations. We always see it as this or that. And it's not only the seeing we do with our eyes. Most of what I write here is an attempt to work out which aspect of a book I'm seeing---whether it holds, or collapses on a second look, as that image of yellow birches did.
 
 When I'm not writing here I run <a href="https://www.thephilosophyforum.com" target="_blank">The Philosophy Forum</a>, an online community I started in 2015. I still take an active part: moderating, organizing reading groups, and keeping things going behind the scenes.
 

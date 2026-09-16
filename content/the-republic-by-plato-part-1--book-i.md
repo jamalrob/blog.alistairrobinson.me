@@ -9,6 +9,7 @@ image: true
 imageVersion: 5
 imageClass: mainImage
 draft: false
+bodyFont: serif
 ---
 In her _Introduction to Plato's Republic_, Julia Annas says that the Republic is too famous for its own good. Along the same lines, I think it's also too _well written_ for its own good: it's an intellectual page-turner, and you can read it almost like any other dramatic narrative; whereas if you read Aristotle and Kant, you are necessarily _studying_ Aristotle and Kant. So to prevent myself from reading superficially --- as I probably did when I read it for the first time twenty years ago --- I took the following approach:
 
