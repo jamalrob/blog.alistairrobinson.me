@@ -50,13 +50,9 @@ Second, what is the significance of the author's death? In line with the essay's
 
 **1. The reality: we cannot say who is speaking**
 
-Unlike a song, a recited poem, or a spoken utterance, the nature of a piece of writing is that it is separate from the person who produced it, from a voice. The voice as the single source is obliterated in writing, and all that is left is the unique “special voice” that is confined to the words on the page, a depersonalized voice “consisting of several indiscernible voices”. So what he calls the special voice of literature is not really a voice at all in the traditional sense he is otherwise using.
-
 Unlike a song, a recited poem, or a spoken utterance, the nature of a piece of writing is that it is separate from the person who produced it, from a voice. This isn't a matter of style or personality on the page; Barthes means voice in the sense of an origin, a single speaking source behind the words. That voice is obliterated in writing, and all that is left is the unique "special voice" confined to the words on the page, a depersonalized voice "consisting of several indiscernible voices". So what he calls the special voice of literature is not really a voice at all in the traditional sense he is otherwise using.
 
-What we are left with is a multiplicity. Barthes uses an example from Balzac to show that the voice of a work of literature is irreducibly plural: he offers several plausible answers to the question, “Who is speaking in this way?” And because voice has traditionally served as the anchor of meaning, a plurality of voice implies a plurality of meaning.
-
-So the essay begins very directly with a concrete instance of the semantic multiplicity that is so fundamental to the whole essay.
+So the essay begins very directly with a concrete instance of the semantic multiplicity that is so fundamental to the whole essay. He offers several plausible answers to the question, “Who is speaking in this way?” And because voice has traditionally served as the anchor of meaning, a plurality of voice implies a plurality of meaning.
 
 What is the significance of Barthes' choice of example? First, the quoted sentence is full of received ideas, prejudices and cultural clichés that could be seen as speaking to us directly, rather than originating from Balzac. This is what Barthes refers to later when he says that a text is a “tissue of quotations drawn from the innumerable centres of culture”.
 
