@@ -68,33 +68,33 @@ And Balzac is the prime example of literary realism, the project of accurately r
 
 > No doubt it has always been that way. As soon as a fact is *narrated* no longer with a view to acting directly on reality but intransitively, that is to say, finally outside of any function other than that of the very practice of the symbol itself, this disconnection occurs, the voice loses its origin, the author enters into his own death, writing begins.
 
-Barthes uses the grammatical term "intransitive" as an analogy to describe narrative with no object beyond its own artistic production and the associated play of language---as opposed to narrative with an instrumental role in ritual or magic, in which it is meant to have a determinate effect on the world.
+An intransitive verb is one that has no object, or need not have one, as in "She sneezed", as opposed to a transitive verb as in "She chopped wood", where the verb takes the object "wood". Barthes uses this grammatical term to describe narrative with no object beyond its own telling, as opposed to narrative with an instrumental role, as in ritual, magic, or in the modern era propaganda, aimed at some determinate effect on the world. By this definition, both art for art's sake and sheer entertainment count as intransitive, since neither serves any purpose external to the story and the experience of it.
 
-But it’s not just an analogy. Around the same time as this essay was written, Barthes wrote the following:
+But it’s not just an analogy. Around the same time, Barthes wrote the following about the verb *write*:
 
 > It would be interesting to know at what moment this verb began to be used intransitively, the writer no longer being the one who writes something, but the one who writes—absolutely: this shift is certainly an important change in mentality.
 >
 > --- “To Write: An Intransitive Verb?”, in *The Rustle of Language*
 
-So for Barthes, the grammatical sense of intransitive, and the analogical sense concerning the cultural or intellectual relation between narrative and the world, are actually very close. They are aspects of the same development.
+For Barthes, the grammatical sense of intransitive and the analogical sense concerning the relation between narrative and the world are two aspects of the same development.
 
-The contrast, simply put, is between storytelling with ritual function, and storytelling for its own sake. The claim is that when narrative is produced intransitively, as in novels, poems, and plays, there is a disconnect between the writing and any identifiable source. The “voice” of the text loses not just its physical origin but any and all possible origins; what looked like the voice of a speaker behind the writing is revealed to have no anchoring source at all. The Author, the authoritative origin, has disappeared, and the writing is thereby untethered. This disconnection and concomitant loss of origin together constitute writing, and this whole phenomenon is what Barthes is calling the death of the Author.
+The claim is that when narrative is produced without external purpose, as it is in most novels, poems, and plays, there is a disconnect between the writing and any identifiable source. The “voice” of the text loses not just its physical origin but any and all possible origins; what looked like the voice of a speaker behind the writing is revealed to have no anchoring source at all. The Author, the authoritative origin, has disappeared, and the writing is thereby untethered. This disconnection and concomitant loss of origin together constitute writing, and this whole phenomenon is what Barthes is calling the death of the Author.
 
-The approach in this section is historical and anthropological. Barthes is tracing an evolution in how the lack of the voice’s origin has featured or has been felt, historically and prehistorically: from societies in which, even though there was a physical source---the voice of the storyteller---there was no celebrated figure of genius, the authoritative origin of the story's meaning; to modernity, in which the bourgeois individual became the locus of art.
+The approach in this section is historical and anthropological, tracing an evolution in how the voice’s lack of origin has featured or has been felt, historically and prehistorically: from societies in which, even though there was a physical source---the voice of the storyteller---there was no celebrated figure of genius, the authoritative origin of the story's meaning; to modernity, in which the bourgeois individual became the locus of art.
 
 > The sense of this phenomenon, however, has varied; in ethnographic societies the responsibility for a narrative is never assumed by a person but by a mediator, shaman or relator whose ‘performance’ - the mastery of the narrative code - may possibly be admired but never his ‘genius’.
 
-The ethnography of structuralist anthropologist Claude Lévi-Strauss was prominent in the intellectual landscape of 1960s France, and very significant for thinkers like Barthes. So-called ethnographic societies are tribal societies, oral cultures, pre-modern civilizations in general. In these contexts, the story existed independently of the individual “mediators” or “relators” who told it. It was a feature of communal cultural life, not the original creation---a “work of art”---of an inspired individual. The latter is the cultural figure of the Author, which Barthes says is a modern phenomenon. He sketches the familiar development of individualism, leading to “positivism, the epitome and culmination of capitalist ideology, which has attached the greatest importance to the ‘person’ of the author.”
+Anthropologist and ethnographer Claude Lévi-Strauss towered over the intellectual landscape of 1960s France, which he had been revolutionizing by applying structuralism to human society. So-called ethnographic societies were tribal societies, oral cultures, pre-modern civilizations in general. In these contexts, the story existed independently of the individual “mediators” or “relators” who told it. It was a feature of communal cultural life, not the original creation---a “work of art”---of an inspired individual. The latter is the cultural figure of the Author, which Barthes says is a modern phenomenon. He sketches the familiar development of individualism, leading to “positivism, the epitome and culmination of capitalist ideology, which has attached the greatest importance to the ‘person’ of the author.”
 
-The choice to end this evolution with positivism, as the culmination of bourgeois individualism, is initially puzzling. Positivism was the project, beginning in the 19th century, to model all systematic knowledge on natural science, especially its emphasis on metrics and observed facts. It is the project that gave us sociology, an attempt to turn the study of human society into a hard science. Its significance for the essay is that it was the reigning mainstream intellectual framework in early to mid-century France. The focus in positivist literary criticism was on observable facts, which in practice often meant facts about the author, to be revealed by the critic's research and erudition. This tradition was a natural target for those of the newer, structuralist tradition---and for those who were self-consciously revolutionary.
+The choice to end this evolution with positivism, as the culmination of bourgeois individualism, is initially puzzling. Positivism was the project, beginning in the 19th century, to model all systematic knowledge on natural science, especially its emphasis on empirical observation. It is the project that gave us sociology, an attempt to turn the study of human society into a hard science. Its significance for the essay is that it was the reigning mainstream intellectual framework in early to mid-century France. Positivist literary criticism was interested in observable facts, which in practice meant facts about the author, to be revealed by the critic's research and erudition. This tradition was a natural target for those of the newer, structuralist tradition---and for those who were self-consciously revolutionary.
 
-Those historical details aside, the main point is that the Author is a product of individualism, which in turn is a product of modernity. Barthes describes how this now manifests itself in ordinary culture, as tyranny. It’s a familiar picture: in the industrial and marketing machine of literary production, the celebrity of authors---their intentions, motivations, biographies and personalities---becomes the basic material for the presentation of literary works to the reading public. And professional literary criticism is part of this, its interpretation in thrall to the figure of the Author, the work read as a cipher or an indirect confession, the key to which lies in the facts of the Author’s life or psychology.
+Those historical details aside, the main point is that the Author is a product of individualism, which in turn is a product of modernity. Barthes describes how this now manifests itself in ordinary culture---as tyranny. It’s a familiar picture: in the industrial and marketing machine of literary production, the celebrity of authors---their intentions, motivations, biographies and personalities---becomes the basic material for the presentation of literary works to the reading public. And professional literary criticism is traditionally part of this, its interpretations in thrall to the figure of the Author, the work read as an indirect confession, the key to which lies in the Author’s biography.
 <br>
 <br>
 
 **3. The empire of the Author has already begun to crumble**
 
-Barthes identifies several precursors of this development: Mallarmé, Valery, and Proust. He also points to Surrealism and outside literature to linguistics, which in their own ways moved in the same direction.
+Barthes identifies several precursors of the author's death: Mallarmé, Valery, and Proust. He also points to Surrealism and outside literature to linguistics, which in their own ways moved in the same direction.
 
 Mallarmé anticipated the idea back in the 19th century:
 
@@ -104,45 +104,33 @@ Mallarmé anticipated the idea back in the 19th century:
 
 So Mallarmé, according to Barthes, was one of the first to understand that what speaks in a work of literature is not the Author, but language itself.
 
-The idea that language speaks, rather than the author or person, became popular in the 20th century. Heidegger, Gadamer, and Derrida all had ideas along these lines, and they were hugely influential. Personally, I find the idea intuitive and appealing, but I want to get a firmer and more precise grip on the idea. What exactly does it mean?
+The idea that language speaks, rather than the author or person, became popular in the 20th century. Heidegger, Gadamer, and Derrida all had ideas along these lines, and they were hugely influential. Personally, I find the idea intuitive and appealing, but what exactly does it mean?
 <br><br>
 
 **Language speaks**
 
-When you speak or write, you participate in something bigger than and prior to you, something with its own logic, internal relations, and ongoing developments. Language is not really a tool, completely under your control. You cannot use it as you please (and be effective). And that makes me think of a possible paraphrase of Marx:
+When you speak or write, you participate in something bigger than and prior to you, something with its own logic, internal relations, and ongoing developments. Language is not really a tool, completely under your control. You cannot use it as you please (and be effective). I will paraphrase Marx:
 
 > Men make their own sentences, but they do not make them as they please; they do not make them with self-created words, but with words existing already, given and transmitted from the past.
 >
 > --- My paraphrase of Karl Marx in “The Eighteenth Brumaire of Louis Bonaparte”
 
-Rather than a mere communicative tool, language is more like a whole world, a world of concepts, ways of thinking, and ways of relating to others—in other words, it is coextensive with culture itself. To “master” language, then, is not to rule over it, but to know how to participate in it.
+Rather than a mere communicative tool, language is more like a world of concepts, ways of thinking, and ways of relating to others; in other words, it is coextensive with culture itself. To “master” language, then, is not to rule over it, but to know how to participate in it.
 
-But we still have a logical gap. You could summarize what I’ve said so far by saying that pre-existing cultural-linguistic structures constrain how people speak and write. But this is to say a lot less than “language speaks, not the author”. For language to speak, we need an agency belonging to language itself.
+You could summarize this by saying that pre-existing cultural-linguistic structures constrain how people speak and write. But this is to say a lot less than “language speaks, not the author”. For language to speak, we need an agency belonging to language itself.
 
-As an occasional creative writer and amateur musician, I know what writers and jazz musicians mean when they say that when they get “in the zone”, they become channels for something bigger than them. And the thing is, I believe this is an accurate perception or understanding of the situation, not just a curious but delusional mental state.
+As an occasional creative writer and amateur musician, I know what writers and jazz musicians mean when they say that getting “in the zone”---what is now called a *flow state*---means becoming a channel for something bigger than them. And in my view this is indeed an accurate understanding of the situation. A musician may think of the something bigger as God, where I might prefer to think of it as something more secular and cultural, but either way, the sense of participation in a larger, prior entity or process, one that seems to have its own aims, is far from a delusional mental state. This is exactly the sense in which language can be said to have its own agency, thus to speak through us, in a manner of speaking.
 
-I am tempted to appeal to the fact that language works, as music does, through the individual to a great extent unconsciously. Thus we have the following:
+We can conceive of this in structural terms. The key is to see that the system of language is generative. Rather than a passive and static grid, it is a network with its own dynamism, its own evolutions and interactions. Saussure's analogy is exact: in a game of chess, a piece's value depends on its position relative to the others on the board. In making a move, you change the value of every other piece at once. Language works the same way: a change anywhere in the system propagates through the whole network, reconfiguring meanings that no single speaker intended. This is what it means for a system to be generative.
 
-**Language, used unconsciously → linguistic agency**
+So if the system of language has its own dynamic that no single speaker controls, then every individual act of speaking or writing is not a private or original expression but a local instance of the ongoing life of the language. The author is the place where that event occurs, not its origin.
 
-But that doesn't really work. It's reasonable to say that even if you use language unconsciously, *you* are still the one who’s doing it, not language.
-
-So we can conceive the situation in structural terms:
-
-**A position within the system (langue) → linguistic agency**
-
-This is better, but still not entirely convincing. It doesn’t follow from a subject having a position within a system that that system is acting through the subject.
-
-The key is to see that in systemic terms, language is itself generative. It is not a passive, static grid, but a network that has its own dynamism, its own evolutions and interactions. After all, when a historical linguist, for example, traces the history of Indo- European languages, they are not directly asking questions about how individuals acted, about how they spoke or wrote, because the changes they trace happen at the level of the system, not at the level of individual speech acts. Those changes then constrain and enable what any individual can say or write.
-
-So, if the system of language has its own dynamic that no single speaker controls, then every individual act of speaking or writing is not a private expression but a local instantiation of the ongoing life of the language. The author is just the place where that event occurs, not its origin.
-
-A neat encapsulation of all this is to reverse the common conception and say that it’s not the human individual who speaks, but language. Whether the logical gap has been closed is maybe a matter of taste, or is not the most relevant question. The statement that “language speaks” gets its point across rhetorically (and it feels like I’ve been doing something akin to explaining a joke).
+To say that it’s not the human individual who speaks, but language itself, gets this point across with elegant conciseness.
 <br><br>
 
 **Proust and retrocausaility**
 
-Anyone who reads Proust’s *In Search of Lost Time* must at some point ask the question: who is the narrator? Or, as I did, they may just assume that the narrator is Proust himself and that the novel is some kind of fictionalized autobiography. But he blurs the distinction intentionally, and keeps the narrator character somewhere between himself and a fictional character. He is always the person who will write the very book we are reading.
+Anyone who reads Proust’s *In Search of Lost Time* must at some point ask the question: who is the narrator? Or maybe they just assume, as I did, that the narrator is Proust himself and that the novel is some kind of fictionalized autobiography. But he blurs the distinction intentionally, and keeps the narrator character somewhere between himself and a fictional character. He is always the person who will write the very book we are reading.
 
 Barthes says that Proust reverses the conventional view that the author’s life comes first and is then put into the novel. With Proust, the novel was in a sense ontologically prior to Proust himself, the ground on which he was, as an Author-figure, constructed. 
 
