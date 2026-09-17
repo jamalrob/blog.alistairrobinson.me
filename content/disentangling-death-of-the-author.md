@@ -1,6 +1,6 @@
 ---
 title: "The Death of the Author, Disentangled (not Deciphered)"
-description: 'Deep analysis of Barthes etc'
+description: 'Deep analysis of the essay by Roland Barthes'
 date: '2026-09-30'
 tags: philosophy, structuralism, post-structuralism, literature
 image: false
@@ -8,7 +8,9 @@ draft: true
 ---
 {{svg:roland_barthes_signature}}
 
-In this influential 1967 essay, Barthes argues that the meaning of a work of literature does not come from its author---that the text has many possible meanings, produced in the act of reading. The author is deposed and the reader is installed, not as the replacement source of meaning but as the site where meaning happens. The figure of the author turns out to have been a cultural invention, imposing limits on interpretation.
+"The Death of the Author" by Roland Barthes, like Fukuyama's "The End of History?" is one of those items of cultural furniture: familiar, comfortable, long since faded into the background. You know it's there, you think you know what it's for, so why look any closer? I decided to have a look anyway, to actually read the essay and find out for myself. It turned out to be more interesting and strange than I expected.
+
+Barthes argues that the meaning of a work of literature does not come from its author---that the text has many possible meanings, produced in the act of reading. The author is deposed and the reader is installed, not as the replacement source of meaning but as the site where meaning happens. The figure of the author turns out to have been a cultural invention, imposing limits on interpretation.
 
 Wimsatt and Beardsley in 1946 had already identified the **intentional fallacy**, the error of interpreting a work of literature in reference to the intentions of the author rather than to the work itself, as a public linguistic object. Barthes goes further, shifting attention all the way from author to reader, and questioning whether there is any single source of meaning to be found at all.
 
@@ -24,7 +26,7 @@ There are seven sections, each a single paragraph:
 2. The modern invention of the Author
 3. The empire of the Author has already begun to crumble
 4. Contemporary literature: the scriptor replaces the Author
-5. The text as a tissue of citations
+5. The text as a tissue of quotations
 6. Revolution: against the empire of Critic and Author
 7. The Author makes way for the reader
 
@@ -56,15 +58,15 @@ What we are left with is a multiplicity. Barthes uses an example from Balzac to 
 
 So the essay begins very directly with a concrete instance of the semantic multiplicity that is so fundamental to the whole essay.
 
-What is the significance of Barthes' choice of example? First, the quoted sentence is full of received ideas, prejudices and cultural clichés that could be seen as speaking to us directly, rather than originating from Balzac. This is what Barthes refers to later when he says that a text is a “tissue of citations, resulting from the thousand sources of culture”.
+What is the significance of Barthes' choice of example? First, the quoted sentence is full of received ideas, prejudices and cultural clichés that could be seen as speaking to us directly, rather than originating from Balzac. This is what Barthes refers to later when he says that a text is a “tissue of quotations drawn from the innumerable centres of culture”.
 
 And Balzac is the prime example of literary realism, the project of accurately representing reality in fiction. Choosing him for the example is to be as provocative as possible: doing so calls into question the very idea that there is a reliable relation between writing and world, flowing through a single Authorial consciousness, faithfully reporting reality. So realism makes a good target because more than other literary modes, it depends on the authority of the Author. We are expected to read Balzac’s sentence as transmitting to us the reality of “Woman”, but what we get is actually a string of cultural and literary borrowings whose sources cannot be unified---from literary tradition, common sense, and contemporary ideology.
 <br>
 <br>
-<br>
+
 **2. The modern invention of the Author**
 
-> No doubt it has always been that way. As soon as a fact is narrated no longer with a view to acting directly on reality but intransitively, that is to say, finally outside of any function other than that of the very practice of the symbol itself, this disconnection occurs, the voice loses its origin, the author enters into his own death, writing begins.
+> No doubt it has always been that way. As soon as a fact is *narrated* no longer with a view to acting directly on reality but intransitively, that is to say, finally outside of any function other than that of the very practice of the symbol itself, this disconnection occurs, the voice loses its origin, the author enters into his own death, writing begins.
 
 Barthes uses the grammatical term "intransitive" as an analogy to describe narrative with no object beyond its own artistic production and the associated play of language---as opposed to narrative with an instrumental role in ritual or magic, in which it is meant to have a determinate effect on the world.
 
@@ -86,10 +88,10 @@ The ethnography of structuralist anthropologist Claude Lévi-Strauss was promine
 
 The choice to end this evolution with positivism, as the culmination of bourgeois individualism, is initially puzzling. Positivism was the project, beginning in the 19th century, to model all systematic knowledge on natural science, especially its emphasis on metrics and observed facts. It is the project that gave us sociology, an attempt to turn the study of human society into a hard science. Its significance for the essay is that it was the reigning mainstream intellectual framework in early to mid-century France. The focus in positivist literary criticism was on observable facts, which in practice often meant facts about the author, to be revealed by the critic's research and erudition. This tradition was a natural target for those of the newer, structuralist tradition---and for those who were self-consciously revolutionary.
 
-Those historical details aside, the main point is that the Author is a product of individualism, which in turn is a product of modernity. Barthes describes how this now manifests itself in ordinary culture, as tyranny. It’s a familiar picture: in the industrial and marketing machine of literary production, the celebrity of authors---their intentions, motivations, biographies and personalities----becomes the basic material for the presentation of literary works to the reading public. And professional literary criticism is part of this, its interpretation in thrall to the figure of the Author, the work read as a cipher or an indirect confession, the key to which lies in the facts of the Author’s life or psychology.
+Those historical details aside, the main point is that the Author is a product of individualism, which in turn is a product of modernity. Barthes describes how this now manifests itself in ordinary culture, as tyranny. It’s a familiar picture: in the industrial and marketing machine of literary production, the celebrity of authors---their intentions, motivations, biographies and personalities---becomes the basic material for the presentation of literary works to the reading public. And professional literary criticism is part of this, its interpretation in thrall to the figure of the Author, the work read as a cipher or an indirect confession, the key to which lies in the facts of the Author’s life or psychology.
 <br>
 <br>
-<br>
+
 **3. The empire of the Author has already begun to crumble**
 
 Barthes identifies several precursors of this development: Mallarmé, Valery, and Proust. He also points to Surrealism and outside literature to linguistics, which in their own ways moved in the same direction.
@@ -103,7 +105,8 @@ Mallarmé anticipated the idea back in the 19th century:
 So Mallarmé, according to Barthes, was one of the first to understand that what speaks in a work of literature is not the Author, but language itself.
 
 The idea that language speaks, rather than the author or person, became popular in the 20th century. Heidegger, Gadamer, and Derrida all had ideas along these lines, and they were hugely influential. Personally, I find the idea intuitive and appealing, but I want to get a firmer and more precise grip on the idea. What exactly does it mean?
-<br><br><br>
+<br><br>
+
 **Language speaks**
 
 When you speak or write, you participate in something bigger than and prior to you, something with its own logic, internal relations, and ongoing developments. Language is not really a tool, completely under your control. You cannot use it as you please (and be effective). And that makes me think of a possible paraphrase of Marx:
@@ -118,26 +121,25 @@ But we still have a logical gap. You could summarize what I’ve said so far by 
 
 As an occasional creative writer and amateur musician, I know what writers and jazz musicians mean when they say that when they get “in the zone”, they become channels for something bigger than them. And the thing is, I believe this is an accurate perception or understanding of the situation, not just a curious but delusional mental state.
 
-I am tempted to appeal to the fact that language works, as music does, through the individual to a great extent unconsciously. Thus we have the following formula:
+I am tempted to appeal to the fact that language works, as music does, through the individual to a great extent unconsciously. Thus we have the following:
 
-`Pre-existing world (language as coextensive with culture) + Unconscious use of language = linguistic agency`
+**Language, used unconsciously → linguistic agency**
 
-But this is a bit problematic, since it takes us into psychology, and that’s not part of the structuralist tradition that Barthes comes from. It also doesn’t work very well anyway, because it doesn’t get out of the individual subject: one interpretation would be that even if you use language unconsciously, you are still the one who’s doing it, not language.
+But that doesn't really work. It's reasonable to say that even if you use language unconsciously, *you* are still the one who’s doing it, not language.
 
-It turns out there’s a way of conceiving of the situation in structural, non-psychological terms:
+So we can conceive the situation in structural terms:
 
-`Pre-existing structural system (langue) + The subject’s position within it = linguistic agency`
+**A position within the system (langue) → linguistic agency**
 
-This is better, but it still isn’t entirely convincing. It doesn’t follow from a subject having a position within a system that that system is acting through the subject.
+This is better, but still not entirely convincing. It doesn’t follow from a subject having a position within a system that that system is acting through the subject.
 
 The key is to see that in systemic terms, language is itself generative. It is not a passive, static grid, but a network that has its own dynamism, its own evolutions and interactions. After all, when a historical linguist, for example, traces the history of Indo- European languages, they are not directly asking questions about how individuals acted, about how they spoke or wrote, because the changes they trace happen at the level of the system, not at the level of individual speech acts. Those changes then constrain and enable what any individual can say or write.
 
 So, if the system of language has its own dynamic that no single speaker controls, then every individual act of speaking or writing is not a private expression but a local instantiation of the ongoing life of the language. The author is just the place where that event occurs, not its origin.
 
 A neat encapsulation of all this is to reverse the common conception and say that it’s not the human individual who speaks, but language. Whether the logical gap has been closed is maybe a matter of taste, or is not the most relevant question. The statement that “language speaks” gets its point across rhetorically (and it feels like I’ve been doing something akin to explaining a joke).
-<br>
-<br>
-<br>
+<br><br>
+
 **Proust and retrocausaility**
 
 Anyone who reads Proust’s *In Search of Lost Time* must at some point ask the question: who is the narrator? Or, as I did, they may just assume that the narrator is Proust himself and that the novel is some kind of fictionalized autobiography. But he blurs the distinction intentionally, and keeps the narrator character somewhere between himself and a fictional character. He is always the person who will write the very book we are reading.
@@ -147,14 +149,11 @@ Barthes says that Proust reverses the conventional view that the author’s life
 Barthes illustrates this priority with a reversal. The conventional reading is that the Baron de Charlus, a character in the novel, is based on Comte Robert de Montesquiou, the historical figure Proust actually knew. Barthes reverses this: the real Montesquiou is in a sense based on the fictional Charlus. 
 
 This is obviously not a literal claim, so what is it? It is a somewhat metaphorical application of the concept of retrocausality: the real Montesquiou would be forgotten if he had not been immortalized in the fictional form of Charlus, so the character came to determine our view of the real historical person. Barthes takes this to imply that Charlus is culturally primary, more real than the historical figure. Montesquiou, now, is a derivative secondary figure.
+<br><br>
 
-Turning his attention to the poet Paul Valéry, Barthes says that he ...
+**The idea of precursors**
 
-> militated in favour of the essentially verbal condition of literature, in the face of which all recourse to the writer’s interiority seemed to him pure superstition.
-
-Barthes discerns in Valéry the argument of Wimsatt and Beardsley, against the view that a work of literature is best explained by tracing it back to the author’s intentions, motivations, and proclivities---his or her interiority---and *for* the view is that everything important to the meaning of the work is exterior, that is, public and shared. The reader is free to interpret it without being dictated to by the author (via the critic).
-
-It strikes me that what Barthes says here could be said about a great number of earlier novels, so I’m not sure the authors he selects are the special precursors that he claims they are. This is an important objection, because all the precursors he chooses were precursors or early pioneers of literary modernism; if we can see in much older works what Barthes sees in the ones he chooses, it starts to look less like a historical threshold that Barthes' chosen precursors crossed, and more like a standing feature of literature. *Don Quixote*, *Tristram Shandy*, and *Moby-Dick* all undermine the Author in numerous ways. What Barthes claims is a special feature of early modernism has been a feature of literature for centuries. I am not sure where this leaves his sketched evolution of the Author's death. Maybe we can take his chosen precursors not as the beginning of this undermining, but as the moment when it began to rise to the surface and become part of literature's self-image.
+It strikes me that what Barthes says here could be said about a great number of earlier novels, so I’m not sure the authors he selects are the special precursors that he claims they are. This is an important objection, because all the precursors he chooses are regarded as precursors of literary modernism, so if we can see their supposed innovations already anticipated in much older works, it starts to look like Barthes' chosen precursors are examples in a long tradition rather. And indeed, *Don Quixote*, *Tristram Shandy*, and *Moby-Dick* all undermine the Author in numerous ways. So we ought to view the work of Proust, Mallarmé, and Valéry not as the origin of the death of the author but as the moment when it began to rise to the surface and become part of literature's self-image. After all, as Barthes himself says, writing has always been that way, and we have only recently become aware of it.
 
 Next he turns to linguistics.
 
@@ -178,7 +177,8 @@ Barthes takes a self-consciously revolutionary position against self-appointed e
 2. The work’s meaning is a hidden secret to be uncovered.
 
 Perhaps (1) is not as prevalent today, but (2) still seems to be, as I observe from watching “BookTube” videos, reading Goodreads reviews, and reading discussions in creative writing forums. 
-<br><br><br>
+<br><br>
+
 **4. Contemporary literature: the scriptor replaces the Author**
 
 > The removal of the Author … is not merely an historical fact or an act of writing; it utterly transforms the modern text (or - which is the same thing—the text is henceforth made and read in such a way that at all its levels the author is absent).
@@ -189,15 +189,13 @@ It means that the concept of the death of the Author is not an abstract scheme o
 
 This raises the possibility that a work could be produced against the death of the Author, for example, an author writing a disguised allegory might be relying on readers to detect an intention that won’t be available from the text alone.
 
-It occurs to me that Barthes moves between three positions:
+At this point we begin to see that throughout the essay Barthes moves between three way of describing the central phenomenon:
 
-- Ontological: the death of the Author recognizes the way literature is and always has been
-- Historical: the death of the Author is a historical phenomenon, following the modern era of the Author
-- Performative: the death of the Author is a phenomenon that can be enacted by ways of writing and reading
+- **Ontological:** the death of the Author describes the way literature is and always has been
+- **Historical:** the death of the Author is a historical phenomenon, following the modern era of the Author
+- **Enacted:** the death of the Author is an act of writing and reading
 
-There’s some tension between these positions. 
-
-This section is where Barthes introduces the *scriptor*. This is the figure that replaces the Author; it’s the new conception of the writer appropriate to the detachment of the text from an authoritative source of meaning.
+This section is where Barthes introduces the *scriptor*, the figure that replaces the Author. It’s his new concept of the writer, appropriate to the era in which we see that the text is detached from an authoritative source.
 
 By the way, I may have said before that the reader replaces the author, and now I’m saying it’s the scriptor. The resolution is: the reader replaces the author as the locus of meaning; the scriptor replaces the Author as the writer’s role.
 
@@ -219,44 +217,97 @@ He concludes the paragraph with some thoughts that show just what the shift to t
 
 > the modern writer, having buried the Author, can therefore no longer believe, according to the “pathos” of his predecessors, that his hand is too slow for his thought or his passion, and that in consequence, making a law out of necessity, he must accentuate this gap and endlessly “elaborate” his form;
 
-We can no longer believe in the Author as one who struggles to express, in a clumsy medium, that which has its fullest realization only within the mind. This is the Romantic conception of a writer whose writing hand can never quite capture his ideas and passions, and he must endlessly “elaborate” or “polish” the text so as to better express that fixed idea or passion that is inside. What was always implicit in this notion —and we get the same idea in music, especially in jazz improvisation—was that what is interior is bigger than and superior to language. According to this Romantic view, the Author’s interior exceeds what language can carry.
+We can no longer believe in the Author as one who struggles to express, with clumsy, physical tools, that which has its fullest grandeur only within their mind or soul. This is the Romantic conception of a writer whose writing hand can never quite capture his ideas and passions, and he must endlessly “elaborate” or “polish” the text so as to better express that fixed interior idea or passion. What was always implicit in this notion---and we get the same idea in music, especially from some jazz improvisers---was that what is inside is bigger than and superior to language. According to this Romantic view, the Author’s interior exceeds language's capacity.
 
 > for him, on the contrary, his hand, detached from any voice, borne by a pure gesture of inscription (and not of expression), traces a field without origin — or which, at least, has no other origin than language itself, that is, the very thing which ceaselessly questions any origin.
 
 For Barthes, the rejection of the Author means the celebration of writing and of the power of language. Once writing is detached from the authoritative source, language can be seen not as the deficient expression of the interior passions and thoughts of an inspired genius, but as the actual field of creativity and the generation of meaning.
 
 Language isn’t a ground of literature but its constitutive matrix. Barthes does grant that writing has an origin in language, but he immediately qualifies, calling language “the very thing which ceaselessly questions any origin.” So the concession is really a withdrawal and he is closer to saying that the work has no origin at all, in the relevant sense.
-<br>
-<br>
-<br>
-**5. The text as a tissue of citations**
+<br><br>
 
-This introduces the conception of the text as a tissue of citations (or quotations in the other translation). This is to say that the text is “a multi-dimensional space in which a variety of writings, none of them original, blend and clash.”
+**5. The text as a tissue of quotations**
 
-> The text is a tissue of quotations drawn from the innumerable centres of culture.
+> We know now that a text is not a line of words releasing a single 'theological' meaning (the 'message' of the Author-God) but a multi-dimensional space in which a variety of writings, none of them original, blend and clash. The text is a tissue of quotations drawn from the innumerable centres of culture.
 
-I think it’s important to get this right, and avoid interpreting this in a way that makes Barthes obviously wrong. To put it in a single sentence: Barthes is not saying that nothing new happens in a work of literature, but that the new things are in the “blend and clash” of prior materials, not in those materials themselves. The prior materials— the words, locutions, metaphors that make up any piece of writing—have to be taken
+Barthes is not saying that writers never make anything new, but that they do not make it out of whole cloth. What is new is the combination of prior materials, the idioms, metaphors, and off-the-shelf images that must be taken from a shared culture if they’re to be intelligible to readers. In a sense this is obvious: writers do not generally just make up words, and even when they do (Shakespeare and Joyce), those neologisms gain what sense they have from some related prior meaning.
 
-from elsewhere in the culture if they’re to be intelligible to readers at all. From one angle this is obvious: writers do not generally just make up words, and even when they do (Shakespeare and Joyce), those neologisms gain what sense they have from some prior meaning and use.
-
-Notice that I’ve avoided the word “original” even to describe this recombination of borrowed materials, though I’ve called it “new”. This is intentional, because I think it’s also what Barthes is doing. The idea of originality is tainted by the strong Romantic sense about the inspired genius creating something out of nothing. That’s exactly what Barthes is denying, so “new” works where “original” wouldn’t. In a more ordinary sense of “original”, the writer’s combination of existing materials may indeed be original—it’s just that the word carries baggage that Barthes (and I, following him here) want to keep out of the picture.
-
-The last sentence celebrates:
+The last sentence glories in the limitlessness of writing:
 
 > Succeeding the Author, the scriptor no longer bears within him passions, humours, feelings, impressions, but rather this immense dictionary from which he draws a writing that can know no halt: life never does more than imitate the book, and the book itself is only a tissue of signs, an imitation that is lost, infinitely deferred.
 
-> [My bold]
+In the new role as scriptor, the writer is not a vessel filled with thoughts and feelings that can only be expressed in words with a Herculean effort, but is rather an agent of language, saturated with the culture’s meanings in a linguistic field of infinite possibilities.
 
-The upshot is that the writer is not a vessel filled with thoughts and feelings that can only be expressed in words with a Herculean effort, but is rather an agent productively saturated with the culture’s meanings in a field of infinite possibilities.
-
-I haven’t read Flaubert’s novel Bouvard et Pécuchet or anything by Thomas De Quincey, but I’ll briefly say a few things about how I see the relevance of the latter. Bouvard et Pécuchet apparently appears quite a lot in Barthes’ work so it’s a naturally prominent part of the essay’s context and I doubt there is much to be gained from looking into it if you don’t know the novel.
-
-The Thomas De Quincey example seems clear enough though. De Quincey internalized ancient Greek so thoroughly that insofar as he had his own resources they were not constituted by interiority in the Romantic sense but by a lexicon. Thus he was exemplary of the scriptor, embedded in language, without reference to the expression of an interiority.
+Barthes identifies Thomas De Quincey as an early model of this phenomenon. De Quincey internalized ancient Greek so thoroughly that insofar as he had his own resources to bring to bear in his work, they were not constituted by psychological interiority, but by a lexicon. 
 
 > Did he [the writer in general] wish to express himself, he ought at least to know that the inner ‘thing’ he thinks to ‘translate’ is itself only a ready-formed dictionary, its words only explainable through other words, and so on indefinitely ...
+<br><br>
+
+**6. Revolution: against the empire of Critic and Author**
+
+The essay does two things here: argues against decipherment, i.e., the uncovering of secret, ultimate meanings, and argues instead for disentanglement; and then connects this to a kind of liberation movement, the overthrow not only of Author and Critic, but also of the status quo: God, reason, science, and law.
+
+I’ll put the first point polemically, to get in tune with the essay. The work of literature is not a mystery to be solved by tracing it back to the author’s psychology, motivations, intentions, or personal background and traumas, or other such gossip in the guise of profound revelation. The text is not a sign pointing somewhere else more interesting, that the author for some reason does not wish to mention. Insofar as we can get meaning from the text, it is in the language itself. Insofar as something matters to the text, it will be legible in it. The text is itself infinitely interesting. The language is not just a tool to carry something private and non-linguistic from one mind to another. The very idea that language is primarily instrumental to ends outside itself is anathema to the scriptor. We can ask the zealous acolytes of the Author: Why must the Author overshadow the text itself? Why must language play second fiddle to some other, originating greatness? Why should anyone still take seriously the idea that to properly approach literature we must subordinate and denigrate language?
+
+> In the multiplicity of writing, everything is to be disentangled, nothing deciphered; the structure can be followed, ‘run’ (like the thread of a stocking) at every point and at every level, but there is nothing beneath: the space of writing is to be ranged over, not pierced; …
+
+What does it mean to reject one metaphor, namely piercing the space of writing, or lifting up the text to find what’s beneath it, or uncovering the secret—in favour of another, namely disentangling the multiplicity, following the thread, and ranging over the space of writing?
+
+I have always disliked the idea that what you find in a novel must point somewhere else, must stand for something not mentioned in the text, or---even worse---must function as a delivery mechanism for a message. So it's natural that the writers I like are those who revel in language, the multiplicity of meaning, and the instability of a story’s source: Nabokov, Borges, Pynchon, John Barth, Samuel R. Delany.
+
+As I said earlier in this article, I like Barthes' metaphor of disentangling because it gets away from any superficiality or aestheticism suggested by “surface”---disentangling, by contrast, acknowledges the complexity of a text, that its meanings are not always simple and obvious.
+
+> To give a text an Author is to impose a limit on that text, to furnish it with a final signified, to close the writing. Such a conception suits criticism very well, the latter then allotting itself the important task of discovering the Author (or its hypostases: society, history, psyche, liberty) beneath the work
+
+Barthes clearly sees his approach to literature as liberating, in that it refuses to place a limit on a text’s meaning. The latter is what happens when its meaning is assigned to an ultimate origin, centrally the Author but also other candidate origins such as “society, history, psyche, liberty.” When he says these are hypostases of the Author, it means that they function in the same way as the Author, that they are in effect the Author—as in the authoritative source of meaning—in disguise.
+
+He mirrors this with what he calls God’s hypostases at the end of the paragraph. More than rhetoric, this is meant to suggest that the death of the Author is something like the death of God, that the change is as fundamental and has the same structure. The implication might be that the death of the Author is part of a much wider development in philosophy, namely the rejection of a metaphysics of origin.
+<br><br>
+
+**7. The Author makes way for the reader**
+
+Barthes returns to the question from section 1, “Who is speaking?”. Here he supplies the answer:
+
+> no one (that is, no “person”) utters it: its source, its voice is not to be located; and yet it is perfectly read; this is because the true locus of writing is reading.
+
+Even with the help of the other translation and the original, the meaning here is not quite clear. Luckily, he provides an example:
+
+> recent investigations (J. P. Vernant) have shed light upon the constitutively ambiguous nature of Greek tragedy, the text of which is woven with words that have
+
+> double meanings, each character understanding them unilaterally (this perpetual misunderstanding is precisely what is meant by “the tragic”); yet there is someone who understands each word in its duplicity, and understands further, one might say, the very deafness of the characters speaking in front of him: this someone is precisely the reader (or here the spectator).
+
+I don’t think it’s the best example, but I think the point is this: “the true locus of writing” means the place or point or moment where/when meaning happens, where everything in the text comes together and the duplicity is revealed. It is the perspective on the text from which everything can potentially be seen. And the only thing with this power and role is the reader.
+
+The reader is a generic figure:
+
+> only that someone who holds gathered into a single field all the paths of which the text is constituted
+
+Next, he says something that needs some unpacking:
+
+> This is why it is absurd to hear the new writing condemned in the name of a humanism which hypocritically appoints itself the champion of the reader’s rights.
+
+According to my ten minutes of research, “new writing” seems to be referring to experimental writing such as that of the Nouveaux Romanciers, such as Alain Robbe- Grillet and Nathalie Sarraute. The Wikipedia page says that Samuel Beckett is sometimes included too, and I’m on firmer ground with him (not having heard of the others).
+
+Anyway, Barthes had championed those experimental writers, who sought to subvert the novel. The novel as a literary form was, according to them and to Barthes, appropriate only to a bygone era.
+
+There were critics—labelled variously as conservative, traditional, or classical—who condemned these writers, saying that the difficult writing was hostile to readers. Readers wanted traditional narrative storytelling, not abstruse elitism and experimentation. According to Barthes, this position on the part of the critics was hypocritical: they had only ever been interested in the Author:
+
+> The reader has never been the concern of classical criticism; for it, there is no other man in literature but the one who writes.
+
+Barthes’ use of “humanism” is probably an important signal. The essay’s structuralist framework, interested in systems and structures rather than individual subjects, is naturally hostile to the humanist tradition centred on the individual and their psychology, intentions, and biography. In 1960s France, anti-humanism was a prominent philosophical position common across several schools, including Althusserian Marxism, structuralism (Lévi-Strauss), and the work of Foucault. They all believed that the human subject was not the foundational category for understanding meaning, history, or society, but something produced by structures that precede it. Not only that but they believed that the humanist tradition was conservative and on the side of the status quo and bourgeois capitalism. In 1968, this was a big deal.
+
+So the essay is what this revolutionary, anti-humanist movement looks like in the area of literary theory.
+
+I am deeply sceptical of anti-humanism, personally, so it’ll probably be one of the things I’ll criticize in a later post. For now, it’s worth knowing about this context, otherwise the essay will seem weirder than it really is.
+
+He ends with a rhetorical flourish:
+
+> We are now beginning to be the dupes no longer of such antiphrases, by which our society proudly champions precisely what it dismisses, ignores, smothers or destroys; we know that to restore to writing its future, we must reverse its myth: the birth of the reader must be ransomed by the death of the Author.
+
+I’ve argued in favour of rhetoric in other places recently, but here I find it distracting. I’m tempted to set aside the revolutionary rhetoric and look for the substance—but can they be cleanly separated?
 
 
-
+Barthes, Roland. "The Death of the Author." *Image, Music, Text*, translated by Stephen Heath, Fontana, 1977, pp. 142–148.
 
 
 NOTE: This article is drawn from the posts I made in a reading group on The Philosophy Forum in June 2026. I have my fellow readers and interlocutors there to thank for forcing me to think about the essay more deeply.
