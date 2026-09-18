@@ -2,6 +2,10 @@
 
 {% block head %}
 {% set post_image = image_cdn ~ '/tr:w-' ~ header_image.width ~ ',q-' ~ header_image.quality ~ '/' ~ slug ~ '.' ~ (frontmatter.imageExtension or 'jpg') ~ '?v=' ~ (frontmatter.imageVersion or 1) if frontmatter.image else og_image %}
+{% if frontmatter.bodyFont == 'serif' %}
+<link rel="preload" href="/static/fonts/crimsonpro-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/crimsonpro-italic.woff2" as="font" type="font/woff2" crossorigin>
+{% endif %}
 <title>{{ frontmatter.title }} · Under an Aspect</title>
 <link rel="canonical" href="{{ site_url }}/{{ slug }}/">
 <meta name="description" content="{{ frontmatter.description }} :: Book reviews, science fiction, literary fiction, and philosophy">
