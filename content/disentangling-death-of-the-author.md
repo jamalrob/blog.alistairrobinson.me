@@ -98,12 +98,8 @@ Mallarmé anticipated the idea back in the 19th century:
 >
 > --- Mallarmé, quoted in Coke-Enguídanos, Mervyn (1983)
 
-So Mallarmé, according to Barthes, was one of the first to understand that what speaks in a work of literature is not the Author, but language itself.
-
-The idea that language speaks, rather than the author or person, became popular in the 20th century. Heidegger, Gadamer, and Derrida all had ideas along these lines. What exactly does it mean?
+So Mallarmé, according to Barthes, was one of the first to understand that what speaks in a work of literature is not the Author, but language itself. I'll take a detour at this point to look at this important idea.
 <br><br>
-
-**Language speaks**
 
 When you speak or write, you participate in something bigger than and prior to you, something with its own logic, internal relations, and ongoing developments. Language is not really a tool, completely under your control. You cannot use it as you please (and be effective). I'll paraphrase Marx:
 
@@ -122,18 +118,19 @@ We can conceive of this in structural terms. The key is to see that the system o
 To say that it's not the human individual who speaks, but language itself, gets this point across with elegant conciseness. The author is not the origin of the linguistic event, only the place where it occurs.
 <br><br>
 
-**Proust and retrocausaility**
+Turning now to the example of Proust, anyone who reads *In Search of Lost Time* probably at some point asks the question: who is the narrator? Or maybe they just assume, as I did, that the narrator is Proust himself and that the novel is some kind of fictionalized autobiography. But he blurs the distinction intentionally, and holds the narrator in place somewhere between himself and a fictional character. He is always the person who will write the very book we are reading.
 
-Anyone who reads Proust’s *In Search of Lost Time* must at some point ask the question: who is the narrator? Or maybe they just assume, as I did, that the narrator is Proust himself and that the novel is some kind of fictionalized autobiography. But he blurs the distinction intentionally, and keeps the narrator character somewhere between himself and a fictional character. He is always the person who will write the very book we are reading.
-
-With Proust, the novel was in a sense ontologically prior to Proust himself, since it was the ground on which he was, as an Author-figure, constructed. 
+With Proust, the novel was in a sense ontologically prior to Proust himself, since it was the ground on which he was, as an Author-figure, constructed---not by Proust alone, but by the novel itself together with a century (as of 2026) of readers, critics, and biographers who have filled in what "Proust" now means.
 
 Barthes illustrates this priority with one of the novel's characters, the Baron de Charlus, who was based on Comte Robert de Montesquiou, the historical figure Proust actually knew. Barthes reverses this: the real Montesquiou is in a sense based on the fictional Charlus. 
 
 This is obviously not a literal claim, so what is it? It is a metaphorical application of the concept of retrocausality: the real Montesquiou would be forgotten if he had not been immortalized in the fictional form of Charlus, so the character came to determine our view of the real historical person. Barthes takes this to imply that Charlus is culturally primary, more real than the historical figure. Montesquiou, now, is a derivative secondary figure.
-<br><br>
 
-**The idea of precursors**
+But does this example do the work it is meant to be doing? More precisely, does it follow that Proust's semantic authority, his status as Author-God, is reduced by the retrocausality? After all, the effects he achieved were no accident---he knew what he was doing. I think this objection does count against the deprecation of the writer as creative *subject*: a writer exercising this much deliberate mastery over his own posthumous meaning is not just a node where pre-existing materials happen to recombine. But it doesn't count against the toppling of the Author-God. Designing the mechanism is not the same as controlling what it produces. What we now mean by "Proust" is a joint achievement of his own design and of the public reception that he could neither predict nor control.
+
+Still, we are faced with the fact that Proust wanted the novel to eclipse his life, and it did. His intentions carried through. I don't think it weakens Barthes' position to admit that sometimes intention and interpretation coincide.
+
+Going back to the very idea of precursors...
 
 > Though the sway of the Author remains powerful, ... it goes without saying that certain writers have long since attempted to loosen it.
 
@@ -158,19 +155,21 @@ He is making the anti-humanist move of reducing the subject to a mere formality.
 
 **4. Contemporary literature: the scriptor replaces the Author**
 
-> The removal of the Author … is not merely an historical fact or an act of writing; it utterly transforms the modern text (or - which is the same thing—the text is henceforth made and read in such a way that at all its levels the author is absent).
+> The removal of the Author … is not merely an historical fact or an act of writing; it utterly transforms the modern text (or---which is the same thing---the text is henceforth made and read in such a way that at all its levels the author is absent).
 
-If, in modern times, the text is now made and read such that the author is absent, this implies that the absence of the author is not a fact about literature, as Barthes has presented it. It implies it is something historical and performative.
+In section 2 we were led to believe that the detachment of the author from the meaning of a text was a permanent fact about how literature *is*: "No doubt it has always been that way". In section 3, the phenomenon was presented historically. Here, it is an act.
 
-It means that the concept of the death of the Author is not an abstract scheme of literary ontology or a factual result of empirical investigation—it is something that is enacted to a greater or lesser degree, now that it has become part of the culture.
+This raises the possibility that a work could be produced *against* the death of the Author: an author writing a disguised allegory might rely on readers to somehow detect an intention that won’t be available from the text alone, or else wait for it to be revealed by the author in a future interview. 
 
-This raises the possibility that a work could be produced against the death of the Author, for example, an author writing a disguised allegory might be relying on readers to detect an intention that won’t be available from the text alone.
+But this doesn't refute Barthes, because though an author may *try* to assume the role of Author-God, they do not in fact have that power, now that the cat is out of the bag. There was a time when the author was automatically assumed by critics and readers to be the locus of meaning, but that no longer holds. 
 
-At this point we begin to see that throughout the essay Barthes moves between three way of describing the central phenomenon:
+A movement is emerging in the essay as a whole, taking us through different modes:
 
-- **Ontological:** the death of the Author describes the way literature is and always has been
-- **Historical:** the death of the Author is a historical phenomenon, following the modern era of the Author
-- **Enacted:** the death of the Author is an act of writing and reading
+- **Transcendental ontology:** the death of the Author describes the way literature is and always has been, a condition of writing as such.
+- **Historical:** the death of the Author is a historical phenomenon, following the modern era of the Author.
+- **Enacted:** the death of the Author is an act of writing and reading.
+
+What we find in work by later thinkers is that the transcendental ontology is dropped. Foucault replaces Barthes' Author with an **author-function**, and Seán Burke regarded it as "a metaphysical abstaction, a Platonic type, a fiction of the absolute."
 
 This section is where Barthes introduces the *scriptor*, the figure that replaces the Author. It’s his new concept of the writer, appropriate to the era in which we see that the text is detached from an authoritative source.
 
@@ -286,6 +285,7 @@ I’ve argued in favour of rhetoric in other places recently, but here I find it
 
 Barthes, Roland. "The Death of the Author." *Image, Music, Text*, translated by Stephen Heath, Fontana, 1977, pp. 142–148.
 
+[Burke, Seán. The Death and Return of the author: Criticism and Subjectivity in Barthes, Foucault and Derrida. Edinburgh: Edinburgh UP, 1992.]
 
 NOTE: This article is drawn from the posts I made in a reading group on The Philosophy Forum in June 2026. I have my fellow readers and interlocutors there to thank for forcing me to think about the essay more deeply.
 
