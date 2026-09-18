@@ -155,9 +155,9 @@ He is making the anti-humanist move of reducing the subject to a mere formality.
 
 **4. Contemporary literature: the scriptor replaces the Author**
 
-> The removal of the Author … is not merely an historical fact or an act of writing; it utterly transforms the modern text (or---which is the same thing---the text is henceforth made and read in such a way that at all its levels the author is absent).
+> The removal of the Author ... is not merely an historical fact or an act of writing; it utterly transforms the modern text (or---which is the same thing---the text is henceforth made and read in such a way that at all its levels the author is absent).
 
-In section 2 we were led to believe that the detachment of the author from the meaning of a text was a permanent fact about how literature *is*: "No doubt it has always been that way". In section 3, the phenomenon was presented historically. Here, it is an act.
+In section 2, we were led to believe that the detachment of the author from the meaning of a text was a permanent fact about how literature *is*: "No doubt it has always been that way". In section 3, the phenomenon was presented historically. Now here, in section 4, it is an act.
 
 This raises the possibility that a work could be produced *against* the death of the Author: an author writing a disguised allegory might rely on readers to somehow detect an intention that won’t be available from the text alone, or else wait for it to be revealed by the author in a future interview. 
 
@@ -169,19 +169,20 @@ A movement is emerging in the essay as a whole, taking us through different mode
 - **Historical:** the death of the Author is a historical phenomenon, following the modern era of the Author.
 - **Enacted:** the death of the Author is an act of writing and reading.
 
-What we find in work by later thinkers is that the transcendental ontology is dropped. Foucault replaces Barthes' Author with an **author-function**, and Seán Burke regarded it as "a metaphysical abstaction, a Platonic type, a fiction of the absolute."
+What we find in later thinkers is that the transcendental ontology is dropped, but in two different ways. Foucault historicizes it: he replaces Barthes' Author with an **author-function**, a status some discourses carry and others don't, which changes depending on how a culture sorts its texts. Seán Burke goes further and rejects the ontology as never having described anything real to begin with, calling Barthes' Author "a metaphysical abstraction, a Platonic type, a fiction of the absolute."
+<br><br>
 
 This section is where Barthes introduces the *scriptor*, the figure that replaces the Author. It’s his new concept of the writer, appropriate to the era in which we see that the text is detached from an authoritative source.
 
-By the way, I may have said before that the reader replaces the author, and now I’m saying it’s the scriptor. The resolution is: the reader replaces the author as the locus of meaning; the scriptor replaces the Author as the writer’s role.
+A clarification is important at this point. I may have said before that the *reader* replaces the author, and now I’m saying it’s the *scriptor*. The resolution is that the reader replaces the Author as the locus of meaning; the scriptor replaces the Author as the writer’s role.
 
-The Author, Barthes says, is conceived as the parent of the work and as the prior condition for the work—thus we have a certain temporal conception of the work of literature: before = Author, after = novel.
+The Author, Barthes says, is conceived as the parent of the work and as the prior condition for the work---thus we have a certain temporal conception of the work of literature, the Author being prior to the novel.
 
 > In complete contrast, the modern scriptor is born simultaneously with the text, is in no way equipped with a being preceding or exceeding the writing, is not the subject with the book as predicate; there is no other time than that of the enunciation and every text is eternally written here and now.
 
 It’s clear that the concept of the scriptor is not meant to just replace a Romantic ideal with a clear-eyed representation of the brute reality of the actual flesh-and-blood writer. The scriptor is born simultaneously with the text, and must therefore, I think, be in some sense a part of the text. This is roughly what I was getting at earlier when I described my use of “Barthes” as a name to refer to the standpoint of the essay rather than the author.
 
-Barthes goes on to explain that unlike the Author, who records and then transmits reality into the work, the scriptor’s act of writing has to be seen as a performative, otherwise known as a performative utterance, a term coined by the influential philosopher of language J.L. Austin at Oxford University.
+Barthes goes on to explain that unlike the Author, who records and then transmits reality into the work, the scriptor’s act of writing has to be seen as a *performative*---a performative utterance, in J.L. Austin's terms.
 
 A performative is something said or written—a speech act—that changes reality rather than referring to and describing it. Examples are “You’re fired”, “I promise to pay you back”, “I sentence you to life in prison without the possibility of parole”.
 
@@ -212,7 +213,7 @@ The last sentence glories in the limitlessness of writing:
 
 > Succeeding the Author, the scriptor no longer bears within him passions, humours, feelings, impressions, but rather this immense dictionary from which he draws a writing that can know no halt: life never does more than imitate the book, and the book itself is only a tissue of signs, an imitation that is lost, infinitely deferred.
 
-In the new role as scriptor, the writer is not a vessel filled with thoughts and feelings that can only be expressed in words with a Herculean effort, but is rather an agent of language, saturated with the culture’s meanings in a linguistic field of infinite possibilities.
+In the new role as scriptor, the writer is an agent of language, saturated with the culture’s meanings in a linguistic field of infinite possibilities.
 
 Barthes identifies Thomas De Quincey as an early model of this phenomenon. De Quincey internalized ancient Greek so thoroughly that insofar as he had his own resources to bring to bear in his work, they were not constituted by psychological interiority, but by a lexicon. 
 
@@ -225,11 +226,11 @@ The essay does two things here: argues against decipherment, i.e., the uncoverin
 
 I’ll put the first point polemically, to get in tune with the essay. The work of literature is not a mystery to be solved by tracing it back to the author’s psychology, motivations, intentions, or personal background and traumas, or other such gossip in the guise of profound revelation. The text is not a sign pointing somewhere else more interesting, that the author for some reason does not wish to mention. Insofar as we can get meaning from the text, it is in the language itself. Insofar as something matters to the text, it will be legible in it. The text is itself infinitely interesting. The language is not just a tool to carry something private and non-linguistic from one mind to another. The very idea that language is primarily instrumental to ends outside itself is anathema to the scriptor. We can ask the zealous acolytes of the Author: Why must the Author overshadow the text itself? Why must language play second fiddle to some other, originating greatness? Why should anyone still take seriously the idea that to properly approach literature we must subordinate and denigrate language?
 
-> In the multiplicity of writing, everything is to be disentangled, nothing deciphered; the structure can be followed, ‘run’ (like the thread of a stocking) at every point and at every level, but there is nothing beneath: the space of writing is to be ranged over, not pierced; …
+> In the multiplicity of writing, everything is to be disentangled, nothing deciphered; the structure can be followed, ‘run’ (like the thread of a stocking) at every point and at every level, but there is nothing beneath: the space of writing is to be ranged over, not pierced; ...
 
 What does it mean to reject one metaphor, namely piercing the space of writing, or lifting up the text to find what’s beneath it, or uncovering the secret—in favour of another, namely disentangling the multiplicity, following the thread, and ranging over the space of writing?
 
-I have always disliked the idea that what you find in a novel must point somewhere else, must stand for something not mentioned in the text, or---even worse---must function as a delivery mechanism for a message. So it's natural that the writers I like are those who revel in language, the multiplicity of meaning, and the instability of a story’s source: Nabokov, Borges, Pynchon, John Barth, Samuel R. Delany.
+The idea that what you find in a novel must point somewhere else, must stand for something not mentioned in the text, or even worse, must function as a delivery mechanism for a message---I have always found this quite dismal. It's natural, then, that the writers I like are those who revel in language, the multiplicity of meaning, and the instability of a story’s source: Nabokov, Borges, Pynchon, John Barth, Samuel R. Delany. Like Proust, they are deliberate linguistic engineers, but they are aware of their lack of complete control over meaning.
 
 As I said earlier in this article, I like Barthes' metaphor of disentangling because it gets away from any superficiality or aestheticism suggested by “surface”---disentangling, by contrast, acknowledges the complexity of a text, that its meanings are not always simple and obvious.
 
@@ -237,7 +238,7 @@ As I said earlier in this article, I like Barthes' metaphor of disentangling bec
 
 Barthes clearly sees his approach to literature as liberating, in that it refuses to place a limit on a text’s meaning. The latter is what happens when its meaning is assigned to an ultimate origin, centrally the Author but also other candidate origins such as “society, history, psyche, liberty.” When he says these are hypostases of the Author, it means that they function in the same way as the Author, that they are in effect the Author—as in the authoritative source of meaning—in disguise.
 
-He mirrors this with what he calls God’s hypostases at the end of the paragraph. More than rhetoric, this is meant to suggest that the death of the Author is something like the death of God, that the change is as fundamental and has the same structure. The implication might be that the death of the Author is part of a much wider development in philosophy, namely the rejection of a metaphysics of origin.
+He mirrors this with what he calls God’s hypostases at the end of the paragraph. More than rhetoric, this is meant to suggest that the death of the Author is something like the death of God, in a deliberate echo of Nietzsche. The implication might be that the death of the Author is part of a much wider development in philosophy, namely the rejection of a metaphysics of origin.
 <br><br>
 
 **7. The Author makes way for the reader**
@@ -282,6 +283,11 @@ He ends with a rhetorical flourish:
 
 I’ve argued in favour of rhetoric in other places recently, but here I find it distracting. I’m tempted to set aside the revolutionary rhetoric and look for the substance—but can they be cleanly separated?
 
+## Conclusion
+
+
+
+----
 
 Barthes, Roland. "The Death of the Author." *Image, Music, Text*, translated by Stephen Heath, Fontana, 1977, pp. 142–148.
 
