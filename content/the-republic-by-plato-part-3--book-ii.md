@@ -10,7 +10,7 @@ imageClass: mainImageSmaller
 draft: false
 bodyFont: serif
 ---
-Thrasymachus seems to have been defeated, but the others are not satisfied. Book II begins with a challenge from Glaucon, then reinforced by Adeimantus, after which Socrates launches on his long answer, taking up the rest of the book, starting with the construction of a hypothetical city.
+Thrasymachus seems to have been defeated, but the others are not satisfied. Book II begins with a challenge from Glaucon, then reinforced by Adeimantus, after which Socrates launches on his long answer (taking up the rest of the *Republic*) beginning with the construction of a hypothetical city.
 
 ## Contents
 

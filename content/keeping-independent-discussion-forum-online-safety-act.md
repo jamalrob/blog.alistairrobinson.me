@@ -2,10 +2,12 @@
 title: 'Keeping an Independent Discussion Forum Alive Under the UK Online Safety Act'
 description: 'How I Migrated a 10-Year-Old Philosophy Forum to Stay Compliant'
 date: '2026-03-16'
-tags: administration
+tags: ofcom, osa, tpf, administration, compliance
 image: false
 draft: false
 ---
+{{svg:ofcom_logo}}
+
 I'm the administrator of The Philosophy Forum (TPF), online since 2015. Compared to a site like Reddit, it's a small community, but the members are active and it has its own distinct culture, built up over years. 
 
 In 2023, the UK Parliament passed the Online Safety Act (OSA), which applies to most online services with user-generated content accessible to and used by people in the UK. What's important to note is that it doesn't just apply to operators *based in* the the UK: the Act applies to any service, no matter where it's based, if it has a significant number of UK users. Non-compliance carries large financial penalties, and in some circumstances personal liability for the individuals who run the service.
