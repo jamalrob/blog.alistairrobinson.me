@@ -8,7 +8,7 @@ draft: true
 ---
 {{svg:roland_barthes_signature}}
 
-I read "The Death of the Author" by Roland Barthes. It's one of those essays you tend to think you don't have to read at all. Like Fukuyama's "The End of History?", it is too easily encapsulated by its title, so you file it away in your mind without bothering to find out what it actually says. In this case I finally decided to find out for myself, and it turned out to be more interesting and strange than I expected.
+I read "The Death of the Author" by Roland Barthes, first published in 1967. It's one of those essays you tend to think you don't have to read at all. Like Fukuyama's "The End of History?", it is too easily encapsulated by its title, so you file it away in your mind without bothering to find out what it actually says. In this case I finally decided to find out for myself, and it turned out to be more interesting and strange than I expected.
 
 Barthes argues that the meaning of a work of literature does not come from its author---that the text has *many* possible meanings, produced in the act of reading. The figure of the author as the source of meaning turns out to have been a cultural invention, imposing limits on interpretation.
 
@@ -266,7 +266,7 @@ Humanism appears here on the side of the establishment, allowing us to see that 
 
 He ends with a rhetorical flourish:
 
-> We are now beginning to be the dupes no longer of such antiphrases, by which our society proudly champions precisely what it dismisses, ignores, smothers or destroys; we know that to restore to writing its future, we must reverse its myth: the birth of the reader must be ransomed by the death of the Author.
+> We are now beginning to let ourselves be fooled no longer by the arrogant antiphrastical recriminations of good society in favour of the very thing it sets aside, ignores, smothers, or destroys; we know that to give writing its future, it is necessary to overthrow the myth: the birth of the reader must be at the cost of the death of the Author.
 
 I’ve argued in favour of rhetoric in other places recently, but here I find it distracting. I’m tempted to set aside the revolutionary rhetoric and look for the substance---but can they be cleanly separated?
 
@@ -274,33 +274,105 @@ I’ve argued in favour of rhetoric in other places recently, but here I find it
 
 **Doubts and questions**
 
-How can we, and why should we, avoid referring back to the author, when interpreting a work? Take the essay itself as an example. There was a man called Roland Barthes who actually wrote it, and he had his reasons for doing so. Do we have to try forgetting this fact? Isn't it an exercise in doctrinaire anti-humanism to pretend he or his intentions don't matter?
+How can we, and why should we, avoid referring back to the author when interpreting a book? Take the essay itself as an example. There was a man named Roland Barthes who wrote it, and he had his reasons for doing so. Do we have to try forgetting this fact? Isn't it an exercise in doctrinaire anti-humanism to pretend that he or his intentions don't matter?
 
-The answer is: it depends. What we ought to deny is that he is the authoritative source of the essay's singular meaning. And we can reframe the question "what does Barthes mean by this?" as a habitual, culturally conventional way of referring to the *text*, asking "what does this mean?" As I said in my comments on section 4, in doing so we treat the essay as a text to engage with on its own terms, using "Barthes" as a name for the position the essay takes.
+We find some answers in the essay. Section 2 distinguishes intransitive writing, which exists for nothing beyond itself and the experience of reading it, from transitive writing, aimed at some determinate effect on the world. Barthes' essay is not a novel or a poem, but an argument and polemic, written to change how people read, write, and do criticism. By its own criteria, it is transitive, so the essay's thesis doesn't apply.
 
-And I think we can make a distinction between on the one hand, investigating the author's motivations, intentions, and psychological states, to explain the text; and on the other hand, investigating the essay's historical context to discover what it was reacting against. I think the latter kind of interpretation is perfectly compatible with the thesis: recognizing that a work is situated historically is not to identify a single source of truth, nor to look for such a source in the author.
+That said, when reading the essay less as a historical intervention and more as a text to interpret in its own right, we can reframe the question "what does Barthes mean by this?" as a habitual, culturally conventional way of asking, "what does this mean?" As I said in my comments on section 4, in doing so we treat the essay as a text to engage with on its own terms, using "Barthes" as a name for the position the essay takes.
 
-I recently read *What Freud Really Meant* by Susan Sugarman, and it occurs to me to ask if the title and the whole point of the work goes against this critique, or if we can understand it differently. I don't think so, and for two reasons.
+Similarly with a book I read recently, *What Freud Really Meant* by Susan Sugarman. If it is transitive, in that it aims to correct the mistakes made in interpreting Freud---an aim beyond itself---then it escapes Barthes' critique. If it is intransitive, it falls victim to it. On the other hand, even if it *is* intransitive, all is not lost. We can say that Sugarman isn't actually interested in anything beyond Freud's written work. Rather than claiming privileged access to his mind, the title refers to the ideas presented in his published works, which she explicates as a coherent theory of the mind. Despite the book's title, her project is not decipherment, but disentangling.
 
-First, Sugarman isn't interested in anything beyond Freud's written work. Rather than claiming privileged access to his mind, she sets out the ideas presented in his published works as a coherent theory of the mind, variously misinterpreted by later psychologists and commentators. Despite the book's title, her project is not decipherment, but disentangling.
+It begins to look like non-fictional works might typically be a bit of both, neither entirely transitive nor intransitive.
 
-Second, *What Freud Really Meant* might be an instance of transitive writing, in the sense used in section 2, meaning that Barthes' thesis doesn't even apply. The books aims to make a change to the world beyond itself and the experience of reading it: namely, to correct the mistakes made in interpreting Freud.
+**The evidence**
 
-On that note, what about "The Death of the Author" itself? If it really does aim to rouse its readers to rebel against the empire of the Author, especially if this is seen as allied with a more general uprising against the establishment, then it is a political intervention, more akin to ritual or magic than art for art's sake.
+Barthes makes a testable claim:
+
+> the text is henceforth made and read in such a way that at all its levels the author is absent
+
+And Foucault makes a similar claim in his essay “What is an Author?”, which built directly on Barthes:
+
+> today’s writing has freed itself from the dimension of expression. Referring only to itself, but without being restricted to the confines of its interiority, writing is identified with its own unfolded exteriority.
+>
+> --- Foucault, “What is an Author?” 1979 Version
+
+If they are right, we should be able to look around and see the evidence. Looking at literature from the 1960s on, we should, for example, see writing that refers only to itself in an "interplay of signs", unfolding like a game. And indeed, a lot of postmodern and late modernist fiction has those features. Italo Calvino, Jorge Luis Borges, John Barth, Samuel Beckett, and many others all in their own ways enacted these ideas in their work, though not usually in conscious response to Barthes. In fact, several of them did so around the same time Barthes' essay was published, or even before it.
+
+But I’ll focus on three books I’ve read in the last couple of years: *The Glutton* by A. K. Blakemore, *Ice* by Anna Kavan, and *Crash* by J. G. Ballard. These novels constitute evidence of the death of the Author, though in different ways.
+
+**The Glutton (2023)**
+
+A. K. Blakemore’s *The Glutton* is a fictionalization of the life of Tarare, a real historical figure, famous in revolutionary France for his insatiable appetite and the ability to eat vast amounts of food (and other things besides).
+
+There is an odd metafictional moment in the narrative:
+
+> These are not the words that Tarare uses to think about it, but this is what he thinks.
+
+I could ask, just as Barthes does: Who is speaking thus? Is it a narrator, admitting that the narration of Tarare’s interior life is an artifice? Is it Blakemore herself, waving from behind the narrator, owning up to the literary artifice she’s been using throughout the book? Is it the narrator-author, claiming that Tarare, the historical figure, really did have these thoughts? Is it the author pre-empting an imagined complaint or question from the reader who has been wondering how this revolutionary-era French peasant comes to think in such sophisticated language?
+
+Each of these candidates is plausible, and none can be assigned definitively. The voice, and the meaning, form a multiplicity that happens when the text is read.
+
+What makes it different from Balzac’s sentence is that it’s more about itself than it is about reality. Or, insofar as it *is* about reality, it is not a transparent transmission of the author’s observations into the reader's mind. The relation has been complicated, and here the narrative faces up to that. Blakemore writes in a post-Barthesian world in which everyone is aware of the artifice of writing, in which naive realism (so to speak) is anachronistic.
+
+**Ice (1967)**
+
+Anna Kavan’s *Ice* is a dreamlike apocalyptic novel in which an unnamed male narrator obsessively pursues a fragile young woman around the world, while every place they go is threatened by a new ice age.
+
+The novel does several things to dissipate and depersonalize (or to use Barthes' metaphor, to "kill") the writing subject, and to remove the possibility of reconstructing a fixed *fabula*---an objective course of events---from the narrative. Places and people are unnamed, the time period is vague, and the narrative slips between first and third person without warning, with the narrator himself sometimes “remembering” events he did not actually witness. The author is doubly dissipated: through a narrator who is not Kavan (and who is difficult to identify with Kavan), and through an instability in the narration that prevents the narrator himself from being assigned a stable identity.
+
+But maybe the most interesting thing is that Barthes’ statement is not completely borne out:
+
+> the text is henceforth made and read in such a way that at all its levels the author is absent
+
+While the novel itself enacts the death of the Author and the denial of a singular meaning, the novel’s reception by critics and public is dominated by decipherment, focusing on the author’s biography---it’s almost impossible to find a review that doesn’t mention her heroin addiction and mental illness (for a different approach, see [my own review](https://writing.alistairrobinson.me/ice-by-anna-kavan)).
+
+Barthes is right that the text is now *made* according to the death of the Author, but wrong about how it is *read*.
+
+Perhaps this is because "made and read" refers to ideal conditions, the transformed text being a limit that modern writing tends toward without ever quite reaching. Or perhaps it is evidence that Barthes' revolution did not succeed, or did not succeed completely. At the very end of the essay he names an "antiphrasis": critics attacking avant-garde writing in the name of the reader whose interests they had never actually served. Something similar seems to have happened since. The death of the Author is now academic orthodoxy, while the actual practice of reviewing and marketing books remains as devoted to biography as ever.
+
+**Crash (1973)**
+
+Crash is a novel about people who get turned on by car crashes. Rather than a postmodernist novel, it’s a novel about the postmodern condition. But what I’m interested in at the moment is not so much the written work itself as the book’s changing relationship with its author, J.G. Ballard.
+
+In the run-up to the release of Cronenberg’s 1996 film adaptation, Ballard wrote a new introduction to the book, which included this:
+
+> Needless to say, the ultimate role of Crash is cautionary, a warning against that brutal, erotic and overlit realm that beckons more and more persuasively to us from the margins of the technological landscape
+>
+> --- J. G. Ballard’s 1995 introduction to Crash
+
+Coming just before the explosion of hysteria when the film was released, this was convenient for the work’s defenders, who could point to the quotation and say, “see, it’s not a celebration, it’s a warning!” And for those who find the work disturbing and unsettling, it’s a comfort to know that it expresses a righteous moral viewpoint.
+
+But he later said he hadn’t thought of it as a cautionary tale when writing it:
+
+> when I was writing Crash, I certainly didn’t think I was writing a cautionary tale.
+>
+> --- J.G. Ballard interviewed by Andrew Hultkrans
+
+And by 2006 he was straightforwardly denying it:
+
+> Crash is not a cautionary tale. Crash is what it appears to be. It is a psychopathic hymn.
+>
+> --- Ballard interviewed by Will Self, 2006
+
+This is a serious challenge to authorial intention as a category. It presupposes a stable Author whose intentions could in principle be recovered, if we did enough digging. But Ballard’s later conflicting comments suggest there is no such Author. There’s a sequence of Ballards, each offering an interpretation, none with privileged access to what the work means. His interpretations were not better than anyone else’s merely by virtue of being his.
+
+The three cases test the thesis in different ways and suggest that Barthes was describing something real, even if he went too far in his strongest formulations.
 
 **My assessment**
 
 The essay fits nicely with my own thinking about writing and reading. More than that, it puts some theoretical meat on the bare bones of my intuitions. 
 
-There are a few dimensions to this. First, I don't remember ever believing that writing is having a thought and then transcribing it, as if thinking were the ground of language (this goes for speaking too, incidentally). I often don't know what I think until I write it. The thoughts I have and the words I write are mutually constituting, neither the ground of the other. This is perfectly in line with the essay's opposition to the Romantic idea that the medium is a derivative, inconvenient necessity. Having said that, when we look at the act of writing from the level of the linguistic system, it might be more true to reverse the Romantic view entirely and say that thinking is derivative of writing, or at least of language, such that language is the ground of thought.
+There are a few dimensions to this. First, I don't remember ever believing that writing is having a thought and then transcribing it, as if thinking were the ground of language (this goes for speaking too, incidentally). I often don't know what I think until I write it. The thoughts I have and the words I write are mutually constituting, neither the ground of the other. This is perfectly in line with the essay's opposition to the Romantic idea that the medium is a derivative, inconvenient necessity. But looking at the act of writing in the context of the linguistic system instead of from the individual perspective, it might be more true to reverse the Romantic view entirely and say that thinking is derivative of writing, or at least of language---such that language is the ground of thought.
 
-Second---and this is something I intimated early on---from my point of view as a reader, I am frustrated with those teachers and enthusiasts of literature who think that a novel's themes are more important than its story, its language, its structure, and its style. They imply that the story is a delivery mechanism, a verbose paraphrase designed to trick reader into swallowing the theme---or even worse, the *message*. I think this can damage the experience of those who want guidance on how to read. It teaches them to decipher, instead of to disentangle, thus to avoid the text itself. In looking for a reason behind the work of art, it functions to justify the existence of objects that do not have any practical utility---"all art is quite useless"---in an era in which such things are incomprehensible or unacceptable.
+Second, there is my frustration with teachers and enthusiasts of literature who think that a novel's themes are more important than its story, its language, its structure, and its style. They imply that the story is a delivery mechanism, a verbose paraphrase designed to trick reader into swallowing the theme---or even worse, the *message*. I think this can damage the experience of those who want guidance on how to read. It teaches them to decipher, instead of to disentangle, thus to avoid the text itself. In looking for a reason behind the work of art, it functions to justify the existence of objects that do not have any practical utility---"all art is quite useless"---in an era in which such things are incomprehensible or unacceptable.
 
 To decipher is to glance at an abstract painting in a gallery and immediately go to the didactic label that tells you what it means---preferably what the artist intended, what the singular *point* of it is---instead of just looking at the painting.
 
 I don't mean to say that themes are unimportant or even secondary, just that they are not separable from the text's surface features, nor are they often fixed and singular. They are threads in the tangled conceptual-linguistic fabric.
 
-On the other hand, I am not so on board with Barthes' anti-humanism or his revolutionary rhetoric.
+On the other hand, I am not completely on board with Barthes' anti-humanism or his revolutionary rhetoric, and I hope my disagreements here are substantive rather than sentimental and conservative. 
+
+
 
 [MORE TO COME HERE]
 
