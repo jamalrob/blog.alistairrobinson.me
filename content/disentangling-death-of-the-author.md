@@ -1,10 +1,11 @@
 ---
 title: "The Death of the Author, Disentangled (not Deciphered)"
 description: 'Deep analysis of the essay by Roland Barthes'
-date: '2026-09-18'
+date: '2026-09-22'
 tags: philosophy, structuralism, post-structuralism, literature
 image: false
-draft: true
+ogImage: '/social-card-death-of-the-author.png'
+draft: false
 ---
 {{svg:roland_barthes_signature}}
 
@@ -36,8 +37,6 @@ Here's how this article is laid out:
   - [Ice (1967)](#ice-1967)
   - [Crash (1973)](#crash-1973)
 - [Conclusion](#conclusion)
-  - [Doubts and Questions](#doubts-and-questions)
-  - [My Assessment](#my-assessment)
 - [References](#references)
 
 </div>
@@ -135,7 +134,7 @@ You could summarize this by saying that pre-existing cultural-linguistic structu
 
 As an occasional creative writer and amateur musician, I know what writers and jazz musicians mean when they say that getting “in the zone”---what is now called a *flow state*---means becoming a channel for something bigger than them. And in my view this is an accurate understanding of the situation. A musician may think of the something bigger as God or the universe, where I might prefer to think of it as something more cultural, but either way, the sense of participation in a larger, prior entity or process, one that seems to have its own aims, is far from a delusional mental state. This is exactly the sense in which language can be said to have its own agency, thus to speak through us, in a manner of speaking.
 
-We can conceive of this in structural terms. The key is to see that the system of language is generative. Rather than a passive and static grid, it is a network with its own dynamism, its own evolutions and interactions. Saussure's analogy is a game of chess, in which a piece's value depends on its position relative to the others on the board. In making a move, you change the value of every other piece at once. Language works the same way: a change anywhere in the system propagates through the whole network, reconfiguring meanings that no single speaker intended. This is what it means for a system to be generative.
+We can conceive of this in structural terms. The key is to see that the system of language is generative. Rather than a passive and static grid, it is a network with its own dynamism, its own evolutions and interactions. A change anywhere in the system propagates through the whole network, reconfiguring meanings that no single speaker intended.
 
 To say that it's not the human individual who speaks, but language itself, gets this point across with elegant conciseness. The author is not the origin of the linguistic event, only the place where it occurs.
 <br><br>
@@ -211,11 +210,11 @@ To make this more concrete and intelligible, look at the way I've been using the
 
 And this sense of "Barthes", the name understood as referring to the text's internal point of view rather than to the person who wrote it---this may sound artificial and abstract, but I believe it is a more realistic and conceptually precise way to approach a piece of writing. I hope to make this clearer later in the article, when I discuss J. G. Ballard, whose opinion of his own novel *Crash* was demonstrably not a good guide to interpretation.
 
-Barthes goes on to explain that unlike the Author, who records and then transmits reality into the work, the scriptor’s act of writing has to be seen as a *performative*---a performative utterance, in J.L. Austin's terms.
+Barthes goes on to explain that unlike the Author, who records and then transmits reality into the work, the scriptor’s act of writing has to be seen as a *performative*---a performative utterance, in J. L. Austin's terms.
 
 A performative is something said or written---a speech act---that changes reality rather than referring to and describing it. Examples are “You’re fired”, “I promise to pay you back”, “I sentence you to life in prison without the possibility of parole”.
 
-This might appear to contradict intransitivity in section 2: each of the examples is transitive---firing someone, sentencing someone, and initiating a debt are all real effects on the world, external to their enunciation. But when Barthes uses the term, he is not using it for that feature. He is making use of the fact that performatives don't describe a state of affairs that already existed; they bring one into being in the act of being said. Literary writing can do this without any external effect at all---it constitutes *its own* content, rather than transmitting a reality that came before it.
+This might appear to contradict intransitivity as described in section 2: each of the examples is transitive---firing someone, sentencing someone, and initiating a debt are all real effects on the world, external to their enunciation. But when Barthes uses the term, he is not using it for that feature. He is making use of the fact that performatives don't describe a state of affairs that already existed; they bring one into being in the act of being said. Literary writing can do this without any external effect at all---it constitutes *its own* content, rather than transmitting a reality that came before it.
 
 Barthes takes this concept from linguistics and the philosophy of language and extends it to cover literary writing. Writing is not a record or a depiction, but a generative act. Now, obviously such works contain descriptions and representation, functioning as such within the confines of the story, but the point Barthes is making is that the writing as a whole is not a recording or transmission of something prior. It constitutes itself in the act of being written. The descriptions and narrations inside the text are part of that constitution, not reports from a world before and outside the writing.
 
@@ -337,7 +336,7 @@ What makes it different from Balzac’s sentence is that it’s more about itsel
 
 Anna Kavan’s *Ice* is a dreamlike apocalyptic novel in which an unnamed male narrator obsessively pursues a fragile young woman around the world, while every place they go is threatened by a new ice age.
 
-The novel does several things to decentred and depersonalize (or to use Barthes' metaphor, to "kill") the writing subject, and to remove the possibility of reconstructing a fixed *fabula*---an objective course of events---from the narrative. Places and people are unnamed, the time period is vague, and the narrative slips between first and third person without warning, with the narrator himself sometimes “remembering” events he did not actually witness. The author is doubly dispersed: through a narrator who is not Kavan (and who is difficult to identify with Kavan), and through an instability in the narration that prevents the narrator himself from being assigned a stable identity.
+The novel does several things to decentre and depersonalize (or to use Barthes' metaphor, to "kill") the writing subject, and to remove the possibility of reconstructing a fixed *fabula*---an objective course of events---from the narrative. Places and people are unnamed, the time period is vague, and the narrative slips between first and third person without warning, with the narrator himself sometimes “remembering” events he did not actually witness. The author is doubly dispersed: through a narrator who is not Kavan (and who is difficult to identify with Kavan), and through an instability in the narration that prevents the narrator himself from being assigned a stable identity.
 
 But maybe the most interesting thing is that Barthes’ statement is not completely borne out:
 
@@ -353,7 +352,7 @@ Perhaps this is because "made and read" refers to ideal conditions, the transfor
 
 ### Crash (1973)
 
-Crash is a novel about people who get turned on by car crashes. Rather than a postmodernist novel, it’s a novel about the postmodern condition. But what I’m interested in at the moment is not so much the written work itself as the book’s changing relationship with its author, J.G. Ballard.
+Crash is a novel about people who get turned on by car crashes. Rather than a postmodernist novel, it’s a novel about the postmodern condition. But what I’m interested in at the moment is not so much the written work itself as the book’s changing relationship with its author, J. G. Ballard.
 
 In the run-up to the release of Cronenberg's 1996 film adaptation, the publishers included his introduction---first written for the French edition of the novel in 1974---in a new edition, in which we find this:
 
@@ -367,7 +366,7 @@ But he later said he hadn’t thought of it as a cautionary tale when writing it
 
 > when I was writing Crash, I certainly didn’t think I was writing a cautionary tale.
 >
-> --- J.G. Ballard interviewed by Andrew Hultkrans
+> --- J. G. Ballard interviewed by Andrew Hultkrans
 
 And by 2006 he was straightforwardly denying it:
 
@@ -389,48 +388,41 @@ The ontological answer undermines the objection more thoroughly, because it deni
 
 ## Conclusion
 
-<a name="doubts-and-questions"></a>
-
-### Doubts and Questions
-
 How can we, and why should we, avoid referring back to the author when interpreting a book? Take the essay itself as an example. There was a man named Roland Barthes who wrote it, and he had his reasons for doing so. Do we have to try forgetting this fact? Isn't it an exercise in doctrinaire anti-humanism to pretend that he or his intentions don't matter?
 
-We find some answers in the essay. Section 2 distinguishes intransitive writing, which exists for nothing beyond itself and the experience of reading it, from transitive writing, aimed at some determinate effect on the world. Barthes' essay is not a novel or a poem, but an argument and polemic, written to change how people read, write, and do criticism. By its own criteria, it is transitive, so the essay's thesis doesn't apply.
+We find some answers in the essay. Section 2 distinguishes intransitive writing, which exists for nothing beyond itself and the experience of reading it, from transitive writing, aimed at some determinate effect on the world. Barthes' essay is not a novel or a poem, but an argument and polemic, written to change how people read, write, and do criticism. By its own criteria, it seems transitive, meaning that the essay's thesis doesn't apply.
 
 That said, when reading the essay less as a historical intervention and more as a text to interpret in its own right, we can reframe the question "what does Barthes mean by this?" as a habitual, culturally conventional way of asking, "what does this mean?" As I said in my comments on section 4, in doing so we treat the essay as a text to engage with on its own terms, using "Barthes" as a name for the position the essay takes.
 
 Similarly with a book I read recently, *What Freud Really Meant* by Susan Sugarman. If it is transitive, in that it aims to correct the mistakes made in interpreting Freud---an aim beyond itself---then it escapes Barthes' critique. If it is intransitive, it falls victim to it. But even if it *is* intransitive, all is not lost. We can say that Sugarman isn't actually interested in anything beyond Freud's written work. Rather than claiming privileged access to his mind, the title refers to the ideas presented in his published works, which she explicates as a coherent theory. Despite the book's title, her project is not decipherment, but disentangling.
 
 It begins to look like non-fictional works might typically be a bit of both, neither entirely transitive nor intransitive. And as I mentioned earlier in the article, this applies not only to non-fiction but also to propaganda films, for example. 
-
-<a name="my-assessment"></a>
-
-### My Assessment
+<br><br>
 
 The essay fits nicely with my own thinking about writing and reading. More than that, it puts some theoretical meat on the bare bones of my intuitions. 
 
-There are a few dimensions to this. First, I don't remember ever believing that writing is having a thought and then transcribing it, as if thinking were the ground of language (this goes for speaking too, incidentally). I often don't know what I think until I write it. The thoughts I have and the words I write are mutually constituting, neither the ground of the other. This is perfectly in line with the essay's opposition to the Romantic idea that the medium is a derivative, inconvenient necessity. But looking at the act of writing in the context of the linguistic system instead of from the individual perspective, it might be more true to reverse the Romantic view entirely and say that thinking is derivative of writing, or at least of language---such that language is the ground of thought.
+There are a few dimensions to this. First, I don't remember ever believing that writing is having a thought and then transcribing it, as if thinking were the ground of language (this goes for speaking too, incidentally). I often don't know what I think until I write it. The thoughts I have and the words I write are mutually constituting, neither the ground of the other. This is perfectly in line with the essay's opposition to the Romantic idea that the medium is a derivative, inconvenient necessity. But looking at the act of writing in the context of the linguistic system instead of from the individual perspective, it might be more true to reverse the Romantic view entirely and say that thinking is derivative of writing, or at least of language---such that language is the ground of thought ("language speaks").
 
-Second, there is my frustration with teachers and enthusiasts of literature who think that a novel's themes are more important than its story, its language, its structure, and its style. They imply that the story is a delivery mechanism, a verbose paraphrase designed to trick reader into swallowing the theme---or even worse, the *message*. I think this can damage the experience of those who want guidance on how to read. It teaches them to decipher, instead of to disentangle, thus to avoid the text itself. To decipher is to glance at an abstract painting in a gallery and immediately go to the didactic label that tells you what it means---preferably what the artist intended, what the singular *point* of it is---instead of just looking at the painting.
+Second, there is my frustration with teachers and enthusiasts of literature who think that a novel's themes are more important than its story, its language, its structure, and its style. They imply that the story is a delivery mechanism, a verbose paraphrase designed to trick the reader into swallowing the theme---or even worse, the *message*. I think this can damage the experience of those who want guidance on how to read. It teaches them to decipher, instead of to disentangle, thus to avoid the text itself. To decipher is to glance at an abstract painting in a gallery and immediately go to the didactic label that tells you what it means---preferably what the artist intended, what the singular *point* of it is---instead of just looking at the painting.
 
 I don't mean to say that themes are unimportant or even secondary, just that they are not separable from the text's surface features, nor are they often fixed and singular. They are threads in the tangled conceptual-linguistic fabric.
 
 Deciphering, in demanding an explanation, is really demanding that the artwork justify itself. It wants justification of the existence of objects that don't have any practical utility ("all art is quite useless", as Oscar Wilde put it) in an era in which such things are incomprehensible or unacceptable. I would rather insist that literature's value doesn't need to answer to utility at all.
 <br><br>
 
-On the other hand, I am not completely on board with Barthes' anti-humanism or his revolutionary rhetoric, and I hope my disagreements here are substantive rather than sentimental and conservative. Theodor W. Adorno can help here, particularly because among philosophers of the twentieth century he was notably committed to the human subject.
+On the other hand, I am not completely on board with Barthes' anti-humanism or his revolutionary rhetoric, and I hope my disagreements here are substantive rather than sentimental and conservative. Theodor W. Adorno can help here, particularly because among philosophers of the twentieth century he was unusually committed to the human subject.
 
 > Doctrines which unhesitatingly run away from the subject into the cosmos are along with the philosophies of being far more compatible with the hardened constitution of the world, and the chances of success in it, than the slightest bit of self-reflection of the subject on itself and its real imprisonment.
 >
 > --- Adorno, *Negative Dialectics*, "Disempowerment of the Subject"
 
-Adorno acknowledges that the subject had to be de-centered from philosophy, since it was not as all-powerful and in command of itself as had been assumed. But crucially for Adorno, it was not to be abandoned, since it was the only hope of independent, critical thought and resistance to power, on the basis of the "self-reflection of the subject on itself and its real imprisonment".
+Adorno acknowledges that the subject had to be decentred from philosophy, since it was not as all-powerful and in command of itself as had been assumed. But crucially for Adorno, it was not to be abandoned, since it was the only hope of independent, critical thought and resistance to power, on the basis of the "self-reflection of the subject on itself and its real imprisonment".
 
-From this point of view, Barthes' tone, of the soon-to-be-triumphant revolutionary, is premature. The death of the Author is a real liberation, but not the whole liberation Barthes thinks it is. The author, who as human subject is dismissed by Barthes as a jumble of myths, is replaced with the scriptor, no more than a position in a system, unable to feel or express the contradictions of its own position, and thereby powerless to change anything.
+From this point of view, Barthes' tone, of the soon-to-be-triumphant revolutionary, is premature. The death of the Author is a real liberation, but not the whole liberation Barthes thinks it is. The author, who as a human subject is reduced by Barthes to a jumble of myths, is replaced with the scriptor, no more than a position in a system, unable to feel or express the contradictions of its own position, and thereby powerless to change anything.
 
 A better approach is dialectical. For example, author vs. reader is a false opposition: we don’t have to pick a side. Rather than choosing the reader instead of the author, a dialectical approach treats both as reciprocally related, constituting each other.
 
-The same thinking applies more importantly to the structuralist dismissal of the subject in favour of the system. Structuralism is right that the subject doesn't precede or stand outside the systems that shape it: language, culture, and ideology. There is no subject floating above the structure, surveying it unconstrained by presuppositions and conceptual frameworks. But a dialectical view doesn't stop here and conclude that the subject is therefore nothing but a position assigned by the system. The system only exists (and changes) through the agency of the subjects within it, pushing against and occasionally breaking it. Neither term, subject or system, stands without the other, therefore choosing system over subject, as Barthes does, is a misunderstanding of the relation.
+The same thinking applies more importantly to the structuralist dismissal of the subject in favour of the system. Structuralism is right that the subject doesn't precede or stand outside the systems that shape it: language, culture, and ideology. There is no subject floating above the structure, surveying it unconstrained by presuppositions and conceptual frameworks. But a dialectical view doesn't stop here and conclude that the subject is therefore nothing but a position assigned by the system. The system only exists (and changes) through the agency of the subjects within it, pushing against and occasionally breaking it. Neither term, subject or system, stands without the other; therefore, choosing system over subject, as Barthes does, is a misunderstanding of the relation.
 
 In both cases---author vs. reader and subject vs. system---the crucial consequence of this dialectical approach is that the writer’s subjectivity is not obliterated. Barthes is right to reject the old picture of the author, that of a sovereign origin in whom meaning is complete before the writing starts, with language as the mere medium that transmits it outward. But he is wrong to dismiss the expressive subject entirely.
 
