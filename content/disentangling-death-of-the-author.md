@@ -1,6 +1,6 @@
 ---
 title: "The Death of the Author, Disentangled (not Deciphered)"
-description: 'Deep analysis of the essay by Roland Barthes'
+description: 'An analysis of the essay by Roland Barthes'
 date: '2026-09-22'
 tags: philosophy, structuralism, post-structuralism, literature
 image: false
@@ -49,7 +49,7 @@ NOTE: Barthes' essay consists of seven sections, each a single paragraph. There 
 
 I'm largely on board with this essay, but I have some serious criticisms.
 
-I think the distinction between deciphering and disentangling is brilliant. Long before I was aware of Barthes, I had an aversion to the notion that works of literature must have a *point*, a central meaning external to the text, only fully known by the author. The idea that a novel or poem must point somewhere else has always seemed to me a completely dismal idea. Robert Frost, when asked about the meaning of one of his poems, is supposed to have said, "Do you want me to say it over again in worser English?"
+First, the good stuff. The distinction between deciphering and disentangling is brilliant. Long before I was aware of Barthes, I had an aversion to the notion that works of literature must have a *point*, a central meaning external to the text, only fully known by the author. The idea that a novel or poem must point somewhere else has always seemed to me a completely dismal idea. Robert Frost, when asked about the meaning of one of his poems, is supposed to have said, "Do you want me to say it over again in worser English?"
 
 To get this idea across I used to say that the meaning is all on the surface, in the words and out in the open for everyone to see. The problem was, people objected that a good work of literature has many layers of meaning, not all of them immediately apparent. The word "surface" suggested superficiality, and that was never what I meant.
 
@@ -92,7 +92,6 @@ The answer is that money-making is a different kind of thing from the effect a n
 Socrates makes this point in the *Republic*, against Thrasymachus's instrumental concept of craft whereby the shepherd tends his sheep only to profit from them. Socrates distinguishes the craft of shepherding from the separate craft of money-making that happens to accompany it. Money-making is common to medicine, navigation, and storytelling, so it doesn't belong to what makes any one of them the craft that it is. 
 
 To be clear, I do accept that a story can be both transitive and intransitive at once (just as I think non-fiction often is). A propaganda film made to boost wartime morale, and as such obviously transitive, can also be a genuine work of art.
-<br><br>
 
 The claim in this section is that when narrative is produced without external purpose, there is a disconnect between the writing and any identifiable source. The “voice” of the text loses not just its physical origin but any and all possible origins; what looked like the voice of a speaker behind the writing is revealed to have no anchoring source at all. The Author, the authoritative origin, has disappeared, and the writing is thereby untethered. This disconnection and concomitant loss of origin together constitute writing, and this whole phenomenon is what Barthes is calling the death of the Author.
 
@@ -100,7 +99,7 @@ The approach in this section is historical and anthropological, tracing an evolu
 
 > The sense of this phenomenon, however, has varied; in ethnographic societies the responsibility for a narrative is never assumed by a person but by a mediator, shaman or relator whose ‘performance’ - the mastery of the narrative code - may possibly be admired but never his ‘genius’.
 
-Anthropologist and ethnographer Claude Lévi-Strauss towered over the intellectual landscape of 1960s France, which he had been reshaping since the 1950s by applying structuralism to society. So-called ethnographic societies were tribal societies, oral cultures, pre-modern civilizations in general. In these contexts, the story existed independently of the individual “mediators” or “relators” who told it. It was a feature of communal cultural life, not the original creation---a “work of art”---of an inspired individual. The latter is the cultural figure of the Author, which Barthes says is a modern phenomenon. He sketches the familiar development of individualism, leading to “positivism, the epitome and culmination of capitalist ideology, which has attached the greatest importance to the ‘person’ of the author.”
+Anthropologist and ethnographer Claude Lévi-Strauss towered over the intellectual landscape of 1960s France, which he had been reshaping since the 1950s by applying structuralism to culture. So-called ethnographic societies were tribal societies, oral cultures, pre-modern civilizations in general. In these contexts, the story existed independently of the individual “mediators” or “relators” who told it. It was a feature of communal cultural life, not the original creation---a “work of art”---of an inspired individual. The latter is the cultural figure of the Author, which Barthes says is a modern phenomenon. He sketches the familiar development of individualism, leading to “positivism, the epitome and culmination of capitalist ideology, which has attached the greatest importance to the ‘person’ of the author.”
 
 The choice to end this evolution with positivism, as the culmination of bourgeois individualism, is initially puzzling. Positivism was the project, beginning in the 19th century, to model all systematic knowledge on natural science, especially its emphasis on empirical observation. It is the project that gave us sociology, an attempt to turn the study of human society into a hard science. Its significance for the essay is that it was the reigning mainstream intellectual framework in early to mid-century France. Positivist literary criticism was interested in observable facts, which in practice meant facts about the author, to be revealed by the critic's research and erudition. This tradition was a natural target for those of the newer, structuralist tradition---and for those who were self-consciously revolutionary.
 
@@ -120,7 +119,6 @@ Mallarmé anticipated the idea back in the 19th century:
 > --- Mallarmé, quoted in Coke-Enguídanos, Mervyn (1983)
 
 So Mallarmé, according to Barthes, was one of the first to understand that what speaks in a work of literature is not the Author, but language itself. I'll take a detour at this point to look at this important idea.
-<br><br>
 
 When you speak or write, you participate in something bigger than and prior to you, something with its own logic, internal relations, and ongoing developments. Language is not really a tool, completely under your control. You cannot use it as you please (and be effective). I'll paraphrase Marx:
 
@@ -137,9 +135,8 @@ As an occasional creative writer and amateur musician, I know what writers and j
 We can conceive of this in structural terms. The key is to see that the system of language is generative. Rather than a passive and static grid, it is a network with its own dynamism, its own evolutions and interactions. A change anywhere in the system propagates through the whole network, reconfiguring meanings that no single speaker intended.
 
 To say that it's not the human individual who speaks, but language itself, gets this point across with elegant conciseness. The author is not the origin of the linguistic event, only the place where it occurs.
-<br><br>
 
-Turning now to the example of Proust, anyone who reads *In Search of Lost Time* probably at some point asks the question, who is the narrator? Or maybe they just assume, as I did, that the narrator is Proust himself and that the novel is some kind of lightly fictionalized autobiography. But he blurs the distinction intentionally, and holds the narrator in place somewhere between himself and a fictional character. He is always the person who will write the very book we are reading.
+Turning now to Barthes' example of Proust, anyone who reads *In Search of Lost Time* probably at some point asks the question, who is the narrator? Or maybe they just assume, as I did, that the narrator is Proust himself and that the novel is some kind of lightly fictionalized autobiography. But he blurs the distinction intentionally, and holds the narrator in place somewhere between himself and a fictional character. He is always the person who will write the very book we are reading.
 
 With Proust, the novel was in a sense ontologically prior to Proust himself, since it was the ground on which he was, as an Author-figure, constructed---not by Proust alone, but by the novel itself together with more than a century of readers, critics, and biographers who have filled in what "Proust" now means.
 
@@ -342,7 +339,7 @@ But maybe the most interesting thing is that Barthes’ statement is not complet
 
 > the text is henceforth made and read in such a way that at all its levels the author is absent
 
-While the novel itself enacts the death of the Author and the denial of a singular meaning, the novel’s reception by critics and public is dominated by decipherment, focusing on the author’s biography---it’s almost impossible to find a review that doesn’t mention her heroin addiction and mental illness (for a different approach, see [my own review](https://writing.alistairrobinson.me/ice-by-anna-kavan)).
+While the novel itself enacts the death of the Author and the denial of a singular meaning, the novel’s reception by critics and public is dominated by decipherment, focusing on the author’s biography. I have not found a review that doesn’t mention her heroin addiction and mental illness (so I wrote one: see [my review here](https://writing.alistairrobinson.me/ice-by-anna-kavan)).
 
 Barthes is right that the text is now *made* according to the death of the Author, but wrong about how it is *read*.
 
@@ -352,7 +349,7 @@ Perhaps this is because "made and read" refers to ideal conditions, the transfor
 
 ### Crash (1973)
 
-Crash is a novel about people who get turned on by car crashes. Rather than a postmodernist novel, it’s a novel about the postmodern condition. But what I’m interested in at the moment is not so much the written work itself as the book’s changing relationship with its author, J. G. Ballard.
+Crash is a novel about people who get turned on by car crashes. Rather than a postmodernist novel, it’s a novel about the postmodern condition. But what I’m interested in at the moment is not so much the work itself as the book’s changing relationship with its author, J. G. Ballard.
 
 In the run-up to the release of Cronenberg's 1996 film adaptation, the publishers included his introduction---first written for the French edition of the novel in 1974---in a new edition, in which we find this:
 
@@ -394,53 +391,58 @@ We find some answers in the essay. Section 2 distinguishes intransitive writing,
 
 That said, when reading the essay less as a historical intervention and more as a text to interpret in its own right, we can reframe the question "what does Barthes mean by this?" as a habitual, culturally conventional way of asking, "what does this mean?" As I said in my comments on section 4, in doing so we treat the essay as a text to engage with on its own terms, using "Barthes" as a name for the position the essay takes.
 
-Similarly with a book I read recently, *What Freud Really Meant* by Susan Sugarman. If it is transitive, in that it aims to correct the mistakes made in interpreting Freud---an aim beyond itself---then it escapes Barthes' critique. If it is intransitive, it falls victim to it. But even if it *is* intransitive, all is not lost. We can say that Sugarman isn't actually interested in anything beyond Freud's written work. Rather than claiming privileged access to his mind, the title refers to the ideas presented in his published works, which she explicates as a coherent theory. Despite the book's title, her project is not decipherment, but disentangling.
+My suspicion is that non-fictional works might typically be a bit of both, neither entirely transitive nor intransitive. And as I mentioned earlier in the article, this applies not only to non-fiction but also to propaganda films, for example. 
 
-It begins to look like non-fictional works might typically be a bit of both, neither entirely transitive nor intransitive. And as I mentioned earlier in the article, this applies not only to non-fiction but also to propaganda films, for example. 
-<br><br>
+I'll turn now to an assessment of the essay. In general, it fits very nicely with my own thinking about writing and reading. Or rather, it puts theoretical meat on the bare bones of my intuitions. There are a few dimensions to this.
 
-The essay fits nicely with my own thinking about writing and reading. More than that, it puts some theoretical meat on the bare bones of my intuitions. 
+First, I don't remember ever believing that writing is having a thought and then transcribing it, as if thinking were the ground of language (this goes for speaking too, incidentally). I often don't know what I think until I write it. The thoughts I have and the words I write are mutually constituting, neither the ground of the other. This is perfectly in line with the essay's opposition to the Romantic idea that the medium is a derivative, inconvenient necessity. But looking at the act of writing in the context of the linguistic system instead of from the individual perspective, it might be more true to reverse the Romantic view entirely and say that thinking is derivative of writing, or at least of language---such that language is the ground of thought ("language speaks").
 
-There are a few dimensions to this. First, I don't remember ever believing that writing is having a thought and then transcribing it, as if thinking were the ground of language (this goes for speaking too, incidentally). I often don't know what I think until I write it. The thoughts I have and the words I write are mutually constituting, neither the ground of the other. This is perfectly in line with the essay's opposition to the Romantic idea that the medium is a derivative, inconvenient necessity. But looking at the act of writing in the context of the linguistic system instead of from the individual perspective, it might be more true to reverse the Romantic view entirely and say that thinking is derivative of writing, or at least of language---such that language is the ground of thought ("language speaks").
-
-Second, there is my frustration with teachers and enthusiasts of literature who think that a novel's themes are more important than its story, its language, its structure, and its style. They imply that the story is a delivery mechanism, a verbose paraphrase designed to trick the reader into swallowing the theme---or even worse, the *message*. I think this can damage the experience of those who want guidance on how to read. It teaches them to decipher, instead of to disentangle, thus to avoid the text itself. To decipher is to glance at an abstract painting in a gallery and immediately go to the didactic label that tells you what it means---preferably what the artist intended, what the singular *point* of it is---instead of just looking at the painting.
+Second, there is my frustration with teachers and enthusiasts of literature who think that a novel's themes are more important than its story, its language, its structure, and its style. They imply that the story is a delivery mechanism, a verbose paraphrase designed to trick the reader into swallowing the theme---or even worse, the *message*. I think this can damage the experience of those who want guidance on how to read. It teaches them to decipher, instead of to disentangle, thus to avoid the text itself: to decipher is to glance at an abstract painting in a gallery and immediately go to the didactic label that tells you what it means---preferably what the artist intended, what the singular *point* of it is---instead of just looking at the painting.
 
 I don't mean to say that themes are unimportant or even secondary, just that they are not separable from the text's surface features, nor are they often fixed and singular. They are threads in the tangled conceptual-linguistic fabric.
 
-Deciphering, in demanding an explanation, is really demanding that the artwork justify itself. It wants justification of the existence of objects that don't have any practical utility ("all art is quite useless", as Oscar Wilde put it) in an era in which such things are incomprehensible or unacceptable. I would rather insist that literature's value doesn't need to answer to utility at all.
-<br><br>
+Deciphering, in demanding an explanation, is really demanding that the artwork justify itself. It wants a reason for the existence of an object that doesn't have any practical utility ("all art is quite useless", as Oscar Wilde put it) in an era in which such things are incomprehensible or contemptible. I would rather insist that literature's value doesn't need to answer to utility at all.
 
-On the other hand, I am not completely on board with Barthes' anti-humanism or his revolutionary rhetoric, and I hope my disagreements here are substantive rather than sentimental and conservative. Theodor W. Adorno can help here, particularly because among philosophers of the twentieth century he was unusually committed to the human subject.
+But when it comes to Barthes' anti-humanism and his revolutionary rhetoric, I am far from convinced, and I hope my disagreements are substantive rather than sentimental and conservative. Theodor W. Adorno can help here, particularly because among philosophers of the twentieth century he was unusually committed to the human subject.
 
 > Doctrines which unhesitatingly run away from the subject into the cosmos are along with the philosophies of being far more compatible with the hardened constitution of the world, and the chances of success in it, than the slightest bit of self-reflection of the subject on itself and its real imprisonment.
 >
 > --- Adorno, *Negative Dialectics*, "Disempowerment of the Subject"
 
-Adorno acknowledges that the subject had to be decentred from philosophy, since it was not as all-powerful and in command of itself as had been assumed. But crucially for Adorno, it was not to be abandoned, since it was the only hope of independent, critical thought and resistance to power, on the basis of the "self-reflection of the subject on itself and its real imprisonment".
+Adorno acknowledges that the subject had to be decentred, since it was not as all-powerful and in command of itself as had been assumed. But crucially for Adorno, it was not to be abandoned, since it was the only hope of independent, critical thought and resistance to power, on the basis of the "self-reflection of the subject on itself and its real imprisonment".
 
 From this point of view, Barthes' tone, of the soon-to-be-triumphant revolutionary, is premature. The death of the Author is a real liberation, but not the whole liberation Barthes thinks it is. The author, who as a human subject is reduced by Barthes to a jumble of myths, is replaced with the scriptor, no more than a position in a system, unable to feel or express the contradictions of its own position, and thereby powerless to change anything.
 
 A better approach is dialectical. For example, author vs. reader is a false opposition: we don’t have to pick a side. Rather than choosing the reader instead of the author, a dialectical approach treats both as reciprocally related, constituting each other.
 
-The same thinking applies more importantly to the structuralist dismissal of the subject in favour of the system. Structuralism is right that the subject doesn't precede or stand outside the systems that shape it: language, culture, and ideology. There is no subject floating above the structure, surveying it unconstrained by presuppositions and conceptual frameworks. But a dialectical view doesn't stop here and conclude that the subject is therefore nothing but a position assigned by the system. The system only exists (and changes) through the agency of the subjects within it, pushing against and occasionally breaking it. Neither term, subject or system, stands without the other; therefore, choosing system over subject, as Barthes does, is a misunderstanding of the relation.
+The same thinking applies more importantly to the structuralist displacement of the subject in favour of the system. Structuralism is right that the subject doesn't precede or stand outside the systems that shape it: language, culture, and ideology. There is no subject floating above the structure, surveying it unconstrained by presuppositions and conceptual frameworks. But a dialectical view doesn't stop here and conclude that the subject is therefore nothing but a position assigned by the system. The system only exists (and changes) through the agency of the subjects within it, pushing against and occasionally breaking it. Neither term, subject or system, stands without the other; therefore, choosing system over subject, as Barthes does, is a misunderstanding of the relation.
 
 In both cases---author vs. reader and subject vs. system---the crucial consequence of this dialectical approach is that the writer’s subjectivity is not obliterated. Barthes is right to reject the old picture of the author, that of a sovereign origin in whom meaning is complete before the writing starts, with language as the mere medium that transmits it outward. But he is wrong to dismiss the expressive subject entirely.
 
-Here we see that subjectivity is not equivalent to interiority. It surprises me how much they are taken to be the same phenomenon in philosophy; to me, subjectivity describes perspective, the possession of a point of view, and says nothing about a private interior "behind" that. The subjectivity of a writer, then, is the substantive fact that there is a labouring person doing the writing: making choices, finding the perfect phrase, weaving the entanglement. There is no vessel of pre-formed content lying inside it, but there is something that acts. Barthes collapses the two together and rejects both.
+Here we see that subjectivity is not equivalent to interiority. It surprises me how much they are taken to be the same phenomenon in philosophy; to me, subjectivity describes perspective, the possession of a point of view, and says nothing about a private interior "behind" that. The subjectivity of a writer, then, is the fact of a person doing the writing: making choices, finding the perfect phrase, weaving the entanglement. There is no vessel containing pre-formed content within, but there is somebody who acts. Barthes collapses the two together and rejects both.
 
-According to the dialectical view, what dies is the Author-God and the myth of transmission and decipherment, not the subject itself. The subject as labouring writer remains in the text.
+According to the dialectical view, what dies is the Author-God and the myth of transmission and decipherment, not the subject itself. The subject as practicing writer remains, embodied in the text.
 
-But there is a darker aspect to this. For Adorno, the death of the subject is not so much a misdiagnosis as a real danger. It is not that structuralism gets reality wrong, but precisely that it registers something real, namely the loss of a point of view capable of functioning as a critical agency.
+But there is a darker aspect to this. For Adorno, the death of the subject is not so much a misdiagnosis as a real danger. It is not that structuralism gets reality wrong, but precisely that it registers something real, namely the loss of a standpoint from which one might act autonomously and critically.
+
+## Postscript
+
+There is an issue I've kept aside, because it probably belongs in a separate piece. In the past few years, something has arrived that fits Barthes' description of the scriptor more literally than he could have imagined: the large language model, "born simultaneously with the text," with its "immense dictionary," a tissue of quotations strung together with enough coherence to look, from the outside, like a point of view.
+
+Adorno's worry about the demise of resistant subjectivity---what he once called "the abolition of human beings" (*Lectures* 101)---is newly relevant. Do we still need to be subjects ourselves, once something else can write for us? I said earlier that I don't know what I think until I write it, that the thoughts and the words are mutually constituting. If that's true, then handing writing over to the language models doesn't just save time and effort, but hands away one of the primary activities through which a subject actually *becomes* a subject: the "self-reflection... on its real imprisonment" that Adorno thought was our only resource.
+
+More than just the death of the Author, this would amount to a return to the oral culture of relators and mediators, with no place for the expressive, critical subject. But it is one thing for such a culture to exist in "ethnographic societies", where the individual subject in this sense had not yet emerged, and quite another for a society that spent centuries building the idea of the reflective individual to give it up without noticing.
 
 ----
 
-*This article is drawn from the posts I made in [the reading group I organized on The Philosophy Forum in May/June 2026](https://www.thephilosophyforum.com/t/june-reading-the-death-of-the-author-by-roland-barthes/1163). I have my fellow readers and interlocutors there to thank for forcing me to think about the essay more deeply. Their objections and observations have certainly found their way into the article in some form.*
+*This article is partly drawn from the posts I made in [the reading group I organized on The Philosophy Forum in May/June 2026](https://www.thephilosophyforum.com/t/june-reading-the-death-of-the-author-by-roland-barthes/1163). I have my fellow readers and interlocutors there to thank for forcing me to think about the essay more deeply. Their objections and observations have certainly found their way into the article in some form.*
 
 <a name="references"></a>
 
 ## References
 
-- Adorno, Theodor W. *Negative Dialectics*. Translated by Dennis Redmond, 2001, rev. 2021.
+- Adorno, Theodor W. *Lectures on Negative Dialectics: Fragments of a Lecture Course 1965/1966*. Edited by Rolf Tiedemann, translated by Rodney Livingstone, Polity, 2008.
+  - --- *Negative Dialectics*. Translated by Dennis Redmond, 2001, rev. 2021.
 - Ballard, J. G. *Crash*. Jonathan Cape, 1973.
     - --- Introduction. *Crash*, Picador, 1995. Originally published as "Some Words About Crash!", *Foundation*, no. 9, 1975, pp. 4–8.
 - Blakemore, A. K. *The Glutton*. Granta Books, 2023.
