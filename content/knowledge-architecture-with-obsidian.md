@@ -2,7 +2,7 @@
 title: 'Knowledge Architecture with Obsidian'
 description: 'A practical and conceptual account of migrating to Obsidian and replacing a static notes archive with a dynamic knowledge management system'
 date: '2025-12-07'
-tags: tools, knowledge-management, obsidian, vscode, markdown
+tags: tools, knowledge-management, obsidian
 image: false
 draft: false
 ---

@@ -2,7 +2,7 @@
 title: 'Keeping an Independent Discussion Forum Alive Under the UK Online Safety Act'
 description: 'How I Migrated a 10-Year-Old Philosophy Forum to Stay Compliant'
 date: '2026-03-16'
-tags: ofcom, osa, tpf, administration, compliance
+tags: ofcom, tpf, administration
 image: false
 draft: false
 ---

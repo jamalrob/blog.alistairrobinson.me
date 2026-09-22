@@ -469,6 +469,11 @@ a.articleTitle { text-decoration-thickness: 2px; }
   overflow-x: scroll;
 }
 
+a[name] {
+  display: block;
+  scroll-margin-top: 60px;
+}
+
 @media (max-width: 600px) {
   .postArticle code { font-size: 0.7rem; }
   .postArticle pre  { padding: 0.25rem 0.5rem; }
@@ -605,6 +610,7 @@ a.articleTitle { text-decoration-thickness: 2px; }
 
 .postArticle ul { list-style: circle; }
 .postArticle ul li { margin-bottom: 0.6rem; }
+.postArticle div.toc ul li { margin-bottom: auto; }
 
 .postArticle .seriesBox {
   padding: 15px 20px 5px;
