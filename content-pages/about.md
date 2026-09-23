@@ -7,7 +7,7 @@ description: 'About Alistair Robinson: writer, developer, and administrator of T
 
 <p style="margin-top:0;">This is where I write about books, ideas, and problems I've had to figure out.</p>
 
-<p>Articles here include a multipart commentary on Plato&#8217;s <em>Republic</em>; essays on Adorno, perception and knowledge; and in-depth reviews of novels by Ursula Le Guin, J. G. Ballard, Anna Kavan, Samuel R. Delany, and John Barth.</p>
+<p>Articles here include a multipart commentary on Plato&#8217;s <em>Republic</em>; essays on Barthes, Adorno, perception and knowledge; and in-depth reviews of novels by Ursula Le Guin, J. G. Ballard, Anna Kavan, Samuel R. Delany, and John Barth.</p>
 
 The term "under an aspect" is used in philosophy to describe a kind of seeing, when an unchanging thing can be seen in different ways. I had a memorable experience of this phenomenon one evening in the Maritime Alps. I was looking down on a pine forest from the top of a hill, and I saw a group of luminous yellow birch trees standing out among the dark conifers. Suddenly my perception switched and I saw them for what they really were: pine trees like all the rest, caught in a patch of evening sunlight beaming through a gap in the hills. They were not yellow, but green, like the others surrounding them. They were the same trees, but different; the same colour, but different. I had come to see them under a different aspect, and the first one was gone.
 
