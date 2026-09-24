@@ -1,10 +1,10 @@
 ---
-title: "Adorno in Obsidian: Turning Adorno's Constellations into Graph Structures"
+title: "Adorno in Obsidian: Turning Constellations into Graph Structures"
 description: 'Using the tools of PKM to model constellations'
 date: '2026-09-24'
 tags: knowledge-management, obsidian, adorno, philosophy
 image: false
-draft: true
+draft: false
 ---
 {{svg:constellation-graph}}
 
@@ -13,7 +13,7 @@ A few of us on The Philosophy Forum have been [slowly reading Theodor W. Adorno'
 ## Contents
 <div class="toc">
 
-- [Identity-thinking](#identity-thinking)
+- [Identity-Thinking](#identity-thinking)
 - [Enter Constellations](#enter-constellations)
 - [Constellations as Graphs](#constellations-as-graphs)
 - [Vault as Tree](#vault-as-tree)
@@ -25,7 +25,7 @@ A few of us on The Philosophy Forum have been [slowly reading Theodor W. Adorno'
 
 <a name="identity-thinking"></a>
 
-## Identity-thinking
+## Identity-Thinking
 
 The point of constellations is to avoid or curb identity-thinking, which is the treatment of a thing as identical to its concept. This happens when conceptual categories are imposed on individual things as if they fully determined them. Whatever does not fit the imposed classification drops away unnoticed---or is suppressed.
 
@@ -71,7 +71,7 @@ Within each note there is a brief characterization, not a full definition, and t
 
 In PKM circles, graphs are more often associated with Deleuze and Guattari than with Adorno: the rhizome, a network in which any point connects to any other, with no hierarchy or tree structure. Obsidian's *global* graph view, which shows every note with no centre, is rhizomatic. But a rhizome is concerned more with the connections than with what they connect, whereas a constellation gathers around whatever stands at its centre: something determinate to be understood. For this, Obsidian's *local* graph view is the better fit: select a node, and the figure re-forms around it.
 
-Each of the following screenshots shows the note for the selected node, with the local graph view alongside it. As each new node is selected, representing a shift of attention, the graph re-forms around it. **The Factory** starts at the centre, but doesn't stay there. The sequence isn't a movement through levels, or towards what is most fundamental or abstract. It is a walk over stepping-stones, with no route mapped out in advance.
+Each of the following screenshots shows the note for the selected node, with the local graph view alongside it. As each new node is selected, representing a shift of attention, the graph changes. **The Factory** starts at the centre, but doesn't stay there. The sequence isn't a movement through levels, or towards what is most fundamental or abstract. It is a walk over stepping-stones, with no route mapped out in advance.
 
 ***Note on colours:*** Nodes are marked as objects in red or concepts in yellow (except for the active/selected node). This shows where the emphasis tends to be, rather than showing fixed and exclusive kinds. Objects are only known through concepts and can be treated *as* concepts; and concepts are historical objects in their own right. **The Factory** is both a building and a way of organizing labour; **The Clock** is both a mechanism and a regime of time.
 
@@ -87,13 +87,13 @@ As mentioned, constellations are constructed. Someone else interested in the fac
 
 ![constellation-the-clock](https://ik.imagekit.io/alistairrobinson/blog/constellation-the-clock.png)
 
-The clock becomes the object of interest, and the constellation re-forms around it. **Exchange Principle**, **Reification** and **Administered World** drop out of view, while **Second Nature** and **Boredom** appear. **The Factory** is still there, but now as one node among five others. The clock measures the hours the worker sells in the factory. This is historical: work that was once organized by the task came to be bought and sold by the hour, and the everyday experience of time became that of clock-time. The clock is also linked to free time, the clock-time left over once the shift is done, where work and rest had once been interwoven through the day and the year.
+The clock becomes the object of interest, and the constellation re-forms around the new centre. **Exchange Principle**, **Reification** and **Administered World** drop out of view, while **Second Nature** and **Boredom** appear. **The Factory** is still there, but now as one node among others. The clock measures the hours the worker sells in the factory. This is historical: work that was once organized by the task came to be bought and sold by the hour, and the everyday experience of time became that of clock-time. The clock is also linked to free time, the clock-time left over once the shift is done, whereas work and rest had once been interwoven through the day and the year.
 
 ### 3. Abstract Labour Time (concept)
 
 ![constellation-abstract-labour-time](https://ik.imagekit.io/alistairrobinson/blog/constellation-abstract-labour-time.png)
 
-We click on **Abstract Labour Time** and now we are looking at a concept rather than an object. This is the concept for work as measured by the hour, whatever the work is. It's an abstraction, but a real one---we do our diverse jobs, but we are paid for hours like everyone else.
+We click on **Abstract Labour Time** and now we are looking at a concept rather than an object. This is the concept of work as measured by the hour, whatever the work is. It's an abstraction, but a real one---we do our diverse jobs, but we are paid for hours like everyone else.
 
 ### 4. Exchange Principle (concept)
 
@@ -111,7 +111,7 @@ Representing these objects and concepts in a tree would look something like this
 
 ![Constellation as Tree](https://ik.imagekit.io/alistairrobinson/blog/constellation-as-tree.png)
 
-Notice the directory structure on the left, and that the note now contains a full definition. The object is specified from within, and its place in the hierarchy, i.e., what's above it, supplies this specification. The result is closed: the taxonomic path and the definition agree, and once they do, the object has been fully accounted for. A constellation, by contrast, never closes: each concept gets part of the object and misses the rest, which is why you need several.
+Notice the directory structure on the left, and that the note now contains a full definition. The object is specified from within, and its place in the hierarchy, i.e., what's above it, supplies this specification. This is subsumption, the characteristic move of identity-thinking, treating the thing is as an instance of a kind. The result is closed: the taxonomic path and the definition agree, and once they do, the object has been fully accounted for. A constellation, by contrast, never closes: each concept gets part of the object and misses the rest, which is why you need several.
 
 Here is part of the same vault, visually abstracted:
 
@@ -119,25 +119,17 @@ Here is part of the same vault, visually abstracted:
 
 The red dashed lines are relations that cannot be represented by the tree structure---they cut across it. In a tree, two things are related only if some category further up already contains them both. **The Clock** is found under **Technology** and **Boredom** under **Psychology**, so there is no way to connect them directly. But in reality, measured time and empty time are the same fact. Boredom is the form that experience takes when time has been reduced to clock-time and then emptied, free time being merely the negative of work time, with no substance of its own.
 
-All of this is the subsumption characteristic of identity-thinking, treating a thing as an instance of its kind.
-
 <a name="limits-of-graphs"></a>
 
 ## Limits of Graphs
 
 Although a graph gets closer to the structure of a constellation than a tree does, it has serious limitations.
 
-#### Antagonism
+*Antagonism.* In the graph, the link between **The Factory** and **Exchange Principle** looks exactly like the link between **The Factory** and **The Clock**. But the wage is not a neutral connection. It appears as a fair exchange of equivalents, while the interests of those who sell their hours and those who buy them are in reality opposed. A graph shows that two things are connected, but not what kind of connection it is or whether the two are in conflict.
 
-In the graph, the link between **The Factory** and **Exchange Principle** looks exactly like the link between **The Factory** and **The Clock**. But the wage is not a neutral connection. It appears as a fair exchange of equivalents, hours for money, while the interests of those who sell the hours and those who buy them are opposed. A graph shows that two things are connected, but not what kind of connection it is, whether logical or historical, or whether the two are in conflict.
+*History and the non-identical.* Everything historical in the walkthrough above is in the text beneath the screenshots or occasionally in the notes---not in the graphs. The graph shows only that **The Factory** links to **The Clock**. Its links are all present tense: they record that a connection holds, not that it came about, or how. This is where much of the non-identical escapes, since what an object has become is a large part of what exceeds any concept of it. A neat structure of nodes and links looks finished, and the more complete it looks, the less room it seems to leave for what it fails to capture. No constellation captures the whole of its object---there is always something its concepts miss---but a constellation worked through in essays, fragments, and montage, as Adorno and Benjamin did, is more obviously provisional than a graph made in Obsidian.
 
-#### History and the Non-identical
-
-Everything historical in the walkthrough above is in the text beneath the screenshots or occasionally in the notes---not in the graphs. The graph shows only that **The Factory** links to **The Clock**. Its links are all present tense: they record that a connection holds, not that it came about, or how. This is where much of the non-identical escapes, since what an object has become is a large part of what exceeds any concept of it. A neat structure of nodes and links looks finished, and the more complete it looks, the less room it seems to leave for what it fails to capture. No constellation captures the whole of its object---there is always something its concepts miss---but a constellation worked through in essays, fragments, and montage, as Adorno and Benjamin did, is more obviously provisional than a graph made in Obsidian.
-
-#### Critique
-
-Where is the critique, Marx's "ruthless criticism of all that exists"? Much of the work is done outside the graph, just as it is for history and non-identity. Seeing that the wage relation conceals an antagonism, or that free time is the flip-side of work time---this happens in reading, thinking, and writing, what Adorno called the emphatic presentation of intellectual experience. The graph shows only some of the *results* of this critique: it always arrives too late.
+*Critique.* Where is Marx's "ruthless criticism of all that exists"? Much of this work is done outside the graph, just as it is for history and non-identity. Seeing that the wage relation conceals an antagonism, or that free time is the flip-side of work time---this happens in reading, thinking, and writing, what Adorno called the emphatic presentation of intellectual experience. The graph shows only some of the *results* of this critique: it always arrives too late.
 
 <a name="conclusion"></a>
 
@@ -161,7 +153,7 @@ But so long as we're aware of this, the exercise is worthwhile. A graph is a too
 
 ## References
 
-- Adorno, Theodor W. "The Actuality of Philosophy." Translated by Benjamin Snow, *Telos*, no. 31, 1977, pp. 120–133.
+- Adorno, Theodor W. "The Actuality of Philosophy." *The Adorno Reader*, edited by Brian O'Connor, translated by Benjamin Snow, Blackwell, 2000, pp. 23–39.
   - --- *Negative Dialectics*. Translated by Dennis Redmond, 2001, rev. 2021.
 - Deleuze, Gilles, and Félix Guattari. "Introduction: Rhizome." *A Thousand Plateaus: Capitalism and Schizophrenia*, translated by Brian Massumi, University of Minnesota Press, 1987, pp. 3–25.
 - Marx, Karl. Letter to Arnold Ruge, September 1843. *Collected Works*, by Karl Marx and Frederick Engels, vol. 3, Lawrence & Wishart, 1975, pp. 141–145.
