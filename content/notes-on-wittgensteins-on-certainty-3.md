@@ -1,5 +1,6 @@
 ---
 title: "Notes on Wittgenstein on Certainty, Part Three"
+description: "Notes on Wittgenstein's On Certainty from §66: degrees and kinds of certainty"
 date: '2011-01-03'
 tags: philosophy, wittgenstein, on-certainty
 draft: true

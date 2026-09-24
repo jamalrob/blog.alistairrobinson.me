@@ -1,5 +1,6 @@
 ---
 title: "Notes on Wittgenstein on Certainty, Part Nine"
+description: "Notes on Wittgenstein's On Certainty from §251: unfounded belief and changing language-games"
 date: '2011-01-09'
 tags: philosophy, wittgenstein, on-certainty
 draft: true

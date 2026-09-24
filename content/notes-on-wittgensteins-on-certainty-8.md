@@ -1,5 +1,6 @@
 ---
 title: "Notes on Wittgenstein on Certainty, Part Eight"
+description: "Notes on Wittgenstein's On Certainty from §236: meaning, context and language-games"
 date: '2011-01-08'
 tags: philosophy, wittgenstein, on-certainty
 draft: true

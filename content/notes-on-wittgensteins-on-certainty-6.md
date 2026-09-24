@@ -1,5 +1,6 @@
 ---
 title: "Notes on Wittgenstein on Certainty, Part Six"
+description: "Notes on Wittgenstein's On Certainty from §140: judgments and systems of belief"
 date: '2011-01-06'
 tags: philosophy, wittgenstein, on-certainty
 draft: true

@@ -1,5 +1,6 @@
 ---
 title: "Notes on Wittgenstein on Certainty, Part One"
+description: "Notes on Wittgenstein's On Certainty from §1: Moore's proof of an external world"
 date: '2011-01-01'
 tags: philosophy, wittgenstein, on-certainty
 draft: true

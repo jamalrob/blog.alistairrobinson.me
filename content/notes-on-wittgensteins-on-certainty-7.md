@@ -1,5 +1,6 @@
 ---
 title: "Notes on Wittgenstein on Certainty, Part Seven"
+description: "Notes on Wittgenstein's On Certainty from §174: certainty, action and justification"
 date: '2011-01-07'
 tags: philosophy, wittgenstein, on-certainty
 draft: true

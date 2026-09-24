@@ -1,5 +1,6 @@
 ---
 title: "Notes on Wittgenstein on Certainty, Part Ten"
+description: "Notes on Wittgenstein's On Certainty from §287: knowledge, belief and conviction"
 date: '2011-01-10'
 tags: philosophy, wittgenstein, on-certainty
 draft: true

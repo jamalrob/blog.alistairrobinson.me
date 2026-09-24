@@ -1,5 +1,6 @@
 ---
 title: 'There are Ghosts in This Room'
+description: "On ghost stories, and why the real lives lived in a place matter more than literal ghosts"
 date: '2015-02-15'
 tags: philosophy, travel
 image: 

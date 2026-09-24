@@ -1,5 +1,6 @@
 ---
 title: 'It Gets Lonely Downstairs'
+description: "How moods and feelings are part of what we perceive, not separate from it"
 date: '2015-09-16'
 tags: philosophy, perception, liminality
 image: true

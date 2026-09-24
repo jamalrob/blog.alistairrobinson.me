@@ -1,5 +1,6 @@
 ---
 title: 'Logicomix: An Epic Search for an Epic Search for Truth'
+description: "My review of Logicomix, a graphic novel about Bertrand Russell's search for the foundations of mathematics"
 date: '2010-07-05'
 tags: philosophy, reviews, comics
 image: true

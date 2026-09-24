@@ -1,5 +1,6 @@
 ---
 title: "Notes on Wittgenstein on Certainty, Part Five"
+description: "Notes on Wittgenstein's On Certainty from §117: idle doubts and the sceptic"
 date: '2011-01-05'
 tags: philosophy, wittgenstein, on-certainty
 draft: true

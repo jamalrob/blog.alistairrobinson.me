@@ -1,5 +1,6 @@
 ---
 title: 'A Critique of the Argument for Indirect Realism'
+description: "What is wrong with the classic argument for indirect realism, from Hume onwards"
 date: '2013-09-20'
 tags: philosophy, perception
 image: 

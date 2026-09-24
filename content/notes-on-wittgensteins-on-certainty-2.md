@@ -1,5 +1,6 @@
 ---
 title: "Notes on Wittgenstein on Certainty, Part Two"
+description: "Notes on Wittgenstein's On Certainty from §35: why \"there are physical objects\" is nonsense"
 date: '2011-01-02'
 tags: philosophy, wittgenstein, on-certainty
 draft: true

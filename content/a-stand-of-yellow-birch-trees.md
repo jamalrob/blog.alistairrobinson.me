@@ -1,5 +1,6 @@
 ---
 title: 'A Stand of Yellow Birch Trees'
+description: "A sudden change in how I saw a pine forest, and what it shows about perception"
 date: '2015-09-13'
 tags: philosophy, perception
 image: true
