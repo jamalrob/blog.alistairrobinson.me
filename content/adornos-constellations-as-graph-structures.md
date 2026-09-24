@@ -1,6 +1,7 @@
 ---
 title: "Adorno in Obsidian: Turning Constellations into Graph Structures"
 description: 'Using the tools of PKM to model constellations'
+ogImage: '/social-card-adorno-constellations.png'
 date: '2026-09-24'
 tags: knowledge-management, obsidian, adorno, philosophy
 image: false
