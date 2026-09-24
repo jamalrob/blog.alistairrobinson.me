@@ -1,6 +1,6 @@
 ---
 title: 'Tokyo Express and Some Other Novels by Seichō Matsumoto'
-description: ''
+description: 'Engrossing, ingenious, and humane: my review of Tokyo Express, Point Zero, and Inspector Imanishi Investigates by Seichō Matsumoto'
 date: '2025-01-28'
 tags: crime, reviews
 image: true

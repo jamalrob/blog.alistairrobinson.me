@@ -1,6 +1,6 @@
 ---
 title: 'Pnin by Vladimir Nabokov'
-description: ''
+description: 'My review of the novel Pnin by Vladimir Nabokov'
 date: '2025-04-01'
 tags: reviews, literary-fiction
 image: true
