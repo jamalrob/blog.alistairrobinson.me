@@ -4,7 +4,7 @@ description: 'Engrossing, ingenious, and humane: my review of Tokyo Express, Poi
 date: '2025-01-28'
 tags: crime, reviews
 image: true
-imageClass: mainImageMedium
+imageClass: mainImageSmall
 draft: false
 ---
 

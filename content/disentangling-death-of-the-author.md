@@ -235,7 +235,7 @@ Language can now be seen not as the necessarily deficient expression of the inte
 
 Barthes is not saying that writers never make anything new, but that they do not make it out of whole cloth. What is new is the combination of prior materials, the idioms, metaphors, and off-the-shelf images that must be taken from a shared culture if they’re to be intelligible to readers. In a sense this is obvious: writers do not usually make up words, and even when they do (Shakespeare and Joyce), those neologisms gain what sense they have from some related prior meaning.
 
-Barthes identifies Thomas De Quincey as an early model of this phenomenon. De Quincey internalized ancient Greek so thoroughly that insofar as he had his own resources to bring to bear in his work, they were not constituted by psychological interiority, but by a lexicon. 
+Barthes identifies Thomas De Quincey as a model of this phenomenon: he internalized ancient Greek so thoroughly that insofar as he had his own resources to bring to bear in his work, they were not constituted by psychological interiority, but by a lexicon. 
 
 The last sentence seems to glorify the limitlessness of writing:
 
@@ -273,13 +273,15 @@ As he shows with the example of Greek tragedy, the “true locus of writing” i
 
 The reader is a generic figure:
 
-> only that someone who holds gathered into a single field all the paths of which the text is constituted
+> Yet this destination cannot any longer be personal: the reader is without history, biography, psychology; he is simply that someone who holds together in a single field all the traces by which the written text is constituted.
+
+The reader here is like Benveniste's "I" in section 3: not a particular person, with their own history and psychology, but a formal position---a slot to be occupied by anyone. This reader does not just become a new Author-God under a different name, because they don't represent a voice and an origin; they are simply where the text's existing plurality is held together, not resolved into a single meaning.
 
 Next, he says something that needs some unpacking:
 
 > This is why it is absurd to hear the new writing condemned in the name of a humanism which hypocritically appoints itself the champion of the reader’s rights.
 
-“New writing” is referring to experimental writing such as that of the Nouveaux Romanciers, such as Alain Robbe-Grillet and Nathalie Sarraute. (Samuel Beckett seems to be sometimes included in the group too.) Barthes had championed these writers, who sought to subvert the novel. The novel as a literary form was, according to them and to Barthes, appropriate only for a bygone era, classically the era of Balzac.
+“New writing” is referring to experimental writing such as that of the *Nouveaux Romanciers*, such as Alain Robbe-Grillet and Nathalie Sarraute. (Samuel Beckett seems to be sometimes included in the group too.) Barthes had championed these writers, who sought to subvert the novel. The novel as a literary form was, according to them and to Barthes, appropriate only for a bygone era, classically the era of Balzac.
 
 There were critics---labelled variously as conservative, traditional, or classical---who condemned these writers, saying that such difficult writing was hostile to readers. Readers, they said, wanted traditional narrative storytelling, not abstruse elitism and experimentation. According to Barthes, this position was hypocritical: they had only ever been interested in the Author.
 
